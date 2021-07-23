@@ -1,0 +1,7884 @@
+fileFormatVersion: 2
+guid: cd69af2b8e2c7e942b7d7b5bb04b5a5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2831595995655778708
+    second: mmzxa_ashe_modela_new_0
+  - first:
+      213: -5040791638977263155
+    second: mmzxa_ashe_modela_new_1
+  - first:
+      213: 4097862662820501871
+    second: mmzxa_ashe_modela_new_2
+  - first:
+      213: 624635663206371293
+    second: mmzxa_ashe_modela_new_3
+  - first:
+      213: -3661572290770496323
+    second: mmzxa_ashe_modela_new_4
+  - first:
+      213: -3014230843938663783
+    second: mmzxa_ashe_modela_new_5
+  - first:
+      213: 3591538270550543985
+    second: mmzxa_ashe_modela_new_6
+  - first:
+      213: 8345991008717374146
+    second: mmzxa_ashe_modela_new_7
+  - first:
+      213: 6053992610678602695
+    second: mmzxa_ashe_modela_new_8
+  - first:
+      213: 3212087836847189673
+    second: mmzxa_ashe_modela_new_9
+  - first:
+      213: 5275452360714305198
+    second: mmzxa_ashe_modela_new_10
+  - first:
+      213: -638487922255473777
+    second: mmzxa_ashe_modela_new_11
+  - first:
+      213: 2433213960057991654
+    second: mmzxa_ashe_modela_new_12
+  - first:
+      213: -8612740551967347561
+    second: mmzxa_ashe_modela_new_13
+  - first:
+      213: 3472025619541392907
+    second: mmzxa_ashe_modela_new_14
+  - first:
+      213: 7217567972932050289
+    second: mmzxa_ashe_modela_new_15
+  - first:
+      213: -6676291129641379401
+    second: mmzxa_ashe_modela_new_16
+  - first:
+      213: 7606030202880387659
+    second: mmzxa_ashe_modela_new_17
+  - first:
+      213: -6723559093644713835
+    second: mmzxa_ashe_modela_new_18
+  - first:
+      213: 6392773423198442934
+    second: mmzxa_ashe_modela_new_19
+  - first:
+      213: -6760940089245589211
+    second: mmzxa_ashe_modela_new_20
+  - first:
+      213: 1179619224436900026
+    second: mmzxa_ashe_modela_new_21
+  - first:
+      213: -3909078232294398432
+    second: mmzxa_ashe_modela_new_22
+  - first:
+      213: -5534412166215773648
+    second: mmzxa_ashe_modela_new_23
+  - first:
+      213: -6085092659581687654
+    second: mmzxa_ashe_modela_new_24
+  - first:
+      213: -7183463187084802933
+    second: mmzxa_ashe_modela_new_25
+  - first:
+      213: -8916782122391390232
+    second: mmzxa_ashe_modela_new_26
+  - first:
+      213: -4977124940077362954
+    second: mmzxa_ashe_modela_new_27
+  - first:
+      213: 4330333411785654753
+    second: mmzxa_ashe_modela_new_28
+  - first:
+      213: -9198392800603135440
+    second: mmzxa_ashe_modela_new_29
+  - first:
+      213: -3458566086281765535
+    second: mmzxa_ashe_modela_new_30
+  - first:
+      213: -7605682801029211934
+    second: mmzxa_ashe_modela_new_31
+  - first:
+      213: -247487960518535295
+    second: mmzxa_ashe_modela_new_32
+  - first:
+      213: -7777542713193270127
+    second: mmzxa_ashe_modela_new_33
+  - first:
+      213: -7116543298394969030
+    second: mmzxa_ashe_modela_new_34
+  - first:
+      213: -5381337196100754655
+    second: mmzxa_ashe_modela_new_35
+  - first:
+      213: 2595315551735760623
+    second: mmzxa_ashe_modela_new_36
+  - first:
+      213: -4022509016948760862
+    second: mmzxa_ashe_modela_new_37
+  - first:
+      213: -5916390294100329988
+    second: mmzxa_ashe_modela_new_38
+  - first:
+      213: 7236619344716470128
+    second: mmzxa_ashe_modela_new_39
+  - first:
+      213: -5729397256664604338
+    second: mmzxa_ashe_modela_new_40
+  - first:
+      213: 2519581101484845592
+    second: mmzxa_ashe_modela_new_41
+  - first:
+      213: -6385021009547058837
+    second: mmzxa_ashe_modela_new_42
+  - first:
+      213: 6725171105174424763
+    second: mmzxa_ashe_modela_new_43
+  - first:
+      213: -1521493635903371556
+    second: mmzxa_ashe_modela_new_44
+  - first:
+      213: -4917185976284108261
+    second: mmzxa_ashe_modela_new_45
+  - first:
+      213: 1151882622334122168
+    second: mmzxa_ashe_modela_new_46
+  - first:
+      213: -1389692920988980160
+    second: mmzxa_ashe_modela_new_47
+  - first:
+      213: 930705755512364515
+    second: mmzxa_ashe_modela_new_48
+  - first:
+      213: 3381775371186620706
+    second: mmzxa_ashe_modela_new_49
+  - first:
+      213: -2664459668232218117
+    second: mmzxa_ashe_modela_new_50
+  - first:
+      213: 1152229871970412850
+    second: mmzxa_ashe_modela_new_51
+  - first:
+      213: -7948315494681439169
+    second: mmzxa_ashe_modela_new_52
+  - first:
+      213: -3391229334771036304
+    second: mmzxa_ashe_modela_new_53
+  - first:
+      213: -3376276679449971503
+    second: mmzxa_ashe_modela_new_54
+  - first:
+      213: 5665388547310200477
+    second: mmzxa_ashe_modela_new_55
+  - first:
+      213: 1740351815798467936
+    second: mmzxa_ashe_modela_new_56
+  - first:
+      213: 3178107694584866088
+    second: mmzxa_ashe_modela_new_57
+  - first:
+      213: 3559387277137331196
+    second: mmzxa_ashe_modela_new_58
+  - first:
+      213: 638293844180760055
+    second: mmzxa_ashe_modela_new_59
+  - first:
+      213: -5821148199353585971
+    second: mmzxa_ashe_modela_new_60
+  - first:
+      213: -3912541972904296840
+    second: mmzxa_ashe_modela_new_61
+  - first:
+      213: 8693727782413525467
+    second: mmzxa_ashe_modela_new_62
+  - first:
+      213: -4836030198811600967
+    second: mmzxa_ashe_modela_new_63
+  - first:
+      213: 5906288498767721301
+    second: mmzxa_ashe_modela_new_64
+  - first:
+      213: -8470983619944592517
+    second: mmzxa_ashe_modela_new_65
+  - first:
+      213: -4984274929323673800
+    second: mmzxa_ashe_modela_new_66
+  - first:
+      213: -3252205959078069322
+    second: mmzxa_ashe_modela_new_67
+  - first:
+      213: 4161479367775599369
+    second: mmzxa_ashe_modela_new_68
+  - first:
+      213: -8771878841032390721
+    second: mmzxa_ashe_modela_new_69
+  - first:
+      213: 2808061679494773562
+    second: mmzxa_ashe_modela_new_70
+  - first:
+      213: -8715814721338802291
+    second: mmzxa_ashe_modela_new_71
+  - first:
+      213: -5826385071395966970
+    second: mmzxa_ashe_modela_new_72
+  - first:
+      213: -4733184473416131916
+    second: mmzxa_ashe_modela_new_73
+  - first:
+      213: -2036949913413075999
+    second: mmzxa_ashe_modela_new_74
+  - first:
+      213: -3229844858166589411
+    second: mmzxa_ashe_modela_new_75
+  - first:
+      213: -7835021560490808653
+    second: mmzxa_ashe_modela_new_76
+  - first:
+      213: -788874444808754580
+    second: mmzxa_ashe_modela_new_77
+  - first:
+      213: -6112110897650644807
+    second: mmzxa_ashe_modela_new_78
+  - first:
+      213: -6285671019037075434
+    second: mmzxa_ashe_modela_new_79
+  - first:
+      213: -7116674892185289164
+    second: mmzxa_ashe_modela_new_80
+  - first:
+      213: -561632437504219926
+    second: mmzxa_ashe_modela_new_81
+  - first:
+      213: -3810582392393273341
+    second: mmzxa_ashe_modela_new_82
+  - first:
+      213: -8266247792649960663
+    second: mmzxa_ashe_modela_new_83
+  - first:
+      213: 6586504158860446704
+    second: mmzxa_ashe_modela_new_84
+  - first:
+      213: -1813789402134482663
+    second: mmzxa_ashe_modela_new_85
+  - first:
+      213: -376847855193847489
+    second: mmzxa_ashe_modela_new_86
+  - first:
+      213: 1611198177761319257
+    second: mmzxa_ashe_modela_new_87
+  - first:
+      213: 6743629847003375762
+    second: mmzxa_ashe_modela_new_88
+  - first:
+      213: 5446220023648434494
+    second: mmzxa_ashe_modela_new_89
+  - first:
+      213: -5111250688361033507
+    second: mmzxa_ashe_modela_new_90
+  - first:
+      213: -2972124801545497580
+    second: mmzxa_ashe_modela_new_91
+  - first:
+      213: -5621447086730608088
+    second: mmzxa_ashe_modela_new_92
+  - first:
+      213: 8481535366369353330
+    second: mmzxa_ashe_modela_new_93
+  - first:
+      213: 7635891731237773173
+    second: mmzxa_ashe_modela_new_94
+  - first:
+      213: -6725490178521144701
+    second: mmzxa_ashe_modela_new_95
+  - first:
+      213: 7084255061587755646
+    second: mmzxa_ashe_modela_new_96
+  - first:
+      213: 7294550402299653579
+    second: mmzxa_ashe_modela_new_97
+  - first:
+      213: 414141959571435077
+    second: mmzxa_ashe_modela_new_98
+  - first:
+      213: 1756655240108768740
+    second: mmzxa_ashe_modela_new_99
+  - first:
+      213: 3769845292347451715
+    second: mmzxa_ashe_modela_new_100
+  - first:
+      213: 5960423856109897190
+    second: mmzxa_ashe_modela_new_101
+  - first:
+      213: 7401209933812120730
+    second: mmzxa_ashe_modela_new_102
+  - first:
+      213: 8756439352388974046
+    second: mmzxa_ashe_modela_new_103
+  - first:
+      213: -5739326263024712734
+    second: mmzxa_ashe_modela_new_104
+  - first:
+      213: -9088938824393858012
+    second: mmzxa_ashe_modela_new_105
+  - first:
+      213: -742505234311800448
+    second: mmzxa_ashe_modela_new_106
+  - first:
+      213: -7141179534574749896
+    second: mmzxa_ashe_modela_new_107
+  - first:
+      213: 2606422547790322500
+    second: mmzxa_ashe_modela_new_108
+  - first:
+      213: 916303409361834571
+    second: mmzxa_ashe_modela_new_109
+  - first:
+      213: 8203813707996509848
+    second: mmzxa_ashe_modela_new_110
+  - first:
+      213: -5172453013281323849
+    second: mmzxa_ashe_modela_new_111
+  - first:
+      213: -859811123242547640
+    second: mmzxa_ashe_modela_new_112
+  - first:
+      213: 8563428630896420470
+    second: mmzxa_ashe_modela_new_113
+  - first:
+      213: 6749387584478282966
+    second: mmzxa_ashe_modela_new_114
+  - first:
+      213: -195044859305259288
+    second: mmzxa_ashe_modela_new_115
+  - first:
+      213: -9144412189189119060
+    second: mmzxa_ashe_modela_new_116
+  - first:
+      213: -4274659359355055192
+    second: mmzxa_ashe_modela_new_117
+  - first:
+      213: -7135294853429212385
+    second: mmzxa_ashe_modela_new_118
+  - first:
+      213: -561685307448669771
+    second: mmzxa_ashe_modela_new_119
+  - first:
+      213: -7476055612808375706
+    second: mmzxa_ashe_modela_new_120
+  - first:
+      213: -3017995397558352371
+    second: mmzxa_ashe_modela_new_121
+  - first:
+      213: 3757882622014213643
+    second: mmzxa_ashe_modela_new_122
+  - first:
+      213: -5426868091292116114
+    second: mmzxa_ashe_modela_new_123
+  - first:
+      213: -7040172948587907902
+    second: mmzxa_ashe_modela_new_124
+  - first:
+      213: -7208493868571231644
+    second: mmzxa_ashe_modela_new_125
+  - first:
+      213: -4871631513820420769
+    second: mmzxa_ashe_modela_new_126
+  - first:
+      213: 6563469644465255083
+    second: mmzxa_ashe_modela_new_127
+  - first:
+      213: 7207288669853522085
+    second: mmzxa_ashe_modela_new_128
+  - first:
+      213: -4621355301257260231
+    second: mmzxa_ashe_modela_new_129
+  - first:
+      213: 8720840695365984398
+    second: mmzxa_ashe_modela_new_130
+  - first:
+      213: -4209676636676626005
+    second: mmzxa_ashe_modela_new_131
+  - first:
+      213: -6328241493905925888
+    second: mmzxa_ashe_modela_new_132
+  - first:
+      213: -7099449274178567019
+    second: mmzxa_ashe_modela_new_133
+  - first:
+      213: 8519433891539730368
+    second: mmzxa_ashe_modela_new_134
+  - first:
+      213: 7655740224571566493
+    second: mmzxa_ashe_modela_new_135
+  - first:
+      213: 4087935028281044494
+    second: mmzxa_ashe_modela_new_136
+  - first:
+      213: 7186320509716835771
+    second: mmzxa_ashe_modela_new_137
+  - first:
+      213: 1217998017147749473
+    second: mmzxa_ashe_modela_new_138
+  - first:
+      213: -2874426700774206901
+    second: mmzxa_ashe_modela_new_139
+  - first:
+      213: -875279286600034250
+    second: mmzxa_ashe_modela_new_140
+  - first:
+      213: 6942136104104787517
+    second: mmzxa_ashe_modela_new_141
+  - first:
+      213: 8222041528082631759
+    second: mmzxa_ashe_modela_new_142
+  - first:
+      213: 2843752512197109706
+    second: mmzxa_ashe_modela_new_143
+  - first:
+      213: 4079639016872938045
+    second: mmzxa_ashe_modela_new_144
+  - first:
+      213: -2378345761051867473
+    second: mmzxa_ashe_modela_new_145
+  - first:
+      213: -1498163859019544484
+    second: mmzxa_ashe_modela_new_146
+  - first:
+      213: -4454615660562271917
+    second: mmzxa_ashe_modela_new_147
+  - first:
+      213: -788902193615520626
+    second: mmzxa_ashe_modela_new_148
+  - first:
+      213: -3439819216020061277
+    second: mmzxa_ashe_modela_new_149
+  - first:
+      213: -7966284482327429130
+    second: mmzxa_ashe_modela_new_150
+  - first:
+      213: 6632214889790989155
+    second: mmzxa_ashe_modela_new_151
+  - first:
+      213: -8485557569919952031
+    second: mmzxa_ashe_modela_new_152
+  - first:
+      213: 8306948018201685124
+    second: mmzxa_ashe_modela_new_153
+  - first:
+      213: 1813086066400100629
+    second: mmzxa_ashe_modela_new_154
+  - first:
+      213: -4306616329899145381
+    second: mmzxa_ashe_modela_new_155
+  - first:
+      213: 5264059906049673592
+    second: mmzxa_ashe_modela_new_156
+  - first:
+      213: 3885132965269249333
+    second: mmzxa_ashe_modela_new_157
+  - first:
+      213: 2510192520009487313
+    second: mmzxa_ashe_modela_new_158
+  - first:
+      213: -82511295579687713
+    second: mmzxa_ashe_modela_new_159
+  - first:
+      213: -7608458853119161714
+    second: mmzxa_ashe_modela_new_160
+  - first:
+      213: 5488345528522308202
+    second: mmzxa_ashe_modela_new_161
+  - first:
+      213: 5427947507467614051
+    second: mmzxa_ashe_modela_new_162
+  - first:
+      213: 8671749841751275196
+    second: mmzxa_ashe_modela_new_163
+  - first:
+      213: 7145205876302912576
+    second: mmzxa_ashe_modela_new_164
+  - first:
+      213: 7646838609540562723
+    second: mmzxa_ashe_modela_new_165
+  - first:
+      213: 215637146258470999
+    second: mmzxa_ashe_modela_new_166
+  - first:
+      213: -898360144952445651
+    second: mmzxa_ashe_modela_new_167
+  - first:
+      213: -2036151861131521300
+    second: mmzxa_ashe_modela_new_168
+  - first:
+      213: -2225533032440701429
+    second: mmzxa_ashe_modela_new_169
+  - first:
+      213: 3545212888816824754
+    second: mmzxa_ashe_modela_new_170
+  - first:
+      213: 5658748039799447552
+    second: mmzxa_ashe_modela_new_171
+  - first:
+      213: -2441429167832241333
+    second: mmzxa_ashe_modela_new_172
+  - first:
+      213: 1403842716106991808
+    second: mmzxa_ashe_modela_new_173
+  - first:
+      213: -646812206653320587
+    second: mmzxa_ashe_modela_new_174
+  - first:
+      213: -345935237562969695
+    second: mmzxa_ashe_modela_new_175
+  - first:
+      213: -424206197519978739
+    second: mmzxa_ashe_modela_new_176
+  - first:
+      213: 3882001806790443419
+    second: mmzxa_ashe_modela_new_177
+  - first:
+      213: -8528113810762578028
+    second: mmzxa_ashe_modela_new_178
+  - first:
+      213: 6289616911544534991
+    second: mmzxa_ashe_modela_new_179
+  - first:
+      213: 3545390490630889393
+    second: mmzxa_ashe_modela_new_180
+  - first:
+      213: 1928052437720595315
+    second: mmzxa_ashe_modela_new_181
+  - first:
+      213: -486079196588592545
+    second: mmzxa_ashe_modela_new_182
+  - first:
+      213: 3267413445737149098
+    second: mmzxa_ashe_modela_new_183
+  - first:
+      213: -7860617180774219125
+    second: mmzxa_ashe_modela_new_184
+  - first:
+      213: 476207290556248843
+    second: mmzxa_ashe_modela_new_185
+  - first:
+      213: 2398122014307322086
+    second: mmzxa_ashe_modela_new_186
+  - first:
+      213: 7101036840773634194
+    second: mmzxa_ashe_modela_new_187
+  - first:
+      213: 2767919290920323841
+    second: mmzxa_ashe_modela_new_188
+  - first:
+      213: 2997392858701712572
+    second: mmzxa_ashe_modela_new_189
+  - first:
+      213: -5572249137844011822
+    second: mmzxa_ashe_modela_new_190
+  - first:
+      213: 5738966944668429501
+    second: mmzxa_ashe_modela_new_191
+  - first:
+      213: 8525272478619189701
+    second: mmzxa_ashe_modela_new_192
+  - first:
+      213: -623145316070601436
+    second: mmzxa_ashe_modela_new_193
+  - first:
+      213: -5166201541261313712
+    second: mmzxa_ashe_modela_new_194
+  - first:
+      213: -9186477838445559146
+    second: mmzxa_ashe_modela_new_195
+  - first:
+      213: 62529463568099312
+    second: mmzxa_ashe_modela_new_196
+  - first:
+      213: 2644239835928277323
+    second: mmzxa_ashe_modela_new_197
+  - first:
+      213: 5631676021266026112
+    second: mmzxa_ashe_modela_new_198
+  - first:
+      213: -5645097761371638764
+    second: mmzxa_ashe_modela_new_199
+  - first:
+      213: 4240109261347875264
+    second: mmzxa_ashe_modela_new_200
+  - first:
+      213: -1984061930049353177
+    second: mmzxa_ashe_modela_new_201
+  - first:
+      213: -2578802093121498268
+    second: mmzxa_ashe_modela_new_202
+  - first:
+      213: 5621119410761991742
+    second: mmzxa_ashe_modela_new_203
+  - first:
+      213: -7212289620231191448
+    second: mmzxa_ashe_modela_new_204
+  - first:
+      213: -8579626997059079652
+    second: mmzxa_ashe_modela_new_205
+  - first:
+      213: 3615180086184641722
+    second: mmzxa_ashe_modela_new_206
+  - first:
+      213: 5744776029455022565
+    second: mmzxa_ashe_modela_new_207
+  - first:
+      213: -5226377397575518877
+    second: mmzxa_ashe_modela_new_208
+  - first:
+      213: 674692419200387622
+    second: mmzxa_ashe_modela_new_209
+  - first:
+      213: 4362463792915043940
+    second: mmzxa_ashe_modela_new_210
+  - first:
+      213: 8414621225338574622
+    second: mmzxa_ashe_modela_new_211
+  - first:
+      213: -3409222575215690999
+    second: mmzxa_ashe_modela_new_212
+  - first:
+      213: -4120548901755841771
+    second: mmzxa_ashe_modela_new_213
+  - first:
+      213: -4805901802204822758
+    second: mmzxa_ashe_modela_new_214
+  - first:
+      213: -1469930706957155889
+    second: mmzxa_ashe_modela_new_215
+  - first:
+      213: -642139623460002999
+    second: mmzxa_ashe_modela_new_216
+  - first:
+      213: 3270176200266235155
+    second: mmzxa_ashe_modela_new_217
+  - first:
+      213: 6926363589643377430
+    second: mmzxa_ashe_modela_new_218
+  - first:
+      213: 6465863228924098732
+    second: mmzxa_ashe_modela_new_219
+  - first:
+      213: 8280212284987050997
+    second: mmzxa_ashe_modela_new_220
+  - first:
+      213: 2322340787520442103
+    second: mmzxa_ashe_modela_new_221
+  - first:
+      213: -2788288896173394162
+    second: mmzxa_ashe_modela_new_222
+  - first:
+      213: 666219516115789922
+    second: mmzxa_ashe_modela_new_223
+  - first:
+      213: 2349589196092611354
+    second: mmzxa_ashe_modela_new_224
+  - first:
+      213: 2056251965027073642
+    second: mmzxa_ashe_modela_new_225
+  - first:
+      213: -6212392641321858974
+    second: mmzxa_ashe_modela_new_226
+  - first:
+      213: 4614127822115922825
+    second: mmzxa_ashe_modela_new_227
+  - first:
+      213: 4274619006537447208
+    second: mmzxa_ashe_modela_new_228
+  - first:
+      213: -195282295497561590
+    second: mmzxa_ashe_modela_new_229
+  - first:
+      213: -8125990816998820179
+    second: mmzxa_ashe_modela_new_230
+  - first:
+      213: 6572022009547164508
+    second: mmzxa_ashe_modela_new_231
+  - first:
+      213: -8101141934124740221
+    second: mmzxa_ashe_modela_new_232
+  - first:
+      213: 8590122575100334989
+    second: mmzxa_ashe_modela_new_233
+  - first:
+      213: 5468372010870803398
+    second: mmzxa_ashe_modela_new_234
+  - first:
+      213: -6879375533299880433
+    second: mmzxa_ashe_modela_new_235
+  - first:
+      213: -6879017166287157779
+    second: mmzxa_ashe_modela_new_236
+  - first:
+      213: 3942230468728509460
+    second: mmzxa_ashe_modela_new_237
+  - first:
+      213: 815234625853546175
+    second: mmzxa_ashe_modela_new_238
+  - first:
+      213: 4353673504153885905
+    second: mmzxa_ashe_modela_new_239
+  - first:
+      213: 7157281875388948521
+    second: mmzxa_ashe_modela_new_240
+  - first:
+      213: 6215914198806143731
+    second: mmzxa_ashe_modela_new_241
+  - first:
+      213: 7790495942667840809
+    second: mmzxa_ashe_modela_new_242
+  - first:
+      213: -794690337844139110
+    second: mmzxa_ashe_modela_new_243
+  - first:
+      213: 721008133339767430
+    second: mmzxa_ashe_modela_new_244
+  - first:
+      213: 3859884852621874426
+    second: mmzxa_ashe_modela_new_245
+  - first:
+      213: 3994808495112887673
+    second: mmzxa_ashe_modela_new_246
+  - first:
+      213: -1079504800810513271
+    second: mmzxa_ashe_modela_new_247
+  - first:
+      213: 6554108076623261180
+    second: mmzxa_ashe_modela_new_248
+  - first:
+      213: -4918315511710218028
+    second: mmzxa_ashe_modela_new_249
+  - first:
+      213: 8116874715817938594
+    second: mmzxa_ashe_modela_new_250
+  - first:
+      213: -5660646171852910197
+    second: mmzxa_ashe_modela_new_251
+  - first:
+      213: -3100332657757969177
+    second: mmzxa_ashe_modela_new_252
+  - first:
+      213: -2064625231619779206
+    second: mmzxa_ashe_modela_new_253
+  - first:
+      213: -3839872496473349492
+    second: mmzxa_ashe_modela_new_254
+  - first:
+      213: -2883918079117045877
+    second: mmzxa_ashe_modela_new_255
+  - first:
+      213: -8668346494921882495
+    second: mmzxa_ashe_modela_new_256
+  - first:
+      213: 7860099684634709944
+    second: mmzxa_ashe_modela_new_257
+  - first:
+      213: -6452462711139106579
+    second: mmzxa_ashe_modela_new_258
+  - first:
+      213: 2224995573211977956
+    second: mmzxa_ashe_modela_new_259
+  - first:
+      213: -8908221370073442594
+    second: mmzxa_ashe_modela_new_260
+  - first:
+      213: 3083947330599420962
+    second: mmzxa_ashe_modela_new_261
+  - first:
+      213: 6660869706559556526
+    second: mmzxa_ashe_modela_new_262
+  - first:
+      213: -8388732580588204912
+    second: mmzxa_ashe_modela_new_263
+  - first:
+      213: 620212607400060271
+    second: mmzxa_ashe_modela_new_264
+  - first:
+      213: 3264097752260775112
+    second: mmzxa_ashe_modela_new_265
+  - first:
+      213: -2361732589125767465
+    second: mmzxa_ashe_modela_new_266
+  - first:
+      213: 1727507828985947300
+    second: mmzxa_ashe_modela_new_267
+  - first:
+      213: 6534547800259305261
+    second: mmzxa_ashe_modela_new_268
+  - first:
+      213: 8013507440129511201
+    second: mmzxa_ashe_modela_new_269
+  - first:
+      213: -1351040276561652784
+    second: mmzxa_ashe_modela_new_270
+  - first:
+      213: -4478905022518465046
+    second: mmzxa_ashe_modela_new_271
+  - first:
+      213: -5673379304099401110
+    second: mmzxa_ashe_modela_new_272
+  - first:
+      213: 5991250430138586945
+    second: mmzxa_ashe_modela_new_273
+  - first:
+      213: 6619692019878917600
+    second: mmzxa_ashe_modela_new_274
+  - first:
+      213: 3960625540255149801
+    second: mmzxa_ashe_modela_new_275
+  - first:
+      213: -6233688229947536919
+    second: mmzxa_ashe_modela_new_276
+  - first:
+      213: 2052478581668972347
+    second: mmzxa_ashe_modela_new_277
+  - first:
+      213: 3569963489947292664
+    second: mmzxa_ashe_modela_new_278
+  - first:
+      213: -2525171803734072480
+    second: mmzxa_ashe_modela_new_279
+  - first:
+      213: 2752693620582368898
+    second: mmzxa_ashe_modela_new_280
+  - first:
+      213: 4495643972353804976
+    second: mmzxa_ashe_modela_new_281
+  - first:
+      213: 1704032725928989617
+    second: mmzxa_ashe_modela_new_282
+  - first:
+      213: -8953900211434329772
+    second: mmzxa_ashe_modela_new_283
+  - first:
+      213: -4912705990055510800
+    second: mmzxa_ashe_modela_new_284
+  - first:
+      213: 1090965123251446097
+    second: mmzxa_ashe_modela_new_285
+  - first:
+      213: -5301309192247760561
+    second: mmzxa_ashe_modela_new_286
+  - first:
+      213: 6399725013895213869
+    second: mmzxa_ashe_modela_new_287
+  - first:
+      213: 761910065170890110
+    second: mmzxa_ashe_modela_new_288
+  - first:
+      213: -5831932208233613677
+    second: mmzxa_ashe_modela_new_289
+  - first:
+      213: 8515604715234072776
+    second: mmzxa_ashe_modela_new_290
+  - first:
+      213: -6189374409455962728
+    second: mmzxa_ashe_modela_new_291
+  - first:
+      213: 6906110215763001028
+    second: mmzxa_ashe_modela_new_292
+  - first:
+      213: -301028105877791515
+    second: mmzxa_ashe_modela_new_293
+  - first:
+      213: -7826999302766187238
+    second: mmzxa_ashe_modela_new_294
+  - first:
+      213: -5113849193900257436
+    second: mmzxa_ashe_modela_new_295
+  - first:
+      213: -8320624657287568185
+    second: mmzxa_ashe_modela_new_296
+  - first:
+      213: 2858758907857360321
+    second: mmzxa_ashe_modela_new_297
+  - first:
+      213: -8596448731388334229
+    second: mmzxa_ashe_modela_new_298
+  - first:
+      213: -6429114144815263976
+    second: mmzxa_ashe_modela_new_299
+  - first:
+      213: 3982388055160152163
+    second: mmzxa_ashe_modela_new_300
+  - first:
+      213: -478281663904958554
+    second: mmzxa_ashe_modela_new_301
+  - first:
+      213: -747903016555909200
+    second: mmzxa_ashe_modela_new_302
+  - first:
+      213: -8441241563572413274
+    second: mmzxa_ashe_modela_new_303
+  - first:
+      213: -711945679777271385
+    second: mmzxa_ashe_modela_new_304
+  - first:
+      213: 6847914139768329565
+    second: mmzxa_ashe_modela_new_305
+  - first:
+      213: 8213808860473118070
+    second: mmzxa_ashe_modela_new_306
+  - first:
+      213: 4000463140342480452
+    second: mmzxa_ashe_modela_new_307
+  - first:
+      213: 3224872519050945648
+    second: mmzxa_ashe_modela_new_308
+  - first:
+      213: -7577780782489588888
+    second: mmzxa_ashe_modela_new_309
+  - first:
+      213: -8534999508465658695
+    second: mmzxa_ashe_modela_new_310
+  - first:
+      213: -6825473599401236238
+    second: mmzxa_ashe_modela_new_311
+  - first:
+      213: 4518801032741155643
+    second: mmzxa_ashe_modela_new_312
+  - first:
+      213: 5409126519148678833
+    second: mmzxa_ashe_modela_new_313
+  - first:
+      213: 8499660444103240620
+    second: mmzxa_ashe_modela_new_314
+  - first:
+      213: 6849730895997150673
+    second: mmzxa_ashe_modela_new_315
+  - first:
+      213: 8805566291441327648
+    second: mmzxa_ashe_modela_new_316
+  - first:
+      213: -4005574161345037997
+    second: mmzxa_ashe_modela_new_317
+  - first:
+      213: -4608961151106541888
+    second: mmzxa_ashe_modela_new_318
+  - first:
+      213: 8608884410493195970
+    second: mmzxa_ashe_modela_new_319
+  - first:
+      213: 2898810886109311804
+    second: mmzxa_ashe_modela_new_320
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 21
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_0
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1685
+        width: 32
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ec483c17624b8d0800000000000000
+      internalID: -2831595995655778708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1685
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9400c26b28b0ab0800000000000000
+      internalID: -5040791638977263155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_2
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1685
+        width: 30
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6990c361688ed830800000000000000
+      internalID: 4097862662820501871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1685
+        width: 31
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfc47383d62ba800800000000000000
+      internalID: 624635663206371293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_4
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1685
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db41631c66b7f2dc0800000000000000
+      internalID: -3661572290770496323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_5
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1685
+        width: 30
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992920c740d4b26d0800000000000000
+      internalID: -3014230843938663783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_6
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1685
+        width: 31
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ec26d3705b7d130800000000000000
+      internalID: 3591538270550543985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_7
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1685
+        width: 32
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2043d7a9ae2d370800000000000000
+      internalID: 8345991008717374146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1629
+        width: 32
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb7658343a140450800000000000000
+      internalID: 6053992610678602695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_9
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1629
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae21a68ed0a39c20800000000000000
+      internalID: 3212087836847189673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_10
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1629
+        width: 31
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae3fd5b8fb263940800000000000000
+      internalID: 5275452360714305198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_11
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1629
+        width: 31
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83d5981e92a327f0800000000000000
+      internalID: -638487922255473777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_12
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1629
+        width: 31
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e137c7743384c120800000000000000
+      internalID: 2433213960057991654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1571
+        width: 30
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c6269a916697880800000000000000
+      internalID: -8612740551967347561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_14
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1571
+        width: 39
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ef1d7c7ec1f2030800000000000000
+      internalID: 3472025619541392907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_15
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1571
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17dd9d0c4d3f92460800000000000000
+      internalID: 7217567972932050289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_16
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1571
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b952a0179c0953a0800000000000000
+      internalID: -6676291129641379401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_17
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1571
+        width: 30
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ae399cb2c0e8960800000000000000
+      internalID: 7606030202880387659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_18
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1571
+        width: 36
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590a5f490ae11b2a0800000000000000
+      internalID: -6723559093644713835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_19
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1571
+        width: 36
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b51d4bde81b7b850800000000000000
+      internalID: 6392773423198442934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_20
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1571
+        width: 34
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521a1d05fc05c22a0800000000000000
+      internalID: -6760940089245589211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_21
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1571
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab088ca4f69de5010800000000000000
+      internalID: 1179619224436900026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_22
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1571
+        width: 28
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02661e41f0a20c9c0800000000000000
+      internalID: -3909078232294398432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_23
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1571
+        width: 36
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032db181571d133b0800000000000000
+      internalID: -5534412166215773648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_24
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1524
+        width: 36
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98eb4067786d8ba0800000000000000
+      internalID: -6085092659581687654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_25
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1524
+        width: 42
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8407bc7a463f4c90800000000000000
+      internalID: -7183463187084802933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_26
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1524
+        width: 45
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7be4f17e9314480800000000000000
+      internalID: -8916782122391390232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1524
+        width: 45
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f093f7ac33bdeab0800000000000000
+      internalID: -4977124940077362954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_28
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1524
+        width: 45
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e14d708b4f681c30800000000000000
+      internalID: 4330333411785654753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_29
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1524
+        width: 45
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0322a87ab7eb85080800000000000000
+      internalID: -9198392800603135440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_30
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1524
+        width: 36
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d56f20874b000d0800000000000000
+      internalID: -3458566086281765535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_31
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1524
+        width: 35
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e81b520acf237690800000000000000
+      internalID: -7605682801029211934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_32
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1472
+        width: 39
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1875b1bd20fb09cf0800000000000000
+      internalID: -247487960518535295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_33
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1472
+        width: 40
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194ffaa0c1e901490800000000000000
+      internalID: -7777542713193270127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_34
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1472
+        width: 46
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c2b7e3395fc3d90800000000000000
+      internalID: -7116543298394969030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_35
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1472
+        width: 47
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12361d9e456a155b0800000000000000
+      internalID: -5381337196100754655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_36
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1472
+        width: 39
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6c1456eb9640420800000000000000
+      internalID: 2595315551735760623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_37
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1472
+        width: 46
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee96fa7c5d2d28c0800000000000000
+      internalID: -4022509016948760862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_38
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1471
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9b497bf52c4eda0800000000000000
+      internalID: -5916390294100329988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_39
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1471
+        width: 32
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0779b88e3f2ad6460800000000000000
+      internalID: 7236619344716470128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_40
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1471
+        width: 32
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41a86bfc871d70b0800000000000000
+      internalID: -5729397256664604338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_41
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1471
+        width: 31
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81aaac899a957f220800000000000000
+      internalID: 2519581101484845592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_42
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1471
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61aa8a9839d367a0800000000000000
+      internalID: -6385021009547058837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_43
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1419
+        width: 30
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc84a91d7b945d50800000000000000
+      internalID: 6725171105174424763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_44
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1419
+        width: 30
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd646ff699192eae0800000000000000
+      internalID: -1521493635903371556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_45
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1419
+        width: 30
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1aad0d2865a2cbb0800000000000000
+      internalID: -4917185976284108261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_46
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1419
+        width: 30
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8bb2f542f4cff00800000000000000
+      internalID: 1151882622334122168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_47
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1419
+        width: 30
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ca399b6a1d6bce0800000000000000
+      internalID: -1389692920988980160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_48
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1419
+        width: 30
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edd9bb14f78aec00800000000000000
+      internalID: 930705755512364515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_49
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1356
+        width: 35
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2294ebd58ca7eee20800000000000000
+      internalID: 3381775371186620706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_50
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1356
+        width: 33
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9d9a47c00f50bd0800000000000000
+      internalID: -2664459668232218117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_51
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1356
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239e36ab6fa8dff00800000000000000
+      internalID: 1152229871970412850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_52
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1356
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3497c86b29e1b190800000000000000
+      internalID: -7948315494681439169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_53
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1356
+        width: 33
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f861533eeefe0d0800000000000000
+      internalID: -3391229334771036304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_54
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1356
+        width: 33
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4f2f19f3e0521d0800000000000000
+      internalID: -3376276679449971503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_55
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1356
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96adf40ed08f9e40800000000000000
+      internalID: 5665388547310200477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_56
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1357
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dafd471c8f62810800000000000000
+      internalID: 1740351815798467936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_57
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1355
+        width: 35
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825aaa12c18ea1c20800000000000000
+      internalID: 3178107694584866088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_58
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1355
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3c0dfbedb756130800000000000000
+      internalID: 3559387277137331196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_59
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1355
+        width: 30
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f576b49edcabd800800000000000000
+      internalID: 638293844180760055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_60
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1355
+        width: 30
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dceef90fd80273fa0800000000000000
+      internalID: -5821148199353585971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_61
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1356
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ebb302ecbd3b9c0800000000000000
+      internalID: -3912541972904296840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_62
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1356
+        width: 33
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1e3b45b5356a870800000000000000
+      internalID: 8693727782413525467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_63
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1292
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7d5c41828f2ecb0800000000000000
+      internalID: -4836030198811600967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_64
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1292
+        width: 30
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5537606c81a57f150800000000000000
+      internalID: 5906288498767721301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_65
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1292
+        width: 31
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bcc036745017a80800000000000000
+      internalID: -8470983619944592517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_66
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1292
+        width: 27
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837f6ce0c5c44dab0800000000000000
+      internalID: -4984274929323673800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_67
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1292
+        width: 26
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb3eb049e7ddd2d0800000000000000
+      internalID: -3252205959078069322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_68
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1292
+        width: 26
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bb160cf6b80c930800000000000000
+      internalID: 4161479367775599369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_69
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1292
+        width: 26
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7cf736ba6044680800000000000000
+      internalID: -8771878841032390721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_70
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1292
+        width: 26
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b3ca1483d38f620800000000000000
+      internalID: 2808061679494773562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_71
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1294
+        width: 31
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ffa7670b43b0780800000000000000
+      internalID: -8715814721338802291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_72
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1292
+        width: 33
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600fdc6a5a5842fa0800000000000000
+      internalID: -5826385071395966970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_73
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1292
+        width: 28
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba13a58cc9505eb0800000000000000
+      internalID: -4733184473416131916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_74
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1292
+        width: 28
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb30c198dc4bb3e0800000000000000
+      internalID: -2036949913413075999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_75
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1292
+        width: 28
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18cb55c6394d23d0800000000000000
+      internalID: -3229844858166589411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_76
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1292
+        width: 28
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba2b670769644390800000000000000
+      internalID: -7835021560490808653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_77
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1243
+        width: 32
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a6ac04fda5d05f0800000000000000
+      internalID: -788874444808754580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_78
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1242
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b84dbd958b6d2ba0800000000000000
+      internalID: -6112110897650644807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_79
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1243
+        width: 21
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618d357d28fc4c8a0800000000000000
+      internalID: -6285671019037075434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_80
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1243
+        width: 22
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43eba5d24ed7c3d90800000000000000
+      internalID: -7116674892185289164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_81
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1189
+        width: 29
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae46934164ea438f0800000000000000
+      internalID: -561632437504219926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_82
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1189
+        width: 25
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3007a02e0871e1bc0800000000000000
+      internalID: -3810582392393273341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_83
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1189
+        width: 25
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9230eb5dd63684d80800000000000000
+      internalID: -8266247792649960663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_84
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1187
+        width: 25
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb828cb2a6f76b50800000000000000
+      internalID: 6586504158860446704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_85
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1187
+        width: 25
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911f76c062024d6e0800000000000000
+      internalID: -1813789402134482663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_86
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1184
+        width: 23
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f398dc05fda25caf0800000000000000
+      internalID: -376847855193847489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_87
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1125
+        width: 27
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9595838c4302c5610800000000000000
+      internalID: 1611198177761319257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_88
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1125
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298ab57dd9f269d50800000000000000
+      internalID: 6743629847003375762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_89
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1125
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e393f26914cd49b40800000000000000
+      internalID: 5446220023648434494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_90
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1125
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0154a54903119b0800000000000000
+      internalID: -5111250688361033507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_91
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1125
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41490cf6d34e0c6d0800000000000000
+      internalID: -2972124801545497580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_92
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1125
+        width: 31
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82284c788ab9cf1b0800000000000000
+      internalID: -5621447086730608088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_93
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1125
+        width: 36
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e9b568a7774b570800000000000000
+      internalID: 8481535366369353330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_94
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1125
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f15c7a21328f960800000000000000
+      internalID: 7635891731237773173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_95
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1125
+        width: 35
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3826ed8d0524aa2a0800000000000000
+      internalID: -6725490178521144701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_96
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1061
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72833cc174505260800000000000000
+      internalID: 7084255061587755646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_97
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1061
+        width: 25
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcde04551f27b3560800000000000000
+      internalID: 7294550402299653579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_98
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1061
+        width: 31
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ee6d20be35fb500800000000000000
+      internalID: 414141959571435077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_99
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1061
+        width: 32
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edf28b32a4e06810800000000000000
+      internalID: 1756655240108768740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_100
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1061
+        width: 32
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3496c84e15e215430800000000000000
+      internalID: 3769845292347451715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_101
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1061
+        width: 31
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5c13edaeda7b250800000000000000
+      internalID: 5960423856109897190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_102
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1061
+        width: 36
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cb6f4b83166b660800000000000000
+      internalID: 7401209933812120730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_103
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1061
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed57568823f158970800000000000000
+      internalID: 8756439352388974046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_104
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1061
+        width: 35
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3875a0c21d950b0800000000000000
+      internalID: -5739326263024712734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_105
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1002
+        width: 29
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4246fb26b4a9dd180800000000000000
+      internalID: -9088938824393858012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_106
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1002
+        width: 25
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0891af06c6712b5f0800000000000000
+      internalID: -742505234311800448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_107
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1002
+        width: 19
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837f1648c0f65ec90800000000000000
+      internalID: -7141179534574749896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_108
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1002
+        width: 17
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b5c9f6f7fdb2420800000000000000
+      internalID: 2606422547790322500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_109
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1002
+        width: 36
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42dd75981d57bc00800000000000000
+      internalID: 916303409361834571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_110
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1002
+        width: 34
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896bc9c0a1dc9d170800000000000000
+      internalID: 8203813707996509848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_111
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1002
+        width: 36
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4c7f5a361c738b0800000000000000
+      internalID: -5172453013281323849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_112
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1002
+        width: 38
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846c231c6565114f0800000000000000
+      internalID: -859811123242547640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_113
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1002
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676adf308f867d670800000000000000
+      internalID: 8563428630896420470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_114
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1002
+        width: 30
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d482409f34aaad50800000000000000
+      internalID: 6749387584478282966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_115
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 941
+        width: 29
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee08dddbbf0b4df0800000000000000
+      internalID: -195044859305259288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_116
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 941
+        width: 23
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca361a72095881180800000000000000
+      internalID: -9144412189189119060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_117
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 941
+        width: 22
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3d7d5f5fb5da4c0800000000000000
+      internalID: -4274659359355055192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_118
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 941
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bcdad92275afc90800000000000000
+      internalID: -7135294853429212385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_119
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 941
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b947f5503e7438f0800000000000000
+      internalID: -561685307448669771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_120
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 941
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662dd7da707bf3890800000000000000
+      internalID: -7476055612808375706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_121
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 941
+        width: 35
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0645ca0d2ded16d0800000000000000
+      internalID: -3017995397558352371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_122
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 941
+        width: 35
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e45c8a55ea62430800000000000000
+      internalID: 3757882622014213643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_123
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 941
+        width: 35
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b91a74934efa4b0800000000000000
+      internalID: -5426868091292116114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_124
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 941
+        width: 35
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c47a12f0084c4e90800000000000000
+      internalID: -7040172948587907902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_125
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 940
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46afa3ec40946fb90800000000000000
+      internalID: -7208493868571231644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_126
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 940
+        width: 40
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55a22ef2fc746cb0800000000000000
+      internalID: -4871631513820420769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_127
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 940
+        width: 45
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2396cedd0261b50800000000000000
+      internalID: 6563469644465255083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_128
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 940
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a811500cde650460800000000000000
+      internalID: 7207288669853522085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_129
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 940
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93351b7a6d5addfb0800000000000000
+      internalID: -4621355301257260231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_130
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 940
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e806f0e4866a60970800000000000000
+      internalID: 8720840695365984398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_131
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 940
+        width: 37
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9e0ab17693495c0800000000000000
+      internalID: -4209676636676626005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_132
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 940
+        width: 35
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00999d6c3e19d28a0800000000000000
+      internalID: -6328241493905925888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_133
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 940
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5948ea7ef70b97d90800000000000000
+      internalID: -7099449274178567019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_134
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 940
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf36a88cfb1b3670800000000000000
+      internalID: 8519433891539730368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_135
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 942
+        width: 35
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99e1422c27ae3a60800000000000000
+      internalID: 7655740224571566493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_136
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 942
+        width: 35
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e6199df334bb830800000000000000
+      internalID: 4087935028281044494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_137
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 878
+        width: 29
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbda6c7cd60fab360800000000000000
+      internalID: 7186320509716835771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_138
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 878
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164c83d4eb237e010800000000000000
+      internalID: 1217998017147749473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_139
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 878
+        width: 22
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42947f152cfb18d0800000000000000
+      internalID: -2874426700774206901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_140
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 877
+        width: 22
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63892f250226ad3f0800000000000000
+      internalID: -875279286600034250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_141
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 877
+        width: 22
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e7493710c675060800000000000000
+      internalID: 6942136104104787517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_142
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 877
+        width: 25
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c00e1253f8a1270800000000000000
+      internalID: 8222041528082631759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_143
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 877
+        width: 22
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac722aec7d9077720800000000000000
+      internalID: 2843752512197109706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_144
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 877
+        width: 22
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a098c221acd9830800000000000000
+      internalID: 4079639016872938045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_145
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 877
+        width: 22
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6827f912b6efed0800000000000000
+      internalID: -2378345761051867473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_146
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 878
+        width: 22
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58cfc768e3753be0800000000000000
+      internalID: -1498163859019544484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_147
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 878
+        width: 27
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3513b4588a60e22c0800000000000000
+      internalID: -4454615660562271917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_148
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 876
+        width: 31
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c350b72a14d05f0800000000000000
+      internalID: -788902193615520626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_149
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 873
+        width: 33
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3cf81e5ae4340d0800000000000000
+      internalID: -3439819216020061277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_150
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 879
+        width: 22
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffba237872127190800000000000000
+      internalID: -7966284482327429130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_151
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 879
+        width: 24
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3636c04ad4c5a0c50800000000000000
+      internalID: 6632214889790989155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_152
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 879
+        width: 24
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b5bcb395e3d3a80800000000000000
+      internalID: -8485557569919952031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_153
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 878
+        width: 22
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ceb80e535384370800000000000000
+      internalID: 8306948018201685124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_154
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 878
+        width: 22
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5110df6db20692910800000000000000
+      internalID: 1813086066400100629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_155
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 878
+        width: 22
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b570770f343db34c0800000000000000
+      internalID: -4306616329899145381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_156
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 878
+        width: 22
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87987782892bd0940800000000000000
+      internalID: 5264059906049673592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_157
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 878
+        width: 22
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d980cf8d3cae530800000000000000
+      internalID: 3885132965269249333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_158
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 877
+        width: 33
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d312012ccef5d220800000000000000
+      internalID: 2510192520009487313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_159
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 836
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4f301f96cdadef0800000000000000
+      internalID: -82511295579687713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_160
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 832
+        width: 38
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a08a30cf2596690800000000000000
+      internalID: -7608458853119161714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_161
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 832
+        width: 55
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6afc200e258a2c40800000000000000
+      internalID: 5488345528522308202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_162
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 820
+        width: 15
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367f212ef71f35b40800000000000000
+      internalID: 5427947507467614051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_163
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 812
+        width: 15
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb672a2498e385870800000000000000
+      internalID: 8671749841751275196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_164
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 767
+        width: 48
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c911833eed82360800000000000000
+      internalID: 7145205876302912576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_165
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 766
+        width: 47
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f386063370f1a60800000000000000
+      internalID: 7646838609540562723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_166
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 766
+        width: 47
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7587d1f87d81ef200800000000000000
+      internalID: 215637146258470999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_167
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 718
+        width: 56
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25bdb735326883f0800000000000000
+      internalID: -898360144952445651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_168
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 718
+        width: 53
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce251889ba22eb3e0800000000000000
+      internalID: -2036151861131521300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_169
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 718
+        width: 54
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e59759f715d11e0800000000000000
+      internalID: -2225533032440701429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_170
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 718
+        width: 54
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1301bc650233130800000000000000
+      internalID: 3545212888816824754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_171
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 718
+        width: 54
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0002fa16c59e78e40800000000000000
+      internalID: 5658748039799447552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_172
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 718
+        width: 54
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4be41b6b1d4e1ed0800000000000000
+      internalID: -2441429167832241333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_173
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 668
+        width: 43
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8a31e23837b7310800000000000000
+      internalID: 1403842716106991808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_174
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 669
+        width: 46
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572da0a99bf0607f0800000000000000
+      internalID: -646812206653320587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_175
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 666
+        width: 45
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1d4c9fbbdf23bf0800000000000000
+      internalID: -345935237562969695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_176
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 666
+        width: 42
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f6d4df5baec1af0800000000000000
+      internalID: -424206197519978739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_177
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 666
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b914b275314afd530800000000000000
+      internalID: 3882001806790443419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_178
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 666
+        width: 41
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497c4694cad06a980800000000000000
+      internalID: -8528113810762578028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_179
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 666
+        width: 45
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7c6e9d145394750800000000000000
+      internalID: 6289616911544534991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_180
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 666
+        width: 44
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf1a10fdd1c33130800000000000000
+      internalID: 3545390490630889393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_181
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 666
+        width: 44
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b79a21a71d1ca10800000000000000
+      internalID: 1928052437720595315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_182
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 666
+        width: 44
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5231aacb891149f0800000000000000
+      internalID: -486079196588592545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_183
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 666
+        width: 43
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa27f77a73f285d20800000000000000
+      internalID: 3267413445737149098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_184
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 617
+        width: 46
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82ce98425a79e290800000000000000
+      internalID: -7860617180774219125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_185
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 618
+        width: 49
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b037e09f104db9600800000000000000
+      internalID: 476207290556248843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_186
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 615
+        width: 48
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e805d62447d74120800000000000000
+      internalID: 2398122014307322086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_187
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 615
+        width: 45
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298464f3263fb8260800000000000000
+      internalID: 7101036840773634194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_188
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 616
+        width: 42
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bc1461eef996620800000000000000
+      internalID: 2767919290920323841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_189
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 616
+        width: 44
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc45339ce0e89920800000000000000
+      internalID: 2997392858701712572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_190
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 615
+        width: 48
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcb4d2aee46ba2b0800000000000000
+      internalID: -5572249137844011822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_191
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 614
+        width: 47
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcaba2a708e4af40800000000000000
+      internalID: 5738966944668429501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_192
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 614
+        width: 47
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1c285862adf4670800000000000000
+      internalID: 8525272478619189701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_193
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 614
+        width: 47
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dc928f2a42a57f0800000000000000
+      internalID: -623145316070601436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_194
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 614
+        width: 46
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0593b07e117fd48b0800000000000000
+      internalID: -5166201541261313712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_195
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 549
+        width: 47
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6924476f313138080800000000000000
+      internalID: -9186477838445559146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_196
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 549
+        width: 48
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7e8ff37362ed000800000000000000
+      internalID: 62529463568099312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_197
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 549
+        width: 51
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b413179fe1a32b420800000000000000
+      internalID: 2644239835928277323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_198
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 549
+        width: 50
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e85a1e08bb72e40800000000000000
+      internalID: 5631676021266026112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_199
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 549
+        width: 44
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414371bbe7598a1b0800000000000000
+      internalID: -5645097761371638764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_200
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 549
+        width: 48
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9eb7b78e4e7da30800000000000000
+      internalID: 4240109261347875264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_201
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 549
+        width: 49
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a4807cf223774e0800000000000000
+      internalID: -1984061930049353177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_202
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 549
+        width: 46
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463957dc821463cd0800000000000000
+      internalID: -2578802093121498268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_203
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 549
+        width: 46
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e368586725a320e40800000000000000
+      internalID: 5621119410761991742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_204
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 549
+        width: 51
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86402e08dccc8eb90800000000000000
+      internalID: -7212289620231191448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_205
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 549
+        width: 48
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1231f6f3ba0fe880800000000000000
+      internalID: -8579626997059079652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_206
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 549
+        width: 48
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab40a146223bb2230800000000000000
+      internalID: 3615180086184641722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_207
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 486
+        width: 45
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e978d59c5b89bf40800000000000000
+      internalID: 5744776029455022565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_208
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 486
+        width: 42
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365716b827d2877b0800000000000000
+      internalID: -5226377397575518877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_209
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 486
+        width: 43
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a861b3e2dfc5900800000000000000
+      internalID: 674692419200387622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_210
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 486
+        width: 43
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4665432d4b59a8c30800000000000000
+      internalID: 4362463792915043940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_211
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 486
+        width: 43
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1794cffb6db6c470800000000000000
+      internalID: 8414621225338574622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_212
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 486
+        width: 43
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bb604712200b0d0800000000000000
+      internalID: -3409222575215690999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_213
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 423
+        width: 42
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513973ffa9ed0d6c0800000000000000
+      internalID: -4120548901755841771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_214
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 424
+        width: 41
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a130c2e06c10e4db0800000000000000
+      internalID: -4805901802204822758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_215
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 423
+        width: 41
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1416f5fc1c99be0800000000000000
+      internalID: -1469930706957155889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_216
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 366
+        width: 61
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943a6772a69a617f0800000000000000
+      internalID: -642139623460002999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_217
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 366
+        width: 61
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d3ec19deff16d20800000000000000
+      internalID: 3270176200266235155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_218
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 366
+        width: 55
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b94e1ccf26f1060800000000000000
+      internalID: 6926363589643377430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_219
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 366
+        width: 63
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8f74e595c5bb950800000000000000
+      internalID: 6465863228924098732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_220
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 366
+        width: 55
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb8a77e33939e270800000000000000
+      internalID: 8280212284987050997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_221
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 366
+        width: 49
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe8e8754ac9a3020800000000000000
+      internalID: 2322340787520442103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_222
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e073b6c95020e49d0800000000000000
+      internalID: -2788288896173394162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_223
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 336
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268a380ce13ee3900800000000000000
+      internalID: 666219516115789922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_224
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 323
+        width: 14
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b1239dcea6b9020800000000000000
+      internalID: 2349589196092611354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_225
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 324
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e33288446498c10800000000000000
+      internalID: 2056251965027073642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_226
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26882c0bec529c9a0800000000000000
+      internalID: -6212392641321858974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_227
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9836779becca80040800000000000000
+      internalID: 4614127822115922825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_228
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 335
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8273ccaa65f725b30800000000000000
+      internalID: 4274619006537447208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_229
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ae1f179c73a4df0800000000000000
+      internalID: -195282295497561590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_230
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6f2b0c76eaa3f80800000000000000
+      internalID: -8125990816998820179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_231
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b8b179233843b50800000000000000
+      internalID: 6572022009547164508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_232
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 336
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38159752556f29f80800000000000000
+      internalID: -8101141934124740221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_233
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 335
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d835be938fe363770800000000000000
+      internalID: 8590122575100334989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_234
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb84a70f5f83eb40800000000000000
+      internalID: 5468372010870803398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_235
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 336
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ea525a66c8780a0800000000000000
+      internalID: -6879375533299880433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_236
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 335
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5c3a77552d880a0800000000000000
+      internalID: -6879017166287157779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_237
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414d84779bd95b630800000000000000
+      internalID: 3942230468728509460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_238
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 336
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe599aa29b405b00800000000000000
+      internalID: 815234625853546175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_239
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 335
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc5f1b3cfa5b6c30800000000000000
+      internalID: 4353673504153885905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_240
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92066ebd1f5c35360800000000000000
+      internalID: 7157281875388948521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_241
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 336
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2a52ec70d534650800000000000000
+      internalID: 6215914198806143731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_242
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 335
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92da6d6b8c66d1c60800000000000000
+      internalID: 7790495942667840809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_243
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b6d522951b8f4f0800000000000000
+      internalID: -794690337844139110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_244
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 336
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68262e3c319810a00800000000000000
+      internalID: 721008133339767430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_245
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 335
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4107aa2d0119530800000000000000
+      internalID: 3859884852621874426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_246
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d9ae03929607730800000000000000
+      internalID: 3994808495112887673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_247
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 336
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c4c566a14d401f0800000000000000
+      internalID: -1079504800810513271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_248
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 335
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfde5ae029ed4fa50800000000000000
+      internalID: 6554108076623261180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_249
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 313
+        width: 27
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d80837b912aebbb0800000000000000
+      internalID: -4918315511710218028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_250
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 285
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae8daa8c8ee4a070800000000000000
+      internalID: 8116874715817938594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_251
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 278
+        width: 13
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81588f4c485171b0800000000000000
+      internalID: -5660646171852910197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_252
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 276
+        width: 35
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e42bc0cfd769f4d0800000000000000
+      internalID: -3100332657757969177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_253
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 275
+        width: 45
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a759efa6a4af853e0800000000000000
+      internalID: -2064625231619779206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_254
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 291
+        width: 12
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82e9e81f4806bac0800000000000000
+      internalID: -3839872496473349492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_255
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 293
+        width: 7
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fc6e469c34af7d0800000000000000
+      internalID: -2883918079117045877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_256
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 274
+        width: 21
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184cd2c2ac8d3b780800000000000000
+      internalID: -8668346494921882495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_257
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 274
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfcfc1c40fa41d60800000000000000
+      internalID: 7860099684634709944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_258
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 287
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de08910d95f3476a0800000000000000
+      internalID: -6452462711139106579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_259
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 283
+        width: 32
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8dd107fa5c0ee10800000000000000
+      internalID: 2224995573211977956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_260
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 282
+        width: 7
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed69a389cd3af5480800000000000000
+      internalID: -8908221370073442594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_261
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 253
+        width: 14
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224846af1c16cca20800000000000000
+      internalID: 3083947330599420962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_262
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 254
+        width: 13
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab84a215b9207c50800000000000000
+      internalID: 6660869706559556526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_263
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 256
+        width: 18
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c4b42d92c359b80800000000000000
+      internalID: -8388732580588204912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_264
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 256
+        width: 12
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65ac4594107b9800800000000000000
+      internalID: 620212607400060271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_265
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 217
+        width: 10
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc87ab9c976c4d20800000000000000
+      internalID: 3264097752260775112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_266
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 214
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dee1b229b0793fd0800000000000000
+      internalID: -2361732589125767465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_267
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 186
+        width: 42
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4e96db73759f710800000000000000
+      internalID: 1727507828985947300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_268
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 185
+        width: 50
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f14425a906faa50800000000000000
+      internalID: 6534547800259305261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_269
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 210
+        width: 48
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f8ed53f82b53f60800000000000000
+      internalID: 8013507440129511201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_270
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 207
+        width: 23
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d31c4ec604204de0800000000000000
+      internalID: -1351040276561652784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_271
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 208
+        width: 7
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aede21ebc9bb7d1c0800000000000000
+      internalID: -4478905022518465046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_272
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 225
+        width: 10
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a623a1fe49b1441b0800000000000000
+      internalID: -5673379304099401110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_273
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 208
+        width: 7
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14711d0f582352350800000000000000
+      internalID: 5991250430138586945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_274
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 209
+        width: 6
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5fe57c1dedddb50800000000000000
+      internalID: 6619692019878917600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_275
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 232
+        width: 5
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee6f3fc1f7f6f630800000000000000
+      internalID: 3960625540255149801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_276
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 214
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e98175159d7d79a0800000000000000
+      internalID: -6233688229947536919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_277
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 212
+        width: 4
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b370a71456edb7c10800000000000000
+      internalID: 2052478581668972347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_278
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 201
+        width: 11
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f31c6f21ee0b8130800000000000000
+      internalID: 3569963489947292664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_279
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 198
+        width: 12
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06329999f99c4fcd0800000000000000
+      internalID: -2525171803734072480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_280
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 185
+        width: 22
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286cb467348833620800000000000000
+      internalID: 2752693620582368898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_281
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 196
+        width: 35
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba46c8bf5cb36e30800000000000000
+      internalID: 4495643972353804976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_282
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 169
+        width: 14
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b353a26cb0f5a710800000000000000
+      internalID: 1704032725928989617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_283
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 170
+        width: 13
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459692f823b5db380800000000000000
+      internalID: -8953900211434329772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_284
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 172
+        width: 18
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcbec04eef82dbb0800000000000000
+      internalID: -4912705990055510800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_285
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 172
+        width: 12
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1512eb9dff2e32f00800000000000000
+      internalID: 1090965123251446097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_286
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 133
+        width: 10
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f492f8f8067fd66b0800000000000000
+      internalID: -5301309192247760561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_287
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 130
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23f7613ef360d850800000000000000
+      internalID: 6399725013895213869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_288
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 113
+        width: 42
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d3e41ea29d29a00800000000000000
+      internalID: 761910065170890110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_289
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 97
+        width: 52
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39673163e80d01fa0800000000000000
+      internalID: -5831932208233613677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_290
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 123
+        width: 23
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c81b23fe518d2670800000000000000
+      internalID: 8515604715234072776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_291
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 124
+        width: 7
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895fb7e64ccea1aa0800000000000000
+      internalID: -6189374409455962728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_292
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 141
+        width: 10
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ceff3ea6ae67df50800000000000000
+      internalID: 6906110215763001028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_293
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 124
+        width: 7
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecdeb9588882dbf0800000000000000
+      internalID: -301028105877791515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_294
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 125
+        width: 6
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d24657a99e06390800000000000000
+      internalID: -7826999302766187238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_295
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 148
+        width: 5
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f48a2a045f709b0800000000000000
+      internalID: -5113849193900257436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_296
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 77
+        width: 185
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4a40175f3378c80800000000000000
+      internalID: -8320624657287568185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_297
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 130
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c55251941a5ca720800000000000000
+      internalID: 2858758907857360321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_298
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 117
+        width: 11
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fadbbbc6743b880800000000000000
+      internalID: -8596448731388334229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_299
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 65
+        width: 84
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fc8d98fb237c6a0800000000000000
+      internalID: -6429114144815263976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_300
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 112
+        width: 35
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360649926d8444730800000000000000
+      internalID: 3982388055160152163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_301
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 111
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7bc585c5dcc59f0800000000000000
+      internalID: -478281663904958554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_302
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 97
+        width: 8
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfedb34b2aee95f0800000000000000
+      internalID: -747903016555909200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_303
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 69
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acd004858faada80800000000000000
+      internalID: -8441241563572413274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_304
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 83
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a170812d29ae16f0800000000000000
+      internalID: -711945679777271385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_305
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 68
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d551449d0ada80f50800000000000000
+      internalID: 6847914139768329565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_306
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 66
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dc475d3af4df170800000000000000
+      internalID: 8213808860473118070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_307
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 67
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e3821e700848730800000000000000
+      internalID: 4000463140342480452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_308
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 66
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07463ff487c01cc20800000000000000
+      internalID: 3224872519050945648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_309
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 67
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b2de1f68056d690800000000000000
+      internalID: -7577780782489588888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_310
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 66
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b455cbda279d8980800000000000000
+      internalID: -8534999508465658695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_311
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 67
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8e1eb9ceb0741a0800000000000000
+      internalID: -6825473599401236238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_312
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 66
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33743ff89106be30800000000000000
+      internalID: 4518801032741155643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_313
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 67
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be800f09e3111b40800000000000000
+      internalID: 5409126519148678833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_314
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 66
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab663a042cd4f570800000000000000
+      internalID: 8499660444103240620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_315
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 67
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5adee55f12f0f50800000000000000
+      internalID: 6849730895997150673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_316
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 66
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e938f53e7a33a70800000000000000
+      internalID: 8805566291441327648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_317
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 66
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359bb8fc5875968c0800000000000000
+      internalID: -4005574161345037997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_318
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 65
+        width: 35
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c618bc904ea900c0800000000000000
+      internalID: -4608961151106541888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_319
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 65
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c658df62c6e87770800000000000000
+      internalID: 8608884410493195970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzxa_ashe_modela_new_320
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 7
+        width: 32
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33b4917425aa3820800000000000000
+      internalID: 2898810886109311804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

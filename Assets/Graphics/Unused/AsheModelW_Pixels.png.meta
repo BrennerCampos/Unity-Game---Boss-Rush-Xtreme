@@ -1,0 +1,7860 @@
+fileFormatVersion: 2
+guid: add6f71db512a704a8fdfd5cee86622d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -693154834618695834
+    second: AsheModelW_Pixels_0
+  - first:
+      213: -7659081148868246751
+    second: AsheModelW_Pixels_1
+  - first:
+      213: 7363486810947874503
+    second: AsheModelW_Pixels_2
+  - first:
+      213: -950012903139518243
+    second: AsheModelW_Pixels_3
+  - first:
+      213: 181122951098748877
+    second: AsheModelW_Pixels_4
+  - first:
+      213: 4878708379905327372
+    second: AsheModelW_Pixels_5
+  - first:
+      213: -904920080101962057
+    second: AsheModelW_Pixels_6
+  - first:
+      213: -8920276311629805924
+    second: AsheModelW_Pixels_7
+  - first:
+      213: -5963539871062624726
+    second: AsheModelW_Pixels_8
+  - first:
+      213: -7435095702290545257
+    second: AsheModelW_Pixels_9
+  - first:
+      213: -7559095116999426220
+    second: AsheModelW_Pixels_10
+  - first:
+      213: -4724065697155213986
+    second: AsheModelW_Pixels_11
+  - first:
+      213: -5209042079037147279
+    second: AsheModelW_Pixels_12
+  - first:
+      213: 3215310698111854956
+    second: AsheModelW_Pixels_13
+  - first:
+      213: -8947650644077170463
+    second: AsheModelW_Pixels_14
+  - first:
+      213: 3225155397056847585
+    second: AsheModelW_Pixels_15
+  - first:
+      213: 8118507561246941562
+    second: AsheModelW_Pixels_16
+  - first:
+      213: 1164730080241305631
+    second: AsheModelW_Pixels_17
+  - first:
+      213: -9155687709176367282
+    second: AsheModelW_Pixels_18
+  - first:
+      213: 241626384485963653
+    second: AsheModelW_Pixels_19
+  - first:
+      213: 5640430427314109396
+    second: AsheModelW_Pixels_20
+  - first:
+      213: -6716493713131859751
+    second: AsheModelW_Pixels_21
+  - first:
+      213: -6063773488470518297
+    second: AsheModelW_Pixels_22
+  - first:
+      213: 1142131328257300088
+    second: AsheModelW_Pixels_23
+  - first:
+      213: -6324521692396483293
+    second: AsheModelW_Pixels_24
+  - first:
+      213: 8366912931574608560
+    second: AsheModelW_Pixels_25
+  - first:
+      213: 445298500683795451
+    second: AsheModelW_Pixels_26
+  - first:
+      213: 6892120233009465861
+    second: AsheModelW_Pixels_27
+  - first:
+      213: -7271079527919321387
+    second: AsheModelW_Pixels_28
+  - first:
+      213: 2642927805133016017
+    second: AsheModelW_Pixels_29
+  - first:
+      213: -920503117268800006
+    second: AsheModelW_Pixels_30
+  - first:
+      213: -3879005825356717388
+    second: AsheModelW_Pixels_31
+  - first:
+      213: -3340762120862880901
+    second: AsheModelW_Pixels_32
+  - first:
+      213: 8024868429642031259
+    second: AsheModelW_Pixels_33
+  - first:
+      213: -7459569459094944584
+    second: AsheModelW_Pixels_34
+  - first:
+      213: -37976332266731578
+    second: AsheModelW_Pixels_35
+  - first:
+      213: -5385246685583974041
+    second: AsheModelW_Pixels_36
+  - first:
+      213: -8522884765942665340
+    second: AsheModelW_Pixels_37
+  - first:
+      213: -3535608566146006657
+    second: AsheModelW_Pixels_38
+  - first:
+      213: -7351945754617250978
+    second: AsheModelW_Pixels_39
+  - first:
+      213: 7119410184050889137
+    second: AsheModelW_Pixels_40
+  - first:
+      213: 5452155852831897017
+    second: AsheModelW_Pixels_41
+  - first:
+      213: -7774588129769749257
+    second: AsheModelW_Pixels_42
+  - first:
+      213: -7697408798919086050
+    second: AsheModelW_Pixels_43
+  - first:
+      213: -6956293677078929623
+    second: AsheModelW_Pixels_44
+  - first:
+      213: 8877089136372647441
+    second: AsheModelW_Pixels_45
+  - first:
+      213: -2428661418780592081
+    second: AsheModelW_Pixels_46
+  - first:
+      213: 379805562839077408
+    second: AsheModelW_Pixels_47
+  - first:
+      213: 8738625725257965813
+    second: AsheModelW_Pixels_48
+  - first:
+      213: 4785657277853163410
+    second: AsheModelW_Pixels_49
+  - first:
+      213: -735686577469516207
+    second: AsheModelW_Pixels_50
+  - first:
+      213: -6166963490474011510
+    second: AsheModelW_Pixels_51
+  - first:
+      213: -4379476966619252196
+    second: AsheModelW_Pixels_52
+  - first:
+      213: -1076423382780807928
+    second: AsheModelW_Pixels_53
+  - first:
+      213: 1663767368680895581
+    second: AsheModelW_Pixels_54
+  - first:
+      213: -6179095548305228946
+    second: AsheModelW_Pixels_55
+  - first:
+      213: 2048652512015509585
+    second: AsheModelW_Pixels_56
+  - first:
+      213: 1763271079692808875
+    second: AsheModelW_Pixels_57
+  - first:
+      213: 8455726513528917472
+    second: AsheModelW_Pixels_58
+  - first:
+      213: -2154399093259190499
+    second: AsheModelW_Pixels_59
+  - first:
+      213: -1472613641791091439
+    second: AsheModelW_Pixels_60
+  - first:
+      213: 2508940727361330166
+    second: AsheModelW_Pixels_61
+  - first:
+      213: -4836216155201273210
+    second: AsheModelW_Pixels_62
+  - first:
+      213: -4834097899861330412
+    second: AsheModelW_Pixels_63
+  - first:
+      213: -3398586484274327223
+    second: AsheModelW_Pixels_64
+  - first:
+      213: -8801711126576048192
+    second: AsheModelW_Pixels_65
+  - first:
+      213: 8197406329927336020
+    second: AsheModelW_Pixels_66
+  - first:
+      213: 7339136690763673160
+    second: AsheModelW_Pixels_67
+  - first:
+      213: 9134527444902936457
+    second: AsheModelW_Pixels_68
+  - first:
+      213: 1562401419505659000
+    second: AsheModelW_Pixels_69
+  - first:
+      213: 2225510022476142306
+    second: AsheModelW_Pixels_70
+  - first:
+      213: -8222837887235226636
+    second: AsheModelW_Pixels_71
+  - first:
+      213: 6730890250165934825
+    second: AsheModelW_Pixels_72
+  - first:
+      213: -2842315137404019018
+    second: AsheModelW_Pixels_73
+  - first:
+      213: 6189544658234293162
+    second: AsheModelW_Pixels_74
+  - first:
+      213: 2826123264044964853
+    second: AsheModelW_Pixels_75
+  - first:
+      213: 1106047017743311593
+    second: AsheModelW_Pixels_76
+  - first:
+      213: 3430114985664783625
+    second: AsheModelW_Pixels_77
+  - first:
+      213: 7908422682873015940
+    second: AsheModelW_Pixels_78
+  - first:
+      213: -7634903058582121694
+    second: AsheModelW_Pixels_79
+  - first:
+      213: -5923533595717425218
+    second: AsheModelW_Pixels_80
+  - first:
+      213: -5712281459646891009
+    second: AsheModelW_Pixels_81
+  - first:
+      213: -3577532439647592262
+    second: AsheModelW_Pixels_82
+  - first:
+      213: -8843045687024170161
+    second: AsheModelW_Pixels_83
+  - first:
+      213: 7936904867526895369
+    second: AsheModelW_Pixels_84
+  - first:
+      213: 4098460904182727450
+    second: AsheModelW_Pixels_85
+  - first:
+      213: 4721302534760197763
+    second: AsheModelW_Pixels_86
+  - first:
+      213: 807902801784123361
+    second: AsheModelW_Pixels_87
+  - first:
+      213: 76111944936855089
+    second: AsheModelW_Pixels_88
+  - first:
+      213: -2256246875227500737
+    second: AsheModelW_Pixels_89
+  - first:
+      213: 6854588687123190563
+    second: AsheModelW_Pixels_90
+  - first:
+      213: 1770369612388029694
+    second: AsheModelW_Pixels_91
+  - first:
+      213: -6347522498072404535
+    second: AsheModelW_Pixels_92
+  - first:
+      213: 1166924869102295443
+    second: AsheModelW_Pixels_93
+  - first:
+      213: -7185108308057453808
+    second: AsheModelW_Pixels_94
+  - first:
+      213: -2225679054088531156
+    second: AsheModelW_Pixels_95
+  - first:
+      213: 1258549474457620563
+    second: AsheModelW_Pixels_96
+  - first:
+      213: 3986912408046534368
+    second: AsheModelW_Pixels_97
+  - first:
+      213: -7528791427982041355
+    second: AsheModelW_Pixels_98
+  - first:
+      213: -3382719248374223263
+    second: AsheModelW_Pixels_99
+  - first:
+      213: -4176068570640318710
+    second: AsheModelW_Pixels_100
+  - first:
+      213: -4359991474546825168
+    second: AsheModelW_Pixels_101
+  - first:
+      213: 7130710249957168860
+    second: AsheModelW_Pixels_102
+  - first:
+      213: 6190735232881119475
+    second: AsheModelW_Pixels_103
+  - first:
+      213: -84435429506648989
+    second: AsheModelW_Pixels_104
+  - first:
+      213: 4097389135910381801
+    second: AsheModelW_Pixels_105
+  - first:
+      213: -9115222899419389601
+    second: AsheModelW_Pixels_106
+  - first:
+      213: 2923236439418935171
+    second: AsheModelW_Pixels_107
+  - first:
+      213: 9105344120097007883
+    second: AsheModelW_Pixels_108
+  - first:
+      213: 6589142051932657947
+    second: AsheModelW_Pixels_109
+  - first:
+      213: 3370819015327168610
+    second: AsheModelW_Pixels_110
+  - first:
+      213: 2881759779392583159
+    second: AsheModelW_Pixels_111
+  - first:
+      213: 1728975667627536776
+    second: AsheModelW_Pixels_112
+  - first:
+      213: -8518086968217266418
+    second: AsheModelW_Pixels_113
+  - first:
+      213: 6679867070874580654
+    second: AsheModelW_Pixels_114
+  - first:
+      213: -5978889982753148697
+    second: AsheModelW_Pixels_115
+  - first:
+      213: 3841078014832321892
+    second: AsheModelW_Pixels_116
+  - first:
+      213: -2941974951422242790
+    second: AsheModelW_Pixels_117
+  - first:
+      213: -4224018792796727469
+    second: AsheModelW_Pixels_118
+  - first:
+      213: -1109354626682289478
+    second: AsheModelW_Pixels_119
+  - first:
+      213: 8946480286949548554
+    second: AsheModelW_Pixels_120
+  - first:
+      213: 7628675456990699354
+    second: AsheModelW_Pixels_121
+  - first:
+      213: -8636391579079353950
+    second: AsheModelW_Pixels_122
+  - first:
+      213: -4237310769953043055
+    second: AsheModelW_Pixels_123
+  - first:
+      213: 9124549559804288787
+    second: AsheModelW_Pixels_124
+  - first:
+      213: -3584346608833458047
+    second: AsheModelW_Pixels_125
+  - first:
+      213: -79786456872520233
+    second: AsheModelW_Pixels_126
+  - first:
+      213: 8384652657741118955
+    second: AsheModelW_Pixels_127
+  - first:
+      213: 5584669463491503955
+    second: AsheModelW_Pixels_128
+  - first:
+      213: 2928625718564664193
+    second: AsheModelW_Pixels_129
+  - first:
+      213: 4529031859556408696
+    second: AsheModelW_Pixels_130
+  - first:
+      213: 865741912637467638
+    second: AsheModelW_Pixels_131
+  - first:
+      213: 7401875654661684034
+    second: AsheModelW_Pixels_132
+  - first:
+      213: 5357165241229142423
+    second: AsheModelW_Pixels_133
+  - first:
+      213: 4895461361624777806
+    second: AsheModelW_Pixels_134
+  - first:
+      213: -5550133356714623501
+    second: AsheModelW_Pixels_135
+  - first:
+      213: 2234252174771086013
+    second: AsheModelW_Pixels_136
+  - first:
+      213: 1734350194195840011
+    second: AsheModelW_Pixels_137
+  - first:
+      213: 5874853025668957894
+    second: AsheModelW_Pixels_138
+  - first:
+      213: 4412044511391079447
+    second: AsheModelW_Pixels_139
+  - first:
+      213: 5463594875469787908
+    second: AsheModelW_Pixels_140
+  - first:
+      213: 6086928072591873948
+    second: AsheModelW_Pixels_141
+  - first:
+      213: 521828369548240743
+    second: AsheModelW_Pixels_142
+  - first:
+      213: 2547778833347631632
+    second: AsheModelW_Pixels_143
+  - first:
+      213: -1980076301909828234
+    second: AsheModelW_Pixels_144
+  - first:
+      213: 2714146098450054406
+    second: AsheModelW_Pixels_145
+  - first:
+      213: -4899553884000995559
+    second: AsheModelW_Pixels_146
+  - first:
+      213: -8007210692028225262
+    second: AsheModelW_Pixels_147
+  - first:
+      213: 7433632944932455767
+    second: AsheModelW_Pixels_148
+  - first:
+      213: -5070645870698005223
+    second: AsheModelW_Pixels_149
+  - first:
+      213: 3141556563471962239
+    second: AsheModelW_Pixels_150
+  - first:
+      213: 7613111865364220624
+    second: AsheModelW_Pixels_151
+  - first:
+      213: -5449434419318691386
+    second: AsheModelW_Pixels_152
+  - first:
+      213: -3658258040899196336
+    second: AsheModelW_Pixels_153
+  - first:
+      213: 8229838877666328689
+    second: AsheModelW_Pixels_154
+  - first:
+      213: -5365073796708012299
+    second: AsheModelW_Pixels_155
+  - first:
+      213: -6949872840572025513
+    second: AsheModelW_Pixels_156
+  - first:
+      213: -14505776612985023
+    second: AsheModelW_Pixels_157
+  - first:
+      213: 7864958193958897332
+    second: AsheModelW_Pixels_158
+  - first:
+      213: -2602103060824718796
+    second: AsheModelW_Pixels_159
+  - first:
+      213: -5886035120659171625
+    second: AsheModelW_Pixels_160
+  - first:
+      213: 1785446739441649311
+    second: AsheModelW_Pixels_161
+  - first:
+      213: -8163305854661031670
+    second: AsheModelW_Pixels_162
+  - first:
+      213: 1248614136639194865
+    second: AsheModelW_Pixels_163
+  - first:
+      213: 40283081924395598
+    second: AsheModelW_Pixels_164
+  - first:
+      213: 2383315524714184291
+    second: AsheModelW_Pixels_165
+  - first:
+      213: 2487623026094936396
+    second: AsheModelW_Pixels_166
+  - first:
+      213: 5883320200641297684
+    second: AsheModelW_Pixels_167
+  - first:
+      213: -3605308405895278006
+    second: AsheModelW_Pixels_168
+  - first:
+      213: 4821319862049521503
+    second: AsheModelW_Pixels_169
+  - first:
+      213: -3536738971689043662
+    second: AsheModelW_Pixels_170
+  - first:
+      213: 7749854819620437239
+    second: AsheModelW_Pixels_171
+  - first:
+      213: -5816631125244085033
+    second: AsheModelW_Pixels_172
+  - first:
+      213: 7735649440306137242
+    second: AsheModelW_Pixels_173
+  - first:
+      213: -6605943235930014069
+    second: AsheModelW_Pixels_174
+  - first:
+      213: -4446648036663663717
+    second: AsheModelW_Pixels_175
+  - first:
+      213: 7243191046928279379
+    second: AsheModelW_Pixels_176
+  - first:
+      213: -6655474994822449332
+    second: AsheModelW_Pixels_177
+  - first:
+      213: -1330162655503465804
+    second: AsheModelW_Pixels_178
+  - first:
+      213: -6092615365830194724
+    second: AsheModelW_Pixels_179
+  - first:
+      213: 4119013107928579884
+    second: AsheModelW_Pixels_180
+  - first:
+      213: -7250482373392396978
+    second: AsheModelW_Pixels_181
+  - first:
+      213: -698388588914339150
+    second: AsheModelW_Pixels_182
+  - first:
+      213: 8828621862982786129
+    second: AsheModelW_Pixels_183
+  - first:
+      213: 2477402045496667302
+    second: AsheModelW_Pixels_184
+  - first:
+      213: 3007072304970017230
+    second: AsheModelW_Pixels_185
+  - first:
+      213: 677224668992663025
+    second: AsheModelW_Pixels_186
+  - first:
+      213: 5179911215461190449
+    second: AsheModelW_Pixels_187
+  - first:
+      213: 6988746057333594679
+    second: AsheModelW_Pixels_188
+  - first:
+      213: -499234188759091547
+    second: AsheModelW_Pixels_189
+  - first:
+      213: -8352913917308252586
+    second: AsheModelW_Pixels_190
+  - first:
+      213: 517852093985378638
+    second: AsheModelW_Pixels_191
+  - first:
+      213: -2061466012148289546
+    second: AsheModelW_Pixels_192
+  - first:
+      213: -2249783471182922565
+    second: AsheModelW_Pixels_193
+  - first:
+      213: -7678913025322153722
+    second: AsheModelW_Pixels_194
+  - first:
+      213: 6748520013333847981
+    second: AsheModelW_Pixels_195
+  - first:
+      213: -1121219759704638876
+    second: AsheModelW_Pixels_196
+  - first:
+      213: 6697590338623193545
+    second: AsheModelW_Pixels_197
+  - first:
+      213: 5704588945681298055
+    second: AsheModelW_Pixels_198
+  - first:
+      213: 4446257422759988582
+    second: AsheModelW_Pixels_199
+  - first:
+      213: 8540469071367085054
+    second: AsheModelW_Pixels_200
+  - first:
+      213: 6559210024800637933
+    second: AsheModelW_Pixels_201
+  - first:
+      213: -6056786338627068071
+    second: AsheModelW_Pixels_202
+  - first:
+      213: -7872430671671840337
+    second: AsheModelW_Pixels_203
+  - first:
+      213: 1945581208538808521
+    second: AsheModelW_Pixels_204
+  - first:
+      213: -4790879405513851562
+    second: AsheModelW_Pixels_205
+  - first:
+      213: 8662340715800673088
+    second: AsheModelW_Pixels_206
+  - first:
+      213: 7193253041051366850
+    second: AsheModelW_Pixels_207
+  - first:
+      213: 1518296959844798212
+    second: AsheModelW_Pixels_208
+  - first:
+      213: -6806647773474978901
+    second: AsheModelW_Pixels_209
+  - first:
+      213: -3459542357882765762
+    second: AsheModelW_Pixels_210
+  - first:
+      213: 7603826596947479760
+    second: AsheModelW_Pixels_211
+  - first:
+      213: -3538587180058939047
+    second: AsheModelW_Pixels_212
+  - first:
+      213: -6227723489251822160
+    second: AsheModelW_Pixels_213
+  - first:
+      213: 6533778786896886275
+    second: AsheModelW_Pixels_214
+  - first:
+      213: -8304879811426771747
+    second: AsheModelW_Pixels_215
+  - first:
+      213: 2342170527548214521
+    second: AsheModelW_Pixels_216
+  - first:
+      213: -3425889473632415209
+    second: AsheModelW_Pixels_217
+  - first:
+      213: 8753998500715839423
+    second: AsheModelW_Pixels_218
+  - first:
+      213: -9069207372166683505
+    second: AsheModelW_Pixels_219
+  - first:
+      213: -2522220029333660753
+    second: AsheModelW_Pixels_220
+  - first:
+      213: -3830448528549074725
+    second: AsheModelW_Pixels_221
+  - first:
+      213: 5797045980253953082
+    second: AsheModelW_Pixels_222
+  - first:
+      213: 1632997074034306328
+    second: AsheModelW_Pixels_223
+  - first:
+      213: -3324598782666599664
+    second: AsheModelW_Pixels_224
+  - first:
+      213: -8712339563257830009
+    second: AsheModelW_Pixels_225
+  - first:
+      213: -1443762463664226476
+    second: AsheModelW_Pixels_226
+  - first:
+      213: -5840960222722318969
+    second: AsheModelW_Pixels_227
+  - first:
+      213: -2499072531054801333
+    second: AsheModelW_Pixels_228
+  - first:
+      213: -5027157098658861841
+    second: AsheModelW_Pixels_229
+  - first:
+      213: -5954983447519823920
+    second: AsheModelW_Pixels_230
+  - first:
+      213: -9045659829364509983
+    second: AsheModelW_Pixels_231
+  - first:
+      213: -6671666448404511475
+    second: AsheModelW_Pixels_232
+  - first:
+      213: -4348586343157776461
+    second: AsheModelW_Pixels_233
+  - first:
+      213: -474518759202945517
+    second: AsheModelW_Pixels_234
+  - first:
+      213: 696121770474113337
+    second: AsheModelW_Pixels_235
+  - first:
+      213: 4117926739285475408
+    second: AsheModelW_Pixels_236
+  - first:
+      213: -5990109671581615650
+    second: AsheModelW_Pixels_237
+  - first:
+      213: -3108869786268373657
+    second: AsheModelW_Pixels_238
+  - first:
+      213: 4998812605630443526
+    second: AsheModelW_Pixels_239
+  - first:
+      213: 6676683472677950934
+    second: AsheModelW_Pixels_240
+  - first:
+      213: -2251187068456559978
+    second: AsheModelW_Pixels_241
+  - first:
+      213: -6612652728018783401
+    second: AsheModelW_Pixels_242
+  - first:
+      213: -2665651255589639940
+    second: AsheModelW_Pixels_243
+  - first:
+      213: 6962987246120794974
+    second: AsheModelW_Pixels_244
+  - first:
+      213: -2002074020226604208
+    second: AsheModelW_Pixels_245
+  - first:
+      213: -4280969153056581064
+    second: AsheModelW_Pixels_246
+  - first:
+      213: 4163379811298686334
+    second: AsheModelW_Pixels_247
+  - first:
+      213: 7578594247365666884
+    second: AsheModelW_Pixels_248
+  - first:
+      213: -5594505998039706717
+    second: AsheModelW_Pixels_249
+  - first:
+      213: -8440855236054072803
+    second: AsheModelW_Pixels_250
+  - first:
+      213: 4341085824500474129
+    second: AsheModelW_Pixels_251
+  - first:
+      213: -248909249586197606
+    second: AsheModelW_Pixels_252
+  - first:
+      213: 3266911908491755108
+    second: AsheModelW_Pixels_253
+  - first:
+      213: -648362370657737677
+    second: AsheModelW_Pixels_254
+  - first:
+      213: 8479504662819838687
+    second: AsheModelW_Pixels_255
+  - first:
+      213: -3079890753129964074
+    second: AsheModelW_Pixels_256
+  - first:
+      213: -6906055202174099038
+    second: AsheModelW_Pixels_257
+  - first:
+      213: 7044301561955967583
+    second: AsheModelW_Pixels_258
+  - first:
+      213: -7538660471901078116
+    second: AsheModelW_Pixels_259
+  - first:
+      213: 407880494318438585
+    second: AsheModelW_Pixels_260
+  - first:
+      213: -5692768722609590151
+    second: AsheModelW_Pixels_261
+  - first:
+      213: 5181885659656051899
+    second: AsheModelW_Pixels_262
+  - first:
+      213: -1725492998693715294
+    second: AsheModelW_Pixels_263
+  - first:
+      213: 3641273709817405586
+    second: AsheModelW_Pixels_264
+  - first:
+      213: -6672133251038538491
+    second: AsheModelW_Pixels_265
+  - first:
+      213: 8219181508075668359
+    second: AsheModelW_Pixels_266
+  - first:
+      213: 3599443167470587542
+    second: AsheModelW_Pixels_267
+  - first:
+      213: -6342944892824881142
+    second: AsheModelW_Pixels_268
+  - first:
+      213: 513343538634651606
+    second: AsheModelW_Pixels_269
+  - first:
+      213: -420811783449572551
+    second: AsheModelW_Pixels_270
+  - first:
+      213: -2216366677794468853
+    second: AsheModelW_Pixels_271
+  - first:
+      213: -6615286649751435468
+    second: AsheModelW_Pixels_272
+  - first:
+      213: 3843654276987586176
+    second: AsheModelW_Pixels_273
+  - first:
+      213: -5274361667612194237
+    second: AsheModelW_Pixels_274
+  - first:
+      213: -3641096483698312339
+    second: AsheModelW_Pixels_275
+  - first:
+      213: -6853859312373939863
+    second: AsheModelW_Pixels_276
+  - first:
+      213: 2605480177448922038
+    second: AsheModelW_Pixels_277
+  - first:
+      213: -8742584008865126395
+    second: AsheModelW_Pixels_278
+  - first:
+      213: 7000127192298453981
+    second: AsheModelW_Pixels_279
+  - first:
+      213: -8751334998169335491
+    second: AsheModelW_Pixels_280
+  - first:
+      213: 3782518113643703581
+    second: AsheModelW_Pixels_281
+  - first:
+      213: -7963901256988910414
+    second: AsheModelW_Pixels_282
+  - first:
+      213: -7845141073366439216
+    second: AsheModelW_Pixels_283
+  - first:
+      213: 7191972989536125242
+    second: AsheModelW_Pixels_284
+  - first:
+      213: 5979942346532371630
+    second: AsheModelW_Pixels_285
+  - first:
+      213: 5886789788640540378
+    second: AsheModelW_Pixels_286
+  - first:
+      213: 5768416410380218838
+    second: AsheModelW_Pixels_287
+  - first:
+      213: -5458217666855603377
+    second: AsheModelW_Pixels_288
+  - first:
+      213: 8079330398336308580
+    second: AsheModelW_Pixels_289
+  - first:
+      213: 15629021966897732
+    second: AsheModelW_Pixels_290
+  - first:
+      213: 2169708723296641614
+    second: AsheModelW_Pixels_291
+  - first:
+      213: -4247594994508404710
+    second: AsheModelW_Pixels_292
+  - first:
+      213: 2253275645702122598
+    second: AsheModelW_Pixels_293
+  - first:
+      213: 2472925331175804190
+    second: AsheModelW_Pixels_294
+  - first:
+      213: -8777824048348398801
+    second: AsheModelW_Pixels_295
+  - first:
+      213: 7286851856507696595
+    second: AsheModelW_Pixels_296
+  - first:
+      213: 2555472961324609265
+    second: AsheModelW_Pixels_297
+  - first:
+      213: 7415372388134351587
+    second: AsheModelW_Pixels_298
+  - first:
+      213: 5717307335586451444
+    second: AsheModelW_Pixels_299
+  - first:
+      213: -1206512983265304099
+    second: AsheModelW_Pixels_300
+  - first:
+      213: 4197435135052380506
+    second: AsheModelW_Pixels_301
+  - first:
+      213: -5612473030549003799
+    second: AsheModelW_Pixels_302
+  - first:
+      213: -149777731231633093
+    second: AsheModelW_Pixels_303
+  - first:
+      213: 2620504194677964490
+    second: AsheModelW_Pixels_304
+  - first:
+      213: -5006254649407380146
+    second: AsheModelW_Pixels_305
+  - first:
+      213: -2885390098996561879
+    second: AsheModelW_Pixels_306
+  - first:
+      213: 9149902737452838313
+    second: AsheModelW_Pixels_307
+  - first:
+      213: 776270143125358506
+    second: AsheModelW_Pixels_308
+  - first:
+      213: -2231650417615561334
+    second: AsheModelW_Pixels_309
+  - first:
+      213: 8598097905121581446
+    second: AsheModelW_Pixels_310
+  - first:
+      213: 7775840613118396851
+    second: AsheModelW_Pixels_311
+  - first:
+      213: -6436767076008021818
+    second: AsheModelW_Pixels_312
+  - first:
+      213: 7414103014386877231
+    second: AsheModelW_Pixels_313
+  - first:
+      213: -4007475804146868648
+    second: AsheModelW_Pixels_314
+  - first:
+      213: -2127282584317866988
+    second: AsheModelW_Pixels_315
+  - first:
+      213: -4666148644887824924
+    second: AsheModelW_Pixels_316
+  - first:
+      213: 8481376511551265538
+    second: AsheModelW_Pixels_317
+  - first:
+      213: 3321856062238285046
+    second: AsheModelW_Pixels_318
+  - first:
+      213: -6816465791519508018
+    second: AsheModelW_Pixels_319
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_0
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1684
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f3534b95b6166f0800000000000000
+      internalID: -693154834618695834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1684
+        width: 33
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12341df464a75b590800000000000000
+      internalID: -7659081148868246751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_2
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1684
+        width: 32
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce62dabd3c503660800000000000000
+      internalID: 7363486810947874503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_3
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1684
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8d4584c40e0d2f0800000000000000
+      internalID: -950012903139518243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_4
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1684
+        width: 33
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf49e84d5a738200800000000000000
+      internalID: 181122951098748877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_5
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1684
+        width: 32
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c018afa4c67a4b340800000000000000
+      internalID: 4878708379905327372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1684
+        width: 33
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be876b4bf31173f0800000000000000
+      internalID: -904920080101962057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_7
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1684
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9649fac4ffc43480800000000000000
+      internalID: -8920276311629805924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_8
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1628
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26fe6d55104d3da0800000000000000
+      internalID: -5963539871062624726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1628
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79540f10adb31d890800000000000000
+      internalID: -7435095702290545257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_10
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1628
+        width: 32
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ffbd77a03b81790800000000000000
+      internalID: -7559095116999426220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_11
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1628
+        width: 32
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e559471174fb07eb0800000000000000
+      internalID: -4724065697155213986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_12
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1628
+        width: 32
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177bdeae3d3c5b7b0800000000000000
+      internalID: -5209042079037147279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_13
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1570
+        width: 32
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6968736b041f9c20800000000000000
+      internalID: 3215310698111854956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_14
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1570
+        width: 41
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e03c79552f83d380800000000000000
+      internalID: -8947650644077170463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1570
+        width: 34
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eed10bfebd02cc20800000000000000
+      internalID: 3225155397056847585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_16
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1570
+        width: 25
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71627efc9bbaa070800000000000000
+      internalID: 8118507561246941562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_17
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1570
+        width: 32
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18cef346d3f92010800000000000000
+      internalID: 1164730080241305631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_18
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1570
+        width: 38
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47f124998670f080800000000000000
+      internalID: -9155687709176367282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_19
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1570
+        width: 37
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587d5af9aed6a5300800000000000000
+      internalID: 241626384485963653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_20
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1570
+        width: 35
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbbc50e695d64e40800000000000000
+      internalID: 5640430427314109396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_21
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1570
+        width: 33
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d091acad883ac2a0800000000000000
+      internalID: -6716493713131859751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_22
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1570
+        width: 30
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e59845b32629dba0800000000000000
+      internalID: -6063773488470518297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_23
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1570
+        width: 38
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8761f9b446aa9df00800000000000000
+      internalID: 1142131328257300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_24
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1523
+        width: 38
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d847e8709ca38a0800000000000000
+      internalID: -6324521692396483293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1523
+        width: 44
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b270214bfe3d1470800000000000000
+      internalID: 8366912931574608560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_26
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1523
+        width: 47
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb854880a40e2600800000000000000
+      internalID: 445298500683795451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_27
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1523
+        width: 47
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50acfcdf5dab5af50800000000000000
+      internalID: 6892120233009465861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_28
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1523
+        width: 47
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5def0c471bfe71b90800000000000000
+      internalID: -7271079527919321387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_29
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1523
+        width: 47
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbc4fff5d09da420800000000000000
+      internalID: 2642927805133016017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_30
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1523
+        width: 37
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdad88ba47b933f0800000000000000
+      internalID: -920503117268800006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_31
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1523
+        width: 37
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b221f1f0c00b2ac0800000000000000
+      internalID: -3879005825356717388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_32
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1471
+        width: 41
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b23ea1d8a33a1d0800000000000000
+      internalID: -3340762120862880901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_33
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1471
+        width: 42
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b906f06b15f0e5f60800000000000000
+      internalID: 8024868429642031259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_34
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1471
+        width: 48
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b40b4579194a7890800000000000000
+      internalID: -7459569459094944584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_35
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1471
+        width: 48
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c78e5d1ab4197ff0800000000000000
+      internalID: -37976332266731578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_36
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1471
+        width: 41
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761eae5fba2c345b0800000000000000
+      internalID: -5385246685583974041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_37
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1471
+        width: 48
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f26682671a8b980800000000000000
+      internalID: -8522884765942665340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_38
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1470
+        width: 35
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f710a06ddbefeeec0800000000000000
+      internalID: -3535608566146006657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_39
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1470
+        width: 34
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bf818d944a8f990800000000000000
+      internalID: -7351945754617250978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_40
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1470
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1d6a697d93dc260800000000000000
+      internalID: 7119410184050889137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_41
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1470
+        width: 33
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5bc148cd2f9ab40800000000000000
+      internalID: 5452155852831897017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_42
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1470
+        width: 33
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f40b1a994d1b1490800000000000000
+      internalID: -7774588129769749257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_43
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1418
+        width: 32
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e103671ea7f4d2590800000000000000
+      internalID: -7697408798919086050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_44
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1418
+        width: 32
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f1a68b1c7467f90800000000000000
+      internalID: -6956293677078929623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_45
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1418
+        width: 32
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11688f46981c13b70800000000000000
+      internalID: 8877089136372647441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_46
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1418
+        width: 32
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28f2e5ae49ab4ed0800000000000000
+      internalID: -2428661418780592081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_47
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1418
+        width: 32
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0229db8a527554500800000000000000
+      internalID: 379805562839077408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_48
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1418
+        width: 32
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f067134cc5d54970800000000000000
+      internalID: 8738625725257965813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_49
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1355
+        width: 37
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f533f40f11a6240800000000000000
+      internalID: 4785657277853163410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_50
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1355
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15618e3a4f05ac5f0800000000000000
+      internalID: -735686577469516207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_51
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1355
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a845e7f116b8a6aa0800000000000000
+      internalID: -6166963490474011510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_52
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1355
+        width: 38
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a77aef6e8f833c0800000000000000
+      internalID: -4379476966619252196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_53
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1355
+        width: 34
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805fc61f2a6cf01f0800000000000000
+      internalID: -1076423382780807928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_54
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1355
+        width: 35
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d547c175b93e61710800000000000000
+      internalID: 1663767368680895581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_55
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1355
+        width: 37
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bb11a46517f3aa0800000000000000
+      internalID: -6179095548305228946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_56
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1356
+        width: 37
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15865eefa964e6c10800000000000000
+      internalID: 2048652512015509585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_57
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1354
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba23fcb64b5687810800000000000000
+      internalID: 1763271079692808875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_58
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1354
+        width: 36
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed4eb4b676c85570800000000000000
+      internalID: 8455726513528917472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_59
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1354
+        width: 32
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fbcdd60790a12e0800000000000000
+      internalID: -2154399093259190499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_60
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1354
+        width: 32
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dc5ade1b9309be0800000000000000
+      internalID: -1472613641791091439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_61
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1355
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbd1e07c4c81d220800000000000000
+      internalID: 2508940727361330166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_62
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1355
+        width: 35
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682093cb70f42ecb0800000000000000
+      internalID: -4836216155201273210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_63
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1291
+        width: 32
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416bd4d7295d9ecb0800000000000000
+      internalID: -4834097899861330412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_64
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1291
+        width: 32
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941926a599bc5d0d0800000000000000
+      internalID: -3398586484274327223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_65
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1291
+        width: 33
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7d4d42d5a0ad580800000000000000
+      internalID: -8801711126576048192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_66
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1291
+        width: 29
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4508bd610a903c170800000000000000
+      internalID: 8197406329927336020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_67
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1291
+        width: 28
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e21039fe9d9d560800000000000000
+      internalID: 7339136690763673160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_68
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1291
+        width: 28
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ffe78705c54ce70800000000000000
+      internalID: 9134527444902936457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_69
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1291
+        width: 28
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c633620d3cea510800000000000000
+      internalID: 1562401419505659000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_70
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1291
+        width: 28
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e613cdf29992ee10800000000000000
+      internalID: 2225510022476142306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_71
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1293
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f388bd028c92ed80800000000000000
+      internalID: -8222837887235226636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_72
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1291
+        width: 35
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ead74f450de86d50800000000000000
+      internalID: 6730890250165934825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_73
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1291
+        width: 30
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be515711711e88d0800000000000000
+      internalID: -2842315137404019018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_74
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1291
+        width: 30
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabb873b21ea5e550800000000000000
+      internalID: 6189544658234293162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_75
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1291
+        width: 30
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb1edc9228683720800000000000000
+      internalID: 2826123264044964853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_76
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1291
+        width: 30
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2687d07e7795f00800000000000000
+      internalID: 1106047017743311593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_77
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1242
+        width: 34
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9052b4be7673a9f20800000000000000
+      internalID: 3430114985664783625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_78
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1241
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ea94a878c50cd60800000000000000
+      internalID: 7908422682873015940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_79
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1242
+        width: 23
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2235ba2ae106b0690800000000000000
+      internalID: -7634903058582121694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_80
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1242
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7ab2434916bcda0800000000000000
+      internalID: -5923533595717425218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_81
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1188
+        width: 31
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb72b40746e9b0b0800000000000000
+      internalID: -5712281459646891009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_82
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1188
+        width: 27
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab06e52633d0a5ec0800000000000000
+      internalID: -3577532439647592262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_83
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1188
+        width: 27
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4bcf54dcc0374580800000000000000
+      internalID: -8843045687024170161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_84
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1186
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907620decec852e60800000000000000
+      internalID: 7936904867526895369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_85
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1186
+        width: 27
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1343af4a78a0e830800000000000000
+      internalID: 4098460904182727450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_86
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1183
+        width: 25
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e688d04af658140800000000000000
+      internalID: 4721302534760197763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_87
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1124
+        width: 29
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efa269515f363b00800000000000000
+      internalID: 807902801784123361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_88
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1124
+        width: 26
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136102129676e0100800000000000000
+      internalID: 76111944936855089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_89
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1124
+        width: 33
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fca7ccb6330b0e0800000000000000
+      internalID: -2256246875227500737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_90
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1124
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32393610814602f50800000000000000
+      internalID: 6854588687123190563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_91
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1124
+        width: 33
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4d88b58cd919810800000000000000
+      internalID: 1770369612388029694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_92
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1124
+        width: 33
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd189a2be119e7a0800000000000000
+      internalID: -6347522498072404535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_93
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1124
+        width: 38
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399596e5cffb13010800000000000000
+      internalID: 1166924869102295443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_94
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1124
+        width: 37
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b0789ef0e594c90800000000000000
+      internalID: -7185108308057453808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_95
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1124
+        width: 37
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23960541bccc11e0800000000000000
+      internalID: -2225679054088531156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_96
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1060
+        width: 25
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3501d453414477110800000000000000
+      internalID: 1258549474457620563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_97
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1060
+        width: 27
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eef53826bb545730800000000000000
+      internalID: 3986912408046534368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_98
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1060
+        width: 33
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fedf13e51c548790800000000000000
+      internalID: -7528791427982041355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_99
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1060
+        width: 34
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e27c914ca2e01d0800000000000000
+      internalID: -3382719248374223263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_100
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1060
+        width: 33
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f7f41c2cf9b06c0800000000000000
+      internalID: -4176068570640318710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_101
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1060
+        width: 33
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038a7e7aad23e73c0800000000000000
+      internalID: -4359991474546825168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_102
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1060
+        width: 38
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd61fe4313f55f260800000000000000
+      internalID: 7130710249957168860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_103
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1060
+        width: 37
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0df56f4e8e9e550800000000000000
+      internalID: 6190735232881119475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_104
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1060
+        width: 37
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3647cc99c6604def0800000000000000
+      internalID: -84435429506648989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_105
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1001
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8ab70d5b9dcd830800000000000000
+      internalID: 4097389135910381801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_106
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1001
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51e9974119308180800000000000000
+      internalID: -9115222899419389601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_107
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1001
+        width: 21
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3871b0ebd0c619820800000000000000
+      internalID: 2923236439418935171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_108
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1001
+        width: 19
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09e21c2c3eac5e70800000000000000
+      internalID: 9105344120097007883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_109
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1001
+        width: 38
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19d80419c5517b50800000000000000
+      internalID: 6589142051932657947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_110
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1001
+        width: 36
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26835baf80e87ce20800000000000000
+      internalID: 3370819015327168610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_111
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1001
+        width: 38
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5f3ba40411ef720800000000000000
+      internalID: 2881759779392583159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_112
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1001
+        width: 40
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881bb3e853e8ef710800000000000000
+      internalID: 1728975667627536776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_113
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1001
+        width: 36
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07968d780da9c980800000000000000
+      internalID: -8518086968217266418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_114
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1001
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6fe42a5b7a3bc50800000000000000
+      internalID: 6679867070874580654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_115
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 940
+        width: 30
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e07bdafc37b60da0800000000000000
+      internalID: -5978889982753148697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_116
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 940
+        width: 25
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465a4a48a104e4530800000000000000
+      internalID: 3841078014832321892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_117
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 940
+        width: 24
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1051627e510c27d0800000000000000
+      internalID: -2941974951422242790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_118
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 940
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357d6caa9454165c0800000000000000
+      internalID: -4224018792796727469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_119
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 940
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab28aaa38d7ca90f0800000000000000
+      internalID: -1109354626682289478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_120
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 940
+        width: 37
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02a9a5ab68482c70800000000000000
+      internalID: 8946480286949548554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_121
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 940
+        width: 37
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fdba0e8ef7ed960800000000000000
+      internalID: 7628675456990699354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_122
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 940
+        width: 37
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9dccbcd9f552880800000000000000
+      internalID: -8636391579079353950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_123
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 940
+        width: 37
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d03021e4c0235c0800000000000000
+      internalID: -4237310769953043055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_124
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 940
+        width: 37
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fd49f0b79e0ae70800000000000000
+      internalID: 9124549559804288787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_125
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 939
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1801b9cffb7d14ec0800000000000000
+      internalID: -3584346608833458047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_126
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 939
+        width: 34
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5f934e3aa84eef0800000000000000
+      internalID: -79786456872520233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_127
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 939
+        width: 34
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedb1bd1b254c5470800000000000000
+      internalID: 8384652657741118955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_128
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 939
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357e167c94bb08d40800000000000000
+      internalID: 5584669463491503955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_129
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 939
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183be13139194a820800000000000000
+      internalID: 2928625718564664193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_130
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 939
+        width: 33
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d594dfa7a5ade30800000000000000
+      internalID: 4529031859556408696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_131
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 939
+        width: 39
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb6ce1ceabb30c00800000000000000
+      internalID: 865741912637467638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_132
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 939
+        width: 37
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bb8bbe0beb8b660800000000000000
+      internalID: 7401875654661684034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_133
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 939
+        width: 38
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79968864769785a40800000000000000
+      internalID: 5357165241229142423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_134
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 939
+        width: 38
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e448b4fcb2c20f340800000000000000
+      internalID: 4895461361624777806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_135
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 941
+        width: 37
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd7af03e17f9f2b0800000000000000
+      internalID: -5550133356714623501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_136
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 941
+        width: 36
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2efdfe388a10f10800000000000000
+      internalID: 2234252174771086013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_137
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 877
+        width: 30
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c3c290056a11810800000000000000
+      internalID: 1734350194195840011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_138
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 877
+        width: 25
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c680a653bba78150800000000000000
+      internalID: 5874853025668957894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_139
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 877
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c5daa6b1bba3d30800000000000000
+      internalID: 4412044511391079447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_140
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 876
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4037505879692db40800000000000000
+      internalID: 5463594875469787908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_141
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 876
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97113405dc197450800000000000000
+      internalID: 6086928072591873948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_142
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 876
+        width: 26
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767e4a82328ed3700800000000000000
+      internalID: 521828369548240743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_143
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 876
+        width: 24
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ad1f7a9578b5320800000000000000
+      internalID: 2547778833347631632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_144
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 876
+        width: 24
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dde74281b5584e0800000000000000
+      internalID: -1980076301909828234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_145
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 876
+        width: 24
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60db0a21f759aa520800000000000000
+      internalID: 2714146098450054406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_146
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 877
+        width: 24
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9173c3293b9410cb0800000000000000
+      internalID: -4899553884000995559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_147
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 877
+        width: 26
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219a2f3bc4ca0e090800000000000000
+      internalID: -8007210692028225262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_148
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 878
+        width: 25
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755075147c1992760800000000000000
+      internalID: 7433632944932455767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_149
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 878
+        width: 23
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d7e3f227271a9b0800000000000000
+      internalID: -5070645870698005223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_150
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 878
+        width: 24
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f701b8fbc0d099b20800000000000000
+      internalID: 3141556563471962239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_151
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 878
+        width: 26
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da8852d7e437a960800000000000000
+      internalID: 7613111865364220624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_152
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 878
+        width: 26
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9e8b99448bf54b0800000000000000
+      internalID: -5449434419318691386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_153
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 877
+        width: 24
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05aac7fa1b14b3dc0800000000000000
+      internalID: -3658258040899196336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_154
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 877
+        width: 24
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170400e0bd2463270800000000000000
+      internalID: 8229838877666328689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_155
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 877
+        width: 24
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe6679aecd6b85b0800000000000000
+      internalID: -5365073796708012299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_156
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 877
+        width: 24
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755c19739771d8f90800000000000000
+      internalID: -6949872840572025513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_157
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 877
+        width: 24
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147bac1b2177ccff0800000000000000
+      internalID: -14505776612985023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_158
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 876
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6c73c9ec1f52d60800000000000000
+      internalID: 7864958193958897332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_159
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 835
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432069e7d0973ebd0800000000000000
+      internalID: -2602103060824718796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_160
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 831
+        width: 40
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6f2a94e3a905ea0800000000000000
+      internalID: -5886035120659171625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_161
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 831
+        width: 55
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f968ccd895e27c810800000000000000
+      internalID: 1785446739441649311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_162
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 819
+        width: 17
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a090014839c16be80800000000000000
+      internalID: -8163305854661031670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_163
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 812
+        width: 17
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f609eb11f7f35110800000000000000
+      internalID: 1248614136639194865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_164
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 766
+        width: 48
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42cf84ef3d1f8000800000000000000
+      internalID: 40283081924395598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_165
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 765
+        width: 48
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e3346a7dc331120800000000000000
+      internalID: 2383315524714184291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_166
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 765
+        width: 48
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41987556ffc58220800000000000000
+      internalID: 2487623026094936396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_167
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 717
+        width: 57
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41dba132d80c5a150800000000000000
+      internalID: 5883320200641297684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_168
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 717
+        width: 55
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42d1e84b1f57fdc0800000000000000
+      internalID: -3605308405895278006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_169
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 717
+        width: 56
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f3ffdbed4c8e240800000000000000
+      internalID: 4821319862049521503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_170
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 717
+        width: 56
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239b139c4aafaeec0800000000000000
+      internalID: -3536738971689043662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_171
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 717
+        width: 56
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc3350e5e30d8b60800000000000000
+      internalID: 7749854819620437239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_172
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 717
+        width: 56
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc78563fcc274fa0800000000000000
+      internalID: -5816631125244085033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_173
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 667
+        width: 45
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9885644e2c8a5b60800000000000000
+      internalID: 7735649440306137242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_174
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 668
+        width: 48
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e3fff60a9f254a0800000000000000
+      internalID: -6605943235930014069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_175
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 665
+        width: 47
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9369758b255a42c0800000000000000
+      internalID: -4446648036663663717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_176
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 665
+        width: 44
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357237091ebf48460800000000000000
+      internalID: 7243191046928279379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_177
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 665
+        width: 41
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47fc1221c003a3a0800000000000000
+      internalID: -6655474994822449332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_178
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 665
+        width: 43
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2c931cc105a8de0800000000000000
+      internalID: -1330162655503465804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_179
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 665
+        width: 47
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9ca96da9ea27ba0800000000000000
+      internalID: -6092615365830194724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_180
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 665
+        width: 45
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fb243299ca92930800000000000000
+      internalID: 4119013107928579884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_181
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 665
+        width: 46
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d07b332bc116b90800000000000000
+      internalID: -7250482373392396978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_182
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 665
+        width: 45
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b213925743de46f0800000000000000
+      internalID: -698388588914339150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_183
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 665
+        width: 45
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c165feec0958a70800000000000000
+      internalID: 8828621862982786129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_184
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 616
+        width: 47
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aca7a7d800816220800000000000000
+      internalID: 2477402045496667302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_185
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 617
+        width: 50
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec927a744544bb920800000000000000
+      internalID: 3007072304970017230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_186
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 614
+        width: 49
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd60749f3cf56900800000000000000
+      internalID: 677224668992663025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_187
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 614
+        width: 46
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b40ad5ecdb2e740800000000000000
+      internalID: 5179911215461190449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_188
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 615
+        width: 43
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ad7ccd2830df060800000000000000
+      internalID: 6988746057333594679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_189
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 615
+        width: 45
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6b84f762d5219f0800000000000000
+      internalID: -499234188759091547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_190
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 614
+        width: 49
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ecc6f3c0d741c80800000000000000
+      internalID: -8352913917308252586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_191
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 613
+        width: 47
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41d03c5cb7cf2700800000000000000
+      internalID: 517852093985378638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_192
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 613
+        width: 48
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff2c5585933463e0800000000000000
+      internalID: -2061466012148289546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_193
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 613
+        width: 47
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcb8925ad927c0e0800000000000000
+      internalID: -2249783471182922565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_194
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 613
+        width: 47
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6098d80c9450f6590800000000000000
+      internalID: -7678913025322153722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_195
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 548
+        width: 48
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafd06a623f87ad50800000000000000
+      internalID: 6748520013333847981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_196
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 548
+        width: 50
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46af7aba190a070f0800000000000000
+      internalID: -1121219759704638876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_197
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 548
+        width: 53
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c149b87dee92fc50800000000000000
+      internalID: 6697590338623193545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_198
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 548
+        width: 52
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78234f00c65ca2f40800000000000000
+      internalID: 5704588945681298055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_199
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 548
+        width: 46
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d8d87919744bd30800000000000000
+      internalID: 4446257422759988582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_200
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 548
+        width: 50
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb9b0efe57d58670800000000000000
+      internalID: 8540469071367085054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_201
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 548
+        width: 50
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de35c6fe3cef60b50800000000000000
+      internalID: 6559210024800637933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_202
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 548
+        width: 48
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fd1bd4ae8f1fba0800000000000000
+      internalID: -6056786338627068071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_203
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 548
+        width: 48
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa13c1893028fb290800000000000000
+      internalID: -7872430671671840337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_204
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 548
+        width: 51
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c081a01dc7100b10800000000000000
+      internalID: 1945581208538808521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_205
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 548
+        width: 49
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dbc985090638db0800000000000000
+      internalID: -4790879405513851562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_206
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 548
+        width: 49
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bb3b86cf0d63870800000000000000
+      internalID: 8662340715800673088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_207
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 485
+        width: 46
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c57d53878193d360800000000000000
+      internalID: 7193253041051366850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_208
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 485
+        width: 44
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fca1b6a03121510800000000000000
+      internalID: 1518296959844798212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_209
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 485
+        width: 45
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba302d6c9ede981a0800000000000000
+      internalID: -6806647773474978901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_210
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 485
+        width: 45
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3efaf01e8c3dffc0800000000000000
+      internalID: -3459542357882765762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_211
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 485
+        width: 45
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcc8bcc008368960800000000000000
+      internalID: 7603826596947479760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_212
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 485
+        width: 45
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951f5dd35b964eec0800000000000000
+      internalID: -3538587180058939047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_213
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 422
+        width: 42
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5f9cf7b7ea299a0800000000000000
+      internalID: -6227723489251822160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_214
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 423
+        width: 42
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ab8f17035acaa50800000000000000
+      internalID: 6533778786896886275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_215
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 422
+        width: 42
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc189900d32fbc80800000000000000
+      internalID: -8304879811426771747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_216
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 365
+        width: 63
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc86e97faf018020800000000000000
+      internalID: 2342170527548214521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_217
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 365
+        width: 63
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712d364ccabc470d0800000000000000
+      internalID: -3425889473632415209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_218
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 365
+        width: 57
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf387771437c7970800000000000000
+      internalID: 8753998500715839423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_219
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 365
+        width: 65
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84a6ab12f3b32280800000000000000
+      internalID: -9069207372166683505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_220
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 365
+        width: 57
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab11322f364ffcd0800000000000000
+      internalID: -2522220029333660753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_221
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 365
+        width: 51
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd82a6d9b5387dac0800000000000000
+      internalID: -3830448528549074725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_222
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 333
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c94afda9e337050800000000000000
+      internalID: 5797045980253953082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_223
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 335
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d2115df2299a610800000000000000
+      internalID: 1632997074034306328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_224
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013167a8507acd1d0800000000000000
+      internalID: -3324598782666599664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_225
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7856f61c35d871780800000000000000
+      internalID: -8712339563257830009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_226
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 333
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f304d40b9b6fbe0800000000000000
+      internalID: -1443762463664226476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_227
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 333
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d1379cf9db0fea0800000000000000
+      internalID: -5840960222722318969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_228
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4eca8e06c2815dd0800000000000000
+      internalID: -2499072531054801333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_229
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 333
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecea58f043fb3ab0800000000000000
+      internalID: -5027157098658861841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_230
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 333
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7ff37fa16ab5da0800000000000000
+      internalID: -5954983447519823920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_231
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 333
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e235b7af4c577280800000000000000
+      internalID: -9045659829364509983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_232
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 335
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0505f296ba7963a0800000000000000
+      internalID: -6671666448404511475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_233
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf37fcb2c7b6a3c0800000000000000
+      internalID: -4348586343157776461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_234
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 333
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316037ed3bb2a69f0800000000000000
+      internalID: -474518759202945517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_235
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 335
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9398681ef0f19a900800000000000000
+      internalID: 696121770474113337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_236
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050813a3d80d52930800000000000000
+      internalID: 4117926739285475408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_237
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 333
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9febb9dfadedca0800000000000000
+      internalID: -5990109671581615650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_238
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 335
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d6780a6631bd4d0800000000000000
+      internalID: -3108869786268373657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_239
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600f85974995f5540800000000000000
+      internalID: 4998812605630443526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_240
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 333
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5d0ba6e3858ac50800000000000000
+      internalID: 6676683472677950934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_241
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 335
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a91bdd94d22c0e0800000000000000
+      internalID: -2251187068456559978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_242
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7533c6311632b34a0800000000000000
+      internalID: -6612652728018783401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_243
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 333
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf861876e44b10bd0800000000000000
+      internalID: -2665651255589639940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_244
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 335
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bfa94420081a060800000000000000
+      internalID: 6962987246120794974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_245
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053ea5a39443734e0800000000000000
+      internalID: -2002074020226604208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_246
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 333
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a58a1ac31f694c0800000000000000
+      internalID: -4280969153056581064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_247
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 335
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75bd7d31eb47c930800000000000000
+      internalID: 4163379811298686334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_248
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 334
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448ac0b90539c2960800000000000000
+      internalID: 7578594247365666884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_249
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 322
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a31d0d8f625c52b0800000000000000
+      internalID: -5594505998039706717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_250
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 321
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12408662ee0cda80800000000000000
+      internalID: -8440855236054072803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_251
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 322
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111a5dcae82ae3c30800000000000000
+      internalID: 4341085824500474129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_252
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 322
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b0b153b52bb8cf0800000000000000
+      internalID: -248909249586197606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_253
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 312
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ef42a6217665d20800000000000000
+      internalID: 3266911908491755108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_254
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 284
+        width: 13
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334273bebdd8007f0800000000000000
+      internalID: -648362370657737677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_255
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 278
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda15a280904da570800000000000000
+      internalID: 8479504662819838687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_256
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 275
+        width: 36
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd9da09da70245d0800000000000000
+      internalID: -3079890753129964074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_257
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 274
+        width: 46
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1ac2b2263c820a0800000000000000
+      internalID: -6906055202174099038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_258
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 282
+        width: 36
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f526d13c2f262c160800000000000000
+      internalID: 7044301561955967583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_259
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 273
+        width: 10
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dbe0a0e3c416790800000000000000
+      internalID: -7538660471901078116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_260
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 286
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b849a6062519a500800000000000000
+      internalID: 407880494318438585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_261
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 273
+        width: 8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970b66422093ff0b0800000000000000
+      internalID: -5692768722609590151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_262
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 184
+        width: 58
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc5d7a7d81c9e740800000000000000
+      internalID: 5181885659656051899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_263
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 253
+        width: 14
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2007e7241dd08e0800000000000000
+      internalID: -1725492998693715294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_264
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 254
+        width: 13
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290a2a39527688230800000000000000
+      internalID: 3641273709817405586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_265
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 256
+        width: 18
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50596cd9822d763a0800000000000000
+      internalID: -6672133251038538491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_266
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 256
+        width: 12
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7834f45d806601270800000000000000
+      internalID: 8219181508075668359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_267
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 216
+        width: 12
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e8a4a7d7ac3f130800000000000000
+      internalID: 3599443167470587542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_268
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 213
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a087b41f93559f7a0800000000000000
+      internalID: -6342944892824881142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_269
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 185
+        width: 44
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d77f048a33cf1700800000000000000
+      internalID: 513343538634651606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_270
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 208
+        width: 8
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b803a99e9f82af0800000000000000
+      internalID: -420811783449572551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_271
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 225
+        width: 7
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c4c06df32ed31e0800000000000000
+      internalID: -2216366677794468853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_272
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 228
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4378e2267d7c134a0800000000000000
+      internalID: -6615286649751435468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_273
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 208
+        width: 8
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086814b4337675530800000000000000
+      internalID: 3843654276987586176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_274
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 209
+        width: 7
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ac9011204bdc6b0800000000000000
+      internalID: -5274361667612194237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_275
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 232
+        width: 7
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bfc381a0a387dc0800000000000000
+      internalID: -3641096483698312339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_276
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 213
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961c279c44332e0a0800000000000000
+      internalID: -6853859312373939863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_277
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 212
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb2a2eba66882420800000000000000
+      internalID: 2605480177448922038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_278
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 13
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50865940a2a1ca680800000000000000
+      internalID: -8742584008865126395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_279
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 197
+        width: 12
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb7087d792752160800000000000000
+      internalID: 7000127192298453981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_280
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 184
+        width: 23
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d394cab8f230d8680800000000000000
+      internalID: -8751334998169335491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_281
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 195
+        width: 35
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1da6380f243e7430800000000000000
+      internalID: 3782518113643703581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_282
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 96
+        width: 58
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc93e6500a8a7190800000000000000
+      internalID: -7963901256988910414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_283
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 169
+        width: 14
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daaa2552c5702390800000000000000
+      internalID: -7845141073366439216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_284
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 170
+        width: 13
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31418b44550fc360800000000000000
+      internalID: 7191972989536125242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_285
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 172
+        width: 18
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacb06e81e50df250800000000000000
+      internalID: 5979942346532371630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_286
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 172
+        width: 12
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6f05b8f1412b150800000000000000
+      internalID: 5886789788640540378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_287
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 132
+        width: 12
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d13f31b9288d0050800000000000000
+      internalID: 5768416410380218838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_288
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 129
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f437f4c63f38044b0800000000000000
+      internalID: -5458217666855603377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_289
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 96
+        width: 44
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465d9dfe03c8f1070800000000000000
+      internalID: 8079330398336308580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_290
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 124
+        width: 8
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442168e3386873000800000000000000
+      internalID: 15629021966897732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_291
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 141
+        width: 7
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42a926969a5c1e10800000000000000
+      internalID: 2169708723296641614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_292
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 144
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1869927bd28d05c0800000000000000
+      internalID: -4247594994508404710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_293
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 124
+        width: 8
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c2d1be24e354f10800000000000000
+      internalID: 2253275645702122598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_294
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 125
+        width: 7
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d8cc09c78915220800000000000000
+      internalID: 2472925331175804190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_295
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 148
+        width: 7
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bff41f887ee2680800000000000000
+      internalID: -8777824048348398801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_296
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 129
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d57906f729102560800000000000000
+      internalID: 7286851856507696595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_297
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 76
+        width: 93
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe6edc6e1dd67320800000000000000
+      internalID: 2555472961324609265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_298
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 116
+        width: 13
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2fcff06e1b8e660800000000000000
+      internalID: 7415372388134351587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_299
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 102
+        width: 35
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff8d59eab4f75f40800000000000000
+      internalID: 5717307335586451444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_300
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 111
+        width: 35
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1239785da914fe0800000000000000
+      internalID: -1206512983265304099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_301
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 67
+        width: 17
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a597a803409404a30800000000000000
+      internalID: 4197435135052380506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_302
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 68
+        width: 19
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1aaaec38d7c12b0800000000000000
+      internalID: -5612473030549003799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_303
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 67
+        width: 37
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31bcae62f1ebedf0800000000000000
+      internalID: -149777731231633093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_304
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 83
+        width: 17
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace73385ea6ed5420800000000000000
+      internalID: 2620504194677964490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_305
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 65
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45eceeabe5368ab0800000000000000
+      internalID: -5006254649407380146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_306
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 75
+        width: 68
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92871ee0ef805f7d0800000000000000
+      internalID: -2885390098996561879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_307
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 66
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad204bbf0cfafe70800000000000000
+      internalID: 9149902737452838313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_308
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 65
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa78ab2159dd5ca00800000000000000
+      internalID: 776270143125358506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_309
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 66
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d1c2bd4c59701e0800000000000000
+      internalID: -2231650417615561334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_310
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 65
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6895dc27d74925770800000000000000
+      internalID: 8598097905121581446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_311
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 66
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b94af6e6d559eb60800000000000000
+      internalID: 7775840613118396851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_312
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 65
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0bc94a2720ca6a0800000000000000
+      internalID: -6436767076008021818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_313
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 66
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23cea4f86f24e660800000000000000
+      internalID: 7414103014386877231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_314
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 65
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e5ad71df59268c0800000000000000
+      internalID: -4007475804146868648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_315
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 66
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ccbd8a2cf5a72e0800000000000000
+      internalID: -2127282584317866988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_316
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 65
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e57a40a7828e3fb0800000000000000
+      internalID: -4666148644887824924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_317
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 65
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bda514007e3b570800000000000000
+      internalID: 8481376511551265538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_318
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 17
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcd0b81d7a991e20800000000000000
+      internalID: 3321856062238285046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsheModelW_Pixels_319
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 6
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9b0e05a7c0761a0800000000000000
+      internalID: -6816465791519508018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,7044 @@
+fileFormatVersion: 2
+guid: eb21fff3e2ed0a34c9a96098cc31f69b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7059258435576284945
+    second: Shadow_CenterPivot_0
+  - first:
+      213: -7126446385832354122
+    second: Shadow_CenterPivot_1
+  - first:
+      213: -6882133441409939742
+    second: Shadow_CenterPivot_2
+  - first:
+      213: 738974920997989074
+    second: Shadow_CenterPivot_3
+  - first:
+      213: -1984247933863130130
+    second: Shadow_CenterPivot_4
+  - first:
+      213: -3589100385138239583
+    second: Shadow_CenterPivot_5
+  - first:
+      213: 4111793511280988595
+    second: Shadow_CenterPivot_6
+  - first:
+      213: 9105492534044878052
+    second: Shadow_CenterPivot_7
+  - first:
+      213: 2687989123386079145
+    second: Shadow_CenterPivot_8
+  - first:
+      213: -1186841727327261048
+    second: Shadow_CenterPivot_9
+  - first:
+      213: -2845486956564830343
+    second: Shadow_CenterPivot_10
+  - first:
+      213: 6622038945631407558
+    second: Shadow_CenterPivot_11
+  - first:
+      213: -883534646091767079
+    second: Shadow_CenterPivot_12
+  - first:
+      213: 7500141825132490264
+    second: Shadow_CenterPivot_13
+  - first:
+      213: -5982335055472202899
+    second: Shadow_CenterPivot_14
+  - first:
+      213: -6980151195755617950
+    second: Shadow_CenterPivot_15
+  - first:
+      213: -1640364081778716347
+    second: Shadow_CenterPivot_16
+  - first:
+      213: -55226663732798578
+    second: Shadow_CenterPivot_17
+  - first:
+      213: 4165669692063755475
+    second: Shadow_CenterPivot_18
+  - first:
+      213: 7161162495644282896
+    second: Shadow_CenterPivot_19
+  - first:
+      213: 928394750808198884
+    second: Shadow_CenterPivot_20
+  - first:
+      213: -1008222311509699265
+    second: Shadow_CenterPivot_21
+  - first:
+      213: 1253503294937295124
+    second: Shadow_CenterPivot_22
+  - first:
+      213: 8094641774264599250
+    second: Shadow_CenterPivot_23
+  - first:
+      213: -7119394513074600446
+    second: Shadow_CenterPivot_24
+  - first:
+      213: -4040939573811884621
+    second: Shadow_CenterPivot_25
+  - first:
+      213: -3690294891528143664
+    second: Shadow_CenterPivot_26
+  - first:
+      213: 3489944233478666095
+    second: Shadow_CenterPivot_27
+  - first:
+      213: 1377319358416113937
+    second: Shadow_CenterPivot_28
+  - first:
+      213: -4343036353809017768
+    second: Shadow_CenterPivot_29
+  - first:
+      213: -6199736206595582292
+    second: Shadow_CenterPivot_30
+  - first:
+      213: -1439527775110732779
+    second: Shadow_CenterPivot_31
+  - first:
+      213: 2206659957721311042
+    second: Shadow_CenterPivot_32
+  - first:
+      213: -6608662292649045169
+    second: Shadow_CenterPivot_33
+  - first:
+      213: 224774626687439123
+    second: Shadow_CenterPivot_34
+  - first:
+      213: -4913314387665569151
+    second: Shadow_CenterPivot_35
+  - first:
+      213: 2270268129353710068
+    second: Shadow_CenterPivot_36
+  - first:
+      213: 106456442393638752
+    second: Shadow_CenterPivot_37
+  - first:
+      213: -4220297509729190762
+    second: Shadow_CenterPivot_38
+  - first:
+      213: 3146249383934756276
+    second: Shadow_CenterPivot_39
+  - first:
+      213: 5029609927253734943
+    second: Shadow_CenterPivot_40
+  - first:
+      213: -148256267971040629
+    second: Shadow_CenterPivot_41
+  - first:
+      213: -5523184787781888863
+    second: Shadow_CenterPivot_42
+  - first:
+      213: -8328879440416441987
+    second: Shadow_CenterPivot_43
+  - first:
+      213: -1997314545392195127
+    second: Shadow_CenterPivot_44
+  - first:
+      213: -8647876026247151161
+    second: Shadow_CenterPivot_45
+  - first:
+      213: -8022427142925011251
+    second: Shadow_CenterPivot_46
+  - first:
+      213: 5913749059992194395
+    second: Shadow_CenterPivot_47
+  - first:
+      213: 4437133449127959079
+    second: Shadow_CenterPivot_48
+  - first:
+      213: 7331925966313436569
+    second: Shadow_CenterPivot_49
+  - first:
+      213: -9006091967946994900
+    second: Shadow_CenterPivot_50
+  - first:
+      213: -957384882566579503
+    second: Shadow_CenterPivot_51
+  - first:
+      213: 3296140879163632551
+    second: Shadow_CenterPivot_52
+  - first:
+      213: -8878168737229879582
+    second: Shadow_CenterPivot_53
+  - first:
+      213: 4059633239750268738
+    second: Shadow_CenterPivot_54
+  - first:
+      213: 39854491208014267
+    second: Shadow_CenterPivot_55
+  - first:
+      213: -4214687816240380574
+    second: Shadow_CenterPivot_56
+  - first:
+      213: -6370586712663850494
+    second: Shadow_CenterPivot_57
+  - first:
+      213: -6962762570806645694
+    second: Shadow_CenterPivot_58
+  - first:
+      213: 6181583564055927710
+    second: Shadow_CenterPivot_59
+  - first:
+      213: -7969109873732127224
+    second: Shadow_CenterPivot_60
+  - first:
+      213: 4933212639931678379
+    second: Shadow_CenterPivot_61
+  - first:
+      213: -2957511875466563087
+    second: Shadow_CenterPivot_62
+  - first:
+      213: 1079184131902541695
+    second: Shadow_CenterPivot_63
+  - first:
+      213: -6553904970080803405
+    second: Shadow_CenterPivot_64
+  - first:
+      213: 2372389218267158263
+    second: Shadow_CenterPivot_65
+  - first:
+      213: 5154800327619626666
+    second: Shadow_CenterPivot_66
+  - first:
+      213: 8821455522813151469
+    second: Shadow_CenterPivot_67
+  - first:
+      213: -7212467110120726317
+    second: Shadow_CenterPivot_68
+  - first:
+      213: -5431414736287285412
+    second: Shadow_CenterPivot_69
+  - first:
+      213: 746660453737556942
+    second: Shadow_CenterPivot_70
+  - first:
+      213: -7321964493911891710
+    second: Shadow_CenterPivot_71
+  - first:
+      213: 3683096398422427259
+    second: Shadow_CenterPivot_72
+  - first:
+      213: 5640607346823588062
+    second: Shadow_CenterPivot_73
+  - first:
+      213: -3212489970044669635
+    second: Shadow_CenterPivot_74
+  - first:
+      213: 2555420364600850723
+    second: Shadow_CenterPivot_75
+  - first:
+      213: 3256430257101020634
+    second: Shadow_CenterPivot_76
+  - first:
+      213: -206855773004633243
+    second: Shadow_CenterPivot_77
+  - first:
+      213: -757049047042735134
+    second: Shadow_CenterPivot_78
+  - first:
+      213: -2492430349086992648
+    second: Shadow_CenterPivot_79
+  - first:
+      213: -4966530708255498680
+    second: Shadow_CenterPivot_80
+  - first:
+      213: 3774232429570036785
+    second: Shadow_CenterPivot_82
+  - first:
+      213: -4914474881036709100
+    second: Shadow_CenterPivot_83
+  - first:
+      213: 3934041451485303777
+    second: Shadow_CenterPivot_84
+  - first:
+      213: 4819731250458357179
+    second: Shadow_CenterPivot_85
+  - first:
+      213: -1890187426397486343
+    second: Shadow_CenterPivot_86
+  - first:
+      213: 6049976716948459280
+    second: Shadow_CenterPivot_87
+  - first:
+      213: -3866069026451639747
+    second: Shadow_CenterPivot_88
+  - first:
+      213: -1228404055385044091
+    second: Shadow_CenterPivot_89
+  - first:
+      213: 6790364777871877814
+    second: Shadow_CenterPivot_90
+  - first:
+      213: 6453999713496917539
+    second: Shadow_CenterPivot_91
+  - first:
+      213: 8800489119508428422
+    second: Shadow_CenterPivot_92
+  - first:
+      213: -3083624984997732442
+    second: Shadow_CenterPivot_93
+  - first:
+      213: -8532508007391489301
+    second: Shadow_CenterPivot_94
+  - first:
+      213: -3583682074822519702
+    second: Shadow_CenterPivot_95
+  - first:
+      213: -3684729133107580833
+    second: Shadow_CenterPivot_96
+  - first:
+      213: -2622061915732831170
+    second: Shadow_CenterPivot_97
+  - first:
+      213: -6789508225647393119
+    second: Shadow_CenterPivot_98
+  - first:
+      213: -73085293825131746
+    second: Shadow_CenterPivot_99
+  - first:
+      213: -7417365316445194168
+    second: Shadow_CenterPivot_100
+  - first:
+      213: -6146935071799235584
+    second: Shadow_CenterPivot_101
+  - first:
+      213: 5595650298830685508
+    second: Shadow_CenterPivot_102
+  - first:
+      213: 907061904858854260
+    second: Shadow_CenterPivot_103
+  - first:
+      213: 7832988852251209987
+    second: Shadow_CenterPivot_104
+  - first:
+      213: -1640881716774161417
+    second: Shadow_CenterPivot_105
+  - first:
+      213: -218824017300059148
+    second: Shadow_CenterPivot_106
+  - first:
+      213: -2373878602724727805
+    second: Shadow_CenterPivot_107
+  - first:
+      213: -6304436640036851503
+    second: Shadow_CenterPivot_108
+  - first:
+      213: 3510892399874428918
+    second: Shadow_CenterPivot_109
+  - first:
+      213: -7096018112917233589
+    second: Shadow_CenterPivot_110
+  - first:
+      213: 8360092422636393464
+    second: Shadow_CenterPivot_111
+  - first:
+      213: -329846861286782339
+    second: Shadow_CenterPivot_112
+  - first:
+      213: 688475040687729219
+    second: Shadow_CenterPivot_113
+  - first:
+      213: -8079180982518240768
+    second: Shadow_CenterPivot_114
+  - first:
+      213: 2575921459227683476
+    second: Shadow_CenterPivot_115
+  - first:
+      213: 7901791346361327315
+    second: Shadow_CenterPivot_116
+  - first:
+      213: 360525197256606381
+    second: Shadow_CenterPivot_117
+  - first:
+      213: 1002946665251270562
+    second: Shadow_CenterPivot_118
+  - first:
+      213: 4290419105605512288
+    second: Shadow_CenterPivot_119
+  - first:
+      213: 5848831309742523636
+    second: Shadow_CenterPivot_120
+  - first:
+      213: -8492164129087672064
+    second: Shadow_CenterPivot_121
+  - first:
+      213: 397694029430712354
+    second: Shadow_CenterPivot_122
+  - first:
+      213: -8491151220712863279
+    second: Shadow_CenterPivot_123
+  - first:
+      213: -3274422883759301126
+    second: Shadow_CenterPivot_124
+  - first:
+      213: 5046993912243283765
+    second: Shadow_CenterPivot_125
+  - first:
+      213: -6984693272095785082
+    second: Shadow_CenterPivot_126
+  - first:
+      213: 1561733863232211330
+    second: Shadow_CenterPivot_127
+  - first:
+      213: -4965686180861605909
+    second: Shadow_CenterPivot_128
+  - first:
+      213: -5744582860997466920
+    second: Shadow_CenterPivot_129
+  - first:
+      213: -6539661538221927696
+    second: Shadow_CenterPivot_130
+  - first:
+      213: -2556884075397798752
+    second: Shadow_CenterPivot_131
+  - first:
+      213: 2781187664398444999
+    second: Shadow_CenterPivot_132
+  - first:
+      213: 7076559966660175469
+    second: Shadow_CenterPivot_133
+  - first:
+      213: -3039631907223101275
+    second: Shadow_CenterPivot_134
+  - first:
+      213: 1606695276257727306
+    second: Shadow_CenterPivot_135
+  - first:
+      213: 296512604335196058
+    second: Shadow_CenterPivot_136
+  - first:
+      213: 6578611207544541591
+    second: Shadow_CenterPivot_137
+  - first:
+      213: 7696385198734934555
+    second: Shadow_CenterPivot_138
+  - first:
+      213: -3284466479533313015
+    second: Shadow_CenterPivot_139
+  - first:
+      213: 6862127787375102147
+    second: Shadow_CenterPivot_140
+  - first:
+      213: -241911156227794758
+    second: Shadow_CenterPivot_141
+  - first:
+      213: 6027295967594401345
+    second: Shadow_CenterPivot_142
+  - first:
+      213: -687597703999429322
+    second: Shadow_CenterPivot_143
+  - first:
+      213: -1588177092469873551
+    second: Shadow_CenterPivot_144
+  - first:
+      213: -8246899267092003160
+    second: Shadow_CenterPivot_145
+  - first:
+      213: 1117592873168038225
+    second: Shadow_CenterPivot_146
+  - first:
+      213: -5494804094675391240
+    second: Shadow_CenterPivot_147
+  - first:
+      213: -3779484106700838374
+    second: Shadow_CenterPivot_148
+  - first:
+      213: -1856039585321559343
+    second: Shadow_CenterPivot_149
+  - first:
+      213: -4647852216726867708
+    second: Shadow_CenterPivot_150
+  - first:
+      213: -3732277033464800988
+    second: Shadow_CenterPivot_151
+  - first:
+      213: -5147160341826343665
+    second: Shadow_CenterPivot_152
+  - first:
+      213: 2525963277660645738
+    second: Shadow_CenterPivot_153
+  - first:
+      213: 6158821369610745775
+    second: Shadow_CenterPivot_154
+  - first:
+      213: 3446503175569924713
+    second: Shadow_CenterPivot_155
+  - first:
+      213: 2391400201890900503
+    second: Shadow_CenterPivot_156
+  - first:
+      213: -2140059864315125559
+    second: Shadow_CenterPivot_157
+  - first:
+      213: -8607224206528345786
+    second: Shadow_CenterPivot_158
+  - first:
+      213: -606814389818257616
+    second: Shadow_CenterPivot_159
+  - first:
+      213: 18610352347126977
+    second: Shadow_CenterPivot_160
+  - first:
+      213: -957766620628794649
+    second: Shadow_CenterPivot_161
+  - first:
+      213: 3042216486004902728
+    second: Shadow_CenterPivot_162
+  - first:
+      213: -8904131993003674084
+    second: Shadow_CenterPivot_163
+  - first:
+      213: -4945360309317156433
+    second: Shadow_CenterPivot_164
+  - first:
+      213: -5885133621743998898
+    second: Shadow_CenterPivot_165
+  - first:
+      213: -4713217467894158884
+    second: Shadow_CenterPivot_166
+  - first:
+      213: -7427298744714992616
+    second: Shadow_CenterPivot_167
+  - first:
+      213: -5293644301347872335
+    second: Shadow_CenterPivot_168
+  - first:
+      213: 4791330928609721198
+    second: Shadow_CenterPivot_169
+  - first:
+      213: 5969295339042927376
+    second: Shadow_CenterPivot_170
+  - first:
+      213: -8163375158403184500
+    second: Shadow_CenterPivot_171
+  - first:
+      213: -1757605548018104748
+    second: Shadow_CenterPivot_172
+  - first:
+      213: -2088129327913887263
+    second: Shadow_CenterPivot_173
+  - first:
+      213: 3446965402246467646
+    second: Shadow_CenterPivot_174
+  - first:
+      213: 7854009486445368736
+    second: Shadow_CenterPivot_175
+  - first:
+      213: -9155366566828350280
+    second: Shadow_CenterPivot_176
+  - first:
+      213: -3485608363584178104
+    second: Shadow_CenterPivot_177
+  - first:
+      213: -8195229322144236827
+    second: Shadow_CenterPivot_178
+  - first:
+      213: 2581729352797262045
+    second: Shadow_CenterPivot_179
+  - first:
+      213: 7114276331659792409
+    second: Shadow_CenterPivot_180
+  - first:
+      213: -4872077522537485852
+    second: Shadow_CenterPivot_181
+  - first:
+      213: -6681101721284650467
+    second: Shadow_CenterPivot_182
+  - first:
+      213: -924604065583857561
+    second: Shadow_CenterPivot_183
+  - first:
+      213: 382312535847558219
+    second: Shadow_CenterPivot_184
+  - first:
+      213: 5344902455091016943
+    second: Shadow_CenterPivot_185
+  - first:
+      213: 4983406548835623578
+    second: Shadow_CenterPivot_186
+  - first:
+      213: 8581182352539955333
+    second: Shadow_CenterPivot_187
+  - first:
+      213: -2343441883462279445
+    second: Shadow_CenterPivot_188
+  - first:
+      213: 4577051568651610607
+    second: Shadow_CenterPivot_189
+  - first:
+      213: -4855470644398999148
+    second: Shadow_CenterPivot_190
+  - first:
+      213: -7914523015047586547
+    second: Shadow_CenterPivot_191
+  - first:
+      213: -4963812279042109239
+    second: Shadow_CenterPivot_192
+  - first:
+      213: -7432440739268249265
+    second: Shadow_CenterPivot_193
+  - first:
+      213: 549098159696186953
+    second: Shadow_CenterPivot_194
+  - first:
+      213: 6882618653745477089
+    second: Shadow_CenterPivot_195
+  - first:
+      213: 1887291977260698699
+    second: Shadow_CenterPivot_196
+  - first:
+      213: -5382126809952315550
+    second: Shadow_CenterPivot_197
+  - first:
+      213: 3230449944729698306
+    second: Shadow_CenterPivot_198
+  - first:
+      213: 2550734296270190551
+    second: Shadow_CenterPivot_199
+  - first:
+      213: 2981652545766480888
+    second: Shadow_CenterPivot_200
+  - first:
+      213: -5347327708729150277
+    second: Shadow_CenterPivot_201
+  - first:
+      213: -3602931557181735944
+    second: Shadow_CenterPivot_202
+  - first:
+      213: -1086810954812567937
+    second: Shadow_CenterPivot_203
+  - first:
+      213: 4969757594257919323
+    second: Shadow_CenterPivot_204
+  - first:
+      213: 9125342534013091808
+    second: Shadow_CenterPivot_205
+  - first:
+      213: -165355111818582302
+    second: Shadow_CenterPivot_206
+  - first:
+      213: -1490228924255620270
+    second: Shadow_CenterPivot_207
+  - first:
+      213: -6186298181688675919
+    second: Shadow_CenterPivot_208
+  - first:
+      213: -6802193331818268059
+    second: Shadow_CenterPivot_209
+  - first:
+      213: 1700750696865168740
+    second: Shadow_CenterPivot_210
+  - first:
+      213: -2657422376457978168
+    second: Shadow_CenterPivot_211
+  - first:
+      213: -7232852752489792982
+    second: Shadow_CenterPivot_212
+  - first:
+      213: 6054883128579572313
+    second: Shadow_CenterPivot_213
+  - first:
+      213: -4086126519780031731
+    second: Shadow_CenterPivot_214
+  - first:
+      213: 5332257878633946911
+    second: Shadow_CenterPivot_215
+  - first:
+      213: 4948971732466967618
+    second: Shadow_CenterPivot_216
+  - first:
+      213: 397687175779056605
+    second: Shadow_CenterPivot_217
+  - first:
+      213: 5534176836908381622
+    second: Shadow_CenterPivot_218
+  - first:
+      213: -2432315332500740150
+    second: Shadow_CenterPivot_219
+  - first:
+      213: 3695225625990104953
+    second: Shadow_CenterPivot_220
+  - first:
+      213: 4493920997419619525
+    second: Shadow_CenterPivot_221
+  - first:
+      213: -1412494426731650124
+    second: Shadow_CenterPivot_222
+  - first:
+      213: 747531644850745006
+    second: Shadow_CenterPivot_223
+  - first:
+      213: -1585527240229358175
+    second: Shadow_CenterPivot_224
+  - first:
+      213: 109791333263764207
+    second: Shadow_CenterPivot_225
+  - first:
+      213: -3676374307126351197
+    second: Shadow_CenterPivot_226
+  - first:
+      213: 2032396872171596541
+    second: Shadow_CenterPivot_227
+  - first:
+      213: -5341781795906277432
+    second: Shadow_CenterPivot_228
+  - first:
+      213: -51268537323718904
+    second: Shadow_CenterPivot_229
+  - first:
+      213: 7829187353299241686
+    second: Shadow_CenterPivot_230
+  - first:
+      213: 3537964059070132859
+    second: Shadow_CenterPivot_231
+  - first:
+      213: -3531293877029446329
+    second: Shadow_CenterPivot_232
+  - first:
+      213: -2312150209324333301
+    second: Shadow_CenterPivot_233
+  - first:
+      213: -1630176645491965476
+    second: Shadow_CenterPivot_234
+  - first:
+      213: 6310324516748027434
+    second: Shadow_CenterPivot_235
+  - first:
+      213: 5825851966900127752
+    second: Shadow_CenterPivot_236
+  - first:
+      213: 4575349497965594609
+    second: Shadow_CenterPivot_237
+  - first:
+      213: -6297856118886497968
+    second: Shadow_CenterPivot_238
+  - first:
+      213: -6805439765900924151
+    second: Shadow_CenterPivot_239
+  - first:
+      213: 1462533821884791483
+    second: Shadow_CenterPivot_240
+  - first:
+      213: -8231175711694670097
+    second: Shadow_CenterPivot_241
+  - first:
+      213: 3547679311003533700
+    second: Shadow_CenterPivot_242
+  - first:
+      213: 7294698877926450467
+    second: Shadow_CenterPivot_243
+  - first:
+      213: 8891173087074440648
+    second: Shadow_CenterPivot_244
+  - first:
+      213: 5971214206984881401
+    second: Shadow_CenterPivot_245
+  - first:
+      213: -7983232180200355378
+    second: Shadow_CenterPivot_246
+  - first:
+      213: -6107582362182825806
+    second: Shadow_CenterPivot_247
+  - first:
+      213: -3415293830679018781
+    second: Shadow_CenterPivot_248
+  - first:
+      213: 1984921110947231661
+    second: Shadow_CenterPivot_249
+  - first:
+      213: -3893222133931169728
+    second: Shadow_CenterPivot_250
+  - first:
+      213: -6681392805583551949
+    second: Shadow_CenterPivot_251
+  - first:
+      213: -4681160928067567715
+    second: Shadow_CenterPivot_252
+  - first:
+      213: -5814022388271523259
+    second: Shadow_CenterPivot_253
+  - first:
+      213: -4024785690079336239
+    second: Shadow_CenterPivot_254
+  - first:
+      213: -6945827118907260451
+    second: Shadow_CenterPivot_255
+  - first:
+      213: 8550767233249617000
+    second: Shadow_CenterPivot_256
+  - first:
+      213: -6194556110865014777
+    second: Shadow_CenterPivot_257
+  - first:
+      213: 7470045387458718808
+    second: Shadow_CenterPivot_258
+  - first:
+      213: -1591646570193831234
+    second: Shadow_CenterPivot_259
+  - first:
+      213: -280720696392104457
+    second: Shadow_CenterPivot_260
+  - first:
+      213: 2167363975126484222
+    second: Shadow_CenterPivot_261
+  - first:
+      213: -8843063935008437959
+    second: Shadow_CenterPivot_262
+  - first:
+      213: -7016037803202876
+    second: Shadow_CenterPivot_263
+  - first:
+      213: -2286238822071531498
+    second: Shadow_CenterPivot_264
+  - first:
+      213: 6175097967638979218
+    second: Shadow_CenterPivot_265
+  - first:
+      213: 5619580410360398520
+    second: Shadow_CenterPivot_266
+  - first:
+      213: 7866023148789057812
+    second: Shadow_CenterPivot_267
+  - first:
+      213: 8645600252584299579
+    second: Shadow_CenterPivot_268
+  - first:
+      213: 5142913242561309113
+    second: Shadow_CenterPivot_269
+  - first:
+      213: 8625749593017832358
+    second: Shadow_CenterPivot_270
+  - first:
+      213: -3671582494255644311
+    second: Shadow_CenterPivot_271
+  - first:
+      213: -8528916530749663843
+    second: Shadow_CenterPivot_272
+  - first:
+      213: -1282391324619303973
+    second: Shadow_CenterPivot_273
+  - first:
+      213: -5014915457379183794
+    second: Shadow_CenterPivot_274
+  - first:
+      213: 7051733521105610454
+    second: Shadow_CenterPivot_275
+  - first:
+      213: 4917950263625189552
+    second: Shadow_CenterPivot_276
+  - first:
+      213: 996459723755861268
+    second: Shadow_CenterPivot_277
+  - first:
+      213: 8375618660488886312
+    second: Shadow_CenterPivot_278
+  - first:
+      213: -5512112360227063070
+    second: Shadow_CenterPivot_279
+  - first:
+      213: -1314650159179571223
+    second: Shadow_CenterPivot_280
+  - first:
+      213: -1554559403812800567
+    second: Shadow_CenterPivot_281
+  - first:
+      213: 4384348337248197017
+    second: Shadow_CenterPivot_81
+  - first:
+      213: -6123780043268432307
+    second: Shadow_CenterPivot_282
+  - first:
+      213: 5979092256797926662
+    second: Shadow_CenterPivot_283
+  - first:
+      213: 4547295796029274766
+    second: Shadow_CenterPivot_284
+  - first:
+      213: -2087410931491575919
+    second: Shadow_CenterPivot_285
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_0
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 2023
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8bbc9bad9780e90800000000000000
+      internalID: -7059258435576284945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 2023
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be989505c6c91d90800000000000000
+      internalID: -7126446385832354122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2023
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e68cef1910cd70a0800000000000000
+      internalID: -6882133441409939742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_3
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 2023
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dae10086cd514a00800000000000000
+      internalID: 738974920997989074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_4
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2023
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb09c364098674e0800000000000000
+      internalID: -1984247933863130130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_5
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 2023
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a71e903734f03ec0800000000000000
+      internalID: -3589100385138239583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_6
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 2023
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1d8adc966001930800000000000000
+      internalID: 4111793511280988595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_7
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1968
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e467bc77353d5e70800000000000000
+      internalID: 9105492534044878052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_8
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1968
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a77a8bbdd7ad4520800000000000000
+      internalID: 2687989123386079145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_9
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1968
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e2c06bcbd778fe0800000000000000
+      internalID: -1186841727327261048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_10
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1968
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97722f460bcc288d0800000000000000
+      internalID: -2845486956564830343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_11
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1968
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd8923065536eb50800000000000000
+      internalID: 6622038945631407558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_12
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1968
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d223f8abed0db3f0800000000000000
+      internalID: -883534646091767079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_13
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1968
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e6214a04bd51860800000000000000
+      internalID: 7500141825132490264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1894
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b663b76f97afca0800000000000000
+      internalID: -5982335055472202899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_15
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1894
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261e77a4875812f90800000000000000
+      internalID: -6980151195755617950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_16
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1894
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54115430f814c39e0800000000000000
+      internalID: -1640364081778716347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_17
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1894
+        width: 97
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b931654abcb3ff0800000000000000
+      internalID: -55226663732798578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_18
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1887
+        width: 105
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc2217a38e6fc930800000000000000
+      internalID: 4165669692063755475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_19
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1886
+        width: 106
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0103abb295f816360800000000000000
+      internalID: 7161162495644282896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_20
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1819
+        width: 104
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee82456b1252ec00800000000000000
+      internalID: 928394750808198884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_21
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1819
+        width: 72
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3557d346231202f0800000000000000
+      internalID: -1008222311509699265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1825
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419e48bfa96556110800000000000000
+      internalID: 1253503294937295124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_23
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1828
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d244137ec1f55070800000000000000
+      internalID: 8094641774264599250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_24
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1828
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206c2581964d23d90800000000000000
+      internalID: -7119394513074600446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_25
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1828
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdcf101ed2bbe7c0800000000000000
+      internalID: -4040939573811884621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_26
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1828
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcb602295079ccc0800000000000000
+      internalID: -3690294891528143664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_27
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1828
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f673b623ac5ce6030800000000000000
+      internalID: 3489944233478666095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_28
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1757
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11159acb8a83d1310800000000000000
+      internalID: 1377319358416113937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_29
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1758
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8541b94527f6ab3c0800000000000000
+      internalID: -4343036353809017768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_30
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1761
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca61eb884cc16f9a0800000000000000
+      internalID: -6199736206595582292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_31
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1758
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51467309d15c50ce0800000000000000
+      internalID: -1439527775110732779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_32
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1760
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247ae084a81af9e10800000000000000
+      internalID: 2206659957721311042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_33
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1763
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f439226b8a05944a0800000000000000
+      internalID: -6608662292649045169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_34
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1760
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311d932055f8e1300800000000000000
+      internalID: 224774626687439123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_35
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1757
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ab065a89660dbb0800000000000000
+      internalID: -4913314387665569151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_36
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1758
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9b403d5dc918f10800000000000000
+      internalID: 2270268129353710068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_37
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1756
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067bce002953a7100800000000000000
+      internalID: 106456442393638752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_38
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1756
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c302666cd7e65c0800000000000000
+      internalID: -4220297509729190762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1691
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b509382529b9ab20800000000000000
+      internalID: 3146249383934756276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_40
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1691
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16bcb0b493ccc540800000000000000
+      internalID: 5029609927253734943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_41
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1691
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a6cd3b5b941fdf0800000000000000
+      internalID: -148256267971040629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_42
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1692
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a45b67d2b4b953b0800000000000000
+      internalID: -5523184787781888863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_43
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1692
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d797ce8f640e96c80800000000000000
+      internalID: -8328879440416441987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_44
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1691
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c96d21d00d1844e0800000000000000
+      internalID: -1997314545392195127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_45
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1691
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c10ce192929cf780800000000000000
+      internalID: -8647876026247151161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_46
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1691
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6b085a40d9aa090800000000000000
+      internalID: -8022427142925011251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_47
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1633
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d82ab007bd11250800000000000000
+      internalID: 5913749059992194395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_48
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1634
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a9640fc5dd39d30800000000000000
+      internalID: 4437133449127959079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_49
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1633
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9953395f1db30c560800000000000000
+      internalID: 7331925966313436569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_50
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1633
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b450c421fe30380800000000000000
+      internalID: -9006091967946994900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_51
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1632
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da3a41958fa6b2f0800000000000000
+      internalID: -957384882566579503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_52
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1632
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab21387aae3ebd20800000000000000
+      internalID: 3296140879163632551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_53
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1632
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e64f6172986ac480800000000000000
+      internalID: -8878168737229879582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_54
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1632
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247dea53ce6b65830800000000000000
+      internalID: 4059633239750268738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_55
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1579
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb95827d2779d8000800000000000000
+      internalID: 39854491208014267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_56
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1578
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26543d1f2cb6285c0800000000000000
+      internalID: -4214687816240380574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_57
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1578
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20209dc33212797a0800000000000000
+      internalID: -6370586712663850494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_58
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1578
+        width: 59
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c2fa7055c4f5f90800000000000000
+      internalID: -6962762570806645694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_59
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1578
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b52f4008569c550800000000000000
+      internalID: 6181583564055927710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_60
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1578
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8067320cac8086190800000000000000
+      internalID: -7969109873732127224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_61
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1578
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae389c32ca467440800000000000000
+      internalID: 4933212639931678379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_62
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1578
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1f0db6e9ec4f6d0800000000000000
+      internalID: -2957511875466563087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_63
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1524
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f0a4d00480afe00800000000000000
+      internalID: 1079184131902541695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_64
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1525
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5aaae572adb05a0800000000000000
+      internalID: -6553904970080803405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_65
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1523
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6d7cfac6b6ce020800000000000000
+      internalID: 2372389218267158263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_66
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1523
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6c5df2697898740800000000000000
+      internalID: 5154800327619626666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_67
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1524
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de88f275f0b1c6a70800000000000000
+      internalID: 8821455522813151469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_68
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1524
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0e01b606b28eb90800000000000000
+      internalID: -7212467110120726317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_69
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1468
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f36cff21dbf94b0800000000000000
+      internalID: -5431414736287285412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_70
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1468
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbebd80abbac5a00800000000000000
+      internalID: 746660453737556942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_71
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1465
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201eb521618236a90800000000000000
+      internalID: -7321964493911891710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_72
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1465
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b764d7519acfc1330800000000000000
+      internalID: 3683096398422427259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_73
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1463
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8e0e82f76774e40800000000000000
+      internalID: 5640607346823588062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_74
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1463
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d317bfa8461fa63d0800000000000000
+      internalID: -3212489970044669635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_75
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1461
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32935db484da67320800000000000000
+      internalID: 2555420364600850723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_76
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1461
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add1756c01a213d20800000000000000
+      internalID: 3256430257101020634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_77
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1463
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56be15a35c9112df0800000000000000
+      internalID: -206855773004633243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_78
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1463
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3487917eb6e75f0800000000000000
+      internalID: -757049047042735134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_79
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1465
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6544f8dcb196dd0800000000000000
+      internalID: -2492430349086992648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_80
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1465
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e9c5872a6531bb0800000000000000
+      internalID: -4966530708255498680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_82
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1399
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1341840e564c06430800000000000000
+      internalID: 3774232429570036785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_83
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1399
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4131a3a32274ccbb0800000000000000
+      internalID: -4914474881036709100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_84
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1399
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3917f4bd5889630800000000000000
+      internalID: 3934041451485303777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_85
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1399
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd6b68490023e240800000000000000
+      internalID: 4819731250458357179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_86
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1399
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f20ba2ec84b4c5e0800000000000000
+      internalID: -1890187426397486343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_87
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1399
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fc81915c5d5f350800000000000000
+      internalID: 6049976716948459280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_88
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1329
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32b53924b6f85ac0800000000000000
+      internalID: -3866069026451639747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_89
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1328
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b002e1505d3fee0800000000000000
+      internalID: -1228404055385044091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_90
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1332
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6a060e9c83c3e50800000000000000
+      internalID: 6790364777871877814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_91
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1329
+        width: 85
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326e47f6b86319950800000000000000
+      internalID: 6453999713496917539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_92
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1328
+        width: 101
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6867df92a3e912a70800000000000000
+      internalID: 8800489119508428422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_93
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1328
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afd0b4f963c435d0800000000000000
+      internalID: -3083624984997732442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_94
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1328
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be21148ac21769980800000000000000
+      internalID: -8532508007391489301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_95
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1328
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64d44ed324344ec0800000000000000
+      internalID: -3583682074822519702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_96
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1273
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50f69f30663ddcc0800000000000000
+      internalID: -3684729133107580833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_97
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1273
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e341aa574909c9bd0800000000000000
+      internalID: -2622061915732831170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_98
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1272
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6c1babd32d6c1a0800000000000000
+      internalID: -6789508225647393119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_99
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1272
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b7f3fff495cfef0800000000000000
+      internalID: -73085293825131746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_100
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1272
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8483bf72b89301990800000000000000
+      internalID: -7417365316445194168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_101
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1272
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c240cbe13b1baa0800000000000000
+      internalID: -6146935071799235584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_102
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1274
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4458c1dbc4eb7ad40800000000000000
+      internalID: 5595650298830685508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_103
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1273
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473b6642ff7869c00800000000000000
+      internalID: 907061904858854260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_104
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1218
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30137043cdd54bc60800000000000000
+      internalID: 7832988852251209987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_105
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1218
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f33e39b5ca6a39e0800000000000000
+      internalID: -1640881716774161417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_106
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1217
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb818437b496fcf0800000000000000
+      internalID: -218824017300059148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_107
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1217
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30421b8fcf94e0fd0800000000000000
+      internalID: -2373878602724727805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_108
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1217
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d075a937442288a0800000000000000
+      internalID: -6304436640036851503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_109
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1217
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff4223490239b030800000000000000
+      internalID: 3510892399874428918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_110
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1217
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40a4d36f11e58d90800000000000000
+      internalID: -7096018112917233589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_111
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1217
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f35da4c3c3050470800000000000000
+      internalID: 8360092422636393464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_112
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1164
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a49baf6062c6bf0800000000000000
+      internalID: -329846861286782339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_113
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1164
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a2aecd664fd8900800000000000000
+      internalID: 688475040687729219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_114
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1164
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00aa8e4a3bbf0ef80800000000000000
+      internalID: -8079180982518240768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_115
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1164
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a629a5be28fb320800000000000000
+      internalID: 2575921459227683476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_116
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1164
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de5f113d5dc8ad60800000000000000
+      internalID: 7901791346361327315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_117
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1164
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2ce0bb1c7d00500800000000000000
+      internalID: 360525197256606381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_118
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1166
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afe6fe9dae2bed00800000000000000
+      internalID: 1002946665251270562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_119
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1166
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c6a27e171aa8b30800000000000000
+      internalID: 4290419105605512288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_120
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1107
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4c26876193b2150800000000000000
+      internalID: 5848831309742523636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_121
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1107
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0013a6fc7b5c52a80800000000000000
+      internalID: -8492164129087672064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_122
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1107
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228e289dc94e48500800000000000000
+      internalID: 397694029430712354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_123
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1107
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9094be3fe592a80800000000000000
+      internalID: -8491151220712863279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_124
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1106
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afddd116cb9ee82d0800000000000000
+      internalID: -3274422883759301126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_125
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1106
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537e1da19368a0640800000000000000
+      internalID: 5046993912243283765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_126
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1106
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f7babb972611f90800000000000000
+      internalID: -6984693272095785082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_127
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1106
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28987a79ca46ca510800000000000000
+      internalID: 1561733863232211330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_128
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1053
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be78da35ab6561bb0800000000000000
+      internalID: -4965686180861605909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_129
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1053
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4e273f2542740b0800000000000000
+      internalID: -5744582860997466920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_130
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1053
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f25ff6ca747e35a0800000000000000
+      internalID: -6539661538221927696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_131
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1053
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4af0afa7f148cd0800000000000000
+      internalID: -2556884075397798752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_132
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1053
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9ea260273c89620800000000000000
+      internalID: 2781187664398444999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_133
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1053
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66a784ebcdf43260800000000000000
+      internalID: 7076559966660175469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_134
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1053
+        width: 69
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0260292ee01d5d0800000000000000
+      internalID: -3039631907223101275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_135
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1053
+        width: 70
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43d3a357d02c4610800000000000000
+      internalID: 1606695276257727306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_136
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 997
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9743d484ac6d1400800000000000000
+      internalID: 296512604335196058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_137
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 997
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791981dc90ceb4b50800000000000000
+      internalID: 6578611207544541591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_138
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 996
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b128b21af8d0fca60800000000000000
+      internalID: 7696385198734934555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_139
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 996
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9043db2832b3b62d0800000000000000
+      internalID: -3284466479533313015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_140
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 996
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c884d19ddc2b3f50800000000000000
+      internalID: 6862127787375102147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_141
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 996
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab896d9c51f84acf0800000000000000
+      internalID: -241911156227794758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_142
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 996
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ecb90afb145a350800000000000000
+      internalID: 6027295967594401345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_143
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 996
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6356db008892576f0800000000000000
+      internalID: -687597703999429322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_144
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 941
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174abe25959a5f9e0800000000000000
+      internalID: -1588177092469873551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_145
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 954
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a64d8e7fc02d8d80800000000000000
+      internalID: -8246899267092003160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_146
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 951
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15960b00ccc728f00800000000000000
+      internalID: 1117592873168038225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_147
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 954
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fce282e9c88eb3b0800000000000000
+      internalID: -5494804094675391240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_148
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 942
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1aacd1ca339c8bc0800000000000000
+      internalID: -3779484106700838374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_149
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 942
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da58d3b4d50e36e0800000000000000
+      internalID: -1856039585321559343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_150
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 943
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401bb75c8038f7fb0800000000000000
+      internalID: -4647852216726867708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_151
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 950
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4295bf000d9443cc0800000000000000
+      internalID: -3732277033464800988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_152
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 882
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d667f90fc9198b0800000000000000
+      internalID: -5147160341826343665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_153
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 892
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69e4a8c7360e0320800000000000000
+      internalID: 2525963277660645738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_154
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 898
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7bbb2a767887550800000000000000
+      internalID: 6158821369610745775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_155
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 898
+        width: 60
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962e919b06074df20800000000000000
+      internalID: 3446503175569924713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_156
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 897
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a218d30d5ff2120800000000000000
+      internalID: 2391400201890900503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_157
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 885
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c02d6554eafc42e0800000000000000
+      internalID: -2140059864315125559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_158
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 875
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6490cbbef2ffc8880800000000000000
+      internalID: -8607224206528345786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_159
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 810
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f894a07892497f0800000000000000
+      internalID: -606814389818257616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_160
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 806
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc9bc0540e124000800000000000000
+      internalID: 18610352347126977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_161
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 808
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2c1bf355455b2f0800000000000000
+      internalID: -957766620628794649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_162
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 808
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bc82296cf183a20800000000000000
+      internalID: 3042216486004902728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_163
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 808
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1633d3e02b2e6480800000000000000
+      internalID: -8904131993003674084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_164
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 810
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1c5d4100d8e5bb0800000000000000
+      internalID: -4945360309317156433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_165
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 812
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48ad3cd62ec35ea0800000000000000
+      internalID: -5885133621743998898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_166
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 809
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9a0054fa9479eb0800000000000000
+      internalID: -4713217467894158884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_167
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 809
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814ee88a42fece890800000000000000
+      internalID: -7427298744714992616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_168
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 740
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1a3ea0e823986b0800000000000000
+      internalID: -5293644301347872335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_169
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 740
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bff11181a3e7240800000000000000
+      internalID: 4791330928609721198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_170
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 740
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0137c03fb7237d250800000000000000
+      internalID: 5969295339042927376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_171
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 740
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88412b7b8dd5be80800000000000000
+      internalID: -8163375158403184500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_172
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 740
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4560027f01bbb97e0800000000000000
+      internalID: -1757605548018104748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_173
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 740
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e91e9c80797503e0800000000000000
+      internalID: -2088129327913887263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_174
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 742
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3056f145c416df20800000000000000
+      internalID: 3446965402246467646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_175
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 741
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5df1ef30c0ffc60800000000000000
+      internalID: 7854009486445368736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_176
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 665
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b465bb5d9a91f080800000000000000
+      internalID: -9155366566828350280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_177
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 664
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8483f6e29a1a0afc0800000000000000
+      internalID: -3485608363584178104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_178
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 664
+        width: 92
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea3ab80a52b44e80800000000000000
+      internalID: -8195229322144236827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_179
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 664
+        width: 94
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd01ea3fa2524d320800000000000000
+      internalID: 2581729352797262045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_180
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 664
+        width: 94
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9101d8e61acfab260800000000000000
+      internalID: 7114276331659792409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_181
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 664
+        width: 74
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9ecfe7e47e26cb0800000000000000
+      internalID: -4872077522537485852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_182
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 664
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ad39ae165f743a0800000000000000
+      internalID: -6681101721284650467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_183
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 663
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7600ef840852b23f0800000000000000
+      internalID: -924604065583857561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_184
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 664
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c5f5cc93f3e4500800000000000000
+      internalID: 382312535847558219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_185
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 576
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe430d2e678ec2a40800000000000000
+      internalID: 5344902455091016943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_186
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 578
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92e3ba5add982540800000000000000
+      internalID: 4983406548835623578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_187
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 574
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580bef372eb761770800000000000000
+      internalID: 8581182352539955333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_188
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 574
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee5578e50c6a7fd0800000000000000
+      internalID: -2343441883462279445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_189
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 578
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9af14c624f48f30800000000000000
+      internalID: 4577051568651610607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_190
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 579
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499b24f9c27ed9cb0800000000000000
+      internalID: -4855470644398999148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_191
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 575
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d5f613047f92290800000000000000
+      internalID: -7914523015047586547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_192
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 574
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c019f7180ffc1bb0800000000000000
+      internalID: -4963812279042109239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_193
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 577
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4936c1c68aaad890800000000000000
+      internalID: -7432440739268249265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_194
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 599
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e0383fdd9ce9700800000000000000
+      internalID: 549098159696186953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_195
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 605
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5f9fc2339f38f50800000000000000
+      internalID: 6882618653745477089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_196
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 575
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c8114dd02013a10800000000000000
+      internalID: 1887291977260698699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_197
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 574
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2679fac9e28de45b0800000000000000
+      internalID: -5382126809952315550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_198
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 575
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2004b4ceb1dd4dc20800000000000000
+      internalID: 3230449944729698306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_199
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 512
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7379df357066320800000000000000
+      internalID: 2550734296270190551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_200
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 512
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbdc026135f06920800000000000000
+      internalID: 2981652545766480888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_201
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 507
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4789fb7c97ac5b0800000000000000
+      internalID: -5347327708729150277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_202
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 510
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb332086d0dffdc0800000000000000
+      internalID: -3602931557181735944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_203
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 511
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ec46cd13fdae0f0800000000000000
+      internalID: -1086810954812567937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_204
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 510
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d0b89733028f440800000000000000
+      internalID: 4969757594257919323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_205
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 510
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0effc91cfaab3ae70800000000000000
+      internalID: 9125342534013091808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_206
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 510
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e62242e66a84bdf0800000000000000
+      internalID: -165355111818582302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_207
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 510
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2533bbf50b4a15be0800000000000000
+      internalID: -1490228924255620270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_208
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 510
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b13dc5849ad52aa0800000000000000
+      internalID: -6186298181688675919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_209
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 510
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56af07b4431c991a0800000000000000
+      internalID: -6802193331818268059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_210
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 413
+        width: 60
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d75227fb74a9710800000000000000
+      internalID: 1700750696865168740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_211
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 417
+        width: 51
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce3c01ad60fe1bd0800000000000000
+      internalID: -2657422376457978168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_212
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 485
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ab32f2ebebf9b90800000000000000
+      internalID: -7232852752489792982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_213
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 426
+        width: 25
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952cd731024470450800000000000000
+      internalID: 6054883128579572313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_214
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 426
+        width: 9
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03453954992b47c0800000000000000
+      internalID: -4086126519780031731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_215
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 468
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f11c20a4cfff940800000000000000
+      internalID: 5332257878633946911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_216
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 471
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244a425e1974ea440800000000000000
+      internalID: 4948971732466967618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_217
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 413
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbf90c116ed48500800000000000000
+      internalID: 397687175779056605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_218
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 414
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b57e1803885dcc40800000000000000
+      internalID: 5534176836908381622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_219
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 414
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7ae80971eae3ed0800000000000000
+      internalID: -2432315332500740150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_220
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 414
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9778f02f024184330800000000000000
+      internalID: 3695225625990104953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_221
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 415
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c49ddb565d9d5e30800000000000000
+      internalID: 4493920997419619525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_222
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 413
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3e0777dcfc56ce0800000000000000
+      internalID: -1412494426731650124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_223
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 455
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae21b50214cf5a00800000000000000
+      internalID: 747531644850745006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_224
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 451
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a57c6020631ff9e0800000000000000
+      internalID: -1585527240229358175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_225
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 448
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea6a9ac2ae068100800000000000000
+      internalID: 109791333263764207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_226
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 441
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa6c52cb05eafcc0800000000000000
+      internalID: -3676374307126351197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_227
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 434
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa2768ef26843c10800000000000000
+      internalID: 2032396872171596541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_228
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 434
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfab5332cd2ed5b0800000000000000
+      internalID: -5341781795906277432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_229
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 428
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8077aa4798bd94ff0800000000000000
+      internalID: -51268537323718904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_230
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 426
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dac161ca6cd6ac60800000000000000
+      internalID: 7829187353299241686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_231
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 321
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7279f8119f591130800000000000000
+      internalID: 3537964059070132859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_232
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 320
+        width: 43
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74dd52eade25efec0800000000000000
+      internalID: -3531293877029446329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_233
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 395
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07c0e982a799efd0800000000000000
+      internalID: -2312150209324333301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_234
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 326
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1405c5af27069e0800000000000000
+      internalID: -1630176645491965476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_235
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 326
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a266436e6b6c29750800000000000000
+      internalID: 6310324516748027434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_236
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 324
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808c7194f7599d050800000000000000
+      internalID: 5825851966900127752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_237
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 379
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7408d8028ee7f30800000000000000
+      internalID: 4575349497965594609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_238
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 326
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05100433a358998a0800000000000000
+      internalID: -6297856118886497968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_239
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 326
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b6825f6983e81a0800000000000000
+      internalID: -6805439765900924151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_240
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 326
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbaff6d13c6fb4410800000000000000
+      internalID: 1462533821884791483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_241
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 326
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6bd940d4df4cd80800000000000000
+      internalID: -8231175711694670097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_242
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 326
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4814e557983eb3130800000000000000
+      internalID: 3547679311003533700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_243
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 319
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3252f320bf9fb3560800000000000000
+      internalID: 7294698877926450467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_244
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 212
+        width: 73
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5d593b0dac36b70800000000000000
+      internalID: 8891173087074440648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_245
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 211
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f489153fa30ed250800000000000000
+      internalID: 5971214206984881401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_246
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 287
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9c0bb01acd53190800000000000000
+      internalID: -7983232180200355378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_247
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 227
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8c6a173328d3ba0800000000000000
+      internalID: -6107582362182825806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_248
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 220
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e24bc22b507a90d0800000000000000
+      internalID: -3415293830679018781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_249
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 216
+        width: 66
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7fe2ddb3bdb8b10800000000000000
+      internalID: 1984921110947231661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_250
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 261
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048285ba81f78f9c0800000000000000
+      internalID: -3893222133931169728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_251
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 231
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332875294ace643a0800000000000000
+      internalID: -6681392805583551949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_252
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 231
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f381210fc290fb0800000000000000
+      internalID: -4681160928067567715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_253
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 231
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a58ee1171705fa0800000000000000
+      internalID: -5814022388271523259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_254
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 231
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8eeb53db61528c0800000000000000
+      internalID: -4024785690079336239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_255
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 236
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1024239077b9f90800000000000000
+      internalID: -6945827118907260451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_256
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 233
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864a4e6ae7d6aa670800000000000000
+      internalID: 8550767233249617000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_257
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 222
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7006aae8904880aa0800000000000000
+      internalID: -6194556110865014777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_258
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 210
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ca58fa3beeaa760800000000000000
+      internalID: 7470045387458718808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_259
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 159
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebab0a790e559e9e0800000000000000
+      internalID: -1591646570193831234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_260
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 79
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5c272930eaa1cf0800000000000000
+      internalID: -280720696392104457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_261
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 79
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4846c5d06041e10800000000000000
+      internalID: 2167363975126484222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_262
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 79
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93901c32430274580800000000000000
+      internalID: -8843063935008437959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_263
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 79
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6620763f217eff0800000000000000
+      internalID: -7016037803202876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_264
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 79
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61808b287e5a540e0800000000000000
+      internalID: -2286238822071531498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_265
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 79
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292ab5e62ea52b550800000000000000
+      internalID: 6175097967638979218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_266
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 79
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b286420c92ccfd40800000000000000
+      internalID: 5619580410360398520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_267
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 79
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419429ab06ab92d60800000000000000
+      internalID: 7866023148789057812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_268
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 79
+        width: 42
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c80559f975bf770800000000000000
+      internalID: 8645600252584299579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_269
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 79
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9e485885c4f5740800000000000000
+      internalID: 5142913242561309113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_270
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 79
+        width: 35
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a35c4dbd81d4b770800000000000000
+      internalID: 8625749593017832358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_271
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 79
+        width: 33
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9618952ac2beb0dc0800000000000000
+      internalID: -3671582494255644311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_272
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 79
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9595b97a9333a980800000000000000
+      internalID: -8528916530749663843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_273
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 79
+        width: 43
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3160972e7043ee0800000000000000
+      internalID: -1282391324619303973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_274
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 6
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e435c4036f0776ab0800000000000000
+      internalID: -5014915457379183794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_275
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 6
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6e638964accd160800000000000000
+      internalID: 7051733521105610454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_276
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 6
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b80b6655b1104440800000000000000
+      internalID: 4917950263625189552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_277
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 4
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415b37bd6d224dd00800000000000000
+      internalID: 996459723755861268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_278
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 4
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828b298bbcc2c3470800000000000000
+      internalID: 8375618660488886312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_279
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 4
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea30a6430b0183b0800000000000000
+      internalID: -5512112360227063070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_280
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 4
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efd03245ac61cde0800000000000000
+      internalID: -1314650159179571223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_281
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 4
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7be7965781d6ae0800000000000000
+      internalID: -1554559403812800567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_81
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1401
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999d04d559558dc30800000000000000
+      internalID: 4384348337248197017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_282
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1401
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4edb5eee76f30ba0800000000000000
+      internalID: -6123780043268432307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_283
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1400
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605aabd9ab00af250800000000000000
+      internalID: 5979092256797926662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_284
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1399
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ab3f21f6d3b1f30800000000000000
+      internalID: 4547295796029274766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_CenterPivot_285
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 809
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1976d2041d60803e0800000000000000
+      internalID: -2087410931491575919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
