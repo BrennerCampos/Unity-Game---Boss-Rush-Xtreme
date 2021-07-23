@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rigidBody;
     public Transform groundCheckPoint;
     public LayerMask whatIsGround;
-    public float moveSpeed, baseMoveSpeed, dashMultiplier, startDashTime;
+    public float moveSpeed, baseMoveSpeed, dashMultiplier, startDashTime, startShotTimerNormal;
     public float jumpForce;
     public float bounceForce;
     public float knockbackLength, knockbackForce;
@@ -19,8 +19,9 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private bool isGrounded;
     private bool canDoubleJump, canDash, isDashing;
+    private bool canShootStand, isShootingStand, canShootRun, isShootingRun, canShootJump, isShootingJump;
     private string xDirection, yDirection;
-    private float dashTime;
+    private float dashTimer, shotTimerNormal;
     private float knockbackCounter;
 
 
@@ -39,7 +40,10 @@ public class PlayerController : MonoBehaviour
 
         // Starts off facing towards the RIGHT
         xDirection = "Right";
-        dashTime = startDashTime;
+        dashTimer = startDashTime;
+        shotTimerNormal = startShotTimerNormal;
+        canShootStand = true;
+        canShootRun = true;
     }
 
     // Update is called once per frame
@@ -97,16 +101,54 @@ public class PlayerController : MonoBehaviour
                 {
                     // Double jump ability available
                     canDoubleJump = true;
+                    
+
                     if (!isDashing) { canDash = true; }
 
+
+                    // If user presses SHOOT button...
                     if (Input.GetKeyDown(KeyCode.RightControl))
                     {
-                        anim.SetBool("isShootingGround", true);
-                    }
+                        if (shotTimerNormal > 0)
+                        {
+                            // If player is not moving...
+                            if (Mathf.Abs(rigidBody.velocity.x) < 0.1f && canShootStand)
+                            {
+                                anim.SetBool("isShootingStand", true);
+                                isShootingStand = true;
+                                AudioManager.instance.PlaySFX(13);
+                            }
+                            else if (Mathf.Abs(rigidBody.velocity.x) > 0 && canShootRun)// If player is running...
+                            {
+                                anim.SetBool("isShootingRun", true);
+                                isShootingRun = true;
+                                AudioManager.instance.PlaySFX(13);
 
-                    if (Input.GetKeyUp(KeyCode.RightControl))
+                            }
+                        }
+                        
+                    }
+                    /*if (Input.GetKeyUp(KeyCode.RightControl) || Mathf.Abs(rigidBody.velocity.x) < 0.1f)
                     {
-                        anim.SetBool("isShootingGround", false);
+                        canShootRun = false;
+                        canShootStand = false;
+                    }*/
+                }
+
+
+                if (anim.GetBool("isShootingStand") == true || anim.GetBool("isShootingRun") == true)
+                {
+                    shotTimerNormal -= Time.deltaTime;
+                    canShootStand = false;
+                    canShootRun = false;
+
+                    if (shotTimerNormal <= 0)
+                    {
+                        anim.SetBool("isShootingStand", false);
+                        anim.SetBool("isShootingRun", false);
+                        shotTimerNormal = startShotTimerNormal;
+                        canShootStand = true;
+                        canShootRun = true;
                     }
                 }
 
@@ -119,26 +161,27 @@ public class PlayerController : MonoBehaviour
                 // If player presses "Dash" button...
                 if (Input.GetKeyDown(KeyCode.RightShift))
                 {
-                    if (canDash && dashTime > 0 && isGrounded)
+                    if (canDash && dashTimer > 0 && isGrounded)
                     {
                         moveSpeed *= dashMultiplier;
                         isDashing = true;
                         canDash = false;
+                        AudioManager.instance.PlaySFX_NoPitch(0);
                     }
                 }
 
                 if (isDashing)
                 {
-                    dashTime -= Time.deltaTime;
+                    dashTimer -= Time.deltaTime;
 
                     // If "Jump" button is pressed...
                     if (Input.GetButtonDown("Jump"))
                     {
                         anim.SetBool("jumpDash", true);
                         // Changes y-position based on our jump force value
-                       
+
                         // Play "Player Jump" SFX
-                        //     AudioManager.instance.PlaySFX(10);
+                        AudioManager.instance.PlaySFX_NoPitch(1);
 
                     }
 
@@ -160,11 +203,11 @@ public class PlayerController : MonoBehaviour
                 }
 
                 // If we end our dash...
-                if (dashTime <= 0)
+                if (dashTimer <= 0)
                 {
                     isDashing = false;
                     moveSpeed = baseMoveSpeed;
-                    dashTime = startDashTime;
+                    dashTimer = startDashTime;
                     anim.SetBool("jumpDash", false);
                 }
 
@@ -209,13 +252,15 @@ public class PlayerController : MonoBehaviour
     {
         canDash = false;
         
+
         // If we are grounded...
         if (isGrounded)
         {
+
             // Changes y-position based on our jump force value
             rigidBody.velocity = Vector2.up * jumpForce;
             // Play "Player Jump" SFX
-            //     AudioManager.instance.PlaySFX(10);
+            AudioManager.instance.PlaySFX_NoPitch(1);
         }
         else
         {
@@ -231,18 +276,12 @@ public class PlayerController : MonoBehaviour
 
                 anim.SetBool("doubleJumped", true);
                 // Play "Player Jump" SFX
-                //     AudioManager.instance.PlaySFX(10);
+                AudioManager.instance.PlaySFX_HighPitch(1);
             }
         }
     }
 
-    public void Dash()
-    {
-
-
-
-    }
-
+  
     public void Knockback()
     {
         // Sets our knockback counter to our predefined knockback length

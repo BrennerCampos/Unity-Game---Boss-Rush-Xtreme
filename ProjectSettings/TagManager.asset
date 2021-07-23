@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Platform
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -60,4 +61,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3626419329
+    locked: 0
+  - name: Player_Attacks
+    uniqueID: 235363189
     locked: 0
