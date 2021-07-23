@@ -24,7 +24,7 @@ public class AudioManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        
     }
 
     public void PlaySFX(int soundToPlay)
@@ -32,28 +32,7 @@ public class AudioManager : MonoBehaviour
         // First, stop any other already playing instance of this sound effect
         soundEffects[soundToPlay].Stop();
         // Randomizing pitch of SFX slightly so it doesn't sound monotonous and robotic
-        soundEffects[soundToPlay].pitch = Random.Range(0.95f, 1.05f);
-        // Then play the sound effect from the array
-        soundEffects[soundToPlay].Play();
-    }
-
-
-    public void PlaySFX_HighPitch(int soundToPlay)
-    {
-        // First, stop any other already playing instance of this sound effect
-        soundEffects[soundToPlay].Stop();
-        // Randomizing pitch of SFX slightly so it doesn't sound monotonous and robotic
-        soundEffects[soundToPlay].pitch = 1.10f;
-        // Then play the sound effect from the array
-        soundEffects[soundToPlay].Play();
-    }
-
-    public void PlaySFX_NoPitch(int soundToPlay)
-    {
-        // First, stop any other already playing instance of this sound effect
-        soundEffects[soundToPlay].Stop();
-        // Pitch is normal
-        soundEffects[soundToPlay].pitch = 1f;
+        soundEffects[soundToPlay].pitch = Random.Range(0.9f, 1.1f);
         // Then play the sound effect from the array
         soundEffects[soundToPlay].Play();
     }
