@@ -7,22 +7,20 @@ public class PlayerController : MonoBehaviour
 
     public static PlayerController instance;
     public Rigidbody2D rigidBody;
-    public GameObject normalShot;
-    public Transform groundCheckPoint, standFirePoint, runFirePoint, jumpFirePoint;
+    public Transform groundCheckPoint;
     public LayerMask whatIsGround;
     public float moveSpeed, baseMoveSpeed, dashMultiplier, startDashTime, startShotTimerNormal;
     public float jumpForce;
     public float bounceForce;
     public float knockbackLength, knockbackForce;
     public bool stopInput;
-    public string xDirection, yDirection;
 
     private Animator anim;
     private SpriteRenderer spriteRenderer;
     private bool isGrounded;
     private bool canDoubleJump, canDash, isDashing;
     private bool canShootStand, isShootingStand, canShootRun, isShootingRun, canShootJump, isShootingJump;
-    
+    private string xDirection, yDirection;
     private float dashTimer, shotTimerNormal;
     private float knockbackCounter;
 
@@ -117,31 +115,12 @@ public class PlayerController : MonoBehaviour
                             if (Mathf.Abs(rigidBody.velocity.x) < 0.1f && canShootStand)
                             {
                                 anim.SetBool("isShootingStand", true);
-                                var newNormalShot = Instantiate(normalShot, standFirePoint.position, standFirePoint.rotation);
-                                if (xDirection == "Right")
-                                {
-                                    newNormalShot.transform.localScale = instance.transform.localScale;
-                                }
-                                else
-                                {
-                                    newNormalShot.transform.localScale = -instance.transform.localScale;
-                                }
-                               
                                 isShootingStand = true;
                                 AudioManager.instance.PlaySFX(13);
                             }
                             else if (Mathf.Abs(rigidBody.velocity.x) > 0 && canShootRun)// If player is running...
                             {
                                 anim.SetBool("isShootingRun", true);
-                                var newNormalShot = Instantiate(normalShot, runFirePoint.position, runFirePoint.rotation);
-                                if (xDirection == "Right")
-                                {
-                                    newNormalShot.transform.localScale = instance.transform.localScale;
-                                }
-                                else
-                                {
-                                    newNormalShot.transform.localScale = -instance.transform.localScale;
-                                }
                                 isShootingRun = true;
                                 AudioManager.instance.PlaySFX(13);
 
