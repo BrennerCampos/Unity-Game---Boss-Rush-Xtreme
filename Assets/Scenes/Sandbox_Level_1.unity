@@ -7157,7 +7157,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450892014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0635, y: 0.1264, z: 0}
+  m_LocalPosition: {x: 0.071, y: 0.118, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 547236692}
@@ -7632,6 +7632,7 @@ Transform:
   - {fileID: 2100167797}
   - {fileID: 450892015}
   - {fileID: 1569396173}
+  - {fileID: 2000374187}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7648,11 +7649,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidBody: {fileID: 547236696}
-  normalShot: {fileID: 2457441545126587935, guid: 7e9ce2cef53920847a6fe0f5e6686982, type: 3}
+  busterShot: {fileID: 2457441545126587935, guid: 7e9ce2cef53920847a6fe0f5e6686982, type: 3}
+  busterShotEffect: {fileID: 8330498963531303887, guid: 466c9900dfc88ed4ca2239f0e1e2d00b, type: 3}
   groundCheckPoint: {fileID: 2100167797}
   standFirePoint: {fileID: 450892015}
   runFirePoint: {fileID: 1569396173}
-  jumpFirePoint: {fileID: 0}
+  jumpFirePoint: {fileID: 2000374187}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 1344
@@ -7660,12 +7662,14 @@ MonoBehaviour:
   baseMoveSpeed: 9
   dashMultiplier: 2.22
   startDashTime: 0.25
-  startShotTimerNormal: 0.3
+  startShotTimerNormal: 0.2
   jumpForce: 24
   bounceForce: 0
   knockbackLength: 0
   knockbackForce: 0
   stopInput: 0
+  xDirection: 
+  yDirection: 
 --- !u!70 &547236694
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -11189,7 +11193,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1569396172}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1005, y: 0.1225, z: 0}
+  m_LocalPosition: {x: 0.152, y: 0.1225, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 547236692}
@@ -11895,6 +11899,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 517560505}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2000374186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2000374187}
+  m_Layer: 9
+  m_Name: jumpFirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2000374187
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000374186}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0776, y: 0.1514, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 547236692}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2085676779
 GameObject:
