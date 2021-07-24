@@ -7,20 +7,23 @@ public class PlayerController : MonoBehaviour
 
     public static PlayerController instance;
     public Rigidbody2D rigidBody;
-    public Transform groundCheckPoint;
+    public GameObject busterShot, busterShotEffect;
+    public Transform groundCheckPoint, standFirePoint, runFirePoint, jumpFirePoint;
     public LayerMask whatIsGround;
-    public float moveSpeed, baseMoveSpeed, dashMultiplier, startDashTime;
+    public float moveSpeed, baseMoveSpeed, dashMultiplier, startDashTime, startShotTimerNormal;
     public float jumpForce;
     public float bounceForce;
     public float knockbackLength, knockbackForce;
     public bool stopInput;
+    public string xDirection, yDirection;
 
     private Animator anim;
     private SpriteRenderer spriteRenderer;
-    private bool isGrounded;
+    private bool isGrounded, isJumping;
     private bool canDoubleJump, canDash, isDashing;
-    private string xDirection, yDirection;
-    private float dashTime;
+    private bool canShootStand, isStandShooting, canShootRun, isRunShooting, canJumpShoot, isJumpShooting;
+    
+    private float dashTimer, shotTimerNormal;
     private float knockbackCounter;
 
 
@@ -39,7 +42,10 @@ public class PlayerController : MonoBehaviour
 
         // Starts off facing towards the RIGHT
         xDirection = "Right";
-        dashTime = startDashTime;
+        dashTimer = startDashTime;
+        shotTimerNormal = startShotTimerNormal;
+        canShootStand = true;
+        canShootRun = true;
     }
 
     // Update is called once per frame
@@ -95,18 +101,149 @@ public class PlayerController : MonoBehaviour
                 // If we are grounded... 
                 if (isGrounded)
                 {
-                    // Double jump ability available
-                    canDoubleJump = true;
-                    if (!isDashing) { canDash = true; }
+                    canJumpShoot = false;
+                    isJumpShooting = false;
+                    anim.SetBool("isJumpShooting", false);
 
+                    // Double jump ability available
+                    if (yDirection == "Grounded")
+                    {
+                        isJumping = false;
+                    }
+                    
+                    
+                    canDoubleJump = true;
+
+
+                    if (!isDashing)
+                    {
+                        canDash = true;
+                    }
+
+
+                    // If user presses SHOOT button...
                     if (Input.GetKeyDown(KeyCode.RightControl))
                     {
-                        anim.SetBool("isShootingGround", true);
+                        if (shotTimerNormal > 0)
+                        {
+
+                            canJumpShoot = true;
+
+
+                            // If player is not moving...
+                            if (Mathf.Abs(rigidBody.velocity.x) < 0.1f && canShootStand)
+                            {
+                                anim.SetBool("isStandShooting", true);
+                                var newBusterShot = Instantiate(busterShot, standFirePoint.position, standFirePoint.rotation);
+                                var newBusterShotBurstEffect = Instantiate(busterShotEffect, standFirePoint.position,
+                                    standFirePoint.rotation);
+                                if (xDirection == "Right")
+                                {
+                                    newBusterShot.transform.localScale = instance.transform.localScale;
+                                    newBusterShotBurstEffect.transform.localScale = instance.transform.localScale;
+                                }
+                                else
+                                {
+                                    newBusterShot.transform.localScale = -instance.transform.localScale;
+                                    newBusterShotBurstEffect.transform.localScale = -instance.transform.localScale;
+                                }
+                               
+                                isStandShooting = true;
+                                AudioManager.instance.PlaySFX(13);
+                            }
+                            else if (Mathf.Abs(rigidBody.velocity.x) > 0 && canShootRun)// If player is running...
+                            {
+                                anim.SetBool("isRunShooting", true);
+                                var newBusterShot = Instantiate(busterShot, runFirePoint.position, runFirePoint.rotation);
+                                var newBusterShotBurstEffect = Instantiate(busterShotEffect, runFirePoint.position,
+                                    runFirePoint.rotation);
+                                if (xDirection == "Right")
+                                {
+                                    newBusterShot.transform.localScale = instance.transform.localScale;
+                                    newBusterShotBurstEffect.transform.localScale = instance.transform.localScale;
+                                }
+                                else
+                                {
+                                    newBusterShot.transform.localScale = -instance.transform.localScale;
+                                    newBusterShotBurstEffect.transform.localScale = -instance.transform.localScale;
+                                }
+                                isRunShooting = true;
+                                AudioManager.instance.PlaySFX(13);
+                            } 
+                        }
+
+                        if (Input.GetKeyUp(KeyCode.RightControl))
+                        {
+                            isRunShooting = false;
+                            anim.SetBool("isRunShooting", false);
+                            isStandShooting = false;
+                            anim.SetBool("isStandShooting", false);
+                            anim.SetBool("takeOffJumpShoot", false);
+                        }
+                        
+                    }
+                    /*if (Input.GetKeyUp(KeyCode.RightControl) || Mathf.Abs(rigidBody.velocity.x) < 0.1f)
+                    {
+                        canShootRun = false;
+                        canShootStand = false;
+                    }*/
+
+                    if (Input.GetKeyDown(KeyCode.RightControl) && Input.GetKeyDown(KeyCode.Space))
+                    {
+                        anim.SetBool("takeOffJumpShoot", true);
+                    }
+
+                }
+                else  // If Player is NOT on the ground
+                {
+                    if (Input.GetKeyDown(KeyCode.RightControl))
+                    {
+                        if (yDirection != "Grounded" && !isGrounded)
+                        {
+                            anim.SetBool("isJumpShooting", true);
+
+                            var newBusterShot = Instantiate(busterShot, jumpFirePoint.position, jumpFirePoint.rotation);
+                            var newBusterShotBurstEffect = Instantiate(busterShotEffect, jumpFirePoint.position,
+                                jumpFirePoint.rotation);
+                            if (xDirection == "Right")
+                            {
+                                newBusterShot.transform.localScale = instance.transform.localScale;
+                                newBusterShotBurstEffect.transform.localScale = instance.transform.localScale;
+                            }
+                            else
+                            {
+                                newBusterShot.transform.localScale = -instance.transform.localScale;
+                                newBusterShotBurstEffect.transform.localScale = -instance.transform.localScale;
+                            }
+                            isJumpShooting = true;
+                            AudioManager.instance.PlaySFX(13);
+                        }
                     }
 
                     if (Input.GetKeyUp(KeyCode.RightControl))
                     {
-                        anim.SetBool("isShootingGround", false);
+                        isJumpShooting = false;
+                        anim.SetBool("isJumpShooting", false);
+                        anim.SetBool("takeOffJumpShoot", false);
+                    }
+                    
+                }
+
+
+                if (anim.GetBool("isStandShooting") == true || anim.GetBool("isRunShooting") == true)
+                {
+                    shotTimerNormal -= Time.deltaTime;
+                    canShootStand = false;
+                    canShootRun = false;
+
+                    if (shotTimerNormal <= 0)
+                    {
+                        anim.SetBool("isStandShooting", false);
+                        anim.SetBool("isRunShooting", false);
+                        anim.SetBool("isJumpShooting", false);
+                        shotTimerNormal = startShotTimerNormal;
+                        canShootStand = true;
+                        canShootRun = true;
                     }
                 }
 
@@ -119,26 +256,29 @@ public class PlayerController : MonoBehaviour
                 // If player presses "Dash" button...
                 if (Input.GetKeyDown(KeyCode.RightShift))
                 {
-                    if (canDash && dashTime > 0 && isGrounded)
+                    if (canDash && dashTimer > 0 && isGrounded)
                     {
                         moveSpeed *= dashMultiplier;
                         isDashing = true;
                         canDash = false;
+                        AudioManager.instance.PlaySFX_NoPitch(0);
                     }
                 }
 
                 if (isDashing)
                 {
-                    dashTime -= Time.deltaTime;
+                    dashTimer -= Time.deltaTime;
 
                     // If "Jump" button is pressed...
                     if (Input.GetButtonDown("Jump"))
                     {
                         anim.SetBool("jumpDash", true);
                         // Changes y-position based on our jump force value
-                       
+
+                        isJumping = true;
+
                         // Play "Player Jump" SFX
-                        //     AudioManager.instance.PlaySFX(10);
+                        AudioManager.instance.PlaySFX_NoPitch(1);
 
                     }
 
@@ -160,11 +300,11 @@ public class PlayerController : MonoBehaviour
                 }
 
                 // If we end our dash...
-                if (dashTime <= 0)
+                if (dashTimer <= 0)
                 {
                     isDashing = false;
                     moveSpeed = baseMoveSpeed;
-                    dashTime = startDashTime;
+                    dashTimer = startDashTime;
                     anim.SetBool("jumpDash", false);
                 }
 
@@ -208,14 +348,18 @@ public class PlayerController : MonoBehaviour
     public void Jump()
     {
         canDash = false;
-        
+        isJumping = true;
+
+
         // If we are grounded...
         if (isGrounded)
         {
+
             // Changes y-position based on our jump force value
             rigidBody.velocity = Vector2.up * jumpForce;
+
             // Play "Player Jump" SFX
-            //     AudioManager.instance.PlaySFX(10);
+            AudioManager.instance.PlaySFX_NoPitch(1);
         }
         else
         {
@@ -225,24 +369,18 @@ public class PlayerController : MonoBehaviour
                 // Changes y-position based on our jump force value
                 rigidBody.velocity = Vector2.up * jumpForce;
 
-                
+                isJumping = true;
                 // Take away double jump availability
                 canDoubleJump = false;
 
                 anim.SetBool("doubleJumped", true);
                 // Play "Player Jump" SFX
-                //     AudioManager.instance.PlaySFX(10);
+                AudioManager.instance.PlaySFX_HighPitch(1);
             }
         }
     }
 
-    public void Dash()
-    {
-
-
-
-    }
-
+  
     public void Knockback()
     {
         // Sets our knockback counter to our predefined knockback length
