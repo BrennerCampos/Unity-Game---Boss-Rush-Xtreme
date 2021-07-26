@@ -8,6 +8,8 @@ TagManager:
   - Platform
   - Bullet
   - Effects1
+  - Ground
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -21,9 +23,9 @@ TagManager:
   - Player
   - Platform
   - Bullets
-  - 
-  - 
-  - 
+  - Attack Effects
+  - Character Effects
+  - World Effects
   - 
   - 
   - 

@@ -7,22 +7,22 @@ public class PlayerController : MonoBehaviour
 
     public static PlayerController instance;
     public Rigidbody2D rigidBody;
-    public GameObject busterShot, busterShotEffect;
-    public Transform groundCheckPoint, standFirePoint, runFirePoint, jumpFirePoint;
+    public GameObject busterShot;
+    public Transform groundCheckPoint, standFirePointRight, standFirePointLeft, runFirePointRight, runFirePointLeft, 
+        jumpFirePointRight, jumpFirePointLeft;
     public LayerMask whatIsGround;
     public float moveSpeed, baseMoveSpeed, dashMultiplier, startDashTime, startShotTimerNormal;
     public float jumpForce;
     public float bounceForce;
     public float knockbackLength, knockbackForce;
     public bool stopInput;
+    public bool canShootStand, isStandShooting, canShootRun, isRunShooting, canJumpShoot, isJumpShooting;
     public string xDirection, yDirection;
 
     private Animator anim;
     private SpriteRenderer spriteRenderer;
     private bool isGrounded, isJumping;
     private bool canDoubleJump, canDash, isDashing;
-    private bool canShootStand, isStandShooting, canShootRun, isRunShooting, canJumpShoot, isJumpShooting;
-    
     private float dashTimer, shotTimerNormal;
     private float knockbackCounter;
 
@@ -134,18 +134,16 @@ public class PlayerController : MonoBehaviour
                             if (Mathf.Abs(rigidBody.velocity.x) < 0.1f && canShootStand)
                             {
                                 anim.SetBool("isStandShooting", true);
-                                var newBusterShot = Instantiate(busterShot, standFirePoint.position, standFirePoint.rotation);
-                                var newBusterShotBurstEffect = Instantiate(busterShotEffect, standFirePoint.position,
-                                    standFirePoint.rotation);
+                                
                                 if (xDirection == "Right")
                                 {
+                                    var newBusterShot = Instantiate(busterShot, standFirePointRight.position, standFirePointRight.rotation);
                                     newBusterShot.transform.localScale = instance.transform.localScale;
-                                    newBusterShotBurstEffect.transform.localScale = instance.transform.localScale;
                                 }
                                 else
                                 {
+                                    var newBusterShot = Instantiate(busterShot, standFirePointLeft.position, standFirePointLeft.rotation);
                                     newBusterShot.transform.localScale = -instance.transform.localScale;
-                                    newBusterShotBurstEffect.transform.localScale = -instance.transform.localScale;
                                 }
                                
                                 isStandShooting = true;
@@ -154,18 +152,16 @@ public class PlayerController : MonoBehaviour
                             else if (Mathf.Abs(rigidBody.velocity.x) > 0 && canShootRun)// If player is running...
                             {
                                 anim.SetBool("isRunShooting", true);
-                                var newBusterShot = Instantiate(busterShot, runFirePoint.position, runFirePoint.rotation);
-                                var newBusterShotBurstEffect = Instantiate(busterShotEffect, runFirePoint.position,
-                                    runFirePoint.rotation);
                                 if (xDirection == "Right")
                                 {
+                                    var newBusterShot = Instantiate(busterShot, runFirePointRight.position, runFirePointRight.rotation);
                                     newBusterShot.transform.localScale = instance.transform.localScale;
-                                    newBusterShotBurstEffect.transform.localScale = instance.transform.localScale;
+                                    
                                 }
                                 else
                                 {
+                                    var newBusterShot = Instantiate(busterShot, runFirePointLeft.position, runFirePointLeft.rotation);
                                     newBusterShot.transform.localScale = -instance.transform.localScale;
-                                    newBusterShotBurstEffect.transform.localScale = -instance.transform.localScale;
                                 }
                                 isRunShooting = true;
                                 AudioManager.instance.PlaySFX(13);
@@ -202,18 +198,15 @@ public class PlayerController : MonoBehaviour
                         {
                             anim.SetBool("isJumpShooting", true);
 
-                            var newBusterShot = Instantiate(busterShot, jumpFirePoint.position, jumpFirePoint.rotation);
-                            var newBusterShotBurstEffect = Instantiate(busterShotEffect, jumpFirePoint.position,
-                                jumpFirePoint.rotation);
                             if (xDirection == "Right")
                             {
+                                var newBusterShot = Instantiate(busterShot, jumpFirePointRight.position, jumpFirePointRight.rotation);
                                 newBusterShot.transform.localScale = instance.transform.localScale;
-                                newBusterShotBurstEffect.transform.localScale = instance.transform.localScale;
                             }
                             else
                             {
+                                var newBusterShot = Instantiate(busterShot, jumpFirePointLeft.position, jumpFirePointLeft.rotation);
                                 newBusterShot.transform.localScale = -instance.transform.localScale;
-                                newBusterShotBurstEffect.transform.localScale = -instance.transform.localScale;
                             }
                             isJumpShooting = true;
                             AudioManager.instance.PlaySFX(13);

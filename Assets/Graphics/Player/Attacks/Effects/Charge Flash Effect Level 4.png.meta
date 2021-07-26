@@ -1,22 +1,19 @@
 fileFormatVersion: 2
-guid: 93c636649fd7dd044ba457fed379a41f
+guid: a493079149fca4346aff3900390c1977
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5548021416281210330
-    second: Shot Effects - Normal Shot_0
+      213: -7935861540473924735
+    second: Charge Flash Effect Level 4_0
   - first:
-      213: 2203588523197638868
-    second: Shot Effects - Normal Shot_1
+      213: -2916380928271708934
+    second: Charge Flash Effect Level 4_1
   - first:
-      213: -2325912244810688528
-    second: Shot Effects - Normal Shot_2
+      213: -5684510794548373617
+    second: Charge Flash Effect Level 4_2
   - first:
-      213: -1501369433189865636
-    second: Shot Effects - Normal Shot_3
-  - first:
-      213: 6371535595681665549
-    second: Shot Effects - Normal Shot_4
+      213: 7033199975824936220
+    second: Charge Flash Effect Level 4_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -83,7 +80,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,7 +92,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -107,7 +104,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,7 +116,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -131,7 +128,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -143,7 +140,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -155,7 +152,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -167,7 +164,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -178,13 +175,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shot Effects - Normal Shot_0
+      name: Charge Flash Effect Level 4_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 0
-        width: 18
-        height: 28
+        x: 7
+        y: 24
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +189,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: add73bb55188efc40800000000000000
-      internalID: 5548021416281210330
+      spriteID: 1831e5599f72ed190800000000000000
+      internalID: -7935861540473924735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shot Effects - Normal Shot_1
+      name: Charge Flash Effect Level 4_1
       rect:
         serializedVersion: 2
-        x: 27
-        y: 0
-        width: 22
-        height: 28
+        x: 33
+        y: 21
+        width: 32
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +210,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d8a2543618b49e10800000000000000
-      internalID: 2203588523197638868
+      spriteID: afc04a45ffee687d0800000000000000
+      internalID: -2916380928271708934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shot Effects - Normal Shot_2
+      name: Charge Flash Effect Level 4_2
       rect:
         serializedVersion: 2
-        x: 49
-        y: 0
-        width: 22
-        height: 28
+        x: 68
+        y: 13
+        width: 50
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f7d355f223b8bfd0800000000000000
-      internalID: -2325912244810688528
+      spriteID: f871219dc8f8c11b0800000000000000
+      internalID: -5684510794548373617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shot Effects - Normal Shot_3
+      name: Charge Flash Effect Level 4_3
       rect:
         serializedVersion: 2
-        x: 71
-        y: 0
-        width: 28
-        height: 28
+        x: 120
+        y: 5
+        width: 64
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,29 +252,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c57a61284701a2be0800000000000000
-      internalID: -1501369433189865636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shot Effects - Normal Shot_4
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 0
-        width: 27
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d02dc5ecddd3c6850800000000000000
-      internalID: 6371535595681665549
+      spriteID: c1dc4515d12fa9160800000000000000
+      internalID: 7033199975824936220
       vertices: []
       indices: 
       edges: []
