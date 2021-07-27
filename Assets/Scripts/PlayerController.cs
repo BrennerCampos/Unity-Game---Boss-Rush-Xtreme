@@ -141,7 +141,7 @@ public class PlayerController : MonoBehaviour
                     }
                 }
 
-                /*if (justPressedShoot)
+                if (justPressedShoot)
                 {
                     shotTimerNormal -= Time.deltaTime;
 
@@ -150,7 +150,7 @@ public class PlayerController : MonoBehaviour
                         shotTimerNormal = startShotTimerNormal;
                         justPressedShoot = false;
                     }
-                }*/
+                }
 
                 ////////////////////////////////////////////////////////////////////////////////////////////////////////
                 //  IF GROUNDED...
@@ -510,7 +510,7 @@ public class PlayerController : MonoBehaviour
         // Pops the Player up with our predefined knockback force
         rigidBody.velocity = new Vector2(0f, knockbackForce);
         // Change Player's sprite animation to 'Hurt'
-        anim.SetTrigger("isHurt");
+        //anim.SetTrigger("isHurt");
     }
 
     public void Bounce()
@@ -519,5 +519,13 @@ public class PlayerController : MonoBehaviour
         rigidBody.velocity = new Vector2(rigidBody.velocity.x, bounceForce);
         // Play "Player Jump" SFX
         AudioManager.instance.PlaySFX(10);
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            instance.Knockback();
+        }
     }
 }

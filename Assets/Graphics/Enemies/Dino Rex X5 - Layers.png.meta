@@ -1,0 +1,2484 @@
+fileFormatVersion: 2
+guid: 9c0be6f497bc8614388f2d4ab7201da5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6416812330666071024
+    second: Dino Rex X5 - Layers_0
+  - first:
+      213: 4952460614729922158
+    second: Dino Rex X5 - Layers_1
+  - first:
+      213: 3294983250092383314
+    second: Dino Rex X5 - Layers_2
+  - first:
+      213: -5505532113942783655
+    second: Dino Rex X5 - Layers_3
+  - first:
+      213: 3158705495917310545
+    second: Dino Rex X5 - Layers_4
+  - first:
+      213: -8599426926059893556
+    second: Dino Rex X5 - Layers_5
+  - first:
+      213: 3517592980305399662
+    second: Dino Rex X5 - Layers_6
+  - first:
+      213: 2913520620140460831
+    second: Dino Rex X5 - Layers_8
+  - first:
+      213: -2522773994511325351
+    second: Dino Rex X5 - Layers_10
+  - first:
+      213: -2698922627950540578
+    second: Dino Rex X5 - Layers_11
+  - first:
+      213: 7911070985444527842
+    second: Dino Rex X5 - Layers_12
+  - first:
+      213: -1218684622917903003
+    second: Dino Rex X5 - Layers_13
+  - first:
+      213: 3933806881744553735
+    second: Dino Rex X5 - Layers_14
+  - first:
+      213: 4828614294151259402
+    second: Dino Rex X5 - Layers_15
+  - first:
+      213: 3208724277832251112
+    second: Dino Rex X5 - Layers_16
+  - first:
+      213: -3858232218267923424
+    second: Dino Rex X5 - Layers_17
+  - first:
+      213: 8182599241673665162
+    second: Dino Rex X5 - Layers_26
+  - first:
+      213: 6788124977146512781
+    second: Dino Rex X5 - Layers_27
+  - first:
+      213: 69774644255310689
+    second: Dino Rex X5 - Layers_28
+  - first:
+      213: -1895346527262502955
+    second: Dino Rex X5 - Layers_29
+  - first:
+      213: 3130942614911834569
+    second: Dino Rex X5 - Layers_30
+  - first:
+      213: -8471493230489321618
+    second: Dino Rex X5 - Layers_31
+  - first:
+      213: -3516177608932249903
+    second: Dino Rex X5 - Layers_32
+  - first:
+      213: 256675693352413449
+    second: Dino Rex X5 - Layers_33
+  - first:
+      213: 7078448611693024107
+    second: Dino Rex X5 - Layers_34
+  - first:
+      213: 3753873701236521238
+    second: Dino Rex X5 - Layers_35
+  - first:
+      213: 2648318147688855712
+    second: Dino Rex X5 - Layers_36
+  - first:
+      213: 4296716043808671485
+    second: Dino Rex X5 - Layers_37
+  - first:
+      213: -4389927426496425010
+    second: Dino Rex X5 - Layers_38
+  - first:
+      213: -7703393541697427649
+    second: Dino Rex X5 - Layers_39
+  - first:
+      213: -206206237918701386
+    second: Dino Rex X5 - Layers_40
+  - first:
+      213: -4998479671341103161
+    second: Dino Rex X5 - Layers_41
+  - first:
+      213: -3563979891972769663
+    second: Dino Rex X5 - Layers_42
+  - first:
+      213: -8671794051104323392
+    second: Dino Rex X5 - Layers_43
+  - first:
+      213: -9165201974261076246
+    second: Dino Rex X5 - Layers_44
+  - first:
+      213: -4217223653364594654
+    second: Dino Rex X5 - Layers_45
+  - first:
+      213: 3949384775742655338
+    second: Dino Rex X5 - Layers_46
+  - first:
+      213: 3424477421040467280
+    second: Dino Rex X5 - Layers_47
+  - first:
+      213: 4058136719135625422
+    second: Dino Rex X5 - Layers_48
+  - first:
+      213: -573320591518590576
+    second: Dino Rex X5 - Layers_98
+  - first:
+      213: 5778422538067546071
+    second: Dino Rex X5 - Layers_99
+  - first:
+      213: 4351326395333873414
+    second: Dino Rex X5 - Layers_100
+  - first:
+      213: -3148021409569537528
+    second: Dino Rex X5 - Layers_101
+  - first:
+      213: -6397772955482772018
+    second: Dino Rex X5 - Layers_102
+  - first:
+      213: -9076763552593849102
+    second: Dino Rex X5 - Layers_103
+  - first:
+      213: 7936543225790095428
+    second: Dino Rex X5 - Layers_104
+  - first:
+      213: 5100921283693671596
+    second: Dino Rex X5 - Layers_105
+  - first:
+      213: 836361504496577720
+    second: Dino Rex X5 - Layers_106
+  - first:
+      213: -7668724559576362498
+    second: Dino Rex X5 - Layers_107
+  - first:
+      213: -6268932082582976922
+    second: Dino Rex X5 - Layers_108
+  - first:
+      213: 1964357960258500093
+    second: Dino Rex X5 - Layers_111
+  - first:
+      213: -2259309835764102551
+    second: Dino Rex X5 - Layers_112
+  - first:
+      213: 3913977859849925521
+    second: Dino Rex X5 - Layers_113
+  - first:
+      213: -4189751438551829607
+    second: Dino Rex X5 - Layers_115
+  - first:
+      213: 3172872432287565155
+    second: Dino Rex X5 - Layers_116
+  - first:
+      213: 8668331513240471753
+    second: Dino Rex X5 - Layers_117
+  - first:
+      213: -7008969284844469727
+    second: Dino Rex X5 - Layers_118
+  - first:
+      213: 5017289436147437769
+    second: Dino Rex X5 - Layers_119
+  - first:
+      213: 9194973056321883719
+    second: Dino Rex X5 - Layers_120
+  - first:
+      213: 7996916636122517765
+    second: Dino Rex X5 - Layers_121
+  - first:
+      213: -2431615745606706258
+    second: Dino Rex X5 - Layers_122
+  - first:
+      213: -2113068498606347942
+    second: Dino Rex X5 - Layers_123
+  - first:
+      213: -9001184519280237572
+    second: Dino Rex X5 - Layers_124
+  - first:
+      213: -1638520263572839414
+    second: Dino Rex X5 - Layers_125
+  - first:
+      213: 6944963419472569472
+    second: Dino Rex X5 - Layers_126
+  - first:
+      213: 3069192062278011361
+    second: Dino Rex X5 - Layers_127
+  - first:
+      213: -1234777409290322788
+    second: Dino Rex X5 - Layers_128
+  - first:
+      213: -1792618950091404759
+    second: Dino Rex X5 - Layers_129
+  - first:
+      213: 6392647893950572600
+    second: Dino Rex X5 - Layers_130
+  - first:
+      213: -1812976792360620860
+    second: Dino Rex X5 - Layers_131
+  - first:
+      213: -8646629441766399517
+    second: Dino Rex X5 - Layers_132
+  - first:
+      213: -7221305931956133851
+    second: Dino Rex X5 - Layers_133
+  - first:
+      213: -6115170384845921629
+    second: Dino Rex X5 - Layers_134
+  - first:
+      213: 8002748292678020655
+    second: Dino Rex X5 - Layers_135
+  - first:
+      213: 6964983383475003749
+    second: Dino Rex X5 - Layers_140
+  - first:
+      213: 5434425739878419362
+    second: Dino Rex X5 - Layers_142
+  - first:
+      213: 4521763848853661808
+    second: Dino Rex X5 - Layers_144
+  - first:
+      213: -9182779285008447460
+    second: Dino Rex X5 - Layers_145
+  - first:
+      213: 5616479167605524431
+    second: Dino Rex X5 - Layers_146
+  - first:
+      213: -3221259905595695282
+    second: Dino Rex X5 - Layers_147
+  - first:
+      213: -7854803355658073671
+    second: Dino Rex X5 - Layers_49
+  - first:
+      213: -3007695981226233712
+    second: Dino Rex X5 - Layers_50
+  - first:
+      213: 5444983417426855652
+    second: Dino Rex X5 - Layers_51
+  - first:
+      213: 6710236620589320744
+    second: Dino Rex X5 - Layers_52
+  - first:
+      213: 8149100939998152138
+    second: Dino Rex X5 - Layers_53
+  - first:
+      213: 6666032647994098577
+    second: Dino Rex X5 - Layers_7
+  - first:
+      213: -4273395259595657897
+    second: Dino Rex X5 - Layers_9
+  - first:
+      213: 6833367571059944456
+    second: Dino Rex X5 - Layers_18
+  - first:
+      213: -6777653786287857444
+    second: Dino Rex X5 - Layers_19
+  - first:
+      213: 5385355805173694997
+    second: Dino Rex X5 - Layers_20
+  - first:
+      213: 305408983060078951
+    second: Dino Rex X5 - Layers_21
+  - first:
+      213: -619855499459143541
+    second: Dino Rex X5 - Layers_22
+  - first:
+      213: 494995410584527144
+    second: Dino Rex X5 - Layers_23
+  - first:
+      213: -8722748600963584504
+    second: Dino Rex X5 - Layers_24
+  - first:
+      213: 4179080277056623790
+    second: Dino Rex X5 - Layers_25
+  - first:
+      213: -6808494922166963227
+    second: Dino Rex X5 - Layers_54
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_0
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1313
+        width: 112
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f392b721d81d0950800000000000000
+      internalID: 6416812330666071024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_1
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1312
+        width: 111
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66f61990bcaab440800000000000000
+      internalID: 4952460614729922158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_2
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1312
+        width: 110
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c5e92fec12abd20800000000000000
+      internalID: 3294983250092383314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1287
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9595fe046bb6893b0800000000000000
+      internalID: -5505532113942783655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_4
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1287
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152b93ab9e9f5db20800000000000000
+      internalID: 3158705495917310545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1257
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc4540c5c2b8a880800000000000000
+      internalID: -8599426926059893556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1257
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fc287bd2001d030800000000000000
+      internalID: 3517592980305399662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_8
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1258
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b7f394197ee6820800000000000000
+      internalID: 2913520620140460831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1220
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9572f801b6e4dfcd0800000000000000
+      internalID: -2522773994511325351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_11
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1221
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed88ebc5b208b8ad0800000000000000
+      internalID: -2698922627950540578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_12
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1222
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee02588525c9cd60800000000000000
+      internalID: 7911070985444527842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_13
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1138
+        width: 127
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d5fb5dacc561fe0800000000000000
+      internalID: -1218684622917903003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_14
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1138
+        width: 127
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7070f594480b79630800000000000000
+      internalID: 3933806881744553735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_15
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1137
+        width: 127
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0562401e1fa20340800000000000000
+      internalID: 4828614294151259402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_16
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1137
+        width: 127
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6fc5aeabda78c20800000000000000
+      internalID: 3208724277832251112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_17
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1074
+        width: 75
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c4c214d3ec47ac0800000000000000
+      internalID: -3858232218267923424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_26
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1075
+        width: 73
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ae65338ae6e8170800000000000000
+      internalID: 8182599241673665162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_27
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1020
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8546c1a3b3443e50800000000000000
+      internalID: 6788124977146512781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_28
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1020
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163ca255ba3e7f000800000000000000
+      internalID: 69774644255310689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_29
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1020
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df8f3c106062b5e0800000000000000
+      internalID: -1895346527262502955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_30
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1022
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9d3f548b7537b20800000000000000
+      internalID: 3130942614911834569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_31
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1028
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fbe8f6ac53f6a80800000000000000
+      internalID: -8471493230489321618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_32
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1026
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de296c1817043fc0800000000000000
+      internalID: -3516177608932249903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_33
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1026
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9096fb4ee25ef8300800000000000000
+      internalID: 256675693352413449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_34
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1026
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63d1d45283bb3260800000000000000
+      internalID: 7078448611693024107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_35
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1026
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61932ed0e30781430800000000000000
+      internalID: 3753873701236521238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_36
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1026
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8f63de257b0c420800000000000000
+      internalID: 2648318147688855712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_37
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1029
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df600f31a7001ab30800000000000000
+      internalID: 4296716043808671485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_38
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1029
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec39fe1b348d313c0800000000000000
+      internalID: -4389927426496425010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_39
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1029
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37261e536c081590800000000000000
+      internalID: -7703393541697427649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_40
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1029
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8d266e488632df0800000000000000
+      internalID: -206206237918701386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_41
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1030
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7c3b4d835d1aab0800000000000000
+      internalID: -4998479671341103161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_42
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1030
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188f358cb233a8ec0800000000000000
+      internalID: -3563979891972769663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_43
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 923
+        width: 107
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8c492714997a780800000000000000
+      internalID: -8671794051104323392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_44
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 922
+        width: 137
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeea57d1d59aec080800000000000000
+      internalID: -9165201974261076246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_45
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 898
+        width: 107
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22804da5e696975c0800000000000000
+      internalID: -4217223653364594654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_46
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 896
+        width: 74
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b0a7f57880fc630800000000000000
+      internalID: 3949384775742655338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_47
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 925
+        width: 106
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d767e1210368f20800000000000000
+      internalID: 3424477421040467280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_48
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 898
+        width: 107
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec05c0a58d5615830800000000000000
+      internalID: 4058136719135625422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_98
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 600
+        width: 89
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0991e18a5f72b08f0800000000000000
+      internalID: -573320591518590576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_99
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 602
+        width: 89
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df80a7dea4113050800000000000000
+      internalID: 5778422538067546071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_100
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 601
+        width: 89
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f08af5d44036c30800000000000000
+      internalID: 4351326395333873414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_101
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 603
+        width: 89
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8028849f43bff44d0800000000000000
+      internalID: -3148021409569537528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_102
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 561
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd29d2d46b8637a0800000000000000
+      internalID: -6397772955482772018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_103
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 560
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f45e61c3abd80280800000000000000
+      internalID: -9076763552593849102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_104
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 560
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44060c5a304442e60800000000000000
+      internalID: 7936543225790095428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_105
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 452
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca47ac5b1ec1ac640800000000000000
+      internalID: 5100921283693671596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_106
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 451
+        width: 167
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc645b6b5a5b9b00800000000000000
+      internalID: 836361504496577720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_107
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 451
+        width: 127
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1132ac4a7339590800000000000000
+      internalID: -7668724559576362498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_108
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 404
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66687903c774009a0800000000000000
+      internalID: -6268932082582976922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_111
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 384
+        width: 181
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df53be0482dc24b10800000000000000
+      internalID: 1964357960258500093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_112
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 357
+        width: 167
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a0cb9bca155a0e0800000000000000
+      internalID: -2259309835764102551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_113
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 357
+        width: 172
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193391b502e315630800000000000000
+      internalID: 3913977859849925521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_115
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 247
+        width: 14
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993bfefc3430bd5c0800000000000000
+      internalID: -4189751438551829607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_116
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 216
+        width: 46
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3654124aaae480c20800000000000000
+      internalID: 3172872432287565155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_117
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 215
+        width: 62
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8c502a5991c4870800000000000000
+      internalID: 8668331513240471753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_118
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 215
+        width: 57
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122c83f02932bbe90800000000000000
+      internalID: -7008969284844469727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_119
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 215
+        width: 53
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c053e0d82ef0a540800000000000000
+      internalID: 5017289436147437769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_120
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 193
+        width: 32
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e8a55174b1b9f70800000000000000
+      internalID: 9194973056321883719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_121
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 196
+        width: 31
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5019e72af41cafe60800000000000000
+      internalID: 7996916636122517765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_122
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 194
+        width: 31
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab9dd4dc5a214ed0800000000000000
+      internalID: -2431615745606706258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_123
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 194
+        width: 29
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a592082656fdca2e0800000000000000
+      internalID: -2113068498606347942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_124
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 288
+        width: 27
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf36e8abe5e551380800000000000000
+      internalID: -9001184519280237572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_125
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 193
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a042674608ec249e0800000000000000
+      internalID: -1638520263572839414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_126
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 193
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084aebb1f67716060800000000000000
+      internalID: 6944963419472569472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_127
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 193
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9878b5be5f79a20800000000000000
+      internalID: 3069192062278011361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_128
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 193
+        width: 29
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cb2960d703ddee0800000000000000
+      internalID: -1234777409290322788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_129
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 193
+        width: 31
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a0b2600965f17e0800000000000000
+      internalID: -1792618950091404759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_130
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 80
+        width: 108
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838a21dc36f37b850800000000000000
+      internalID: 6392647893950572600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_131
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 56
+        width: 73
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc6151863307d6e0800000000000000
+      internalID: -1812976792360620860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_132
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 39
+        width: 61
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e16413a550010880800000000000000
+      internalID: -8646629441766399517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_133
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 39
+        width: 61
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5206557d384c8cb90800000000000000
+      internalID: -7221305931956133851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_134
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 19
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2254e3fec822ba0800000000000000
+      internalID: -6115170384845921629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_135
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 19
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2eefebfb297f0f60800000000000000
+      internalID: 8002748292678020655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_140
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 40
+        width: 61
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561a6863c7798a060800000000000000
+      internalID: 6964983383475003749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_142
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 40
+        width: 62
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab41b7ea65fa6b40800000000000000
+      internalID: 5434425739878419362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_144
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 5
+        width: 127
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0782021634880ce30800000000000000
+      internalID: 4521763848853661808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_145
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 5
+        width: 123
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18814a84e6309080800000000000000
+      internalID: -9182779285008447460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_146
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 5
+        width: 123
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc74289ab0eb1fd40800000000000000
+      internalID: 5616479167605524431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_147
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 5
+        width: 125
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f92cdce29cb43d0800000000000000
+      internalID: -3221259905595695282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_49
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 20
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9447de6f12ef290800000000000000
+      internalID: -7854803355658073671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_50
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 21
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090f3a6c0748246d0800000000000000
+      internalID: -3007695981226233712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_51
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 21
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6ce93c197709b40800000000000000
+      internalID: 5444983417426855652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_52
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 20
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a4b0177ac8f1d50800000000000000
+      internalID: 6710236620589320744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_53
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 20
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5446f012c671170800000000000000
+      internalID: 8149100939998152138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_7
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1074
+        width: 77
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19348dc0061828c50800000000000000
+      internalID: 6666032647994098577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 789
+        width: 76
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d66fe17a9d1b4c0800000000000000
+      internalID: -4273395259595657897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_18
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 790
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ca3b4e99ff4de50800000000000000
+      internalID: 6833367571059944456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_19
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 791
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd02bb97acfe0f1a0800000000000000
+      internalID: -6777653786287857444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 768
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512477c6290acba40800000000000000
+      internalID: 5385355805173694997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_21
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 751
+        width: 51
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761628a1ad70d3400800000000000000
+      internalID: 305408983060078951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_22
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 749
+        width: 51
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b885aa615b4d567f0800000000000000
+      internalID: -619855499459143541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_23
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 752
+        width: 50
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821e65d04b39ed600800000000000000
+      internalID: 494995410584527144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_24
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 753
+        width: 50
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ea78ecc5292f680800000000000000
+      internalID: -8722748600963584504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_25
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 753
+        width: 50
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea41dc9ce531ff930800000000000000
+      internalID: 4179080277056623790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dino Rex X5 - Layers_54
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 856
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3ff25f0fd5381a0800000000000000
+      internalID: -6808494922166963227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

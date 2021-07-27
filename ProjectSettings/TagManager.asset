@@ -21,12 +21,12 @@ TagManager:
   - Wall
   - Ground
   - Player
-  - Platform
+  - Enemies
   - Bullets
   - Attack Effects
   - Character Effects
   - World Effects
-  - 
+  - Platform
   - 
   - 
   - Foreground

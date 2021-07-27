@@ -9,7 +9,8 @@ public class BusterShot : MonoBehaviour
     public GameObject shotHitEffect, shotBurstEffect;
     public float speed, timeToLive;
     private string shotDirection;
-    
+    private SpriteRenderer enemySprite;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -74,6 +75,15 @@ public class BusterShot : MonoBehaviour
         if (other.tag == "Ground")
         {
             Instantiate(shotHitEffect, gameObject.transform.position, gameObject.transform.rotation);
+            Destroy(gameObject);
+        }
+
+        if (other.tag == "Enemy")
+        {
+            Instantiate(shotHitEffect, gameObject.transform.position, gameObject.transform.rotation);
+            enemySprite = other.GetComponent<SpriteRenderer>();
+
+            //Destroy(other);
             Destroy(gameObject);
         }
         

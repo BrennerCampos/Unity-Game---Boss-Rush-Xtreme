@@ -80,7 +80,7 @@ public class EnemyController : MonoBehaviour
             }
             
             // Sets sprite animation parameter to let us know our enemy is moving
-            anim.SetBool("isMoving", true);
+         //   anim.SetBool("isMoving", true);
         }
         else if (waitCounter > 0)   // If we cannot move...
         {
@@ -98,7 +98,7 @@ public class EnemyController : MonoBehaviour
             }
            
             // Sets sprite animation parameter to let us know our enemy is NOT moving
-            anim.SetBool("isMoving", false);
+         //   anim.SetBool("isMoving", false);
         }
     }
 }
