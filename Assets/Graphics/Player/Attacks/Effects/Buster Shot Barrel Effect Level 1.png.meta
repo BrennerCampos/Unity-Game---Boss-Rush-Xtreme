@@ -181,10 +181,10 @@ TextureImporter:
       name: Buster Shot Barrel Effect Level 1_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 0
-        width: 21
-        height: 28
+        x: 11
+        y: 5
+        width: 14
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: Buster Shot Barrel Effect Level 1_1
       rect:
         serializedVersion: 2
-        x: 29
-        y: 0
-        width: 19
-        height: 28
+        x: 31
+        y: 4
+        width: 14
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +223,10 @@ TextureImporter:
       name: Buster Shot Barrel Effect Level 1_2
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 25
-        height: 28
+        x: 53
+        y: 3
+        width: 16
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: Buster Shot Barrel Effect Level 1_3
       rect:
         serializedVersion: 2
-        x: 73
-        y: 0
-        width: 24
-        height: 28
+        x: 77
+        y: 2
+        width: 17
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +265,10 @@ TextureImporter:
       name: Buster Shot Barrel Effect Level 1_4
       rect:
         serializedVersion: 2
-        x: 97
-        y: 0
-        width: 29
-        height: 28
+        x: 102
+        y: 2
+        width: 20
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

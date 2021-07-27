@@ -48,7 +48,7 @@ public class AudioManager : MonoBehaviour
         soundEffects[soundToPlay].Play();
     }
 
-    public void PlaySFX_NoPitch(int soundToPlay)
+    public void PlaySFX_NoPitchFlux(int soundToPlay)
     {
         // First, stop any other already playing instance of this sound effect
         soundEffects[soundToPlay].Stop();
@@ -73,6 +73,10 @@ public class AudioManager : MonoBehaviour
         bossMusic.Play();
     }
 
+    public void StopSFX(int sfxToStop)
+    {
+        soundEffects[sfxToStop].Stop();
+    }
     public void StopBossMusic()
     {
         bossMusic.Stop();

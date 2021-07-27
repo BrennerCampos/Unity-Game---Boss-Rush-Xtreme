@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 1250385253208698412}
   - component: {fileID: 1250385253208698415}
   - component: {fileID: 1250385253208698410}
+  - component: {fileID: 7402527678754401932}
+  - component: {fileID: 5253462511864668998}
   m_Layer: 11
   m_Name: Buster Shot Bullet Level 3_0
   m_TagString: Bullet
@@ -116,7 +118,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cbdc2976ac63014aa384946c700b65d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotHitEffect: {fileID: 0}
-  shotBurstEffect: {fileID: 0}
+  shotHitEffect: {fileID: 4759535734193686073, guid: 2339b8baf945d964692da8ae46622553, type: 3}
+  shotBurstEffect: {fileID: 1385966758636378430, guid: 026a941e34373d2409c39f62b5985337, type: 3}
   speed: 5
   timeToLive: 7
+--- !u!70 &7402527678754401932
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250385253208698414}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.05775647, y: -0.0006249168}
+  m_Size: {x: 0.07832068, y: 0.08194178}
+  m_Direction: 0
+--- !u!61 &5253462511864668998
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250385253208698414}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.018364642, y: -0.0036211796}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.25390625, y: 0.140625}
+    newSize: {x: 0.25390625, y: 0.140625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.07232796, y: 0.02681524}
+  m_EdgeRadius: 0

@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &26082574
 Animator:
   serializedVersion: 3
@@ -203,7 +203,7 @@ SpriteRenderer:
   m_SortingLayer: 4
   m_SortingOrder: 95
   m_Sprite: {fileID: -4329397870156545480, guid: ada3da36d48fa3a49b33dd3a09dfa680, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7273,7 +7273,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450892014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.057, y: 0.126, z: 0}
+  m_LocalPosition: {x: 0.052, y: 0.112, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 547236692}
@@ -7430,7 +7430,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 471225576}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.144, y: 0.134, z: 0}
+  m_LocalPosition: {x: -0.114, y: 0.134, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 547236692}
@@ -7829,7 +7829,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidBody: {fileID: 547236696}
-  busterShot: {fileID: 3409626835124505567, guid: 0e7d0e5bd603d3c4b8255707b93edd9d, type: 3}
+  chargingShotEffect: {fileID: 26082573}
+  busterShotLevel1: {fileID: 2457441545126587935, guid: 7e9ce2cef53920847a6fe0f5e6686982, type: 3}
+  busterShotLevel2: {fileID: 5199256311872242189, guid: 917bffaaf8b2ff544842ca003076b23a, type: 3}
+  busterShotLevel3: {fileID: 1250385253208698414, guid: 80bc40ed8d8fee945b6cd3c3a9af1f57, type: 3}
+  busterShotLevel4: {fileID: 3409626835124505567, guid: 0e7d0e5bd603d3c4b8255707b93edd9d, type: 3}
+  busterShotLevel5: {fileID: 4823115428143602361, guid: 8f924d5c1329b5446890dbacad870644, type: 3}
   groundCheckPoint: {fileID: 2100167797}
   standFirePointRight: {fileID: 450892015}
   standFirePointLeft: {fileID: 613235198}
@@ -7837,6 +7842,8 @@ MonoBehaviour:
   runFirePointLeft: {fileID: 471225577}
   jumpFirePointRight: {fileID: 2000374187}
   jumpFirePointLeft: {fileID: 484395399}
+  stateFirePointRight: {fileID: 0}
+  stateFirePointLeft: {fileID: 0}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 1344
@@ -7844,7 +7851,7 @@ MonoBehaviour:
   baseMoveSpeed: 9
   dashMultiplier: 2.22
   startDashTime: 0.25
-  startShotTimerNormal: 0.2
+  startShotTimerNormal: 0.27
   jumpForce: 24
   bounceForce: 0
   knockbackLength: 0
@@ -7856,8 +7863,10 @@ MonoBehaviour:
   isRunShooting: 0
   canJumpShoot: 0
   isJumpShooting: 0
+  isStateShooting: 0
   xDirection: 
   yDirection: 
+  animStateShooting: 
 --- !u!70 &547236694
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7945,7 +7954,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613235197}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.057, y: 0.126, z: 0}
+  m_LocalPosition: {x: -0.052, y: 0.112, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 547236692}
@@ -10424,7 +10433,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -11411,7 +11420,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1569396172}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.144, y: 0.134, z: 0}
+  m_LocalPosition: {x: 0.114, y: 0.134, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 547236692}

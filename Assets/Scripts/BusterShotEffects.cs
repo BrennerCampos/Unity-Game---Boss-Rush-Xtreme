@@ -5,12 +5,7 @@ using UnityEngine;
 public class BusterShotEffects : MonoBehaviour
 {
 
-    public float speed, hitEffectTimeToLive;
     private string shotDirection;
-
-    private SpriteRenderer spriteRenderer;
-
-
 
     // Start is called before the first frame update
     void Start()
@@ -36,8 +31,6 @@ public class BusterShotEffects : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        hitEffectTimeToLive -= Time.deltaTime;
-
         // Follows the Player according to different shooting states and their firing points
         if (shotDirection == "Right")
         {
@@ -68,12 +61,6 @@ public class BusterShotEffects : MonoBehaviour
             {
                 transform.position = PlayerController.instance.standFirePointLeft.position;
             }
-        }
-        
-
-        if (hitEffectTimeToLive <= 0)
-        {
-            Destroy(gameObject);
         }
     }
 }
