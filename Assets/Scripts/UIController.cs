@@ -8,9 +8,7 @@ public class UIController : MonoBehaviour
 
     public static UIController instance;
     public GameObject levelCompleteText;
-    public Image heart1, heart2, heart3;
-    public Sprite heartFull, heartEmpty, heartHalf;
-    public Text gemText;
+    public Text bossHP;
     public Image fadeScreen;
     public float fadeSpeed;
     
@@ -26,14 +24,24 @@ public class UIController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        UpdateGemCount();
+        UpdateBossHP();
         FadeFromBlack();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (shouldFadeToBlack)
+        if (FindObjectOfType<DinoRexBoss>())
+        {
+            UpdateBossHP();
+        }
+        else
+        {
+            bossHP.text = "0";
+        }
+
+
+        /*if (shouldFadeToBlack)
         {
             // Takes the alpha value of our black fade panel and move it towards full alpha (black screen) by 1/3rd of a second
             fadeScreen.color = new Color(fadeScreen.color.r, fadeScreen.color.g, fadeScreen.color.b,
@@ -55,14 +63,14 @@ public class UIController : MonoBehaviour
             {
                 shouldFadeFromBlack = false;
             }
-        }
+        }*/
 
     }
 
     // Refresh our Health UI after any changes
     public void UpdateHealthDisplay()
     {
-        // Switches how many hearts are drawn based on Player's current health
+        /*// Switches how many hearts are drawn based on Player's current health
         switch (PlayerHealthController.instance.currentHealth)
         {
             case 6:
@@ -112,13 +120,13 @@ public class UIController : MonoBehaviour
                 heart2.sprite = heartEmpty;
                 heart3.sprite = heartEmpty;
                 break;
-        }
+        }*/
     }
 
     // Refreshes our UI Gem count text
-    public void UpdateGemCount()
+    public void UpdateBossHP()
     {
-        gemText.text = LevelManager.instance.gemsCollected.ToString();
+        bossHP.text = FindObjectOfType<DinoRexBoss>().health.ToString();
     }
 
     public void FadeToBlack()

@@ -43,7 +43,7 @@ public class Pickup : MonoBehaviour
                 Instantiate(pickupEffect, transform.position, transform.rotation);
 
                 // Updates UI Text showing new Gems total
-                UIController.instance.UpdateGemCount();
+                //UIController.instance.UpdateGemCount();
 
                 // Plays 'Pickup Gem' SFX
                 AudioManager.instance.PlaySFX(6);

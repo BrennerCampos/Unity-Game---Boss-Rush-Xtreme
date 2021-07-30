@@ -63,13 +63,6 @@ public class BusterShot : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        /*// Damaging Player if Hit
-        if (other.tag == "Player")
-        {
-            PlayerHealthController.instance.DealDamage();
-            // Play 'Bullet Impact' sound    
-            //AudioManager.instance.PlaySFX(1);
-        }*/
 
         // Destroy bullets upon hitting a 'Ground' tile (Not working)
         if (other.tag == "Ground")
@@ -82,6 +75,7 @@ public class BusterShot : MonoBehaviour
         {
             Instantiate(shotHitEffect, gameObject.transform.position, gameObject.transform.rotation);
             enemySprite = other.GetComponent<SpriteRenderer>();
+            AudioManager.instance.PlaySFX(19);
 
             //Destroy(other);
             Destroy(gameObject);

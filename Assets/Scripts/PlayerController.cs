@@ -7,10 +7,10 @@ public class PlayerController : MonoBehaviour
 
     public static PlayerController instance;
     public Rigidbody2D rigidBody;
-    public GameObject chargingShotEffect;
+    public GameObject chargingShotEffect, groundDashDustEffect;
     public GameObject busterShotLevel1, busterShotLevel2, busterShotLevel3, busterShotLevel4, busterShotLevel5;
     public Transform groundCheckPoint, standFirePointRight, standFirePointLeft, runFirePointRight, runFirePointLeft, 
-        jumpFirePointRight, jumpFirePointLeft, stateFirePointRight, stateFirePointLeft;
+        jumpFirePointRight, jumpFirePointLeft, stateFirePointRight, stateFirePointLeft, dashDustPointRight, dashDustPointLeft;
     public LayerMask whatIsGround;
     public float moveSpeed, baseMoveSpeed, dashMultiplier, startDashTime, startShotTimerNormal;
     public float jumpForce;
@@ -93,6 +93,7 @@ public class PlayerController : MonoBehaviour
             // If we are not knocked back...
             if (knockbackCounter <= 0)
             {
+                
                 // Move our Player's rigid body's x-position based on our set move speed
                 rigidBody.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal"), rigidBody.velocity.y);
 
@@ -310,6 +311,20 @@ public class PlayerController : MonoBehaviour
                         isDashing = true;
                         canDash = false;
                         AudioManager.instance.PlaySFX_NoPitchFlux(0);
+
+                        if (xDirection == "Right")
+                        {
+                            
+                            Instantiate(groundDashDustEffect, dashDustPointRight.position, gameObject.transform.rotation);
+                            
+                        }
+                        else
+                        { 
+                            
+                            Instantiate(groundDashDustEffect, dashDustPointLeft.position, gameObject.transform.rotation);
+                            
+                        }
+
                     }
                 }
 
@@ -486,12 +501,12 @@ public class PlayerController : MonoBehaviour
         } else 
         if (canShootBusterLevel4)
         {
-            BusterShoot(busterShotLevel4, animStateShooting, stateFirePointRight, stateFirePointLeft, isStateShooting, 13);
+            BusterShoot(busterShotLevel4, animStateShooting, stateFirePointRight, stateFirePointLeft, isStateShooting, 20);
             canShootBusterLevel4 = false;
         } else
         if (canShootBusterLevel5)
         {
-            BusterShoot(busterShotLevel5, animStateShooting, stateFirePointRight, stateFirePointLeft, isStateShooting, 13);
+            BusterShoot(busterShotLevel5, animStateShooting, stateFirePointRight, stateFirePointLeft, isStateShooting, 20);
             canShootBusterLevel5 = false;
         }
 
@@ -507,6 +522,8 @@ public class PlayerController : MonoBehaviour
     {
         // Sets our knockback counter to our predefined knockback length
         knockbackCounter = knockbackLength;
+        AudioManager.instance.PlaySFX(21);
+        anim.SetTrigger("isHurt");
         // Pops the Player up with our predefined knockback force
         rigidBody.velocity = new Vector2(0f, knockbackForce);
         // Change Player's sprite animation to 'Hurt'
@@ -517,6 +534,7 @@ public class PlayerController : MonoBehaviour
     {
         // Bounces the Player up with our predefined bounce force
         rigidBody.velocity = new Vector2(rigidBody.velocity.x, bounceForce);
+        
         // Play "Player Jump" SFX
         AudioManager.instance.PlaySFX(10);
     }

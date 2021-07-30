@@ -1,7 +1,16 @@
 fileFormatVersion: 2
-guid: 18df953e04bcc41dea511eb3687db8ed
+guid: a83fbd84bd614964aa4df89a6cb9affd
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5121466497257368081
+    second: Storm Tornado - Basic_0
+  - first:
+      213: 7539652987697788943
+    second: Storm Tornado - Basic_1
+  - first:
+      213: -4905733605878987324
+    second: Storm Tornado - Basic_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -161,7 +170,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Storm Tornado - Basic_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 95
+        width: 165
+        height: 41
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe519edfa55ece8b0800000000000000
+      internalID: -5121466497257368081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Storm Tornado - Basic_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 56
+        width: 168
+        height: 33
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08707d027a32a860800000000000000
+      internalID: 7539652987697788943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Storm Tornado - Basic_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 170
+        height: 41
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c503e2f6455bebb0800000000000000
+      internalID: -4905733605878987324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

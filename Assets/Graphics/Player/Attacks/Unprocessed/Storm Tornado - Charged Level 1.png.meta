@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 721591582a3364f92bf0d439f3dfc8b0
+guid: d86a797ad1285984184147d0aad869e7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1847948529789973219
-    second: Ground Dash Dust Effect_0
+      213: -3383658841850488491
+    second: Storm Tornado - Charged Level 1_0
   - first:
-      213: -1432460107587987818
-    second: Ground Dash Dust Effect_1
+      213: -5036953602678218563
+    second: Storm Tornado - Charged Level 1_3
   - first:
-      213: 777486106803418376
-    second: Ground Dash Dust Effect_2
+      213: 6125762432967849383
+    second: Storm Tornado - Charged Level 1_4
   - first:
-      213: 1935451558189159400
-    second: Ground Dash Dust Effect_3
+      213: 4786668751564278555
+    second: Storm Tornado - Charged Level 1_5
   - first:
-      213: 3974873338348619885
-    second: Ground Dash Dust Effect_4
+      213: -5062842779686336320
+    second: Storm Tornado - Charged Level 1_6
   - first:
-      213: -3039333222035305087
-    second: Ground Dash Dust Effect_5
+      213: 1683992798234559237
+    second: Storm Tornado - Charged Level 1_1
   - first:
-      213: 8912475770323450139
-    second: Ground Dash Dust Effect_6
+      213: -7910020056658944271
+    second: Storm Tornado - Charged Level 1_2
   - first:
-      213: 4491037183227922123
-    second: Ground Dash Dust Effect_7
+      213: -4497604714421030229
+    second: Storm Tornado - Charged Level 1_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -73,7 +73,7 @@ TextureImporter:
   spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
-  alphaUsage: 2
+  alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
@@ -187,13 +187,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ground Dash Dust Effect_0
+      name: Storm Tornado - Charged Level 1_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 3
-        width: 34
-        height: 38
+        x: 11
+        y: 0
+        width: 115
+        height: 231
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,20 +201,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1dc9ae5a94ca56e0800000000000000
-      internalID: -1847948529789973219
+      spriteID: 5595462f534da01d0800000000000000
+      internalID: -3383658841850488491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground Dash Dust Effect_1
+      name: Storm Tornado - Charged Level 1_3
       rect:
         serializedVersion: 2
-        x: 54
-        y: 2
-        width: 55
-        height: 39
+        x: 139
+        y: 0
+        width: 122
+        height: 231
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 696dc442f11ee1ce0800000000000000
-      internalID: -1432460107587987818
+      spriteID: db0ad32a265291ab0800000000000000
+      internalID: -5036953602678218563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground Dash Dust Effect_2
+      name: Storm Tornado - Charged Level 1_4
       rect:
         serializedVersion: 2
-        x: 127
-        y: 2
-        width: 51
-        height: 39
+        x: 269
+        y: 0
+        width: 130
+        height: 231
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,20 +243,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 805b1ddae7f2aca00800000000000000
-      internalID: 777486106803418376
+      spriteID: 7a53b732a74130550800000000000000
+      internalID: 6125762432967849383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground Dash Dust Effect_3
+      name: Storm Tornado - Charged Level 1_5
       rect:
         serializedVersion: 2
-        x: 195
-        y: 4
-        width: 48
-        height: 37
+        x: 411
+        y: 0
+        width: 129
+        height: 231
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,20 +264,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e357dd00fa1cda10800000000000000
-      internalID: 1935451558189159400
+      spriteID: b1b83726ed9ad6240800000000000000
+      internalID: 4786668751564278555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground Dash Dust Effect_4
+      name: Storm Tornado - Charged Level 1_6
       rect:
         serializedVersion: 2
-        x: 257
-        y: 4
-        width: 49
-        height: 37
+        x: 547
+        y: 0
+        width: 133
+        height: 231
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,20 +285,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d68c07fcd36992730800000000000000
-      internalID: 3974873338348619885
+      spriteID: 0c80523e05b2db9b0800000000000000
+      internalID: -5062842779686336320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground Dash Dust Effect_5
+      name: Storm Tornado - Charged Level 1_1
       rect:
         serializedVersion: 2
-        x: 324
-        y: 5
-        width: 45
-        height: 36
+        x: 687
+        y: 0
+        width: 133
+        height: 231
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,20 +306,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18dca82a98e12d5d0800000000000000
-      internalID: -3039333222035305087
+      spriteID: 503461f178ebe5710800000000000000
+      internalID: 1683992798234559237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground Dash Dust Effect_6
+      name: Storm Tornado - Charged Level 1_2
       rect:
         serializedVersion: 2
-        x: 381
-        y: 5
-        width: 48
-        height: 36
+        x: 821
+        y: 0
+        width: 123
+        height: 231
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b19b7672e797fab70800000000000000
-      internalID: 8912475770323450139
+      spriteID: 1fed0a4eaa6f93290800000000000000
+      internalID: -7910020056658944271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground Dash Dust Effect_7
+      name: Storm Tornado - Charged Level 1_7
       rect:
         serializedVersion: 2
-        x: 439
-        y: 5
-        width: 44
-        height: 36
+        x: 944
+        y: 0
+        width: 120
+        height: 231
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,8 +348,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc60f5b068e535e30800000000000000
-      internalID: 4491037183227922123
+      spriteID: ba2ffc0775c4591c0800000000000000
+      internalID: -4497604714421030229
       vertices: []
       indices: 
       edges: []
