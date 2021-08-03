@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using UnityEngine;
 
 public class PlayerHealthController : MonoBehaviour
@@ -7,7 +8,7 @@ public class PlayerHealthController : MonoBehaviour
     // Singleton Creation
          // ^-- version of this script in which only one version can exist
     public static PlayerHealthController instance;
-    public GameObject deathEffect;
+    public GameObject deathBubbles;
     public int currentHealth, maxHealth;
     public float iFrameLength;
 
@@ -64,7 +65,8 @@ public class PlayerHealthController : MonoBehaviour
                 currentHealth = 0;
                 
                 // Removes Player from game
-                Instantiate(deathEffect, transform.position, transform.rotation);
+                //StartCoroutine(DeathBubbleSpawner(5));
+                Instantiate(deathBubbles, transform.position, transform.rotation);
 
                 // Respawn the Player through our Level Manager object
                 LevelManager.instance.RespawnPlayer();
@@ -106,6 +108,7 @@ public class PlayerHealthController : MonoBehaviour
         UIController.instance.UpdateHealthDisplay();
     }
 
+    
 
     private void OnCollisionEnter2D(Collision2D other)
     {

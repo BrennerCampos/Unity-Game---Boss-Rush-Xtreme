@@ -65,7 +65,7 @@ public class BusterShot : MonoBehaviour
     {
 
         // Destroy bullets upon hitting a 'Ground' tile (Not working)
-        if (other.tag == "Ground")
+        if (other.tag == "Wall")
         {
             Instantiate(shotHitEffect, gameObject.transform.position, gameObject.transform.rotation);
             Destroy(gameObject);

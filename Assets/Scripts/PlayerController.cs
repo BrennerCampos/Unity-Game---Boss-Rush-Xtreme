@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 
     public static PlayerController instance;
     public Rigidbody2D rigidBody;
-    public GameObject chargingShotEffect, groundDashDustEffect;
+    public GameObject chargingShotEffect, groundDashDustEffect, deathBubbleCore;
     public GameObject busterShotLevel1, busterShotLevel2, busterShotLevel3, busterShotLevel4, busterShotLevel5;
     public Transform groundCheckPoint, standFirePointRight, standFirePointLeft, runFirePointRight, runFirePointLeft, 
         jumpFirePointRight, jumpFirePointLeft, stateFirePointRight, stateFirePointLeft, dashDustPointRight, dashDustPointLeft;
@@ -400,8 +400,8 @@ public class PlayerController : MonoBehaviour
             justPressedShoot = false;
         }
 
-            // Sets parameters used by our Animator based on current Update loop's variable values
-            anim.SetFloat("velocityX", Mathf.Abs(rigidBody.velocity.x));
+        // Sets parameters used by our Animator based on current Update loop's variable values
+        anim.SetFloat("velocityX", Mathf.Abs(rigidBody.velocity.x));
         anim.SetBool("isGrounded", isGrounded);
         anim.SetBool("isDashing", isDashing);
         anim.SetFloat("jumpForce", jumpForce);
@@ -455,7 +455,6 @@ public class PlayerController : MonoBehaviour
             var newBusterShot = Instantiate(busterShotLevel, stateFirePointLeft.position, stateFirePointLeft.rotation);
             newBusterShot.transform.localScale = -instance.transform.localScale;
         }
-        
         AudioManager.instance.PlaySFX(audioSFX);
     }
 
@@ -524,6 +523,7 @@ public class PlayerController : MonoBehaviour
         knockbackCounter = knockbackLength;
         AudioManager.instance.PlaySFX(21);
         anim.SetTrigger("isHurt");
+
         // Pops the Player up with our predefined knockback force
         rigidBody.velocity = new Vector2(0f, knockbackForce);
         // Change Player's sprite animation to 'Hurt'
@@ -544,6 +544,8 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             instance.Knockback();
+            PlayerHealthController.instance.DealDamage();
         }
+
     }
 }

@@ -6,7 +6,7 @@ using UnityEngine;
 public class DinoRexBoss : MonoBehaviour
 {
 
-    public GameObject tornadoCyclone, busterShot1;
+    public GameObject tornadoCyclone, busterShot1, DinoRexDeathEffect;
     public Transform leftPoint, rightPoint;
     public Transform cyclonePoint1, cyclonePoint2, cyclonePoint3, cyclonePoint4;
     public SpriteRenderer spriteRenderer;
@@ -173,9 +173,10 @@ public class DinoRexBoss : MonoBehaviour
     private void DestroyBoss()
     {
 
-        GameObject explosion = (GameObject) Instantiate(explosionReference);
+        Instantiate(DinoRexDeathEffect, transform.position, transform.rotation);
+        /*GameObject explosion = (GameObject) Instantiate(explosionReference);
         explosion.transform.position =
-            new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z);
+            new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z);*/
 
         Destroy(gameObject);
     }
