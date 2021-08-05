@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Transactions;
+using DG.Tweening;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
@@ -48,5 +49,10 @@ public class CameraController : MonoBehaviour
             // Lastly, update our position to use as our last position for next iteration
             lastPos = transform.position;
         }
+    }
+
+    public void ShakeCamera(float strength, float duration = 1.0f)
+    {
+        //Tween.Shake(transform, transform.localPosition, new Vector3(strength, strength, 0), duration, 0);
     }
 }
