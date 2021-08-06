@@ -10,7 +10,7 @@ namespace  Core.AI
     public class DinoRexJump : EnemyAction
     {
         public float horizontalForce = 0.5f;
-        public float jumpForce = 10.0f;
+        public float jumpForce = 7.0f;
 
         public float buildupTime;
         public float jumpTime;

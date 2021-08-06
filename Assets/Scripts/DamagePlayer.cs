@@ -24,7 +24,7 @@ public class DamagePlayer : MonoBehaviour
             // FindObjectOfType<PlayerHealthController>().DealDamage();
 
             // Singleton Approach, Unity looks in its memory for static 'instance' and runs DealDamage
-            PlayerHealthController.instance.DealDamage();
+            PlayerHealthController.instance.DealDamage(10);
         }
     }
 }

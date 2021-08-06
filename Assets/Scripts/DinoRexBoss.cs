@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DinoRexBoss : MonoBehaviour
 {
@@ -9,15 +10,15 @@ public class DinoRexBoss : MonoBehaviour
     public GameObject tornadoCyclone, busterShot1, DinoRexDeathEffect;
     public Transform leftPoint, rightPoint;
     public Transform cyclonePoint1, cyclonePoint2, cyclonePoint3, cyclonePoint4;
-    public SpriteRenderer spriteRenderer;
+    //public SpriteRenderer spriteRenderer;
+    public Slider currentHealthSlider;
     public float moveSpeed, moveTime, waitTime;
-    public int health = 200;
+    public int currentHealth, health;
 
     private new Rigidbody2D rigidbody;
     private Animator anim;
     private Material materialWhite, materialDefault;
     private float moveCounter, waitCounter;
-    //private int health = 200;
     private bool movingRight;
     private UnityEngine.Object explosionReference;
 
@@ -26,13 +27,15 @@ public class DinoRexBoss : MonoBehaviour
     void Start()
     {
         // Creating our necessary components for an enemy, Rigidbody and Animator
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        //spriteRenderer = GetComponent<SpriteRenderer>();
         rigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
+        currentHealth = health;
+
         // Creates materials so we can flash boss when hit
         materialWhite = Resources.Load("WhiteFlash", typeof(Material)) as Material;
-        materialDefault = spriteRenderer.material;
+        //materialDefault = spriteRenderer.material;
         explosionReference = Resources.Load("Explosion");
 
         // Unlinking enemy stop points from enemy so they don't move in conjunction
@@ -61,7 +64,7 @@ public class DinoRexBoss : MonoBehaviour
                 // Moves our enemy's rigidbody to the right (positive moveSpeed)
                 rigidbody.velocity = new Vector2(moveSpeed, rigidbody.velocity.y);
                 // Sprite direction = right
-                spriteRenderer.flipX = true;
+                //spriteRenderer.flipX = true;
 
                 // If we pass our right-most stop point...
                 if (transform.position.x > rightPoint.position.x)
@@ -75,7 +78,7 @@ public class DinoRexBoss : MonoBehaviour
                 // Moves our enemy's rigidbody to the left (negative moveSpeed)
                 rigidbody.velocity = new Vector2(-moveSpeed, rigidbody.velocity.y);
                 // Sprite direction = left
-                spriteRenderer.flipX = false;
+                //spriteRenderer.flipX = false;
 
                 // If we pass our left-most stop point...
                 if (transform.position.x < leftPoint.position.x)
@@ -132,28 +135,29 @@ public class DinoRexBoss : MonoBehaviour
         {
             if (other.gameObject.name == "Buster Shot Bullet Level 5_0")
             {
-                health -= 50;
-                spriteRenderer.material = materialWhite;
+                currentHealth -= 50;
+               // spriteRenderer.material = materialWhite;
             } else if (other.gameObject.name == "Buster Shot Bullet Level 4_0")
             {
-                health -= 30;
-                spriteRenderer.material = materialWhite;
+                currentHealth -= 30;
+               // spriteRenderer.material = materialWhite;
             } else if (other.gameObject.name == "Buster Shot Bullet Level 3_0")
             {
-                health -= 20;
-                spriteRenderer.material = materialWhite;
+                currentHealth -= 20;
+               // spriteRenderer.material = materialWhite;
             } else if (other.gameObject.name == "Buster Shot Bullet Level 2_0")
             {
-                health -= 10;
-                spriteRenderer.material = materialWhite;
+                currentHealth -= 10;
+               // spriteRenderer.material = materialWhite;
             } else
             {
-                health -= 5;
-                spriteRenderer.material = materialWhite;
+                currentHealth -= 5;
+              //  spriteRenderer.material = materialWhite;
+                currentHealthSlider.value = currentHealth;
             }
 
 
-            if (health <= 0)
+            if (currentHealth <= 0)
             {
                 AudioManager.instance.PlaySFX_NoPitchFlux(2);
                 DestroyBoss();
@@ -167,7 +171,7 @@ public class DinoRexBoss : MonoBehaviour
 
     void ResetMaterial()
     {
-        spriteRenderer.material = materialDefault;
+      //  spriteRenderer.material = materialDefault;
     }
 
     private void DestroyBoss()

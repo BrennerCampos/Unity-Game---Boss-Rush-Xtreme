@@ -66,10 +66,10 @@ public class LevelManager : MonoBehaviour
 
     public void EndLevel()
     {
-        StartCoroutine(EndLevelCo());
+        //StartCoroutine(EndLevelCo());
     }
 
-    public IEnumerator EndLevelCo()
+    /*public IEnumerator EndLevelCo()
     {
        // Play victory music
         AudioManager.instance.PlayLevelVictory();
@@ -122,7 +122,7 @@ public class LevelManager : MonoBehaviour
 
         // Finally, loads next scene
         SceneManager.LoadScene(levelToLoad);
-    }
+    }*/
 }
 
 

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHealthController : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PlayerHealthController : MonoBehaviour
          // ^-- version of this script in which only one version can exist
     public static PlayerHealthController instance;
     public GameObject deathBubbles;
+    public LevelManager levelManager;
     public int currentHealth, maxHealth;
     public float iFrameLength;
 
@@ -26,7 +28,8 @@ public class PlayerHealthController : MonoBehaviour
     void Start()
     {
         // Set Player's initial health
-        currentHealth = maxHealth;
+
+        //currentHealth = maxHealth;
         // Make Player's Sprite Renderer object
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -51,13 +54,13 @@ public class PlayerHealthController : MonoBehaviour
         }
     }
 
-    public void DealDamage()
+    public void DealDamage(int damageAmount)
     {
         // If Player is not in an invincibility state...
         if(iFrameCounter <=0)
         {
             // Takes away a health point
-            currentHealth--;
+            currentHealth -= damageAmount;
 
             // If Player is out of health...
             if (currentHealth <= 0)
@@ -92,10 +95,10 @@ public class PlayerHealthController : MonoBehaviour
         }
     }
 
-    public void HealPlayer()
+    public void HealPlayer(int healAmount)
     {
         // Heals Player by one health point
-        currentHealth++;
+        currentHealth += 20;
         
         // If Player's health exceeds the maximum
         if (currentHealth > maxHealth)
@@ -104,6 +107,8 @@ public class PlayerHealthController : MonoBehaviour
             currentHealth = maxHealth;
         }
 
+
+        //healthSlider.value = currentHealth;
         // Update our UI's health display
         UIController.instance.UpdateHealthDisplay();
     }

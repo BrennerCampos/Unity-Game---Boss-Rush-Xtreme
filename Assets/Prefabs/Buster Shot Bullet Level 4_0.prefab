@@ -119,8 +119,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shotHitEffect: {fileID: 5941554888240195256, guid: 5432bbdf528a6c846ad49b82167a51d2, type: 3}
   shotBurstEffect: {fileID: 1385966758636378430, guid: 026a941e34373d2409c39f62b5985337, type: 3}
-  speed: 5
-  timeToLive: 7
+  speed: 4.7
+  timeToLive: 0.327
 --- !u!70 &2644699147702719714
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

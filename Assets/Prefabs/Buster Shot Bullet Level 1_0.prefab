@@ -135,5 +135,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shotHitEffect: {fileID: 5819360600508518827, guid: bffe34685980001488665997d3de10b4, type: 3}
   shotBurstEffect: {fileID: 8330498963531303887, guid: 466c9900dfc88ed4ca2239f0e1e2d00b, type: 3}
-  speed: 5
-  timeToLive: 7
+  speed: 4
+  timeToLive: 0.327

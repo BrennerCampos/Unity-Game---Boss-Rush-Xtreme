@@ -36,12 +36,12 @@ public class UIController : MonoBehaviour
             UpdateBossHP();
         }
         else
-        {
-            bossHP.text = "0";
+        { 
+            //bossHP.text = "0";
         }
 
 
-        /*if (shouldFadeToBlack)
+        if (shouldFadeToBlack)
         {
             // Takes the alpha value of our black fade panel and move it towards full alpha (black screen) by 1/3rd of a second
             fadeScreen.color = new Color(fadeScreen.color.r, fadeScreen.color.g, fadeScreen.color.b,
@@ -63,7 +63,7 @@ public class UIController : MonoBehaviour
             {
                 shouldFadeFromBlack = false;
             }
-        }*/
+        }
 
     }
 
@@ -126,7 +126,7 @@ public class UIController : MonoBehaviour
     // Refreshes our UI Gem count text
     public void UpdateBossHP()
     {
-        bossHP.text = FindObjectOfType<DinoRexBoss>().health.ToString();
+        //bossHP.text = FindObjectOfType<DinoRexBoss>().currentHealth.ToString();
     }
 
     public void FadeToBlack()

@@ -10,6 +10,7 @@ TagManager:
   - Effects1
   - Ground
   - Wall
+  - Pickups
   layers:
   - Default
   - TransparentFX
@@ -20,17 +21,17 @@ TagManager:
   - World
   - Wall
   - Ground
+  - 
   - Player
   - Enemies
   - Bullets
+  - 
   - Attack Effects
+  - 
   - Character Effects
+  - 
   - Enemy Effects
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Pickups
   - World Effects
   - 
   - Platform
@@ -65,6 +66,6 @@ TagManager:
   - name: Player
     uniqueID: 3626419329
     locked: 0
-  - name: Player_Attacks
+  - name: Player Attacks
     uniqueID: 235363189
     locked: 0

@@ -1,17 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
 
     public static PlayerController instance;
     public Rigidbody2D rigidBody;
-    public GameObject chargingShotEffect, groundDashDustEffect, deathBubbleCore;
+    public GameObject chargingShotEffect, groundDashDustEffect, dashRocketBoostEffect, deathBubbleCore;
     public GameObject busterShotLevel1, busterShotLevel2, busterShotLevel3, busterShotLevel4, busterShotLevel5;
     public Transform groundCheckPoint, standFirePointRight, standFirePointLeft, runFirePointRight, runFirePointLeft, 
-        jumpFirePointRight, jumpFirePointLeft, stateFirePointRight, stateFirePointLeft, dashDustPointRight, dashDustPointLeft;
+        jumpFirePointRight, jumpFirePointLeft, stateFirePointRight, stateFirePointLeft, dashDustPointRight, dashDustPointLeft, dashRocketPointRight, dashRocketPointLeft;
     public LayerMask whatIsGround;
+    public Slider healthSlider;
     public float moveSpeed, baseMoveSpeed, dashMultiplier, startDashTime, startShotTimerNormal;
     public float jumpForce;
     public float bounceForce;
@@ -316,13 +318,15 @@ public class PlayerController : MonoBehaviour
                         {
                             
                             Instantiate(groundDashDustEffect, dashDustPointRight.position, gameObject.transform.rotation);
-                            
+                            Instantiate(dashRocketBoostEffect, dashRocketPointRight.position, gameObject.transform.rotation);
+
                         }
                         else
                         { 
                             
                             Instantiate(groundDashDustEffect, dashDustPointLeft.position, gameObject.transform.rotation);
-                            
+                            Instantiate(dashRocketBoostEffect, dashRocketPointLeft.position, gameObject.transform.rotation);
+
                         }
 
                     }
@@ -406,6 +410,10 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("isDashing", isDashing);
         anim.SetFloat("jumpForce", jumpForce);
         anim.SetFloat("velocityY", rigidBody.velocity.y);
+
+        // Updating the health bar to show current HP
+        healthSlider.value = PlayerHealthController.instance.currentHealth;
+
     }
 
     public void Jump()
@@ -544,7 +552,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             instance.Knockback();
-            PlayerHealthController.instance.DealDamage();
+            PlayerHealthController.instance.DealDamage(10);
         }
 
     }

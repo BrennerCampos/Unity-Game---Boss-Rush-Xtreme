@@ -6,6 +6,7 @@ public class Pickup : MonoBehaviour
 {
     
     public GameObject pickupEffect;
+    public int largeCapsuleHealAmount;
     public bool isGem, isHeal;
 
     private bool isCollected;
@@ -25,7 +26,7 @@ public class Pickup : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)     // Setting collision actions
     {
-        // If we are colliding with a Player object
+        /*// If we are colliding with a Player object
         if (other.CompareTag("Player") && !isCollected)
         {
             // If we collide with a Gem...
@@ -48,30 +49,40 @@ public class Pickup : MonoBehaviour
                 // Plays 'Pickup Gem' SFX
                 AudioManager.instance.PlaySFX(6);
             }
-
+        */
             // If we collide with a Heal Item (Cherry)...
             if (isHeal)
             {
+            
 
                 // If our Player is not already at full health...
-                if (PlayerHealthController.instance.currentHealth != PlayerHealthController.instance.maxHealth)
+                if (PlayerHealthController.instance.currentHealth <= PlayerHealthController.instance.maxHealth)
                 {
-                    // Heal the Player through 'PlayerHealthController'
-                    PlayerHealthController.instance.HealPlayer();
 
-                    // Marks that Heal Item collected
-                    isCollected = true;
-                    
-                    // Destroys Heal Item at end of function
-                    Destroy(gameObject);
+                    if (PlayerHealthController.instance.currentHealth + largeCapsuleHealAmount >=
+                        PlayerHealthController.instance.maxHealth)
+                    {
+                        PlayerHealthController.instance.currentHealth = PlayerHealthController.instance.maxHealth;
+                    }
+                    else
+                    {
+                        // Heal the Player through 'PlayerHealthController'
+                        PlayerHealthController.instance.HealPlayer(largeCapsuleHealAmount);
 
-                    // Creates a new instance of our *Pickup Effect* in the Heal Item's current location
-                    Instantiate(pickupEffect, transform.position, transform.rotation);
+                        // Marks that Heal Item collected
+                        isCollected = true;
 
-                    // Plays 'Pickup Health' SFX
-                    AudioManager.instance.PlaySFX(7);
+                        // Destroys Heal Item at end of function
+                        Destroy(gameObject);
+
+                        // Creates a new instance of our *Pickup Effect* in the Heal Item's current location
+                        Instantiate(pickupEffect, transform.position, transform.rotation);
+
+                        // Plays 'Magic Time' SFX
+                        //AudioManager.instance.PlaySFX(12);
+                        AudioManager.instance.PlaySFX(22);
+                }
                 }
             }
-        }
-    }
+    } 
 }

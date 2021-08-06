@@ -40,7 +40,7 @@ public class BossTankMine : MonoBehaviour
             // Create explosion visual effect
             Instantiate(explosion, transform.position, transform.rotation);
             // Deal damage to player
-            PlayerHealthController.instance.DealDamage();
+            PlayerHealthController.instance.DealDamage(20);
             // Play 'Enemy Explode' sound
             AudioManager.instance.PlaySFX(3);
         }
