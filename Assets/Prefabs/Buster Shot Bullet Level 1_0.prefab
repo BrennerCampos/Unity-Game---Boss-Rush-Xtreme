@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2457441545126587932}
   - component: {fileID: 2457441545126587923}
   - component: {fileID: 2457441545126587920}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: Buster Shot Bullet Level 1_0
   m_TagString: Bullet
   m_Icon: {fileID: 0}

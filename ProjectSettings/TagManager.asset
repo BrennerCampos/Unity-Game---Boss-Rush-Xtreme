@@ -25,7 +25,7 @@ TagManager:
   - Player
   - Enemies
   - Bullets
-  - 
+  - Enemy Attack
   - Attack Effects
   - 
   - Character Effects
@@ -54,7 +54,7 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Effects
+  - name: 
     uniqueID: 291183969
     locked: 0
   - name: Pickups
@@ -68,4 +68,10 @@ TagManager:
     locked: 0
   - name: Player Attacks
     uniqueID: 235363189
+    locked: 0
+  - name: Enemy Attacks
+    uniqueID: 2966835895
+    locked: 0
+  - name: Effects
+    uniqueID: 2702513287
     locked: 0
