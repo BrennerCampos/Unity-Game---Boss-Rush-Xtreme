@@ -1,7 +1,172 @@
 fileFormatVersion: 2
 guid: a53b2e697067bc14f854f5a420fe4df0
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8465102872790388683
+    second: mmx3_gravitywell_0
+  - first:
+      213: -8238498931818792810
+    second: mmx3_gravitywell_1
+  - first:
+      213: -786573602869609003
+    second: mmx3_gravitywell_2
+  - first:
+      213: -4905062818321346729
+    second: mmx3_gravitywell_3
+  - first:
+      213: -2712022747056745682
+    second: mmx3_gravitywell_4
+  - first:
+      213: 6675991618856467406
+    second: mmx3_gravitywell_5
+  - first:
+      213: -4623129585743068872
+    second: mmx3_gravitywell_6
+  - first:
+      213: 1961099300085341385
+    second: mmx3_gravitywell_7
+  - first:
+      213: 128727555752288456
+    second: mmx3_gravitywell_8
+  - first:
+      213: -8700904588862321186
+    second: mmx3_gravitywell_9
+  - first:
+      213: -5083848366211309677
+    second: mmx3_gravitywell_10
+  - first:
+      213: 7185237167088290442
+    second: mmx3_gravitywell_11
+  - first:
+      213: 5299623739925570341
+    second: mmx3_gravitywell_12
+  - first:
+      213: 3759464246927614155
+    second: mmx3_gravitywell_13
+  - first:
+      213: -3159045358091694912
+    second: mmx3_gravitywell_14
+  - first:
+      213: -8174645665817268107
+    second: mmx3_gravitywell_15
+  - first:
+      213: -1653566488639861554
+    second: mmx3_gravitywell_16
+  - first:
+      213: 7218415982372115235
+    second: mmx3_gravitywell_17
+  - first:
+      213: -4987476810694281431
+    second: mmx3_gravitywell_18
+  - first:
+      213: -1788552732292719400
+    second: mmx3_gravitywell_19
+  - first:
+      213: 445468827572220482
+    second: mmx3_gravitywell_20
+  - first:
+      213: -8011253335718864956
+    second: mmx3_gravitywell_21
+  - first:
+      213: 6783422859844770975
+    second: mmx3_gravitywell_22
+  - first:
+      213: 7031904419814637358
+    second: mmx3_gravitywell_23
+  - first:
+      213: -7381170317843423374
+    second: mmx3_gravitywell_24
+  - first:
+      213: 3025363672412003201
+    second: mmx3_gravitywell_25
+  - first:
+      213: -374844776229691031
+    second: mmx3_gravitywell_26
+  - first:
+      213: 8224333650651377085
+    second: mmx3_gravitywell_27
+  - first:
+      213: -7641449194139537033
+    second: mmx3_gravitywell_28
+  - first:
+      213: 3864372019226621036
+    second: mmx3_gravitywell_29
+  - first:
+      213: -8415417578418510023
+    second: mmx3_gravitywell_30
+  - first:
+      213: 8479530244721528654
+    second: mmx3_gravitywell_31
+  - first:
+      213: -203401904963163941
+    second: mmx3_gravitywell_32
+  - first:
+      213: -3501568032113293199
+    second: mmx3_gravitywell_33
+  - first:
+      213: 7313513517279838941
+    second: mmx3_gravitywell_34
+  - first:
+      213: 333829981438376847
+    second: mmx3_gravitywell_35
+  - first:
+      213: -8063978480941020848
+    second: mmx3_gravitywell_36
+  - first:
+      213: 9025934824163807402
+    second: mmx3_gravitywell_37
+  - first:
+      213: 347160136835994167
+    second: mmx3_gravitywell_38
+  - first:
+      213: -1340699985738537712
+    second: mmx3_gravitywell_39
+  - first:
+      213: -8042685821699387812
+    second: mmx3_gravitywell_40
+  - first:
+      213: -9052493275820916364
+    second: mmx3_gravitywell_41
+  - first:
+      213: -508021390821066627
+    second: mmx3_gravitywell_42
+  - first:
+      213: -8834848973575840698
+    second: mmx3_gravitywell_43
+  - first:
+      213: -8512680282657700480
+    second: mmx3_gravitywell_44
+  - first:
+      213: -7541449410647774025
+    second: mmx3_gravitywell_45
+  - first:
+      213: -4353377563932916099
+    second: mmx3_gravitywell_46
+  - first:
+      213: -3447484747420735003
+    second: mmx3_gravitywell_47
+  - first:
+      213: -772823390033986023
+    second: mmx3_gravitywell_48
+  - first:
+      213: -7058084546624041177
+    second: mmx3_gravitywell_49
+  - first:
+      213: -2784896078588781246
+    second: mmx3_gravitywell_50
+  - first:
+      213: -601269799405812827
+    second: mmx3_gravitywell_51
+  - first:
+      213: 350065819282446923
+    second: mmx3_gravitywell_52
+  - first:
+      213: -7310143786314065851
+    second: mmx3_gravitywell_53
+  - first:
+      213: 1810329229647734107
+    second: mmx3_gravitywell_54
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +197,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +206,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -68,7 +233,91 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +326,1162 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mmx3_gravitywell_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 270
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf4fc776361a7570800000000000000
+      internalID: 8465102872790388683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 270
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6987186fed8faad80800000000000000
+      internalID: -8238498931818792810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 286
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddf143c9778515f0800000000000000
+      internalID: -786573602869609003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 286
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fcaf8da57bdebb0800000000000000
+      internalID: -4905062818321346729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 286
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2357e23ea5fc5ad0800000000000000
+      internalID: -2712022747056745682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 286
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbbc65a103e5ac50800000000000000
+      internalID: 6675991618856467406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 286
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8318f2bd22857dfb0800000000000000
+      internalID: -4623129585743068872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 286
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc9ade4c69373b10800000000000000
+      internalID: 1961099300085341385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 286
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c06b69a70559c100800000000000000
+      internalID: 128727555752288456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_9
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 286
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd8b44306d204780800000000000000
+      internalID: -8700904588862321186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 219
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f5608a8da8279b0800000000000000
+      internalID: -5083848366211309677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_11
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 219
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a4b3b622717b360800000000000000
+      internalID: 7185237167088290442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_12
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 247
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523ad7d76bb0c8940800000000000000
+      internalID: 5299623739925570341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 247
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0e6e760dc4c2430800000000000000
+      internalID: 3759464246927614155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_14
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 247
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc0991fbf0d824d0800000000000000
+      internalID: -3159045358091694912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_15
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 244
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570764cf313dd8e80800000000000000
+      internalID: -8174645665817268107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_16
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 240
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc81202a0a5d09e0800000000000000
+      internalID: -1653566488639861554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_17
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 237
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323da465717fc2460800000000000000
+      internalID: 7218415982372115235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_18
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 251
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927b115f34ce8cab0800000000000000
+      internalID: -4987476810694281431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_19
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 185
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc53a124c8cd27e0800000000000000
+      internalID: -1788552732292719400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 186
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242b3f9d98f9e2600800000000000000
+      internalID: 445468827572220482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_21
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 186
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c750de598f42d090800000000000000
+      internalID: -8011253335718864956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_22
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 186
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cdf42a62f832e50800000000000000
+      internalID: 6783422859844770975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 184
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ffc8d20d7569160800000000000000
+      internalID: 7031904419814637358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_24
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 181
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f194af3b0d09990800000000000000
+      internalID: -7381170317843423374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_25
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 183
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b1d722b304cf920800000000000000
+      internalID: 3025363672412003201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_26
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 120
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9612bea79a84ccaf0800000000000000
+      internalID: -374844776229691031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_27
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 120
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbded5181e3b22270800000000000000
+      internalID: 8224333650651377085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_28
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 119
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7713e1ea17e14f590800000000000000
+      internalID: -7641449194139537033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_29
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 119
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6436fd80e101a530800000000000000
+      internalID: 3864372019226621036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_30
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 122
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93769c99c4e663b80800000000000000
+      internalID: -8415417578418510023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_31
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 122
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fcec2c4d75da570800000000000000
+      internalID: 8479530244721528654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_32
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 122
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8680c8b0f5d2df0800000000000000
+      internalID: -203401904963163941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_33
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 102
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17806094d6ee76fc0800000000000000
+      internalID: -3501568032113293199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_34
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 100
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd28b799bc1de7560800000000000000
+      internalID: 7313513517279838941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_35
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 62
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b7203799002a400800000000000000
+      internalID: 333829981438376847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_36
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 62
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059cd1fdb4ef61090800000000000000
+      internalID: -8063978480941020848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_37
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 103
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa09c10b6ef824d70800000000000000
+      internalID: 9025934824163807402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_38
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 60
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732194c1e4c51d400800000000000000
+      internalID: 347160136835994167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_39
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 60
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015eeaf5770e46de0800000000000000
+      internalID: -1340699985738537712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_40
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 59
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e898d6bd3a26090800000000000000
+      internalID: -8042685821699387812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_41
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 59
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471051be3551f5280800000000000000
+      internalID: -9052493275820916364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_42
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 62
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d787fc59c3523f8f0800000000000000
+      internalID: -508021390821066627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_43
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 77
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c99c5eaaf446580800000000000000
+      internalID: -8834848973575840698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_44
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 65
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08547b19262ecd980800000000000000
+      internalID: -8512680282657700480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_45
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 11
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bca2c2a7b3675790800000000000000
+      internalID: -7541449410647774025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_46
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 11
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d768f98bb22b593c0800000000000000
+      internalID: -4353377563932916099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_47
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 10
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9e86543e21820d0800000000000000
+      internalID: -3447484747420735003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_48
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 7
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e39eaa8316645f0800000000000000
+      internalID: -772823390033986023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_49
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 11
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fcccb0085ac0e90800000000000000
+      internalID: -7058084546624041177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_50
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 7
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d565385cf0a59d0800000000000000
+      internalID: -2784896078588781246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_51
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 7
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a30f389d4cd7a7f0800000000000000
+      internalID: -601269799405812827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_52
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 62
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a1656020fabd400800000000000000
+      internalID: 350065819282446923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 66
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54898b705f62d8a90800000000000000
+      internalID: -7310143786314065851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_gravitywell_54
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 70
+        width: 3
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55e8a3c7d49f1910800000000000000
+      internalID: 1810329229647734107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
