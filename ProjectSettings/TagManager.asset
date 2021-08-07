@@ -21,11 +21,11 @@ TagManager:
   - World
   - Wall
   - Ground
-  - 
+  - Hazard Colliders
   - Player
   - Enemies
   - Bullets
-  - Enemy Attack
+  - Enemy Attacks
   - Attack Effects
   - 
   - Character Effects

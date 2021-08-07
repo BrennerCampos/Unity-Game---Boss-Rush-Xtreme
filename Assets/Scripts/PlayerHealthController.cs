@@ -10,11 +10,12 @@ public class PlayerHealthController : MonoBehaviour
          // ^-- version of this script in which only one version can exist
     public static PlayerHealthController instance;
     public GameObject deathBubbles;
+    public Transform spriteParent;
     public LevelManager levelManager;
     public int currentHealth, maxHealth;
     public float iFrameLength;
 
-    private SpriteRenderer spriteRenderer;
+    private SpriteRenderer sprite;
     private float iFrameCounter;
 
 
@@ -22,6 +23,8 @@ public class PlayerHealthController : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        Transform spriteParentTransform = spriteParent != null ? spriteParent : transform;
+        sprite = spriteParentTransform.GetComponentInChildren<SpriteRenderer>();
     }
 
     // Start is called before the first frame update
@@ -31,7 +34,7 @@ public class PlayerHealthController : MonoBehaviour
 
         //currentHealth = maxHealth;
         // Make Player's Sprite Renderer object
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        //spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -48,8 +51,8 @@ public class PlayerHealthController : MonoBehaviour
             if (iFrameCounter <= 0)
             {
                 // Changes our alpha back to fully opaque
-                spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g,
-                    spriteRenderer.color.b, 1f);
+                sprite.color = new Color(sprite.color.r, sprite.color.g,
+                    sprite.color.b, 1f);
             }
         }
     }
@@ -78,10 +81,10 @@ public class PlayerHealthController : MonoBehaviour
             {
                 // Set Player's invincibility counter
                 iFrameCounter = iFrameLength;
-                
+
                 // Fade Player's sprite alpha value by half
-                spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g,
-                    spriteRenderer.color.b, 0.5f);
+                sprite.color = new Color(sprite.color.r, sprite.color.g,
+                    sprite.color.b, 0.5f);
 
                 // Knock the player back
                 PlayerController.instance.Knockback();

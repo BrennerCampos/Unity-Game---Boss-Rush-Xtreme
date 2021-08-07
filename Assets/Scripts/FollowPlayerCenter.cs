@@ -16,7 +16,7 @@ public class FollowPlayerCenter : MonoBehaviour
         transform.position = new Vector3
             (
             PlayerController.instance.transform.position.x, 
-            PlayerController.instance.transform.position.y + 1f, 
+            PlayerController.instance.transform.position.y, 
             PlayerController.instance.transform.position.z
             );
     }

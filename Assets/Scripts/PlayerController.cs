@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rigidBody;
     public GameObject chargingShotEffect, groundDashDustEffect, dashRocketBoostEffect, deathBubbleCore;
     public GameObject busterShotLevel1, busterShotLevel2, busterShotLevel3, busterShotLevel4, busterShotLevel5;
+    public Transform spriteParent;
     public Transform groundCheckPoint, standFirePointRight, standFirePointLeft, runFirePointRight, runFirePointLeft, 
         jumpFirePointRight, jumpFirePointLeft, stateFirePointRight, stateFirePointLeft, dashDustPointRight, dashDustPointLeft, dashRocketPointRight, dashRocketPointLeft;
     public LayerMask whatIsGround;
@@ -23,26 +24,40 @@ public class PlayerController : MonoBehaviour
     public string xDirection, yDirection, animStateShooting;
 
     private Animator anim;
-    private SpriteRenderer spriteRenderer;
+    private SpriteRenderer sprite;
     private bool isGrounded, isJumping, isDashing, justPressedShoot;
     private bool canDoubleJump, canDash, playedInitChargeSFX, playedLoopedChargeSFX;
     private bool canShootBusterLevel2, canShootBusterLevel3, canShootBusterLevel4, canShootBusterLevel5;
     private float dashTimer, shotTimerNormal, chargingTimer;
     private float knockbackCounter;
+    private float baseScaleX;
 
 
     // Creates a PlayerController instance constructor before game starts
+
     private void Awake()
     {
         instance = this;
+        Transform spriteParentTransform = spriteParent != null ? spriteParent : transform;
+        sprite = spriteParentTransform.GetComponentInChildren<SpriteRenderer>();
+        anim = spriteParentTransform.GetComponentInChildren<Animator>();
     }
+
+    /*protected virtual void Awake()
+    {
+
+    }*/
 
     // Start is called before the first frame update
     void Start()
     {
         // Creates an Animator and Sprite Renderer for the Player
-        anim = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        //anim = GetComponent<Animator>();
+        //sprite = GetComponent<SpriteRenderer>();
+
+        /*baseScaleX = transform.localScale.x;
+        gameObject.SetActive(false);
+        gameObject.SetActive(true);*/
 
         // Starts off facing towards the RIGHT
         xDirection = "Right";
@@ -61,7 +76,7 @@ public class PlayerController : MonoBehaviour
         //  CHECKING PLAYER'S DIRECTIONS
         //////////////////////////////////////////////////////////////////////////////////////////////////////
         
-        if (spriteRenderer.flipX == false)
+        if (sprite.flipX == false)
         {
             xDirection = "Right";
         }else
@@ -374,11 +389,11 @@ public class PlayerController : MonoBehaviour
                 // Checks which way the Player is headed and flips sprite accordingly
                 if (rigidBody.velocity.x < 0)
                 {
-                    spriteRenderer.flipX = true;
+                    sprite.flipX = true;
                 }
                 else if (rigidBody.velocity.x > 0)
                 {
-                    spriteRenderer.flipX = false;
+                    sprite.flipX = false;
                 }
             }
             else // If Player is Knocked Back...
@@ -387,7 +402,7 @@ public class PlayerController : MonoBehaviour
                 knockbackCounter -= Time.deltaTime;
 
                 // Knock back our player in the opposite direction that the Player's sprite is facing
-                if (!spriteRenderer.flipX)
+                if (!sprite.flipX)
                 {
                     rigidBody.velocity = new Vector2(-knockbackForce, rigidBody.velocity.y);
                 }
@@ -456,12 +471,14 @@ public class PlayerController : MonoBehaviour
         if (xDirection == "Right")
         {
             var newBusterShot = Instantiate(busterShotLevel, stateFirePointRight.position, stateFirePointRight.rotation);
-            newBusterShot.transform.localScale = instance.transform.localScale;
+            newBusterShot.transform.localScale = new Vector3(instance.transform.localScale.x*11f, instance.transform.localScale.y*11f, instance.transform.localScale.z);
+            
         } 
         else // if xDirection == "Left"
         {
             var newBusterShot = Instantiate(busterShotLevel, stateFirePointLeft.position, stateFirePointLeft.rotation);
-            newBusterShot.transform.localScale = -instance.transform.localScale;
+            newBusterShot.transform.localScale = new Vector3(-instance.transform.localScale.x * 11f, -instance.transform.localScale.y * 11f, instance.transform.localScale.z);
+
         }
         AudioManager.instance.PlaySFX(audioSFX);
     }

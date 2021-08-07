@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 6154014824995475169}
   - component: {fileID: 6154014824995475170}
   - component: {fileID: 6154014824995475183}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: PlayerShadow
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -154,7 +154,7 @@ BoxCollider2D:
   m_Offset: {x: -0.0006653238, y: 0.03082139}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.14453125, y: 0.1953125}
     newSize: {x: 0.15234375, y: 0.203125}
     adaptiveTilingThreshold: 0.5
@@ -193,19 +193,53 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidBody: {fileID: 6154014824995475183}
+  chargingShotEffect: {fileID: 0}
+  groundDashDustEffect: {fileID: 0}
+  dashRocketBoostEffect: {fileID: 0}
+  deathBubbleCore: {fileID: 0}
+  busterShotLevel1: {fileID: 0}
+  busterShotLevel2: {fileID: 0}
+  busterShotLevel3: {fileID: 0}
+  busterShotLevel4: {fileID: 0}
+  busterShotLevel5: {fileID: 0}
+  spriteParent: {fileID: 0}
   groundCheckPoint: {fileID: 6154014824417714626}
+  standFirePointRight: {fileID: 0}
+  standFirePointLeft: {fileID: 0}
+  runFirePointRight: {fileID: 0}
+  runFirePointLeft: {fileID: 0}
+  jumpFirePointRight: {fileID: 0}
+  jumpFirePointLeft: {fileID: 0}
+  stateFirePointRight: {fileID: 0}
+  stateFirePointLeft: {fileID: 0}
+  dashDustPointRight: {fileID: 0}
+  dashDustPointLeft: {fileID: 0}
+  dashRocketPointRight: {fileID: 0}
+  dashRocketPointLeft: {fileID: 0}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 1344
+  healthSlider: {fileID: 0}
   moveSpeed: 9
   baseMoveSpeed: 9
   dashMultiplier: 2.22
   startDashTime: 0.25
+  startShotTimerNormal: 0
   jumpForce: 24
   bounceForce: 0
   knockbackLength: 0
   knockbackForce: 0
   stopInput: 0
+  canShootStand: 0
+  isStandShooting: 0
+  canShootRun: 0
+  isRunShooting: 0
+  canJumpShoot: 0
+  isJumpShooting: 0
+  isStateShooting: 0
+  xDirection: 
+  yDirection: 
+  animStateShooting: 
 --- !u!50 &6154014824995475183
 Rigidbody2D:
   serializedVersion: 4

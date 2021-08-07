@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2457441545126587932}
   - component: {fileID: 2457441545126587923}
   - component: {fileID: 2457441545126587920}
+  - component: {fileID: 1679363861088741998}
   m_Layer: 12
   m_Name: Buster Shot Bullet Level 1_0
   m_TagString: Bullet
@@ -137,3 +138,16 @@ MonoBehaviour:
   shotBurstEffect: {fileID: 8330498963531303887, guid: 466c9900dfc88ed4ca2239f0e1e2d00b, type: 3}
   speed: 4
   timeToLive: 0.327
+--- !u!114 &1679363861088741998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2457441545126587935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b969e22cc26239642b940c4b107aa9dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 2457441545126587933}
