@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4239674831405638397}
   - component: {fileID: 5698586798238880634}
   - component: {fileID: 3373845279588175429}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fire Shield
-  m_TagString: Untagged
+  m_TagString: Effects1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 5700475147044976158}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.3868847, y: 0.960032, z: 0}
-  m_LocalScale: {x: 11, y: 11, z: 1}
+  m_LocalScale: {x: 25, y: 25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -70,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1328131401
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -4189751438551829607, guid: 9c0be6f497bc8614388f2d4ab7201da5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

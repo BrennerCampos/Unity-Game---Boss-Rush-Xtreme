@@ -1,7 +1,199 @@
 fileFormatVersion: 2
 guid: 69c18f13974ca394fa664a4cf375c2f6
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7145977360030514673
+    second: x4RisingFire_0
+  - first:
+      213: 8150385606507393361
+    second: x4RisingFire_1
+  - first:
+      213: 6948156175593565809
+    second: x4RisingFire_2
+  - first:
+      213: 6468608768199204084
+    second: x4RisingFire_3
+  - first:
+      213: 1198850681077528730
+    second: x4RisingFire_4
+  - first:
+      213: -883961764464305168
+    second: x4RisingFire_5
+  - first:
+      213: -2154823366611043011
+    second: x4RisingFire_6
+  - first:
+      213: 5996765021501431431
+    second: x4RisingFire_7
+  - first:
+      213: 4571976835815781070
+    second: x4RisingFire_8
+  - first:
+      213: 1962197406156668244
+    second: x4RisingFire_9
+  - first:
+      213: -862198423285172292
+    second: x4RisingFire_10
+  - first:
+      213: 5237270202842124175
+    second: x4RisingFire_11
+  - first:
+      213: -8411374688572661101
+    second: x4RisingFire_12
+  - first:
+      213: -400414839170315588
+    second: x4RisingFire_13
+  - first:
+      213: -743926468551546543
+    second: x4RisingFire_14
+  - first:
+      213: -2853029497207709485
+    second: x4RisingFire_15
+  - first:
+      213: -7585968238990838544
+    second: x4RisingFire_16
+  - first:
+      213: -2564350156897564590
+    second: x4RisingFire_17
+  - first:
+      213: 7413979669872821154
+    second: x4RisingFire_18
+  - first:
+      213: -3385744724756467422
+    second: x4RisingFire_19
+  - first:
+      213: 5986419102904173074
+    second: x4RisingFire_20
+  - first:
+      213: -8552446183750112467
+    second: x4RisingFire_21
+  - first:
+      213: -7834999088999598785
+    second: x4RisingFire_22
+  - first:
+      213: 5812217211683382466
+    second: x4RisingFire_23
+  - first:
+      213: -3589073139786112804
+    second: x4RisingFire_24
+  - first:
+      213: 8596503365688738571
+    second: x4RisingFire_25
+  - first:
+      213: -5754252252375489138
+    second: x4RisingFire_26
+  - first:
+      213: 3825371748046943836
+    second: x4RisingFire_27
+  - first:
+      213: 2808299756083589625
+    second: x4RisingFire_28
+  - first:
+      213: 2272806601718289388
+    second: x4RisingFire_29
+  - first:
+      213: 1450443243005060483
+    second: x4RisingFire_30
+  - first:
+      213: -5233596379507360093
+    second: x4RisingFire_31
+  - first:
+      213: 4006636883116939703
+    second: x4RisingFire_32
+  - first:
+      213: -1408320222621421529
+    second: x4RisingFire_33
+  - first:
+      213: -8271263551602351259
+    second: x4RisingFire_34
+  - first:
+      213: 9034122618114416143
+    second: x4RisingFire_35
+  - first:
+      213: 4662564489284916922
+    second: x4RisingFire_36
+  - first:
+      213: 7035220166922376381
+    second: x4RisingFire_37
+  - first:
+      213: 757115757975947778
+    second: x4RisingFire_38
+  - first:
+      213: -5756308354385300197
+    second: x4RisingFire_39
+  - first:
+      213: -3087090355609503220
+    second: x4RisingFire_40
+  - first:
+      213: 5460266145614727997
+    second: x4RisingFire_41
+  - first:
+      213: -7787251946093502869
+    second: x4RisingFire_42
+  - first:
+      213: 865171325241596430
+    second: x4RisingFire_43
+  - first:
+      213: -2651100512318266623
+    second: x4RisingFire_44
+  - first:
+      213: -5450885961129527136
+    second: x4RisingFire_45
+  - first:
+      213: -1662280472092210228
+    second: x4RisingFire_46
+  - first:
+      213: -593842687200691963
+    second: x4RisingFire_47
+  - first:
+      213: -7171139108257102287
+    second: x4RisingFire_48
+  - first:
+      213: 6622808746443765004
+    second: x4RisingFire_49
+  - first:
+      213: 4335520675992934324
+    second: x4RisingFire_50
+  - first:
+      213: -6297404657345162781
+    second: x4RisingFire_51
+  - first:
+      213: 1271421420304393612
+    second: x4RisingFire_52
+  - first:
+      213: 6070645940071627098
+    second: x4RisingFire_53
+  - first:
+      213: 250643933034862798
+    second: x4RisingFire_54
+  - first:
+      213: -3206600936865544643
+    second: x4RisingFire_55
+  - first:
+      213: -711833674427218481
+    second: x4RisingFire_56
+  - first:
+      213: 1347665053593623708
+    second: x4RisingFire_57
+  - first:
+      213: -2675871173074096971
+    second: x4RisingFire_58
+  - first:
+      213: 9082475563325248191
+    second: x4RisingFire_59
+  - first:
+      213: 5116862267119898075
+    second: x4RisingFire_60
+  - first:
+      213: -1381128644726933187
+    second: x4RisingFire_61
+  - first:
+      213: 4269275372326774956
+    second: x4RisingFire_62
+  - first:
+      213: -4740101605731936940
+    second: x4RisingFire_63
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +224,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +233,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -68,7 +260,91 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +353,1351 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: x4RisingFire_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 584
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02c56ab37364dc90800000000000000
+      internalID: -7145977360030514673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 584
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151745ac68cfb1170800000000000000
+      internalID: 8150385606507393361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 584
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ee0329a3fcc6060800000000000000
+      internalID: 6948156175593565809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 584
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc9d7b076d15c950800000000000000
+      internalID: 6468608768199204084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_4
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 584
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a987c58b75c23a010800000000000000
+      internalID: 1198850681077528730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_5
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 584
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbd31a65798bb3f0800000000000000
+      internalID: -883961764464305168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 527
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3dff6790978812e0800000000000000
+      internalID: -2154823366611043011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_7
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 527
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e941cc30ac83350800000000000000
+      internalID: 5996765021501431431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 527
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec23d1475bce27f30800000000000000
+      internalID: 4571976835815781070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 527
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d392d05202b3b10800000000000000
+      internalID: 1962197406156668244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_10
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 527
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb77f262a1bd804f0800000000000000
+      internalID: -862198423285172292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_11
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 527
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f842150858ea840800000000000000
+      internalID: 5237270202842124175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 462
+        width: 19
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3922aee394bc44b80800000000000000
+      internalID: -8411374688572661101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_13
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 462
+        width: 24
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba457443d0717af0800000000000000
+      internalID: -400414839170315588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_14
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 462
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15969fe71da0da5f0800000000000000
+      internalID: -743926468551546543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 462
+        width: 25
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0293dc9c00868d0800000000000000
+      internalID: -2853029497207709485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_16
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 462
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f43e8d241a39b690800000000000000
+      internalID: -7585968238990838544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_17
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 462
+        width: 25
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258476a6e19996cd0800000000000000
+      internalID: -2564350156897564590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_18
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 462
+        width: 19
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3ccb29a3fb3e660800000000000000
+      internalID: 7413979669872821154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_19
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 461
+        width: 24
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221fcbc7c1b6301d0800000000000000
+      internalID: -3385744724756467422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 398
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2124739e478041350800000000000000
+      internalID: 5986419102904173074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_21
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 398
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bede8328b9f4980800000000000000
+      internalID: -8552446183750112467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 398
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f357ba417dd744390800000000000000
+      internalID: -7834999088999598785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_23
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 398
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4acc372c429a050800000000000000
+      internalID: 5812217211683382466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_24
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 398
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0272ebefc013ec0800000000000000
+      internalID: -3589073139786112804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_25
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 398
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03c35ec34aec4770800000000000000
+      internalID: 8596503365688738571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_26
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 398
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85ea25501ac420b0800000000000000
+      internalID: -5754252252375489138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_27
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 398
+        width: 19
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5637205653761530800000000000000
+      internalID: 3825371748046943836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1bd28cfb519f620800000000000000
+      internalID: 2808299756083589625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_29
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 334
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3d49aff81aa8f10800000000000000
+      internalID: 2272806601718289388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_30
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 334
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385ae2ad172012410800000000000000
+      internalID: 1450443243005060483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_31
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 334
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae71b552d78e57b0800000000000000
+      internalID: -5233596379507360093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_32
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 334
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9d922640f6a9730800000000000000
+      internalID: 4006636883116939703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_33
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 334
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720b6a81834a47ce0800000000000000
+      internalID: -1408320222621421529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_34
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 334
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5632b137f91963d80800000000000000
+      internalID: -8271263551602351259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_35
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 334
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e180608a6af5d70800000000000000
+      internalID: 9034122618114416143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab69d2e13b1c4b040800000000000000
+      internalID: 4662564489284916922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_37
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 270
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db49216b77f12a160800000000000000
+      internalID: 7035220166922376381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_38
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 270
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ac10045c0d18a00800000000000000
+      internalID: 757115757975947778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_39
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 270
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b153047cc0c7d10b0800000000000000
+      internalID: -5756308354385300197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_40
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 270
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a7c5c7da37825d0800000000000000
+      internalID: -3087090355609503220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_41
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 270
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b05743123c6cb40800000000000000
+      internalID: 5460266145614727997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_42
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 270
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e90a81d9f1ee390800000000000000
+      internalID: -7787251946093502869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_43
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 270
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a11e68cb4b10c00800000000000000
+      internalID: 865171325241596430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103e9635126653bd0800000000000000
+      internalID: -2651100512318266623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_45
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 205
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8f5bf29109a54b0800000000000000
+      internalID: -5450885961129527136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_46
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 205
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb00efb7b46ee8e0800000000000000
+      internalID: -1662280472092210228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_47
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 205
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50970f8e83f32c7f0800000000000000
+      internalID: -593842687200691963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_48
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 205
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1368c61b9fefa7c90800000000000000
+      internalID: -7171139108257102287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_49
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 205
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05712b3771f8eb50800000000000000
+      internalID: 6622808746443765004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_50
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 205
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b79be0951dda2c30800000000000000
+      internalID: 4335520675992934324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_51
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 205
+        width: 19
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e11d0844df1b98a0800000000000000
+      internalID: -6297404657345162781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_52
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 164
+        width: 126
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85e015ab0ff4a110800000000000000
+      internalID: 1271421420304393612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_53
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 110
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59f22f91544f3450800000000000000
+      internalID: 6070645940071627098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_54
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 97
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec856a144577a7300800000000000000
+      internalID: 250643933034862798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 120
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36c1bdef6ddf73d0800000000000000
+      internalID: -3206600936865544643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_56
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 116
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5ca986b0f0f16f0800000000000000
+      internalID: -711833674427218481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_57
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 116
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cd7abd93ed3b210800000000000000
+      internalID: 1347665053593623708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_58
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 30
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bce53078556ddad0800000000000000
+      internalID: -2675871173074096971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_59
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 14
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2da21676f6b0e70800000000000000
+      internalID: 9082475563325248191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_60
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 43
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd08442f1fb20740800000000000000
+      internalID: 5116862267119898075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_61
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 35
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d393feda0de35dce0800000000000000
+      internalID: -1381128644726933187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_62
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 35
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca86cdfd4538f3b30800000000000000
+      internalID: 4269275372326774956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4RisingFire_63
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 106
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455d61724b6c73eb0800000000000000
+      internalID: -4740101605731936940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

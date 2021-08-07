@@ -11,6 +11,9 @@ TagManager:
   - Ground
   - Wall
   - Pickups
+  - Hazards
+  - EnemyAttack
+  - PlayerAttack
   layers:
   - Default
   - TransparentFX

@@ -7,9 +7,10 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     public static CameraController instance;
+    public CameraShake cameraShake;
     public Transform farBackground, middleBackground, target;
     public float minHeight, maxHeight;
-    public bool stopFollow;
+    public bool stopFollow, shakeIt;
 
     private Vector2 lastPos;
 
@@ -24,6 +25,7 @@ public class CameraController : MonoBehaviour
     {
         // Keeping track of what our previous x and y values were so we can apply it accordingly to the camera system (Vector3 -> Vector2)
         lastPos = transform.position;
+        shakeIt = false;
     }
 
     // Update is called once per frame
@@ -49,10 +51,18 @@ public class CameraController : MonoBehaviour
             // Lastly, update our position to use as our last position for next iteration
             lastPos = transform.position;
         }
+
+        if (shakeIt)
+        {
+            StartCoroutine(cameraShake.Shake(0.3f, 0.15f));
+        }
+        
+
     }
 
     public void ShakeCamera(float strength, float duration = 1.0f)
     {
         //Tween.Shake(transform, transform.localPosition, new Vector3(strength, strength, 0), duration, 0);
+        
     }
 }

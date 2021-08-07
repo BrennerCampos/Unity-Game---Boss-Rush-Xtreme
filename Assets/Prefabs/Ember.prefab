@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 8951951793857647291}
   - component: {fileID: 1306469325196038569}
   - component: {fileID: 581505256330853195}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ember
-  m_TagString: Untagged
+  m_TagString: EnemyAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1328131401
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 6788124977146512781, guid: 9c0be6f497bc8614388f2d4ab7201da5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

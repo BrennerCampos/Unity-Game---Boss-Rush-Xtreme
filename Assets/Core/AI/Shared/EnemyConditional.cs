@@ -9,14 +9,18 @@ namespace Core.AI
     {
         protected Rigidbody2D body;
         protected Animator animator;
-        //protected Destructable destructable;
+        protected Destructable destructable;
         protected PlayerController player;
-        
+        protected EnemyController enemy;
+        protected DinoRexBoss dinoRexBoss;
+
         public override void OnAwake()
         {
             body = GetComponent<Rigidbody2D>();
             player = PlayerController.instance;
-            //destructable = GetComponent<Destructable>();
+            destructable = GetComponent<Destructable>();
+            enemy = GetComponent<EnemyController>();
+            dinoRexBoss = GetComponent<DinoRexBoss>();
             animator = gameObject.GetComponentInChildren<Animator>();
         }
     }

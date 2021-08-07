@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using BehaviorDesigner.Runtime.Tasks;
+using BehaviorDesigner.Runtime.Tasks.Unity.UnityGameObject;
 using DG.Tweening;
 using UnityEngine;
 
@@ -9,6 +10,10 @@ namespace  Core.AI
 
     public class DinoRexJump : EnemyAction
     {
+
+        public GameObject GroundDust, mainCamera;
+        public CameraShake cameraShake;
+        
         public float horizontalForce = 0.5f;
         public float jumpForce = 7.0f;
 
@@ -38,8 +43,10 @@ namespace  Core.AI
             jumpTween = DOVirtual.DelayedCall(jumpTime, () =>
             {
                 hasLanded = true;
-                if (shakeCameraOnLanding)
-                    CameraController.instance.ShakeCamera(0.5f);
+
+                //if (shakeCameraOnLanding)
+                    // StartCoroutine(cameraShake.Shake(0.2f, 0.2f));
+                
             }, false);
         }
 

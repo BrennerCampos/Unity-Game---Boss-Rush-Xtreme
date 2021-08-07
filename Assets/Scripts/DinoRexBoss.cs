@@ -7,13 +7,15 @@ using UnityEngine.UI;
 public class DinoRexBoss : MonoBehaviour
 {
 
-    public GameObject tornadoCyclone, busterShot1, DinoRexDeathEffect;
+    public GameObject DinoRexDeathEffect, GroundWindEffect, GroundDustEffect, FlameBreath, MagmaBurstUltra, Explosion1;
     public Transform leftPoint, rightPoint;
-    public Transform cyclonePoint1, cyclonePoint2, cyclonePoint3, cyclonePoint4;
+    public Transform groundCheckPoint;
     //public SpriteRenderer spriteRenderer;
     public Slider currentHealthSlider;
+    public LayerMask whatIsGround;
     public float moveSpeed, moveTime, waitTime;
     public int currentHealth, health;
+    public bool isGrounded, wasAirbornLastStep, wasGroundedLastStep;
 
     private new Rigidbody2D rigidbody;
     private Animator anim;
@@ -47,11 +49,18 @@ public class DinoRexBoss : MonoBehaviour
 
         // Setting our movement counter to our movement time
         moveCounter = moveTime;
+
+        isGrounded = false;
+        wasAirbornLastStep = false;
+        wasGroundedLastStep = true;
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
+
         // If we can move...
         if (moveCounter > 0)
         {
@@ -106,14 +115,6 @@ public class DinoRexBoss : MonoBehaviour
             // Telling enemy to stand still ("0" velocity.x)
             rigidbody.velocity = new Vector2(0f, rigidbody.velocity.y);
 
-            if (Random.Range(0, 250) < 2)
-            {
-                Instantiate(tornadoCyclone, new Vector3(cyclonePoint1.position.x, cyclonePoint1.position.y - 0.5f, 1), transform.rotation);
-                Instantiate(tornadoCyclone, new Vector3(cyclonePoint2.position.x, cyclonePoint2.position.y - 0.5f, 1), transform.rotation);
-                Instantiate(tornadoCyclone, new Vector3(cyclonePoint3.position.x, cyclonePoint3.position.y - 0.5f, 1), transform.rotation);
-                Instantiate(tornadoCyclone, new Vector3(cyclonePoint4.position.x, cyclonePoint4.position.y - 0.5f, 1), transform.rotation);
-            }
-            
 
             // If our wait counter hits 0
             if (waitCounter <= 0)
@@ -125,8 +126,37 @@ public class DinoRexBoss : MonoBehaviour
             // Sets sprite animation parameter to let us know our enemy is NOT moving
             //   anim.SetBool("isMoving", false);
         }
+
+        
+
     }
 
+    void LateUpdate()
+    {
+        wasAirbornLastStep = isGrounded;
+
+        if (wasAirbornLastStep)
+        {
+            var dustRight = Instantiate(GroundDustEffect, new Vector3(groundCheckPoint.position.x + 3.3f, 
+                groundCheckPoint.position.y,groundCheckPoint.position.z), transform.rotation);
+            dustRight.transform.localScale = new Vector3(dustRight.transform.localScale.x * -1f,
+                dustRight.transform.localScale.y, dustRight.transform.localScale.z);
+
+            var dustLeft = Instantiate(GroundDustEffect, new Vector3(groundCheckPoint.position.x - 3.3f,
+                groundCheckPoint.position.y, groundCheckPoint.position.z), transform.rotation);
+
+            wasAirbornLastStep = false;
+        }
+        
+        /*wasGroundedLastStep = !isGrounded;
+
+        if (wasGroundedLastStep)
+        {
+            Instantiate(GroundWindEffect, groundCheckPoint.position, transform.rotation);
+            wasGroundedLastStep = true;
+        }*/
+
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -178,6 +208,7 @@ public class DinoRexBoss : MonoBehaviour
     {
 
         Instantiate(DinoRexDeathEffect, transform.position, transform.rotation);
+        Instantiate(Explosion1, transform.position, transform.rotation);
         /*GameObject explosion = (GameObject) Instantiate(explosionReference);
         explosion.transform.position =
             new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z);*/

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2422799143188751166}
   - component: {fileID: 9108975264695619215}
   - component: {fileID: 7683347135243338352}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fire Pillar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2422799143188751167}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.66, y: -2.13, z: 0}
-  m_LocalScale: {x: 11, y: 11, z: 1}
+  m_LocalScale: {x: 18, y: 18, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -72,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1328131401
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1638520263572839414, guid: 9c0be6f497bc8614388f2d4ab7201da5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
