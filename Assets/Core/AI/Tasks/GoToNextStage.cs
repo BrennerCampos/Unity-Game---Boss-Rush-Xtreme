@@ -11,7 +11,7 @@ public class GoToNextStage : EnemyAction
 
     public override TaskStatus OnUpdate()
     {
-        CurrentStage.Value++;
-        return base.OnUpdate();
+        CurrentStage.Value += 1;
+        return TaskStatus.Failure;
     }
 }

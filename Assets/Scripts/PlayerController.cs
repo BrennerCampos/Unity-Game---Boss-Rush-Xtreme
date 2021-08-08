@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 {
 
     public static PlayerController instance;
+    public static int busterShotLevel;
     public Rigidbody2D rigidBody;
     public GameObject chargingShotEffect, groundDashDustEffect, dashRocketBoostEffect, deathBubbleCore;
     public GameObject busterShotLevel1, busterShotLevel2, busterShotLevel3, busterShotLevel4, busterShotLevel5;
@@ -208,12 +209,12 @@ public class PlayerController : MonoBehaviour
                             // If player is not moving...
                             if (Mathf.Abs(rigidBody.velocity.x) < 0.1f && canShootStand && !justPressedShoot)
                             {
-                                BusterShoot(busterShotLevel1,"isStandShooting", standFirePointRight, standFirePointLeft, isStandShooting, 13);
+                                BusterShoot(busterShotLevel1,"isStandShooting", standFirePointRight, standFirePointLeft, isStandShooting, 13, 1);
                                 justPressedShoot = true;
                             }
                             else if (Mathf.Abs(rigidBody.velocity.x) > 0 && canShootRun)// If player is running...
                             {
-                                BusterShoot(busterShotLevel1, "isRunShooting", runFirePointRight, runFirePointLeft, isRunShooting, 13);
+                                BusterShoot(busterShotLevel1, "isRunShooting", runFirePointRight, runFirePointLeft, isRunShooting, 13, 1);
                                 justPressedShoot = true;
                             } 
                         }
@@ -258,7 +259,7 @@ public class PlayerController : MonoBehaviour
                     {
                         if (yDirection != "Grounded" && !isGrounded && shotTimerNormal > 0 && !justPressedShoot)
                         {
-                            BusterShoot(busterShotLevel1, "isJumpShooting", jumpFirePointRight, jumpFirePointLeft, isJumpShooting, 13);
+                            BusterShoot(busterShotLevel1, "isJumpShooting", jumpFirePointRight, jumpFirePointLeft, isJumpShooting, 13, 1);
                             justPressedShoot = true;
                         }
                     }
@@ -463,7 +464,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void BusterShoot(GameObject busterShotLevel, string animStateShooting, Transform stateFirePointRight, Transform stateFirePointLeft, bool isStateShooting, int audioSFX)
+    public void BusterShoot(GameObject busterShotLevel, string animStateShooting, Transform stateFirePointRight, Transform stateFirePointLeft, bool isStateShooting, int audioSFX, int shotLevel)
     {
         isStateShooting = true;
         anim.SetBool(animStateShooting, true);
@@ -472,13 +473,13 @@ public class PlayerController : MonoBehaviour
         {
             var newBusterShot = Instantiate(busterShotLevel, stateFirePointRight.position, stateFirePointRight.rotation);
             newBusterShot.transform.localScale = new Vector3(instance.transform.localScale.x*11f, instance.transform.localScale.y*11f, instance.transform.localScale.z);
-            
+            newBusterShot.gameObject.tag = "ShotLevel_" + shotLevel.ToString();
         } 
         else // if xDirection == "Left"
         {
             var newBusterShot = Instantiate(busterShotLevel, stateFirePointLeft.position, stateFirePointLeft.rotation);
             newBusterShot.transform.localScale = new Vector3(-instance.transform.localScale.x * 11f, -instance.transform.localScale.y * 11f, instance.transform.localScale.z);
-
+            newBusterShot.gameObject.tag = "ShotLevel_" + shotLevel.ToString();
         }
         AudioManager.instance.PlaySFX(audioSFX);
     }
@@ -515,22 +516,22 @@ public class PlayerController : MonoBehaviour
 
         if (canShootBusterLevel2)
         {
-            BusterShoot(busterShotLevel2, animStateShooting, stateFirePointRight, stateFirePointLeft, isStateShooting, 13);
+            BusterShoot(busterShotLevel2, animStateShooting, stateFirePointRight, stateFirePointLeft, isStateShooting, 13, 2);
             canShootBusterLevel2 = false;
         } else 
         if (canShootBusterLevel3)
         {
-            BusterShoot(busterShotLevel3, animStateShooting, stateFirePointRight, stateFirePointLeft, isStateShooting, 13);
+            BusterShoot(busterShotLevel3, animStateShooting, stateFirePointRight, stateFirePointLeft, isStateShooting, 13, 3);
             canShootBusterLevel3 = false;
         } else 
         if (canShootBusterLevel4)
         {
-            BusterShoot(busterShotLevel4, animStateShooting, stateFirePointRight, stateFirePointLeft, isStateShooting, 20);
+            BusterShoot(busterShotLevel4, animStateShooting, stateFirePointRight, stateFirePointLeft, isStateShooting, 20, 4);
             canShootBusterLevel4 = false;
         } else
         if (canShootBusterLevel5)
         {
-            BusterShoot(busterShotLevel5, animStateShooting, stateFirePointRight, stateFirePointLeft, isStateShooting, 20);
+            BusterShoot(busterShotLevel5, animStateShooting, stateFirePointRight, stateFirePointLeft, isStateShooting, 20, 5);
             canShootBusterLevel5 = false;
         }
 

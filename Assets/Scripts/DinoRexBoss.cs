@@ -161,50 +161,55 @@ public class DinoRexBoss : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (other.CompareTag("Bullet"))
-        {
-            if (other.gameObject.name == "Buster Shot Bullet Level 5_0")
+        
+            if (other.gameObject.tag == "ShotLevel_5")
             {
                 currentHealth -= 10;
-               // spriteRenderer.material = materialWhite;
-            } else if (other.gameObject.name == "Buster Shot Bullet Level 4_0")
+                // spriteRenderer.material = materialWhite;
+            }
+            else if (other.gameObject.tag == "ShotLevel_4")
             {
                 currentHealth -= 7;
-               // spriteRenderer.material = materialWhite;
-            } else if (other.gameObject.name == "Buster Shot Bullet Level 3_0")
+                // spriteRenderer.material = materialWhite;
+            }
+            else if (other.gameObject.tag == "ShotLevel_3")
             {
                 currentHealth -= 5;
-               // spriteRenderer.material = materialWhite;
-            } else if (other.gameObject.name == "Buster Shot Bullet Level 2_0")
+                // spriteRenderer.material = materialWhite;
+            }
+            else if (other.gameObject.tag == "ShotLevel_2")
             {
                 currentHealth -= 3;
-               // spriteRenderer.material = materialWhite;
-            } else
+                // spriteRenderer.material = materialWhite;
+            }
+            else if (other.gameObject.tag == "ShotLevel_1")
             {
                 currentHealth -= 1;
-              //  spriteRenderer.material = materialWhite;
-                currentHealthSlider.value = currentHealth;
+                //  spriteRenderer.material = materialWhite;
+                
             }
-
+            currentHealthSlider.value = currentHealth;
 
             if (currentHealth <= 0)
             {
                 AudioManager.instance.PlaySFX_NoPitchFlux(2);
+                Destroy(other);
                 DestroyBoss();
             }
             else
             {
                 Invoke("ResetMaterial", 0.1f);
             }
-        }
+        
+
     }
 
     void ResetMaterial()
     {
-      //  spriteRenderer.material = materialDefault;
+        //  spriteRenderer.material = materialDefault;
     }
 
-    private void DestroyBoss()
+    public void DestroyBoss()
     {
 
         Instantiate(DinoRexDeathEffect, transform.position, transform.rotation);

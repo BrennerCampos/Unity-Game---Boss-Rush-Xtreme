@@ -7,24 +7,23 @@ using UnityEngine;
 public class SpawnObject : EnemyAction
 {
 
-    public GameObject objectPrefab;
     public Transform objectTransform;
     public GameObject hazardCollider;
-
-    private Destructable objectSpawned;
+    public GameObject enemy;
+    public AcceleratingProjectile objectToSpawn;
 
     public override void OnStart()
     {
-        objectSpawned = Object.Instantiate(objectPrefab, objectTransform).GetComponent<Destructable>();
-        destructable.Invincible = true;
+        var objectSpawned = Object.Instantiate(objectToSpawn, objectTransform.position, objectToSpawn.transform.rotation);
+        //destructable.Invincible = true;
         hazardCollider.SetActive(false);
     }
 
     public override TaskStatus OnUpdate()
     {
-        if (objectSpawned.CurrentHealth > 0) return TaskStatus.Running;
+        if (dinoRexBoss.currentHealth > 0) return TaskStatus.Running;
 
-        destructable.Invincible = false;
+        //destructable.Invincible = false;
         hazardCollider.SetActive(true);
         return TaskStatus.Success;
     }

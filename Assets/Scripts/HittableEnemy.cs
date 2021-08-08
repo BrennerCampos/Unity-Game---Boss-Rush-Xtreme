@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class HittableEnemy : MonoBehaviour
 {
 
-    
     public GameObject explosion;
     public Transform spriteParent;
     public bool hideWhenDead = false;
@@ -24,7 +23,6 @@ public class HittableEnemy : MonoBehaviour
 
     protected virtual void Awake()
     {
-
         Transform spriteParentTransform = spriteParent != null ? spriteParent : transform;
         sprite = spriteParentTransform.GetComponentInChildren<SpriteRenderer>();
 
@@ -43,42 +41,14 @@ public class HittableEnemy : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        
-        
-
-        if (other.CompareTag("Bullet") && !isHit)
+        if (other.gameObject.tag.Contains("Shot"))
         {
-            if (other.gameObject.name == "Buster Shot Bullet Level 5_0")
-            {
-                sprite.material = hitMaterial;
-            }
-            else if (other.gameObject.name == "Buster Shot Bullet Level 4_0")
-            {
-                sprite.material = hitMaterial;
-            }
-            else if (other.gameObject.name == "Buster Shot Bullet Level 3_0")
-            {
-                sprite.material = hitMaterial;
-            }
-            else if (other.gameObject.name == "Buster Shot Bullet Level 2_0")
-            {
-                sprite.material = hitMaterial;
-            }
-            else
-            {
-                isHit = true;
-                sprite.material = hitMaterial;
-                StartCoroutine(ResetMaterial(0.15f));
-            }
-
+            isHit = true;
+            sprite.material = hitMaterial;
+            StartCoroutine(ResetMaterial(0.15f));
         }
     }
 

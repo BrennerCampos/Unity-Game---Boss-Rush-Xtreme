@@ -9,7 +9,7 @@ namespace Core.AI
     {
 
         public Collider2D spawnAreaCollider;
-        public EnemyProjectile emberPrefab;
+        public EnemyProjectile emberProjectile;
         public int spawnCount = 8;
         public float spawnInterval = 0.3f;
 
@@ -28,7 +28,7 @@ namespace Core.AI
         private void SpawnEmber()
         {
             var randomX = Random.Range(spawnAreaCollider.bounds.min.x, spawnAreaCollider.bounds.max.x);
-            var ember = Object.Instantiate(emberPrefab, new Vector3(randomX, spawnAreaCollider.bounds.min.y), Quaternion.identity);
+            var ember = Object.Instantiate(emberProjectile, new Vector3(randomX, spawnAreaCollider.bounds.min.y), Quaternion.identity);
             ember.SetForce(Vector2.zero);
         }
 

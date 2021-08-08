@@ -10,7 +10,8 @@ namespace Core.AI
     public class Shoot : EnemyAction
     {
 
-        public GameObject weaponPrefab_1, weaponPrefab_2;
+        public GameObject shooter;
+        public EnemyProjectile enemyProjectile;
         public Transform weaponPosition_1, weaponPosition2;
         public List<Weapon> weapons;
         public bool shakeCamera;
@@ -20,8 +21,16 @@ namespace Core.AI
 
             //var attackObject = Instantiate(weaponPrefab_1, weaponPosition_1, Quaternion.identity);
 
+
+            var projectile = Object.Instantiate(enemyProjectile, weaponPosition_1.position,
+                Quaternion.identity);
             
-            foreach (var weapon in weapons)
+            projectile.Shooter = gameObject;
+
+            var force = new Vector2(30 * -transform.localScale.x, 0f);
+            projectile.SetForce(force);
+
+            /*foreach (var weapon in weapons)
             {
                 var projectile = Object.Instantiate(weapon.enemyProjectilePrefab, weapon.weaponTransform.position,
                     Quaternion.identity);
@@ -32,7 +41,7 @@ namespace Core.AI
 
                 if (shakeCamera)
                     CameraController.instance.cameraShake.Shake(0.5f, 0.4f);
-            }
+            }*/
             return TaskStatus.Success;
         }
     }
