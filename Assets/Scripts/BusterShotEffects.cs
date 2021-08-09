@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class BusterShotEffects : MonoBehaviour
@@ -17,13 +16,13 @@ public class BusterShotEffects : MonoBehaviour
         if (PlayerController.instance.xDirection == "Right")
         {
             shotDirection = "Right";
-            transform.localScale = PlayerController.instance.transform.localScale;
-            
+            transform.localScale = new Vector3(11, 11, 1);
+
         }
         else
         {
             shotDirection = "Left";
-            transform.localScale = -PlayerController.instance.transform.localScale;
+            transform.localScale = new Vector3(-11, 11, 1);
         }
 
     }

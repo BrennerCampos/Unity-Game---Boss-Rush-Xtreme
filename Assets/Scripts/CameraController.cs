@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Transactions;
 using DG.Tweening;
+using Thinksquirrel.CShake;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
@@ -24,6 +25,7 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         // Keeping track of what our previous x and y values were so we can apply it accordingly to the camera system (Vector3 -> Vector2)
+        cameraShake = instance.GetComponent<CameraShake>();
         lastPos = transform.position;
         shakeIt = false;
     }
@@ -54,7 +56,7 @@ public class CameraController : MonoBehaviour
 
         if (shakeIt)
         {
-            StartCoroutine(cameraShake.Shake(0.3f, 0.15f));
+            StartCoroutine("Shake");
         }
         
 

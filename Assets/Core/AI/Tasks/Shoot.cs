@@ -11,21 +11,35 @@ namespace Core.AI
     {
 
         public GameObject shooter;
+        public DinoRexBoss dinoRexBoss;
         public EnemyProjectile enemyProjectile;
-        public Transform weaponPosition_1, weaponPosition2;
+        public Transform weaponPosition_1_R, weaponPosition_1_L, weaponPosition_1_C;
         public List<Weapon> weapons;
         public bool shakeCamera;
 
+        private Transform positionToSpawn;
         public override TaskStatus OnUpdate()
         {
-
             //var attackObject = Instantiate(weaponPrefab_1, weaponPosition_1, Quaternion.identity);
 
+            if (dinoRexBoss.transform.localScale.x > 0)
+            {
+                positionToSpawn = weaponPosition_1_L;
+            } else
+            {
+                positionToSpawn = weaponPosition_1_R;
+            }
 
-            var projectile = Object.Instantiate(enemyProjectile, weaponPosition_1.position,
-                Quaternion.identity);
+            
+
+            var projectile = Object.Instantiate(enemyProjectile, weaponPosition_1_C.position,
+                    Quaternion.identity);
+
+            // Play "Big Fire" SFX
+            AudioManager.instance.PlaySFX(28);
             
             projectile.Shooter = gameObject;
+            projectile.transform.localScale = new Vector3(-shooter.transform.localScale.x, projectile.transform.localScale.y, Quaternion.identity.z);
 
             var force = new Vector2(30 * -transform.localScale.x, 0f);
             projectile.SetForce(force);

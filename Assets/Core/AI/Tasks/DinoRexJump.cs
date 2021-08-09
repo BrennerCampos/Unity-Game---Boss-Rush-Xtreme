@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using BehaviorDesigner.Runtime.Tasks;
 using BehaviorDesigner.Runtime.Tasks.Unity.UnityGameObject;
 using DG.Tweening;
+using Thinksquirrel.CShake;
 using UnityEngine;
 
 namespace  Core.AI
@@ -12,7 +13,8 @@ namespace  Core.AI
     {
 
         public GameObject GroundDust, mainCamera;
-        public CameraShake cameraShake;
+        //public CameraShake cameraShake;
+        public CameraShake cam;
         
         public float horizontalForce = 0.5f;
         public float jumpForce = 7.0f;
@@ -32,6 +34,7 @@ namespace  Core.AI
         {
             buildupTween = DOVirtual.DelayedCall(buildupTime, StartJump, false);
             animator.SetTrigger(animationTriggerName);
+            // cam = mainCamera.GetComponent<CameraShake>();
         }
 
 
@@ -39,14 +42,17 @@ namespace  Core.AI
         {
             var direction = PlayerController.instance.transform.position.x < transform.position.x ? -1 : 1;
             body.AddForce(new Vector2(horizontalForce * direction, jumpForce), ForceMode2D.Impulse);
+            AudioManager.instance.PlaySFX(40);
 
             jumpTween = DOVirtual.DelayedCall(jumpTime, () =>
             {
                 hasLanded = true;
+                AudioManager.instance.PlaySFXOverlap(36);
+                AudioManager.instance.PlaySFXOverlap(33);
 
-                //if (shakeCameraOnLanding)
-                    // StartCoroutine(cameraShake.Shake(0.2f, 0.2f));
-                
+                // if (shakeCameraOnLanding)
+                //  StartCoroutine();
+
             }, false);
         }
 

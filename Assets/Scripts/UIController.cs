@@ -7,7 +7,7 @@ public class UIController : MonoBehaviour
 {
 
     public static UIController instance;
-    public GameObject levelCompleteText;
+    public GameObject sandboxModeText;
     public Text bossHP;
     public Image fadeScreen;
     public float fadeSpeed;
@@ -40,7 +40,6 @@ public class UIController : MonoBehaviour
             //bossHP.text = "0";
         }
 
-
         if (shouldFadeToBlack)
         {
             // Takes the alpha value of our black fade panel and move it towards full alpha (black screen) by 1/3rd of a second
@@ -64,6 +63,7 @@ public class UIController : MonoBehaviour
                 shouldFadeFromBlack = false;
             }
         }
+
 
     }
 

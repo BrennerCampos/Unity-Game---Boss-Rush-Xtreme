@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,6 +17,7 @@ public class DinoRexBoss : MonoBehaviour
     public float moveSpeed, moveTime, waitTime;
     public int currentHealth, health;
     public bool isGrounded, wasAirbornLastStep, wasGroundedLastStep;
+    public string xDirection;
 
     private new Rigidbody2D rigidbody;
     private Animator anim;
@@ -58,6 +60,15 @@ public class DinoRexBoss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if (transform.localScale.x > 0)
+        {
+            xDirection = "Left";
+        }
+        else
+        {
+            xDirection = "Right";
+        }
 
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
 
@@ -122,71 +133,46 @@ public class DinoRexBoss : MonoBehaviour
                 // Choose random time between 3/4th of our move time and 3/4th of our wait time to assign to our move counter
                 moveCounter = Random.Range(moveTime * 0.75f, waitTime * 0.75f);
             }
-
             // Sets sprite animation parameter to let us know our enemy is NOT moving
             //   anim.SetBool("isMoving", false);
         }
-
-        
 
     }
 
     void LateUpdate()
     {
-        wasAirbornLastStep = isGrounded;
-
-        if (wasAirbornLastStep)
-        {
-            var dustRight = Instantiate(GroundDustEffect, new Vector3(groundCheckPoint.position.x + 3.3f, 
-                groundCheckPoint.position.y,groundCheckPoint.position.z), transform.rotation);
-            dustRight.transform.localScale = new Vector3(dustRight.transform.localScale.x * -1f,
-                dustRight.transform.localScale.y, dustRight.transform.localScale.z);
-
-            var dustLeft = Instantiate(GroundDustEffect, new Vector3(groundCheckPoint.position.x - 3.3f,
-                groundCheckPoint.position.y, groundCheckPoint.position.z), transform.rotation);
-
-            wasAirbornLastStep = false;
-        }
-        
-        /*wasGroundedLastStep = !isGrounded;
-
-        if (wasGroundedLastStep)
-        {
-            Instantiate(GroundWindEffect, groundCheckPoint.position, transform.rotation);
-            wasGroundedLastStep = true;
-        }*/
-
+     
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
 
-        
             if (other.gameObject.tag == "ShotLevel_5")
             {
-                currentHealth -= 10;
+                currentHealth -= 7;
+                AudioManager.instance.PlaySFXOverlap(25);
                 // spriteRenderer.material = materialWhite;
             }
             else if (other.gameObject.tag == "ShotLevel_4")
             {
-                currentHealth -= 7;
-                // spriteRenderer.material = materialWhite;
+                currentHealth -= 5;
+                AudioManager.instance.PlaySFXOverlap(25);
+            // spriteRenderer.material = materialWhite;
             }
             else if (other.gameObject.tag == "ShotLevel_3")
             {
-                currentHealth -= 5;
+                currentHealth -= 3;
                 // spriteRenderer.material = materialWhite;
             }
             else if (other.gameObject.tag == "ShotLevel_2")
             {
-                currentHealth -= 3;
+                currentHealth -= 2;
                 // spriteRenderer.material = materialWhite;
             }
             else if (other.gameObject.tag == "ShotLevel_1")
             {
                 currentHealth -= 1;
                 //  spriteRenderer.material = materialWhite;
-                
             }
             currentHealthSlider.value = currentHealth;
 
@@ -200,8 +186,6 @@ public class DinoRexBoss : MonoBehaviour
             {
                 Invoke("ResetMaterial", 0.1f);
             }
-        
-
     }
 
     void ResetMaterial()
@@ -211,14 +195,43 @@ public class DinoRexBoss : MonoBehaviour
 
     public void DestroyBoss()
     {
-
         Instantiate(DinoRexDeathEffect, transform.position, transform.rotation);
-        Instantiate(Explosion1, transform.position, transform.rotation);
+
+        /*for (int i = 0; i < 5; i++)
+        {
+            // Spawn them in diff locations
+        }
+        
+        var sequence = DOTween.Sequence();
+        for (int i = 0; i < 12; i++)
+        {
+            sequence.AppendCallback(DeathExplosions);
+            sequence.AppendInterval(0.3f);
+        }*/
+
+        // DeathExplosions();
+
+        // Death 2 explosion
+        AudioManager.instance.PlaySFXOverlap(23);
+        // Play "Explosion Pop"
+        AudioManager.instance.PlaySFXOverlap(19);
+
+        AudioManager.instance.PlayLevelVictory();
+        
         /*GameObject explosion = (GameObject) Instantiate(explosionReference);
         explosion.transform.position =
             new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z);*/
 
+        UIController.instance.sandboxModeText.SetActive(true);
+
         Destroy(gameObject);
+    }
+
+    private void DeathExplosions()
+    {
+        Instantiate(Explosion1, transform.position, transform.rotation);
+        // Play "Explosion Pop"
+        AudioManager.instance.PlaySFXOverlap(19);
     }
 
 }

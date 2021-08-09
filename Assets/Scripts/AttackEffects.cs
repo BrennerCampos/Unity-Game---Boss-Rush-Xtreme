@@ -10,16 +10,18 @@ public class AttackEffects : MonoBehaviour
 
     void Start()
     {
-        
+
+        // If Player is facing towards the right
         if (PlayerController.instance.xDirection == "Right")
         {
             shotDirection = "Right";
-            transform.localScale = PlayerController.instance.transform.localScale;
+            transform.localScale = new Vector3(11, 11, 1);
+
         }
         else
         {
             shotDirection = "Left";
-            transform.localScale = -PlayerController.instance.transform.localScale;
+            transform.localScale = new Vector3(-11, 11, 1);
         }
     }
 

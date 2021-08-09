@@ -19,12 +19,11 @@ public abstract class EnemyProjectile : MonoBehaviour
 
     protected void DestroyProjectile()
     {
-        OnProjectileDestroyed?.Invoke(this);
-
         //if (splatterSound != null)
-            //SoundManager.Instance.PlaySoundAtLocation(splatterSound, transform.position, 0.75f);
-
+        //SoundManager.Instance.PlaySoundAtLocation(splatterSound, transform.position, 0.75f);
         //EffectManager.Instance.PlayOneShot(explosionEffect, transform.position);
+        
+        OnProjectileDestroyed?.Invoke(this);
 
         Destroy(gameObject);
     }

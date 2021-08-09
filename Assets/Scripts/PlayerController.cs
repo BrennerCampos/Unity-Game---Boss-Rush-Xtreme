@@ -332,19 +332,16 @@ public class PlayerController : MonoBehaviour
 
                         if (xDirection == "Right")
                         {
-                            
                             Instantiate(groundDashDustEffect, dashDustPointRight.position, gameObject.transform.rotation);
                             Instantiate(dashRocketBoostEffect, dashRocketPointRight.position, gameObject.transform.rotation);
-
                         }
                         else
-                        { 
-                            
-                            Instantiate(groundDashDustEffect, dashDustPointLeft.position, gameObject.transform.rotation);
+                        {
+                            var leftDust = Instantiate(groundDashDustEffect, dashDustPointLeft.position, gameObject.transform.rotation);
+                            leftDust.transform.localScale = new Vector3(-leftDust.transform.localScale.x,
+                                leftDust.transform.localScale.y, leftDust.transform.localScale.z);
                             Instantiate(dashRocketBoostEffect, dashRocketPointLeft.position, gameObject.transform.rotation);
-
                         }
-
                     }
                 }
 

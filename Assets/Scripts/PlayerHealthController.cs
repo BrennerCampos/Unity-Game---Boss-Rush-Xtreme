@@ -74,6 +74,8 @@ public class PlayerHealthController : MonoBehaviour
                 //StartCoroutine(DeathBubbleSpawner(5));
                 Instantiate(deathBubbles, transform.position, transform.rotation);
 
+                PlayerController.instance.healthSlider.value = 0;
+
                 // Respawn the Player through our Level Manager object
                 LevelManager.instance.RespawnPlayer();
             }

@@ -73,8 +73,9 @@ public class BusterShot : MonoBehaviour
 
         if (other.tag == "Enemy")
         {
-            Instantiate(shotHitEffect, gameObject.transform.position, gameObject.transform.rotation);
+            var shotEffect = Instantiate(shotHitEffect, gameObject.transform.position, gameObject.transform.rotation);
             enemySprite = other.GetComponent<SpriteRenderer>();
+            shotEffect.transform.localScale = new Vector3(11, 11, 1);
             AudioManager.instance.PlaySFX(19);
 
             //Destroy(other);

@@ -37,6 +37,14 @@ public class AudioManager : MonoBehaviour
         soundEffects[soundToPlay].Play();
     }
 
+    public void PlaySFXOverlap(int soundToPlay)
+    {
+        // Randomizing pitch of SFX slightly so it doesn't sound monotonous and robotic
+        soundEffects[soundToPlay].pitch = Random.Range(0.95f, 1.05f);
+        // Then play the sound effect from the array
+        soundEffects[soundToPlay].Play();
+    }
+
 
     public void PlaySFX_HighPitch(int soundToPlay)
     {
