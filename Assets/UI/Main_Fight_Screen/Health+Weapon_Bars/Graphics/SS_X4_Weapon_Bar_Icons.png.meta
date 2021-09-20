@@ -1,0 +1,984 @@
+fileFormatVersion: 2
+guid: 8c64d0fad0a1fbc448af251e1b3b77ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6360871343661059998
+    second: SS_X4_Weapon_Bar_Icons_0
+  - first:
+      213: 5927736045351815253
+    second: SS_X4_Weapon_Bar_Icons_1
+  - first:
+      213: 8769302080335008555
+    second: SS_X4_Weapon_Bar_Icons_2
+  - first:
+      213: -1321837977300012464
+    second: SS_X4_Weapon_Bar_Icons_3
+  - first:
+      213: -6967163938318638928
+    second: SS_X4_Weapon_Bar_Icons_4
+  - first:
+      213: 7981383246937112296
+    second: SS_X4_Weapon_Bar_Icons_5
+  - first:
+      213: -1065839860981282315
+    second: SS_X4_Weapon_Bar_Icons_6
+  - first:
+      213: 8180880974451744620
+    second: SS_X4_Weapon_Bar_Icons_7
+  - first:
+      213: -3236992926891322442
+    second: SS_X4_Weapon_Bar_Icons_8
+  - first:
+      213: -8710546531010775903
+    second: SS_X4_Weapon_Bar_Icons_9
+  - first:
+      213: -1347326801643725521
+    second: SS_X4_Weapon_Bar_Icons_10
+  - first:
+      213: -863111582814550738
+    second: SS_X4_Weapon_Bar_Icons_11
+  - first:
+      213: 1063971834410848227
+    second: SS_X4_Weapon_Bar_Icons_12
+  - first:
+      213: -6942845257345687260
+    second: SS_X4_Weapon_Bar_Icons_14
+  - first:
+      213: 2822061536135077061
+    second: SS_X4_Weapon_Bar_Icons_15
+  - first:
+      213: -4800043448794700682
+    second: SS_X4_Weapon_Bar_Icons_16
+  - first:
+      213: 1049844074151220673
+    second: SS_X4_Weapon_Bar_Icons_17
+  - first:
+      213: -657540351626283934
+    second: SS_X4_Weapon_Bar_Icons_18
+  - first:
+      213: 5957346281385769261
+    second: SS_X4_Weapon_Bar_Icons_19
+  - first:
+      213: -5089588632097901224
+    second: SS_X4_Weapon_Bar_Icons_20
+  - first:
+      213: -4020465498979332024
+    second: SS_X4_Weapon_Bar_Icons_21
+  - first:
+      213: -8129939611296109190
+    second: SS_X4_Weapon_Bar_Icons_22
+  - first:
+      213: 1829772184747708850
+    second: SS_X4_Weapon_Bar_Icons_23
+  - first:
+      213: -5894510582295198714
+    second: SS_X4_Weapon_Bar_Icons_13
+  - first:
+      213: 6235372494094197508
+    second: SS_X4_Weapon_Bar_Icons_24
+  - first:
+      213: -3377266226473346681
+    second: SS_X4_Weapon_Bar_Icons_25
+  - first:
+      213: 7380801849412193557
+    second: SS_X4_Weapon_Bar_Icons_26
+  - first:
+      213: 1278565273742489924
+    second: SS_X4_Weapon_Bar_Icons_27
+  - first:
+      213: -203020958398221300
+    second: SS_X4_Weapon_Bar_Icons_28
+  - first:
+      213: -4533317137668505756
+    second: SS_X4_Weapon_Bar_Icons_29
+  - first:
+      213: -2231619553657733111
+    second: SS_X4_Weapon_Bar_Icons_30
+  - first:
+      213: -6584498516608528467
+    second: SS_X4_Weapon_Bar_Icons_31
+  - first:
+      213: 2097530237094489064
+    second: SS_X4_Weapon_Bar_Icons_32
+  - first:
+      213: 4306333676949810848
+    second: SS_X4_Weapon_Bar_Icons_33
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_0
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 140
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260fe1bd635a9b7a0800000000000000
+      internalID: -6360871343661059998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 133
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5584979d68c834250800000000000000
+      internalID: 5927736045351815253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 96
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b235672c7c1d2b970800000000000000
+      internalID: 8769302080335008555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 96
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0527960fc53e7ade0800000000000000
+      internalID: -1321837977300012464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 97
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b02b9ccf49af4f90800000000000000
+      internalID: -6967163938318638928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_5
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 97
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eeb0f1a6c193ce60800000000000000
+      internalID: 7981383246937112296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 98
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f942c22b406531f0800000000000000
+      internalID: -1065839860981282315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 98
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f92ffe6e3588170800000000000000
+      internalID: 8180880974451744620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_8
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 124
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3d0345514e313d0800000000000000
+      internalID: -3236992926891322442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_9
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 113
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4779b941ced1780800000000000000
+      internalID: -8710546531010775903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_10
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 96
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d99af89655d4de0800000000000000
+      internalID: -1347326801643725521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_11
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 57
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2540d0a69c9504f0800000000000000
+      internalID: -863111582814550738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 56
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef44190fbcf3ce00800000000000000
+      internalID: 1063971834410848227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_14
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 56
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421a761f50f06af90800000000000000
+      internalID: -6942845257345687260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 56
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccdf93e30af92720800000000000000
+      internalID: 2822061536135077061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_16
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 56
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674a6204ae1d26db0800000000000000
+      internalID: -4800043448794700682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_17
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 59
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c515558f9bc19e00800000000000000
+      internalID: 1049844074151220673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_18
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 33
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26474d3b882ffd6f0800000000000000
+      internalID: -657540351626283934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_19
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d293ef921eebca250800000000000000
+      internalID: 5957346281385769261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85530fada162e59b0800000000000000
+      internalID: -5089588632097901224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_21
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 32
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8409f951eef6438c0800000000000000
+      internalID: -4020465498979332024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_22
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d615f6ff6ac2f80800000000000000
+      internalID: -8129939611296109190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_23
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b117c38b18a46910800000000000000
+      internalID: 1829772184747708850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_13
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 56
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60483891bdd723ea0800000000000000
+      internalID: -5894510582295198714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_24
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 81
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403e9b83f3e788650800000000000000
+      internalID: 6235372494094197508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_25
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 81
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789d123b24a8121d0800000000000000
+      internalID: -3377266226473346681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_26
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 81
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d82c74d20ed6660800000000000000
+      internalID: 7380801849412193557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_27
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 81
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4493293a7506eb110800000000000000
+      internalID: 1278565273742489924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_28
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 81
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04f6b49389be2df0800000000000000
+      internalID: -203020958398221300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_29
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 81
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ff313f41c6611c0800000000000000
+      internalID: -4533317137668505756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_30
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 81
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9004a6ee6d1b701e0800000000000000
+      internalID: -2231619553657733111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_31
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 81
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf467d3c792f94a0800000000000000
+      internalID: -6584498516608528467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_32
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 81
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb68af23aceb1d10800000000000000
+      internalID: 2097530237094489064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_X4_Weapon_Bar_Icons_33
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 81
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae25eac9ab23cb30800000000000000
+      internalID: 4306333676949810848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -19,6 +19,7 @@ TagManager:
   - ShotLevel_3
   - ShotLevel_4
   - ShotLevel_5
+  - Background
   layers:
   - Default
   - TransparentFX

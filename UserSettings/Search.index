@@ -1,9 +1,16 @@
 {
     "name": "Assets",
-    "roots": ["Assets"],
+    "type": "asset",
+    "roots": [
+        "Assets/Player/States"
+    ],
     "includes": [],
-    "excludes": ["Temp/", "External/"],
+    "excludes": [
+        "Temp/",
+        "External/"
+    ],
     "options": {
+        "disabled": false,
         "types": true,
         "properties": false,
         "extended": false,
