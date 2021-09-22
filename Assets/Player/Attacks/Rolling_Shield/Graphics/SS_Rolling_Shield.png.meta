@@ -1,7 +1,85 @@
 fileFormatVersion: 2
 guid: dca2d43769d20e24abb25f96b789293e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 378774239020304105
+    second: SS_Rolling_Shield_0
+  - first:
+      213: 7073676709421586476
+    second: SS_Rolling_Shield_1
+  - first:
+      213: -1199930795663404421
+    second: SS_Rolling_Shield_2
+  - first:
+      213: 4816367093508799137
+    second: SS_Rolling_Shield_3
+  - first:
+      213: 5673314826944228521
+    second: SS_Rolling_Shield_4
+  - first:
+      213: 1334637801829029491
+    second: SS_Rolling_Shield_5
+  - first:
+      213: -1560027074377661751
+    second: SS_Rolling_Shield_6
+  - first:
+      213: 5711845238518378813
+    second: SS_Rolling_Shield_7
+  - first:
+      213: 3746406780723150290
+    second: SS_Rolling_Shield_8
+  - first:
+      213: 4798348492830821456
+    second: SS_Rolling_Shield_9
+  - first:
+      213: 5855728294262497907
+    second: SS_Rolling_Shield_10
+  - first:
+      213: -4705774238940510365
+    second: SS_Rolling_Shield_11
+  - first:
+      213: -4732049477227499521
+    second: SS_Rolling_Shield_12
+  - first:
+      213: 2360865926219833368
+    second: SS_Rolling_Shield_13
+  - first:
+      213: -3658389216460742475
+    second: SS_Rolling_Shield_14
+  - first:
+      213: 7916164278180146987
+    second: SS_Rolling_Shield_15
+  - first:
+      213: 6209208916505895149
+    second: SS_Rolling_Shield_16
+  - first:
+      213: -3693166248480525717
+    second: SS_Rolling_Shield_17
+  - first:
+      213: -5214212075059948828
+    second: SS_Rolling_Shield_18
+  - first:
+      213: -788175327744888292
+    second: SS_Rolling_Shield_19
+  - first:
+      213: -586577179259298134
+    second: SS_Rolling_Shield_20
+  - first:
+      213: 5817292265658702806
+    second: SS_Rolling_Shield_21
+  - first:
+      213: -898178975123770103
+    second: SS_Rolling_Shield_22
+  - first:
+      213: 6170454739591007931
+    second: SS_Rolling_Shield_23
+  - first:
+      213: 6944728905881161025
+    second: SS_Rolling_Shield_24
+  - first:
+      213: 8236163624865271315
+    second: SS_Rolling_Shield_25
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +110,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +119,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -68,7 +146,79 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +227,553 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 295
+        width: 9
+        height: 9
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6cfded92da14500800000000000000
+      internalID: 378774239020304105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 285
+        width: 27
+        height: 31
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2817014d7fba2260800000000000000
+      internalID: 7073676709421586476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 287
+        width: 27
+        height: 31
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b725e618c4df85fe0800000000000000
+      internalID: -1199930795663404421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 286
+        width: 27
+        height: 31
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaf8747a5c27d240800000000000000
+      internalID: 4816367093508799137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_4
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 286
+        width: 27
+        height: 31
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aca7fec6c9abbe40800000000000000
+      internalID: 5673314826944228521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_5
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 284
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: -0.0053198677, y: 0.5232754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376d3d17206958210800000000000000
+      internalID: 1334637801829029491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 230
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c24ab724aba95ae0800000000000000
+      internalID: -1560027074377661751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_7
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 231
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31f4e55bfc844f40800000000000000
+      internalID: 5711845238518378813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_8
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 230
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd3e152e19edf330800000000000000
+      internalID: 3746406780723150290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 230
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c46bf0888279240800000000000000
+      internalID: 4798348492830821456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 185
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37268b0dbd9b34150800000000000000
+      internalID: 5855728294262497907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 182
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36744ce034bb1beb0800000000000000
+      internalID: -4705774238940510365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 181
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff284a6212645eb0800000000000000
+      internalID: -4732049477227499521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_13
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 174
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81028ae2d0b73c020800000000000000
+      internalID: 2360865926219833368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_14
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 169
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0ecbef36aca3dc0800000000000000
+      internalID: -3658389216460742475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_15
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 166
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f6098287ddbdd60800000000000000
+      internalID: 7916164278180146987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_16
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 150
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0a58c9c9a8b2650800000000000000
+      internalID: 6209208916505895149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b623bde3ddc3fbcc0800000000000000
+      internalID: -3693166248480525717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 83
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2df7a6eb563a7b0800000000000000
+      internalID: -5214212075059948828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 78
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12f90127b6df05f0800000000000000
+      internalID: -788175327744888292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_20
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 73
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae16ecc92f0cd7f0800000000000000
+      internalID: -586577179259298134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_21
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 72
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbd6398e7c2bb050800000000000000
+      internalID: 5817292265658702806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_22
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905f50b1bf60983f0800000000000000
+      internalID: -898178975123770103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_23
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe82f7a4ebd1a550800000000000000
+      internalID: 6170454739591007931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_24
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d0f682522a06060800000000000000
+      internalID: 6944728905881161025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Rolling_Shield_25
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 2
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e86140e2bbc4270800000000000000
+      internalID: 8236163624865271315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

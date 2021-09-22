@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 90e3fd76d965b624dab5f83d170b3ab1
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4374609472852809022
+    second: SS_Thunder_Dancer_0
+  - first:
+      213: 8851725837296841397
+    second: SS_Thunder_Dancer_1
+  - first:
+      213: 6327519238711191667
+    second: SS_Thunder_Dancer_2
+  - first:
+      213: -6635590489693180052
+    second: SS_Thunder_Dancer_3
+  - first:
+      213: 6609953466920516720
+    second: SS_Thunder_Dancer_4
+  - first:
+      213: -4167836446417321781
+    second: SS_Thunder_Dancer_8
+  - first:
+      213: 6335907224225301304
+    second: SS_Thunder_Dancer_5
+  - first:
+      213: -3258259382616620713
+    second: SS_Thunder_Dancer_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +56,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +65,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -68,7 +92,79 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +173,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SS_Thunder_Dancer_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 100
+        width: 60
+        height: 11
+      alignment: 9
+      pivot: {x: 0.08175087, y: 0.62221456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35537c432cb5bc30800000000000000
+      internalID: 4374609472852809022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Thunder_Dancer_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 103
+        width: 60
+        height: 11
+      alignment: 9
+      pivot: {x: 0.070547864, y: 0.45926112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2b93520c5a7da70800000000000000
+      internalID: 8851725837296841397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Thunder_Dancer_2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 103
+        width: 64
+        height: 11
+      alignment: 9
+      pivot: {x: 0.1113925, y: 0.4999993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378a4d4193ddfc750800000000000000
+      internalID: 6327519238711191667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Thunder_Dancer_3
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 102
+        width: 67
+        height: 16
+      alignment: 9
+      pivot: {x: 0.12210447, y: 0.48599577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fa0e24b95a9e3a0800000000000000
+      internalID: -6635590489693180052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Thunder_Dancer_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 34
+        width: 60
+        height: 33
+      alignment: 9
+      pivot: {x: 0.070547864, y: 0.14693254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cb8a938a54bbb50800000000000000
+      internalID: 6609953466920516720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Thunder_Dancer_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 11
+        width: 60
+        height: 31
+      alignment: 9
+      pivot: {x: 0.10415707, y: 0.868618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc08e5985ded826c0800000000000000
+      internalID: -4167836446417321781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Thunder_Dancer_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 11
+        width: 64
+        height: 58
+      alignment: 9
+      pivot: {x: 0.118394375, y: 0.4884104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833c7c52d0aade750800000000000000
+      internalID: 6335907224225301304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Thunder_Dancer_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 10
+        width: 67
+        height: 61
+      alignment: 9
+      pivot: {x: 0.12544866, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7518d01ca5658c2d0800000000000000
+      internalID: -3258259382616620713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

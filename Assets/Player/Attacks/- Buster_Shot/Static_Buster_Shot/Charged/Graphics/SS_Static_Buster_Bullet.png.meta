@@ -1,7 +1,64 @@
 fileFormatVersion: 2
 guid: cf0327e7fe61a1140b3dbf25a61e78ab
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5121044589206636860
+    second: SS_Static_Buster_Bullet_0
+  - first:
+      213: 7116163194284681456
+    second: SS_Static_Buster_Bullet_1
+  - first:
+      213: -1371649115003963928
+    second: SS_Static_Buster_Bullet_2
+  - first:
+      213: 2549877272513177510
+    second: SS_Static_Buster_Bullet_3
+  - first:
+      213: 6080410269261609835
+    second: SS_Static_Buster_Bullet_4
+  - first:
+      213: 5869853169411665812
+    second: SS_Static_Buster_Bullet_5
+  - first:
+      213: -1904655261030029390
+    second: SS_Static_Buster_Bullet_6
+  - first:
+      213: 5108470759887298713
+    second: SS_Static_Buster_Bullet_7
+  - first:
+      213: 3643334744585651764
+    second: SS_Static_Buster_Bullet_8
+  - first:
+      213: -1845007830185731746
+    second: SS_Static_Buster_Bullet_9
+  - first:
+      213: -5687566450193023888
+    second: SS_Static_Buster_Bullet_10
+  - first:
+      213: 8788487636138714451
+    second: SS_Static_Buster_Bullet_11
+  - first:
+      213: -7419514831190012852
+    second: SS_Static_Buster_Bullet_12
+  - first:
+      213: 1346320696147160418
+    second: SS_Static_Buster_Bullet_13
+  - first:
+      213: 271056694353281374
+    second: SS_Static_Buster_Bullet_14
+  - first:
+      213: 7066205918102666303
+    second: SS_Static_Buster_Bullet_15
+  - first:
+      213: -4806132631095078329
+    second: SS_Static_Buster_Bullet_16
+  - first:
+      213: -2501934930463947273
+    second: SS_Static_Buster_Bullet_17
+  - first:
+      213: -8173338801305144842
+    second: SS_Static_Buster_Bullet_18
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +89,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +98,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -68,7 +125,79 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +206,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SS_Static_Buster_Bullet_13
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 3
+        width: 128
+        height: 112
+      alignment: 9
+      pivot: {x: 0.81708956, y: 0.5041656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dab9f3a871fa210800000000000000
+      internalID: 1346320696147160418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Static_Buster_Bullet_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 11
+        width: 112
+        height: 96
+      alignment: 9
+      pivot: {x: 0.83323014, y: 0.50485986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e514bec90acf2c300800000000000000
+      internalID: 271056694353281374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Static_Buster_Bullet_15
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 29
+        width: 117
+        height: 60
+      alignment: 9
+      pivot: {x: 0.83095163, y: 0.50777584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cb54a18d4301260800000000000000
+      internalID: 7066205918102666303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Static_Buster_Bullet_16
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 27
+        width: 87
+        height: 64
+      alignment: 9
+      pivot: {x: 0.85391307, y: 0.5072898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7421a2406df2d4db0800000000000000
+      internalID: -4806132631095078329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Static_Buster_Bullet_17
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 40
+        width: 80
+        height: 38
+      alignment: 9
+      pivot: {x: 0.8149029, y: 0.5122776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f50e82cf67574dd0800000000000000
+      internalID: -2501934930463947273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Static_Buster_Bullet_18
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 29
+        width: 109
+        height: 59
+      alignment: 9
+      pivot: {x: 0.8509617, y: 0.51581466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f13a471aa7729e80800000000000000
+      internalID: -8173338801305144842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
