@@ -13,16 +13,16 @@ TextureImporter:
     second: SS_Ground_Fire_2
   - first:
       213: -3869642786685312177
-    second: SS_Ground_Fire_3
+    second: SS_Ground_Fire_35
   - first:
       213: 1517253550629450812
-    second: SS_Ground_Fire_4
+    second: SS_Ground_Fire_36
   - first:
       213: 7727307532640699420
-    second: SS_Ground_Fire_5
+    second: SS_Ground_Fire_37
   - first:
       213: 2292855854712219628
-    second: SS_Ground_Fire_6
+    second: SS_Ground_Fire_38
   - first:
       213: -460308869637845629
     second: SS_Ground_Fire_7
@@ -34,10 +34,10 @@ TextureImporter:
     second: SS_Ground_Fire_9
   - first:
       213: 2834818195645327080
-    second: SS_Ground_Fire_10
+    second: SS_Ground_Fire_3
   - first:
       213: 2574665200413267824
-    second: SS_Ground_Fire_11
+    second: SS_Ground_Fire_4
   - first:
       213: 4683908058959933366
     second: SS_Ground_Fire_12
@@ -49,7 +49,7 @@ TextureImporter:
     second: SS_Ground_Fire_14
   - first:
       213: 5421019009398004435
-    second: SS_Ground_Fire_15
+    second: SS_Ground_Fire_5
   - first:
       213: -377265427912944346
     second: SS_Ground_Fire_16
@@ -74,6 +74,12 @@ TextureImporter:
   - first:
       213: -9190175123875401066
     second: SS_Ground_Fire_23
+  - first:
+      213: 397259541808270106
+    second: SS_Ground_Fire_24
+  - first:
+      213: -7176158869884153590
+    second: SS_Ground_Fire_26
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -286,6 +292,153 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: SS_Ground_Fire_35
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 125
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4328f343644c4ac0800000000000000
+      internalID: -3869642786685312177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Ground_Fire_36
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 125
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34f777c01e5e0510800000000000000
+      internalID: 1517253550629450812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Ground_Fire_37
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 125
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14cf398249ec3b60800000000000000
+      internalID: 7727307532640699420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Ground_Fire_38
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 127
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7eb45704cd1df10800000000000000
+      internalID: 2292855854712219628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Ground_Fire_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 142
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d464a9587ac99f0800000000000000
+      internalID: -460308869637845629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Ground_Fire_8
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 142
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a768440ec55781de0800000000000000
+      internalID: -1362209845519546758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Ground_Fire_9
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 142
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3e79ff0bc8d9e80800000000000000
+      internalID: -8170219457149934638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: SS_Ground_Fire_3
       rect:
         serializedVersion: 2
@@ -300,8 +453,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4328f343644c4ac0800000000000000
-      internalID: -3869642786685312177
+      spriteID: 8e6e042212c475720800000000000000
+      internalID: 2834818195645327080
       vertices: []
       indices: 
       edges: []
@@ -321,153 +474,6 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c34f777c01e5e0510800000000000000
-      internalID: 1517253550629450812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SS_Ground_Fire_5
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 125
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c14cf398249ec3b60800000000000000
-      internalID: 7727307532640699420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SS_Ground_Fire_6
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 125
-        width: 23
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce7eb45704cd1df10800000000000000
-      internalID: 2292855854712219628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SS_Ground_Fire_7
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 125
-        width: 22
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38d464a9587ac99f0800000000000000
-      internalID: -460308869637845629
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SS_Ground_Fire_8
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 125
-        width: 23
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a768440ec55781de0800000000000000
-      internalID: -1362209845519546758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SS_Ground_Fire_9
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 127
-        width: 22
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d3e79ff0bc8d9e80800000000000000
-      internalID: -8170219457149934638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SS_Ground_Fire_10
-      rect:
-        serializedVersion: 2
-        x: 186
-        y: 142
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e6e042212c475720800000000000000
-      internalID: 2834818195645327080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SS_Ground_Fire_11
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 142
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
       spriteID: 077513ecb5c0bb320800000000000000
       internalID: 2574665200413267824
       vertices: []
@@ -478,9 +484,9 @@ TextureImporter:
       name: SS_Ground_Fire_12
       rect:
         serializedVersion: 2
-        x: 217
-        y: 142
-        width: 8
+        x: 186
+        y: 126
+        width: 7
         height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -499,9 +505,9 @@ TextureImporter:
       name: SS_Ground_Fire_13
       rect:
         serializedVersion: 2
-        x: 186
-        y: 126
-        width: 7
+        x: 202
+        y: 127
+        width: 6
         height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -520,10 +526,10 @@ TextureImporter:
       name: SS_Ground_Fire_14
       rect:
         serializedVersion: 2
-        x: 202
+        x: 219
         y: 127
-        width: 6
-        height: 11
+        width: 5
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -538,13 +544,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SS_Ground_Fire_15
+      name: SS_Ground_Fire_5
       rect:
         serializedVersion: 2
-        x: 219
-        y: 127
-        width: 5
-        height: 9
+        x: 53
+        y: 125
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -583,10 +589,10 @@ TextureImporter:
       name: SS_Ground_Fire_17
       rect:
         serializedVersion: 2
-        x: 96
-        y: 65
-        width: 47
-        height: 52
+        x: 97
+        y: 67
+        width: 44
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,10 +610,10 @@ TextureImporter:
       name: SS_Ground_Fire_18
       rect:
         serializedVersion: 2
-        x: 157
-        y: 65
-        width: 47
-        height: 52
+        x: 159
+        y: 67
+        width: 43
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -626,9 +632,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 215
-        y: 64
-        width: 47
-        height: 52
+        y: 65
+        width: 46
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -649,7 +655,7 @@ TextureImporter:
         x: 36
         y: 10
         width: 50
-        height: 52
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -664,34 +670,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SS_Ground_Fire_21
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 9
-        width: 50
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ef61885e7621eb50800000000000000
-      internalID: 6620615251303952354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: SS_Ground_Fire_22
       rect:
         serializedVersion: 2
-        x: 165
-        y: 10
-        width: 44
-        height: 51
+        x: 98
+        y: 9
+        width: 47
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,7 +691,28 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SS_Ground_Fire_23
+      name: SS_Ground_Fire_24
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 10
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bcd11d279538500800000000000000
+      internalID: 397259541808270106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Ground_Fire_26
       rect:
         serializedVersion: 2
         x: 222
@@ -720,8 +726,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69276cd9a60f57080800000000000000
-      internalID: -9190175123875401066
+      spriteID: a0159cc5789296c90800000000000000
+      internalID: -7176158869884153590
       vertices: []
       indices: 
       edges: []

@@ -1,7 +1,178 @@
 fileFormatVersion: 2
 guid: 3ddce22cda3112b439f705f1d794f0df
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5094125124196131561
+    second: SS_Frost_Shield_0
+  - first:
+      213: 2210617520706982364
+    second: SS_Frost_Shield_1
+  - first:
+      213: -2103129109473365386
+    second: SS_Frost_Shield_2
+  - first:
+      213: 3627066633688007920
+    second: SS_Frost_Shield_3
+  - first:
+      213: -4179695130946982422
+    second: SS_Frost_Shield_4
+  - first:
+      213: 3550995857098804385
+    second: SS_Frost_Shield_5
+  - first:
+      213: -3556940336181797943
+    second: SS_Frost_Shield_6
+  - first:
+      213: 7360394513324118891
+    second: SS_Frost_Shield_7
+  - first:
+      213: -2899691546163081945
+    second: SS_Frost_Shield_8
+  - first:
+      213: -9150901332277283697
+    second: SS_Frost_Shield_9
+  - first:
+      213: -4482233397878296300
+    second: SS_Frost_Shield_10
+  - first:
+      213: -4458926974006591659
+    second: SS_Frost_Shield_11
+  - first:
+      213: -5405970850707624474
+    second: SS_Frost_Shield_12
+  - first:
+      213: -3936379990936522178
+    second: SS_Frost_Shield_13
+  - first:
+      213: 4425623011711145733
+    second: SS_Frost_Shield_14
+  - first:
+      213: 5108056774595572258
+    second: SS_Frost_Shield_15
+  - first:
+      213: 4917809319579894972
+    second: SS_Frost_Shield_16
+  - first:
+      213: 4075783195294488712
+    second: SS_Frost_Shield_17
+  - first:
+      213: 318894840520771849
+    second: SS_Frost_Shield_18
+  - first:
+      213: 1591077284375213511
+    second: SS_Frost_Shield_19
+  - first:
+      213: -8081182244009520347
+    second: SS_Frost_Shield_20
+  - first:
+      213: -5421400463827837175
+    second: SS_Frost_Shield_21
+  - first:
+      213: -8891627980013600313
+    second: SS_Frost_Shield_22
+  - first:
+      213: -517853362001114172
+    second: SS_Frost_Shield_23
+  - first:
+      213: -3626365882936881936
+    second: SS_Frost_Shield_24
+  - first:
+      213: 4691504097994408014
+    second: SS_Frost_Shield_25
+  - first:
+      213: 104357881759199075
+    second: SS_Frost_Shield_26
+  - first:
+      213: 2914306893933495172
+    second: SS_Frost_Shield_27
+  - first:
+      213: -3612116582583790995
+    second: SS_Frost_Shield_28
+  - first:
+      213: -1288004374277467752
+    second: SS_Frost_Shield_29
+  - first:
+      213: 6151418987359660778
+    second: SS_Frost_Shield_30
+  - first:
+      213: -4023487739247873710
+    second: SS_Frost_Shield_31
+  - first:
+      213: -4436091250607816157
+    second: SS_Frost_Shield_32
+  - first:
+      213: 8497317023060193954
+    second: SS_Frost_Shield_33
+  - first:
+      213: -3845201177801932622
+    second: SS_Frost_Shield_34
+  - first:
+      213: 8255405743790789617
+    second: SS_Frost_Shield_35
+  - first:
+      213: -4948255105224195483
+    second: SS_Frost_Shield_36
+  - first:
+      213: -3478167183072626732
+    second: SS_Frost_Shield_37
+  - first:
+      213: 7453431186602493187
+    second: SS_Frost_Shield_38
+  - first:
+      213: 6522576158763930913
+    second: SS_Frost_Shield_39
+  - first:
+      213: -6120163191881260138
+    second: SS_Frost_Shield_44
+  - first:
+      213: -9133690691684050498
+    second: SS_Frost_Shield_45
+  - first:
+      213: 7923991271859653963
+    second: SS_Frost_Shield_46
+  - first:
+      213: -3085679971566290491
+    second: SS_Frost_Shield_47
+  - first:
+      213: 3278991206216065418
+    second: SS_Frost_Shield_48
+  - first:
+      213: -8100517348616490583
+    second: SS_Frost_Shield_49
+  - first:
+      213: -1624937508267072912
+    second: SS_Frost_Shield_53
+  - first:
+      213: -8086369173241349195
+    second: SS_Frost_Shield_54
+  - first:
+      213: 5543480080405926083
+    second: SS_Frost_Shield_59
+  - first:
+      213: -6438439628522476770
+    second: SS_Frost_Shield_65
+  - first:
+      213: -7850757442983909324
+    second: SS_Frost_Shield_66
+  - first:
+      213: -1990772545822987448
+    second: SS_Frost_Shield_67
+  - first:
+      213: -8416717839004982104
+    second: SS_Frost_Shield_69
+  - first:
+      213: -2067913355868705829
+    second: SS_Frost_Shield_40
+  - first:
+      213: -6472386193668600070
+    second: SS_Frost_Shield_41
+  - first:
+      213: -1128171107312261086
+    second: SS_Frost_Shield_42
+  - first:
+      213: -373902987136095617
+    second: SS_Frost_Shield_43
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +203,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +212,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -68,7 +239,79 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +320,1204 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SS_Frost_Shield_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 164
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e26a158fc7f1b640800000000000000
+      internalID: 5094125124196131561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 164
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd19ef73ce0bdae10800000000000000
+      internalID: 2210617520706982364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 164
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6727e01c73f20d2e0800000000000000
+      internalID: -2103129109473365386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 164
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f445a5e2ede55230800000000000000
+      internalID: 3627066633688007920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_4
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 170
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeda9726c6dbef5c0800000000000000
+      internalID: -4179695130946982422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 171
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac02450beba74130800000000000000
+      internalID: 3550995857098804385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 170
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb10a61c9533aec0800000000000000
+      internalID: -3556940336181797943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 172
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b631b6510df552660800000000000000
+      internalID: 7360394513324118891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_8
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 172
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d0fb8e6e932c7d0800000000000000
+      internalID: -2899691546163081945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_9
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 172
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84b6fac8b7710180800000000000000
+      internalID: -9150901332277283697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_10
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 172
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4117217f878ebc1c0800000000000000
+      internalID: -4482233397878296300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 152
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ffde2aa85be12c0800000000000000
+      internalID: -4458926974006591659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 153
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eda47147222af4b0800000000000000
+      internalID: -5405970850707624474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_13
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 152
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32f54b014b2f59c0800000000000000
+      internalID: -3936379990936522178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_14
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 152
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50756d26ea8fa6d30800000000000000
+      internalID: 4425623011711145733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_15
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 152
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222fb46a29673e640800000000000000
+      internalID: 5108056774595572258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_16
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 152
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb44aae35819f3440800000000000000
+      internalID: 4917809319579894972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_17
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 152
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888d801c837109830800000000000000
+      internalID: 4075783195294488712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_18
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 152
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90902f9fa21fc6400800000000000000
+      internalID: 318894840520771849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_19
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 164
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.51937103, y: 1.2940826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5b0693c54a41610800000000000000
+      internalID: 1591077284375213511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 116
+        width: 11
+        height: 12
+      alignment: 9
+      pivot: {x: 0.4999993, y: 1.328543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5235e94a09fd9df80800000000000000
+      internalID: -8081182244009520347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_21
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 116
+        width: 11
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 1.328543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f5760800153c4b0800000000000000
+      internalID: -5421400463827837175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 116
+        width: 15
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 1.328543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c18d5846779a9480800000000000000
+      internalID: -8891627980013600313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_23
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 115
+        width: 15
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 1.29}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb8e286c1730d8f0800000000000000
+      internalID: -517853362001114172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_24
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 115
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc83f9517f8cadc0800000000000000
+      internalID: -3626365882936881936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_25
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 115
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e400f37de129b1140800000000000000
+      internalID: 4691504097994408014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_26
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 115
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fe4c7c0f0c27100800000000000000
+      internalID: 104357881759199075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_27
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 119
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483c06beda2b17820800000000000000
+      internalID: 2914306893933495172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_28
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 119
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d629bcf1b1f2fddc0800000000000000
+      internalID: -3612116582583790995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_29
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 119
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891da0288d6102ee0800000000000000
+      internalID: -1288004374277467752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_30
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 119
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea6a263afa3e5550800000000000000
+      internalID: 6151418987359660778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_31
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 120
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251bdffe733b928c0800000000000000
+      internalID: -4023487739247873710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_32
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 76
+        width: 47
+        height: 31
+      alignment: 9
+      pivot: {x: 0.49999967, y: 0.531221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3228d40d286df62c0800000000000000
+      internalID: -4436091250607816157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_33
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 76
+        width: 45
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.531221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2f16fcfc88ce570800000000000000
+      internalID: 8497317023060193954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_34
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 76
+        width: 47
+        height: 32
+      alignment: 9
+      pivot: {x: 0.49999902, y: 0.5147226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0c33bc6e913aac0800000000000000
+      internalID: -3845201177801932622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_35
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 79
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f39e53f8c7119270800000000000000
+      internalID: 8255405743790789617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_36
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 79
+        width: 47
+        height: 31
+      alignment: 9
+      pivot: {x: 0.49063888, y: 0.50283813}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5624913e234445bb0800000000000000
+      internalID: -4948255105224195483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_37
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 79
+        width: 47
+        height: 31
+      alignment: 9
+      pivot: {x: 0.49063888, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7f88700611bbfc0800000000000000
+      internalID: -3478167183072626732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_38
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 79
+        width: 47
+        height: 31
+      alignment: 9
+      pivot: {x: 0.49063826, y: 0.49999976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305824b9c28ef6760800000000000000
+      internalID: 7453431186602493187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_39
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 79
+        width: 47
+        height: 31
+      alignment: 9
+      pivot: {x: 0.49063694, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1255e835578d48a50800000000000000
+      internalID: 6522576158763930913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_44
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 11
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6932f74c000d01ba0800000000000000
+      internalID: -6120163191881260138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_45
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 11
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb951e155bc9e3180800000000000000
+      internalID: -9133690691684050498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_46
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 29
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d8d72241ca7fd60800000000000000
+      internalID: 7923991271859653963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_47
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 29
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9f04c1a667d25d0800000000000000
+      internalID: -3085679971566290491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_48
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 31
+        width: 32
+        height: 44
+      alignment: 9
+      pivot: {x: 0.48310852, y: 0.50000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8163241121518d20800000000000000
+      internalID: 3278991206216065418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_49
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 31
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a133dac36e259f80800000000000000
+      internalID: -8100517348616490583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_53
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 19
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072688d02ff0379e0800000000000000
+      internalID: -1624937508267072912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_54
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 15
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbb742941277cf80800000000000000
+      internalID: -8086369173241349195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_59
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 10
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c09c0433c56eec40800000000000000
+      internalID: 5543480080405926083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_65
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 10
+        width: 21
+        height: 9
+      alignment: 9
+      pivot: {x: 0.6441447, y: 0.6681656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bae1a254116a6a0800000000000000
+      internalID: -6438439628522476770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_66
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 10
+        width: 27
+        height: 11
+      alignment: 9
+      pivot: {x: 0.50800806, y: 0.5196556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438a03163b18c0390800000000000000
+      internalID: -7850757442983909324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_67
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 10
+        width: 15
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53931135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bee99caea5f54e0800000000000000
+      internalID: -1990772545822987448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_69
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 10
+        width: 26
+        height: 13
+      alignment: 9
+      pivot: {x: 0.7661086, y: 0.4501045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a42a6718bfc13b80800000000000000
+      internalID: -8416717839004982104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_40
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 14
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbe82552cb4d43e0800000000000000
+      internalID: -2067913355868705829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_41
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 10
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe8d3d8c077d26a0800000000000000
+      internalID: -6472386193668600070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_42
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 8
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2282bceea5ee750f0800000000000000
+      internalID: -1128171107312261086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Frost_Shield_43
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7aab47d631afcaf0800000000000000
+      internalID: -373902987136095617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
