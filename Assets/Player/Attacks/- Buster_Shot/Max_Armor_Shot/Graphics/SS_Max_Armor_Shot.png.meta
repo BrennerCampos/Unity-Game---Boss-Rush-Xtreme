@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 3b126376421e66c479f030a16d3876c4
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2859729210939692546
+    second: SS_Max_Armor_Shot_0
+  - first:
+      213: 3204887756408332300
+    second: SS_Max_Armor_Shot_1
+  - first:
+      213: 6666375284724261043
+    second: SS_Max_Armor_Shot_2
+  - first:
+      213: -5686412444534740745
+    second: SS_Max_Armor_Shot_3
+  - first:
+      213: 3532381914139734782
+    second: SS_Max_Armor_Shot_4
+  - first:
+      213: -3491387978290407116
+    second: SS_Max_Armor_Shot_5
+  - first:
+      213: 9164016103585051208
+    second: SS_Max_Armor_Shot_6
+  - first:
+      213: -1071579058530759679
+    second: SS_Max_Armor_Shot_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +56,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +65,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -68,7 +92,79 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +173,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SS_Max_Armor_Shot_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 108
+        width: 58
+        height: 64
+      alignment: 9
+      pivot: {x: 0.6936123, y: 0.495126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2065edbd09ccfa720800000000000000
+      internalID: 2859729210939692546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Max_Armor_Shot_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 109
+        width: 90
+        height: 63
+      alignment: 9
+      pivot: {x: 0.74261373, y: 0.49009803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00a7b92f6c0a7c20800000000000000
+      internalID: 3204887756408332300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Max_Armor_Shot_2
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 111
+        width: 91
+        height: 58
+      alignment: 9
+      pivot: {x: 0.7639415, y: 0.48924387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0ee616009b38c50800000000000000
+      internalID: 6666375284724261043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Max_Armor_Shot_3
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 109
+        width: 87
+        height: 62
+      alignment: 9
+      pivot: {x: 0.77607745, y: 0.4899378}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f86525720ec511b0800000000000000
+      internalID: -5686412444534740745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Max_Armor_Shot_4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 22
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5927363, y: 0.49999982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef23053b2aa850130800000000000000
+      internalID: 3532381914139734782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Max_Armor_Shot_5
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 8
+        width: 52
+        height: 74
+      alignment: 9
+      pivot: {x: 0.63197094, y: 0.4999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4395ee4c1291c8fc0800000000000000
+      internalID: -3491387978290407116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Max_Armor_Shot_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 5
+        width: 57
+        height: 80
+      alignment: 9
+      pivot: {x: 0.64228475, y: 0.4999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842752ad7102d2f70800000000000000
+      internalID: 9164016103585051208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Max_Armor_Shot_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.89362735, y: 0.49999997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cc683168cf021f0800000000000000
+      internalID: -1071579058530759679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
