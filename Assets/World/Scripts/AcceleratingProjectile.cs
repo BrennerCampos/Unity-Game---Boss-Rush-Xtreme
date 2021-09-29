@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-    public class AcceleratingProjectile : EnemyProjectile
+    public class AcceleratingProjectile : Projectile
     {
         public float speed = 5.0f;
 

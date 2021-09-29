@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer sprite;
     public GameObject chargingShotEffect, groundDashDustEffect, dashRocketBoostEffect, deathBubbleCore;
     public GameObject busterShotLevel1, busterShotLevel2, busterShotLevel3, busterShotLevel4, busterShotLevel5;
+    public GameObject spAtkDoubleCyclone1, spAtkLightningWeb;
     public Slider healthSlider;
     public LayerMask whatIsGround;
     public Transform spriteParent;
@@ -32,17 +33,26 @@ public class PlayerController : MonoBehaviour
     
     public string xDirection, yDirection, animStateShooting;
 
+    public int startAirDashAvailable;
+
     public float moveSpeed,
         startJumpForce,
         baseMoveSpeed,
         dashMultiplier,
-        startDashTime,
-        startShotTimerNormal,
+        airDashMultiplier,
+        startDashTimer,
+        startAirDashTimer,
         slashWaitTimer,
         startSlashWaitTimer,
         slashJumpWaitTimer,
         startSlashJumpTimer,
-        wallJumpTimer;
+        wallJumpTimer,
+        startShotTimerQuickest,
+        startShotTimerQuicker,
+        startShotTimerNormal,
+        startShotTimerLonger,
+        startShotTimerLongest;
+    
     public float jumpForce, wallJumpForce, bounceForce;
     public float knockbackLength, knockbackForce;
     public bool stopInput, justPressedShoot;
@@ -78,7 +88,12 @@ public class PlayerController : MonoBehaviour
         isCrouchShooting,
         isHurt,
         isWallClinging,
-        isStateShooting;
+        isStateShooting,
+        shotTimerQuickestPressed,
+        shotTimerQuickerPressed,
+        shotTimerNormalPressed,
+        shotTimerLongerPressed,
+        shotTimerLongestPressed;
 
     [Header("Wall Jump")] 
     public float wallJumpTime = 0.2f;
@@ -91,9 +106,19 @@ public class PlayerController : MonoBehaviour
 
     private bool playedInitChargeSFX, playedLoopedChargeSFX;
     private bool canShootBusterLevel2, canShootBusterLevel3, canShootBusterLevel4, canShootBusterLevel5;
-    private float dashTimer, shotTimerNormal, chargingTimer, slashTimer, slashJumpTimer;
+    private float dashTimer,
+        chargingTimer,
+        slashTimer,
+        slashJumpTimer,
+        airDashTimer,
+        shotTimerQuickest,
+        shotTimerQuicker,
+        shotTimerNormal,
+        shotTimerLonger,
+        shotTimerLongest;
     private float knockbackCounter;
-   
+    private int airDashAvailable;
+
 
 
     // Creates a PlayerController instance constructor before game starts
@@ -123,8 +148,14 @@ public class PlayerController : MonoBehaviour
 
         // Starts off facing towards the RIGHT
         xDirection = "Right";
-        dashTimer = startDashTime;
+        airDashAvailable = startAirDashAvailable;
+        dashTimer = startDashTimer;
+        airDashTimer = startAirDashTimer;
+        shotTimerQuickest = startShotTimerQuickest;
+        shotTimerQuicker = startShotTimerQuicker;
         shotTimerNormal = startShotTimerNormal;
+        shotTimerLonger = startShotTimerLonger;
+        shotTimerLongest = startShotTimerLongest;
         canStandShoot = true;
         canRunShoot = true;
         canStandSlash = true;
@@ -262,12 +293,14 @@ public class PlayerController : MonoBehaviour
 
                 if (isGrounded)
                 {
+                    airDashAvailable = startAirDashAvailable;
                     isJumpShooting = false;
                     isJumpSlashing = false;
                     canDoubleJump = true;
                     canStandSlash = true;
                     canJumpShoot = false;
                     canJumpSlash = false;
+                    canAirDash = false;
                     anim.SetBool("isJumpShooting", false);
                     anim.SetBool("isJumpSlashing", false);
                     anim.SetBool("isJumping", false);
@@ -418,14 +451,80 @@ public class PlayerController : MonoBehaviour
                         }
                         BusterRelease();
                     }
+
+
+                    // ------ SPECIAL SHOOT --------------------------------------->
+
+                    if (Input.GetKeyDown(KeyCode.Q))
+                    {
+                        //AudioManager.instance.PlaySFX_NoPitchFlux(10);
+
+                        if (shotTimerLonger == startShotTimerLonger && canInput)
+                        {
+                            //canJumpShoot = true;
+                            shotTimerLongerPressed = true;
+
+                            // If player is STANDING...
+                            if (Mathf.Abs(rigidBody.velocity.x) < 0.1f && canStandShoot && !justPressedShoot)
+                            {
+                                DoubleAttackShoot(spAtkDoubleCyclone1, "isStandShooting", standFirePointRight,
+                                    standFirePointLeft, isStandShooting, 13, 1);
+                                isStandShooting = true;
+                                canStandShoot = false;
+                            }
+                            else if (Mathf.Abs(rigidBody.velocity.x) > 0 && canRunShoot) // If player is RUNNING...
+                            {
+                                DoubleAttackShoot(spAtkDoubleCyclone1, "isRunShooting", runFirePointRight, runFirePointLeft,
+                                    isRunShooting, 13, 1);
+                                isRunShooting = true;
+                                canRunShoot = false;
+                            }
+                        }
+                    }
+
+                    if (Input.GetKeyDown(KeyCode.W))
+                    {
+                        shotTimerLongestPressed = true;
+
+                        if (shotTimerLongest == startShotTimerLongest && canInput)
+                        {
+                            //canJumpShoot = true;
+
+                            // If player is STANDING...
+                            if (Mathf.Abs(rigidBody.velocity.x) < 0.1f && canStandShoot && !justPressedShoot)
+                            {
+                                SpecialAttackShoot(spAtkLightningWeb, "isStandShooting", standFirePointRight,
+                                    standFirePointLeft, isStandShooting, 13, 1);
+                                isStandShooting = true;
+                                canStandShoot = false;
+                            }
+                            else if (Mathf.Abs(rigidBody.velocity.x) > 0 && canRunShoot) // If player is RUNNING...
+                            {
+                                SpecialAttackShoot(spAtkLightningWeb, "isRunShooting", runFirePointRight, runFirePointLeft,
+                                    isRunShooting, 13, 1);
+                                isRunShooting = true;
+                                canRunShoot = false;
+                            }
+                        }
+                    }
                 }
-                else 
-                // -------------------   (AIRBORNE)   -------------------------------------------------------------------------
+                else
+                    
+    // -------------------   (AIRBORNE)   -----------------------------------------------------------------------------------------
                 {
 
                         isStateShooting = isJumpShooting;
                         stateFirePointRight = jumpFirePointRight;
                         stateFirePointLeft = jumpFirePointLeft;
+
+                        if (canDoubleJump)
+                        {
+                            canAirDash = true;
+                        }
+                        else
+                        {
+                            canAirDash = false;
+                        }
 
 
                         //  ----- WALL JUMPING ----------------------------------------------------------------------------------
@@ -540,6 +639,8 @@ public class PlayerController : MonoBehaviour
                     }
                 }
 
+                // -------- END GROUNDED/AIRBORNE CHECK -----------------------------------------------------------------------
+
 
                 if (anim.GetBool("isStandShooting") == true
                     || anim.GetBool("isRunShooting") == true)
@@ -588,6 +689,7 @@ public class PlayerController : MonoBehaviour
                         moveSpeed *= dashMultiplier;
                         isDashing = true;
                         canGroundDash = false;
+                        canAirDash = false;
                         AudioManager.instance.PlaySFX_NoPitchFlux(0);
 
                         if (xDirection == "Right")
@@ -601,6 +703,26 @@ public class PlayerController : MonoBehaviour
                             leftDust.transform.localScale = new Vector3(-leftDust.transform.localScale.x,
                                 leftDust.transform.localScale.y, leftDust.transform.localScale.z);
                             Instantiate(dashRocketBoostEffect, dashRocketPointLeft.position, gameObject.transform.rotation);
+                        }
+                    } else if (canInput && canAirDash && airDashTimer > 0 && !isGrounded && !isAirDashing && airDashAvailable > 0)
+                    {
+                        moveSpeed *= airDashMultiplier;
+                        isAirDashing = true;
+                        canAirDash = false;
+                        canGroundDash = false;
+                        anim.SetBool("isAirDashing", true);
+                        airDashAvailable --;
+                        AudioManager.instance.PlaySFX_NoPitchFlux(0);
+
+                        if (xDirection == "Right")
+                        {
+                            Instantiate(dashRocketBoostEffect, dashRocketPointRight.position,
+                                gameObject.transform.rotation);
+                        }
+                        else
+                        {
+                            Instantiate(dashRocketBoostEffect, dashRocketPointLeft.position,
+                                gameObject.transform.rotation);
                         }
                     }
                 }
@@ -628,21 +750,52 @@ public class PlayerController : MonoBehaviour
                     {
                         rigidBody.velocity = Vector2.left * moveSpeed;
                     }
+                } 
+                else if (isAirDashing)
+                {
+                    airDashTimer -= Time.deltaTime;
+
+                    // If facing the left (flipX = true)
+                    if (xDirection == "Right")
+                    {
+                        rigidBody.velocity = Vector2.right * moveSpeed;
+                        // rigidBody.velocity = Vector2.down * 0;
+                        rigidBody.position = new Vector2(transform.position.x, transform.position.y);
+                    }
+                    else
+                    {
+                        rigidBody.velocity = Vector2.left * moveSpeed;
+                        rigidBody.position = new Vector2(transform.position.x, transform.position.y);
+                        // rigidBody.velocity = Vector2.down * 0;
+                    }
                 }
+
+
 
                 if (anim.GetBool("jumpDash") == true)
                 {
                     rigidBody.velocity = new Vector2(rigidBody.velocity.x * 1.2f, jumpForce / 1.5f);
                 }
 
+
+
                 // If we end our dash...
                 if (dashTimer <= 0)
                 {
                     isDashing = false;
                     moveSpeed = baseMoveSpeed;
-                    dashTimer = startDashTime;
+                    dashTimer = startDashTimer;
                     anim.SetBool("jumpDash", false);
                 }
+
+                if (airDashTimer <= 0)
+                {
+                    isAirDashing = false;
+                    moveSpeed = baseMoveSpeed;
+                    airDashTimer = startAirDashTimer;
+                    anim.SetBool("isAirDashing", false);
+                }
+
 
                 // Checks which way the Player is headed and flips sprite accordingly
                 if (rigidBody.velocity.x < 0)
@@ -671,11 +824,55 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (shotTimerNormal == startShotTimerNormal || shotTimerNormal <= 0)
+        if (shotTimerQuickestPressed)
+        {
+            shotTimerQuickest -= Time.deltaTime;
+        }
+        if (shotTimerQuickerPressed)
+        {
+            shotTimerQuicker -= Time.deltaTime;
+        }
+        if (shotTimerNormalPressed)
+        {
+            shotTimerNormal -= Time.deltaTime;
+        }
+        if (shotTimerLongerPressed)
+        {
+            shotTimerLonger -= Time.deltaTime;
+        }
+        if (shotTimerLongestPressed)
+        {
+            shotTimerLongest -= Time.deltaTime;
+        }
+
+
+        if (shotTimerQuickest <= 0)
+        {
+            shotTimerQuickest = startShotTimerQuickest;
+            shotTimerQuickestPressed = false;
+        }
+        if (shotTimerQuicker <= 0)
+        {
+            shotTimerQuicker = startShotTimerQuicker;
+            shotTimerQuickerPressed = false;
+        }
+        if (shotTimerNormal <= 0)
         {
             shotTimerNormal = startShotTimerNormal;
-            justPressedShoot = false;
+            shotTimerNormalPressed = false;
         }
+        if (shotTimerLonger <= 0)
+        {
+            shotTimerLonger = startShotTimerLonger;
+            shotTimerLongerPressed = false;
+        }
+        if (shotTimerLongest <= 0)
+        {
+            shotTimerLongest = startShotTimerLongest;
+            shotTimerLongestPressed = false;
+        }
+
+
 
         // Sets parameters used by our Animator based on current Update loop's variable values
         anim.SetFloat("velocityX", Mathf.Abs(rigidBody.velocity.x));
@@ -818,7 +1015,54 @@ public class PlayerController : MonoBehaviour
         AudioManager.instance.StopSFX(11);
     }
 
-   
+    public void SpecialAttackShoot(GameObject specialAttack, string animStateShooting, Transform stateFirePointRight, Transform stateFirePointLeft, bool isStateShooting, int audioSFX, int shotLevel)
+    {
+        isStateShooting = true;
+        anim.SetBool(animStateShooting, true);
+
+        if (xDirection == "Right")
+        {
+            var newSpecialShot = Instantiate(specialAttack, stateFirePointRight.position, stateFirePointRight.rotation);
+            newSpecialShot.transform.localScale = new Vector3(instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
+            //newBusterShot.gameObject.tag = "ShotLevel_" + shotLevel.ToString();
+        }
+        else // if xDirection == "Left"
+        {
+            var newSpecialShot = Instantiate(specialAttack, stateFirePointLeft.position, stateFirePointLeft.rotation);
+            newSpecialShot.transform.localScale = new Vector3(-instance.transform.localScale.x * 11f, -instance.transform.localScale.y * 11f, instance.transform.localScale.z);
+            //newBusterShot.gameObject.tag = "ShotLevel_" + shotLevel.ToString();
+        }
+        AudioManager.instance.PlaySFX(audioSFX);
+    }
+
+    public void DoubleAttackShoot(GameObject specialAttack, string animStateShooting, Transform stateFirePointRight, Transform stateFirePointLeft, bool isStateShooting, int audioSFX, int shotLevel)
+    {
+        isStateShooting = true;
+        anim.SetBool(animStateShooting, true);
+
+        if (xDirection == "Right")
+        {
+            var newSpecialShotRight = Instantiate(specialAttack, stateFirePointRight.position, stateFirePointRight.rotation);
+            newSpecialShotRight.transform.localScale = new Vector3(instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
+            //newSpecialShotRight.gameObject.tag = "_Right";
+
+            var newSpecialShotLeft = Instantiate(specialAttack, stateFirePointLeft.position, stateFirePointLeft.rotation);
+            newSpecialShotLeft.transform.localScale = new Vector3(-instance.transform.localScale.x * 11f, -instance.transform.localScale.y * 11f, instance.transform.localScale.z);
+            //newSpecialShotLeft.gameObject.tag = "_Left";
+        }
+        else // if xDirection == "Left"
+        {
+            var newSpecialShotLeft = Instantiate(specialAttack, stateFirePointRight.position, stateFirePointRight.rotation);
+            newSpecialShotLeft.transform.localScale = new Vector3(instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
+            //newSpecialShotLeft.gameObject.tag = "_Right";
+
+            var newSpecialShotRight = Instantiate(specialAttack, stateFirePointLeft.position, stateFirePointLeft.rotation);
+            newSpecialShotRight.transform.localScale = new Vector3(-instance.transform.localScale.x * 11f, -instance.transform.localScale.y * 11f, instance.transform.localScale.z);
+            //newSpecialShotRight.gameObject.tag = "_Left";
+        }
+        AudioManager.instance.PlaySFX(audioSFX);
+    }
+
 
     public void Knockback()
     {

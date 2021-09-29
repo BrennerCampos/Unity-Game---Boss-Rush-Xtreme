@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 51192470008928054}
   - component: {fileID: 51192470008928055}
   - component: {fileID: 51192470008928052}
+  - component: {fileID: 3197769474626876575}
+  - component: {fileID: 6721400737926692171}
   m_Layer: 14
   m_Name: Lightning Web Shot
   m_TagString: PlayerAttack
@@ -73,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 235363189
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: -997609385291411180, guid: 2a30d0b8af790684fa3cff7fc8832eca, type: 3}
+  m_Sprite: {fileID: -2147231477729517263, guid: 2a30d0b8af790684fa3cff7fc8832eca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -103,3 +105,39 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3197769474626876575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51192470008928053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd8ae1c75785b4b4aa3f91894910e111, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackPosition: {fileID: 0}
+  attackObject: {fileID: 51192470008928053}
+  HitEffect: {fileID: 2844525836844590653, guid: bbe4d5f2d97dae5458c66bab9f5d13b6, type: 3}
+  BurstEffect: {fileID: 8330498963531303887, guid: 466c9900dfc88ed4ca2239f0e1e2d00b, type: 3}
+  anim: {fileID: 51192470008928052}
+  speed: 1.6
+  premovementTimer: 0.35
+  timeToLive: 2.6
+--- !u!58 &6721400737926692171
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51192470008928053}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.100734904
