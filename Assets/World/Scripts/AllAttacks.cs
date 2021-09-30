@@ -13,8 +13,9 @@ public abstract class AllAttacks : MonoBehaviour
     public GameObject HitEffect, BurstEffect;
     protected Vector2 force;
     public int shootSFX, hitSFX;
-    public float timeToLive;
+    public float timeToLive, startAttackCooldown;
     protected string attackDirection;
+    protected float attackCooldown;
 
     protected enum damageTag
     {

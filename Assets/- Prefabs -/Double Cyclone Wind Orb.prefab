@@ -123,6 +123,6 @@ MonoBehaviour:
   BurstEffect: {fileID: 6808479491389758679, guid: 6c7904163a6add847aa311abc7f7fc93, type: 3}
   shootSFX: 0
   hitSFX: 0
-  timeToLive: 3
+  timeToLive: 1.5
   attackBurstEffect: {fileID: 6371009596888057864, guid: 2a9e64245e203a44d95ebbf1bb6617ce, type: 3}
   projectileSpeed: 3

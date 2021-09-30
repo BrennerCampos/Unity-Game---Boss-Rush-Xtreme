@@ -9,13 +9,17 @@ public class BusterShot : MonoBehaviour
     public GameObject shotHitEffect, shotBurstEffect;
     public float speed, timeToLive;
     private string shotDirection;
-    private SpriteRenderer enemySprite;
+    private SpriteRenderer shotSprite;
 
     // Start is called before the first frame update
     void Start()
     {
         // Play 'Bullet Shot' Sound
         //AudioManager.instance.PlaySFX(2);
+
+        shotSprite = GetComponent<SpriteRenderer>();
+        // shotPositionLeft = PlayerController.instance.GetComponentInChildren<Transform>();
+        
 
         Instantiate(shotBurstEffect, gameObject.transform.position, gameObject.transform.rotation);
 
@@ -24,11 +28,13 @@ public class BusterShot : MonoBehaviour
         {
             //burstEffect.transform.position = gameObject.transform.position;
             shotDirection = "Right";
+            shotSprite.flipX = true;
         }
         else
         {
            // burstEffect.transform.position = gameObject.transform.position;
             shotDirection = "Left";
+            shotSprite.flipX = true;
         }
 
     }
@@ -37,16 +43,18 @@ public class BusterShot : MonoBehaviour
     void Update()
     {
 
+        shotBurstEffect.transform.position = new Vector3();
+
         if (shotDirection == "Right")
         {
             // Move our bullet a certain direction according to which way our boss sprite is facing (localScale)
-            transform.position += new Vector3((speed * Time.deltaTime * transform.localScale.x), 0f, 0f);
+            transform.position += new Vector3((speed * Time.deltaTime * -transform.localScale.x), 0f, 0f);
         }
         else
         {
             // Move our bullet a certain direction according to which way our boss sprite is facing (localScale)
 
-            transform.position -= new Vector3((speed * Time.deltaTime * -transform.localScale.x), 0f, 0f);
+            transform.position -= new Vector3((speed * Time.deltaTime * transform.localScale.x), 0f, 0f);
         }
 
 
@@ -74,7 +82,7 @@ public class BusterShot : MonoBehaviour
         if (other.tag == "Enemy")
         {
             var shotEffect = Instantiate(shotHitEffect, gameObject.transform.position, gameObject.transform.rotation);
-            enemySprite = other.GetComponent<SpriteRenderer>();
+            // enemySprite = other.GetComponent<SpriteRenderer>();
             shotEffect.transform.localScale = new Vector3(11, 11, 1);
             AudioManager.instance.PlaySFX(19);
 

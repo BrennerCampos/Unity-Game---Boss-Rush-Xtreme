@@ -1,31 +1,28 @@
 fileFormatVersion: 2
-guid: ef56aa1d2a77b8a4fa22b2687bf3097b
+guid: f41813e041936f24b9173db703aa5350
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4867952181885026535
-    second: SS_Shadow_Shoot_Dash_0
+      213: 7307364663784117593
+    second: SS_Shadow_Shoot_Stand_0
   - first:
-      213: 6678374359334062170
-    second: SS_Shadow_Shoot_Dash_1
+      213: -5369410037283360080
+    second: SS_Shadow_Shoot_Stand_1
   - first:
-      213: -3359218905514141738
-    second: SS_Shadow_Shoot_Dash_2
+      213: 703986975993777062
+    second: SS_Shadow_Shoot_Stand_2
   - first:
-      213: -4183694433453544170
-    second: SS_Shadow_Shoot_Dash_3
+      213: 3347016133147442561
+    second: SS_Shadow_Shoot_Stand_3
   - first:
-      213: -8855933715057531770
-    second: SS_Shadow_Shoot_Dash_4
+      213: 454806872275773400
+    second: SS_Shadow_Shoot_Stand_4
   - first:
-      213: -7405163038830809843
-    second: SS_Shadow_Shoot_Dash_5
+      213: 6031124134194888574
+    second: SS_Shadow_Shoot_Stand_5
   - first:
-      213: -5230479286847032777
-    second: SS_Shadow_Shoot_Dash_6
-  - first:
-      213: 4931195767493090414
-    second: SS_Shadow_Shoot_Dash_7
+      213: 4567970689683016207
+    second: SS_Shadow_Shoot_Stand_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -175,13 +172,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SS_Shadow_Shoot_Dash_0
+      name: SS_Shadow_Shoot_Stand_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 8
-        width: 48
-        height: 47
+        x: 11
+        y: 5
+        width: 51
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e048d8c7b07e8340800000000000000
-      internalID: 4867952181885026535
+      spriteID: 95518151279f86560800000000000000
+      internalID: 7307364663784117593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SS_Shadow_Shoot_Dash_1
+      name: SS_Shadow_Shoot_Stand_1
       rect:
         serializedVersion: 2
-        x: 55
-        y: 8
-        width: 48
-        height: 47
+        x: 64
+        y: 5
+        width: 50
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,20 +207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a580f25a81a5eac50800000000000000
-      internalID: 6678374359334062170
+      spriteID: 0b2fe4af4060c75b0800000000000000
+      internalID: -5369410037283360080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SS_Shadow_Shoot_Dash_2
+      name: SS_Shadow_Shoot_Stand_2
       rect:
         serializedVersion: 2
-        x: 106
-        y: 8
-        width: 59
-        height: 47
+        x: 119
+        y: 5
+        width: 51
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,20 +228,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d79d0e0438a161d0800000000000000
-      internalID: -3359218905514141738
+      spriteID: 6ab4c9ebc6015c900800000000000000
+      internalID: 703986975993777062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SS_Shadow_Shoot_Dash_3
+      name: SS_Shadow_Shoot_Stand_3
       rect:
         serializedVersion: 2
-        x: 169
-        y: 8
-        width: 59
-        height: 47
+        x: 177
+        y: 5
+        width: 50
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,92 +249,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61de835341880f5c0800000000000000
-      internalID: -4183694433453544170
+      spriteID: 18d31c9907df27e20800000000000000
+      internalID: 3347016133147442561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SS_Shadow_Shoot_Dash_4
+      name: SS_Shadow_Shoot_Stand_4
       rect:
         serializedVersion: 2
-        x: 232
-        y: 8
-        width: 65
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 234
+        y: 5
+        width: 46
+        height: 49
+      alignment: 9
+      pivot: {x: 0.46756917, y: 0.50000006}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6842797f437691580800000000000000
-      internalID: -8855933715057531770
+      spriteID: 8d7676fc07ccf4600800000000000000
+      internalID: 454806872275773400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SS_Shadow_Shoot_Dash_5
+      name: SS_Shadow_Shoot_Stand_5
       rect:
         serializedVersion: 2
-        x: 299
-        y: 8
-        width: 65
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 285
+        y: 5
+        width: 45
+        height: 49
+      alignment: 9
+      pivot: {x: 0.47679695, y: 0.50495476}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0d23ae43739b3990800000000000000
-      internalID: -7405163038830809843
+      spriteID: e7fb8fe127bd2b350800000000000000
+      internalID: 6031124134194888574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SS_Shadow_Shoot_Dash_6
+      name: SS_Shadow_Shoot_Stand_6
       rect:
         serializedVersion: 2
-        x: 366
-        y: 8
-        width: 68
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 331
+        y: 5
+        width: 46
+        height: 49
+      alignment: 9
+      pivot: {x: 0.46216375, y: 0.49999997}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 732b1760dca9967b0800000000000000
-      internalID: -5230479286847032777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SS_Shadow_Shoot_Dash_7
-      rect:
-        serializedVersion: 2
-        x: 437
-        y: 8
-        width: 68
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6cd5578c602f6440800000000000000
-      internalID: 4931195767493090414
+      spriteID: f0ac3fed321b46f30800000000000000
+      internalID: 4567970689683016207
       vertices: []
       indices: 
       edges: []

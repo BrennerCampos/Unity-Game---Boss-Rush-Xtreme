@@ -5,13 +5,36 @@ using UnityEngine;
 public class LightningWeb : AllAttacks
 {
     public Animator anim;
+    public GameObject attackBurstEffect;
     public float speed, premovementTimer;
-    public float timeToLive;
+
+    private SpriteRenderer attackSprite;
 
 
-    /*public override void Start()
-    {   
-    }*/
+    public override void Start()
+    {
+
+        attackSprite = GetComponent<SpriteRenderer>();
+
+
+        Instantiate(attackBurstEffect, gameObject.transform.position, gameObject.transform.rotation);
+
+        // If Player is facing towards the right
+        if (PlayerController.instance.xDirection == "Right")
+        {
+            //burstEffect.transform.position = gameObject.transform.position;
+            attackDirection = "Right";
+            attackSprite.flipX = false;
+        }
+        else
+        {
+            // burstEffect.transform.position = gameObject.transform.position;
+            attackDirection = "Left";
+            attackSprite.flipX = true;
+        }
+
+
+    }
 
     // Update is called once per frame
     public override void Update()
@@ -44,7 +67,7 @@ public class LightningWeb : AllAttacks
             {
                 // Move our bullet a certain direction according to which way our boss sprite is facing (localScale)
 
-                transform.position -= new Vector3((speed * Time.deltaTime * -transform.localScale.x), 0f, 0f);
+                transform.position -= new Vector3((speed * Time.deltaTime * transform.localScale.x), 0f, 0f);
             }
         }
     }

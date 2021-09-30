@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5388025419806019212}
   - component: {fileID: 5388025419806019213}
   - component: {fileID: 5388025419806019210}
+  - component: {fileID: 777433182313563475}
   m_Layer: 14
   m_Name: Thunder Dancer
   m_TagString: PlayerAttack
@@ -103,3 +104,26 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &777433182313563475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5388025419806019211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db7ca6473d7927448ca345c597e17c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 0
+  attackPosition: {fileID: 0}
+  attackObject: {fileID: 5388025419806019211}
+  HitEffect: {fileID: 2844525836844590653, guid: bbe4d5f2d97dae5458c66bab9f5d13b6, type: 3}
+  BurstEffect: {fileID: 0}
+  shootSFX: 0
+  hitSFX: 0
+  timeToLive: 5
+  anim: {fileID: 5388025419806019210}
+  sprite: {fileID: 5388025419806019213}
+  speed: 0
