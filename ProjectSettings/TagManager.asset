@@ -19,7 +19,12 @@ TagManager:
   - ShotLevel_3
   - ShotLevel_4
   - ShotLevel_5
+  - SpecialShot
+  - SpecialShotCharging
+  - Slash
+  - UI
   - Background
+  - EnemyHazard
   layers:
   - Default
   - TransparentFX

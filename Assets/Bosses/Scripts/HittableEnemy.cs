@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,7 +11,8 @@ public class HittableEnemy : MonoBehaviour
     public GameObject explosion;
     public Transform spriteParent;
     public bool hideWhenDead = false;
-    
+    public bool isHit;
+
 
     private SpriteRenderer sprite;
     private Animator anim;
@@ -19,7 +21,7 @@ public class HittableEnemy : MonoBehaviour
     private Material defaultMaterial;
     protected Color defaultColor = Color.white;
     private float baseScale;
-    private bool isHit;
+    
 
     protected virtual void Awake()
     {
@@ -44,7 +46,7 @@ public class HittableEnemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag.Contains("Shot"))
+        if (other.gameObject.tag.Contains("Shot") || other.gameObject.tag.Equals("SpecialShot"))
         {
             isHit = true;
             sprite.material = hitMaterial;
@@ -52,7 +54,7 @@ public class HittableEnemy : MonoBehaviour
         }
     }
 
-    private IEnumerator ResetMaterial(float delay)
+    public IEnumerator ResetMaterial(float delay)
     {
         yield return new WaitForSeconds(delay);
         sprite.material = defaultMaterial;

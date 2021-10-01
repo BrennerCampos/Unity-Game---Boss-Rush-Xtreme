@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 51192470008928055}
   - component: {fileID: 51192470008928052}
   - component: {fileID: 3197769474626876575}
-  - component: {fileID: 6721400737926692171}
+  - component: {fileID: 6493462957565342534}
   m_Layer: 14
   m_Name: Lightning Web Shot
   m_TagString: PlayerAttack
@@ -30,7 +30,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -32.12, y: 0.31, z: 0}
   m_LocalScale: {x: 11, y: 11, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 723420116118579730}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -117,15 +118,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd8ae1c75785b4b4aa3f91894910e111, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 0
   attackPosition: {fileID: 0}
   attackObject: {fileID: 51192470008928053}
   HitEffect: {fileID: 2844525836844590653, guid: bbe4d5f2d97dae5458c66bab9f5d13b6, type: 3}
   BurstEffect: {fileID: 8330498963531303887, guid: 466c9900dfc88ed4ca2239f0e1e2d00b, type: 3}
+  shootSFX: 0
+  hitSFX: 0
+  timeToLive: 2.6
+  startAttackCooldown: 0
   anim: {fileID: 51192470008928052}
+  attackBurstEffect: {fileID: 0}
   speed: 1.6
   premovementTimer: 0.35
-  timeToLive: 2.6
---- !u!58 &6721400737926692171
+--- !u!58 &6493462957565342534
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,4 +146,65 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
+  m_Radius: 0.12499999
+--- !u!1 &7719032120379701060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 723420116118579730}
+  - component: {fileID: 5990332581249665013}
+  - component: {fileID: 6715474247708440392}
+  m_Layer: 14
+  m_Name: HitBox
+  m_TagString: PlayerAttack
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &723420116118579730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7719032120379701060}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 51192470008928054}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &5990332581249665013
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7719032120379701060}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
   m_Radius: 0.100734904
+--- !u!114 &6715474247708440392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7719032120379701060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4dc92822cf75b1459d65c66902a5a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 5

@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public GameObject chargingShotEffect, groundDashDustEffect, dashRocketBoostEffect, deathBubbleCore;
     public GameObject busterShotLevel1, busterShotLevel2, busterShotLevel3, busterShotLevel4, busterShotLevel5;
     public GameObject spAtkDoubleCyclone1, spAtkLightningWeb, spAtkEnergySawBlade, spAtkThunderDancer;
+    public DamagePlayer enemyAttackCollider;
     public Slider healthSlider;
     public Vector3 startPosition;
     public LayerMask whatIsGround;
@@ -175,6 +176,10 @@ public class PlayerController : MonoBehaviour
         startPosition = transform.position;
         xStartPosition = startPosition.x;
         yStartPosition = startPosition.y;
+
+        enemyAttackCollider = DinoRexBoss.instance.GetComponentInChildren<DamagePlayer>();
+        enemyAttackCollider.gameObject.tag = "EnemyAttack";
+
     }
 
     // Update is called once per frame
@@ -1153,8 +1158,8 @@ public class PlayerController : MonoBehaviour
         if (xDirection == "Right")
         {
             var newSpecialShot = Instantiate(specialAttack, stateFirePointRight.position, stateFirePointRight.rotation);
-            newSpecialShot.transform.localScale = new Vector3(-instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
-            //newBusterShot.gameObject.tag = "ShotLevel_" + shotLevel.ToString();
+            newSpecialShot.transform.localScale = new Vector3(instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
+            newSpecialShot.gameObject.tag = "SpecialShot";
 
             //var newBurstEffect = Instantiate(newSpecialShot., gameObject.transform.position, gameObject.transform.rotation);
         }
@@ -1162,7 +1167,7 @@ public class PlayerController : MonoBehaviour
         {
             var newSpecialShot = Instantiate(specialAttack, stateFirePointLeft.position, stateFirePointLeft.rotation);
             newSpecialShot.transform.localScale = new Vector3(instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
-            //newBusterShot.gameObject.tag = "ShotLevel_" + shotLevel.ToString();
+            newSpecialShot.gameObject.tag = "SpecialShot";
         }
         AudioManager.instance.PlaySFX(audioSFX);
     }
@@ -1176,13 +1181,13 @@ public class PlayerController : MonoBehaviour
         {
             var newSpecialShot = Instantiate(specialAttack, stateFirePointRight.position, stateFirePointRight.rotation);
             newSpecialShot.transform.localScale = new Vector3(instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
-            //newBusterShot.gameObject.tag = "ShotLevel_" + shotLevel.ToString();
+            newSpecialShot.gameObject.tag = "SpecialShotCharging";
         }
         else // if xDirection == "Left"
         {
             var newSpecialShot = Instantiate(specialAttack, stateFirePointLeft.position, stateFirePointLeft.rotation);
             newSpecialShot.transform.localScale = new Vector3(instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
-            //newBusterShot.gameObject.tag = "ShotLevel_" + shotLevel.ToString();
+            newSpecialShot.gameObject.tag = "SpecialShotCharging";
         }
         AudioManager.instance.PlaySFX(audioSFX);
     }
@@ -1196,21 +1201,21 @@ public class PlayerController : MonoBehaviour
         {
             var newSpecialShotRight = Instantiate(specialAttack, stateFirePointRight.position, stateFirePointRight.rotation);
             newSpecialShotRight.transform.localScale = new Vector3(instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
-            //newSpecialShotRight.gameObject.tag = "_Right";
+            newSpecialShotRight.gameObject.tag = "SpecialShot";
 
             var newSpecialShotLeft = Instantiate(specialAttack, stateFirePointLeft.position, stateFirePointLeft.rotation);
             newSpecialShotLeft.transform.localScale = new Vector3(-instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
-            //newSpecialShotLeft.gameObject.tag = "_Left";
+            newSpecialShotLeft.gameObject.tag = "SpecialShot";
         }
         else // if xDirection == "Left"
         {
             var newSpecialShotRight = Instantiate(specialAttack, stateFirePointRight.position, stateFirePointRight.rotation);
             newSpecialShotRight.transform.localScale = new Vector3(-instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
-            //newSpecialShotLeft.gameObject.tag = "_Right";
+            newSpecialShotRight.gameObject.tag = "SpecialShot";
 
             var newSpecialShotLeft = Instantiate(specialAttack, stateFirePointLeft.position, stateFirePointLeft.rotation);
             newSpecialShotLeft.transform.localScale = new Vector3(instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
-            //newSpecialShotRight.gameObject.tag = "_Left";
+            newSpecialShotLeft.gameObject.tag = "SpecialShot";
         }
         AudioManager.instance.PlaySFX(audioSFX);
     }
@@ -1238,9 +1243,9 @@ public class PlayerController : MonoBehaviour
         AudioManager.instance.PlaySFX(10);
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Enemy")
+        if (other.gameObject.tag == "EnemyAttack")
         {
             instance.Knockback();
             PlayerHealthController.instance.DealDamage(10);

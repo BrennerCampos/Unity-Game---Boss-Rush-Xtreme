@@ -21,7 +21,7 @@ public class EnergySawBlade : AllAttacks
 
         // UNIQUE CODE FOR LIGHTNING WEB ---V
 
-        Instantiate(attackBurstEffect, PlayerController.instance.transform.position, PlayerController.instance.transform.rotation);
+        // Instantiate(attackBurstEffect, PlayerController.instance.transform.position, PlayerController.instance.transform.rotation);
 
 
         // If Player is facing towards the right

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
@@ -10,6 +11,7 @@ public class UIController : MonoBehaviour
     public GameObject sandboxModeText;
     public Text bossHP;
     public Image fadeScreen;
+    public GameObject loadingScreen;
     public float fadeSpeed;
     
     private bool shouldFadeToBlack, shouldFadeFromBlack;
@@ -24,6 +26,7 @@ public class UIController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //loadingScreen.SetActive(false);
         UpdateBossHP();
         FadeFromBlack();
     }
@@ -31,6 +34,8 @@ public class UIController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
         if (FindObjectOfType<DinoRexBoss>())
         {
             UpdateBossHP();
