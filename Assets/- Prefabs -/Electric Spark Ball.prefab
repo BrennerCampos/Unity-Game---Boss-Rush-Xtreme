@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 5803786020246321012}
   - component: {fileID: 5803786020246321013}
   - component: {fileID: 5803786020246320906}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: Electric Spark Ball
-  m_TagString: PlayerAttack
+  m_TagString: SpecialShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 235363189
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8318965454729494588, guid: 2475bbf2e82b340468faf355902398e3, type: 3}
+  m_Sprite: {fileID: -2295192629544064664, guid: 2475bbf2e82b340468faf355902398e3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

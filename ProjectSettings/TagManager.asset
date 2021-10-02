@@ -7,7 +7,6 @@ TagManager:
   - Enemy
   - Platform
   - Bullet
-  - Effects1
   - Ground
   - Wall
   - Pickups
@@ -25,6 +24,8 @@ TagManager:
   - UI
   - Background
   - EnemyHazard
+  - Effects
+  - Door
   layers:
   - Default
   - TransparentFX
@@ -32,32 +33,32 @@ TagManager:
   - Background
   - Water
   - UI
+  - Background Effects
   - World
-  - Wall
   - Ground
-  - Hazard Colliders
-  - Player
-  - Enemies
-  - Bullets
-  - Enemy Attacks
-  - Attack Effects
-  - 
-  - Character Effects
-  - 
-  - Enemy Effects
-  - Pickups
-  - World Effects
-  - 
+  - Wall
   - Platform
   - 
-  - Foreground
-  - 
   - Middleground
+  - Pickups
+  - Bullets
+  - Attack Effects
   - 
   - 
+  - Player
+  - Player Attacks
+  - Player Hazard Collider
+  - Player Effects
   - 
+  - Enemy
+  - Enemy Attacks
+  - Enemy Hazard Collider
+  - Enemy Effects
+  - World Effects
+  - Foreground
+  - Controllers
   - Audio
-  - 
+  - Points
   m_SortingLayers:
   - name: Background
     uniqueID: 3244442793

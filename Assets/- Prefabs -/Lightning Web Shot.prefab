@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 51192470008928052}
   - component: {fileID: 3197769474626876575}
   - component: {fileID: 6493462957565342534}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: Lightning Web Shot
-  m_TagString: PlayerAttack
+  m_TagString: SpecialShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 723420116118579730}
   - component: {fileID: 5990332581249665013}
   - component: {fileID: 6715474247708440392}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: HitBox
   m_TagString: PlayerAttack
   m_Icon: {fileID: 0}
@@ -208,3 +208,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 5
+  materialTimer: 0
+  startMaterialTimer: 0
+  dinoRexSprite: {fileID: 0}
+  hittableEnemy: {fileID: 0}
+  dinoRex: {fileID: 0}

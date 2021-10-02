@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2025936404207695258}
   - component: {fileID: 7335386259389673789}
   - component: {fileID: 5282030244242148883}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: Crescent Moon Blade Slash
-  m_TagString: PlayerAttack
+  m_TagString: SpecialShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

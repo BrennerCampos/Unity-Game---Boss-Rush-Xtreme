@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5551131263990077259}
   - component: {fileID: 7516957357405095028}
   - component: {fileID: 8327871859838881896}
-  m_Layer: 9
-  m_Name: GameObject
+  m_Layer: 19
+  m_Name: HitBox
   m_TagString: PlayerAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71,6 +71,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 20
+  materialTimer: 0
+  startMaterialTimer: 0
+  dinoRexSprite: {fileID: 0}
+  hittableEnemy: {fileID: 0}
+  dinoRex: {fileID: 0}
 --- !u!1 &5388025419806019211
 GameObject:
   m_ObjectHideFlags: 0
@@ -83,9 +88,9 @@ GameObject:
   - component: {fileID: 5388025419806019213}
   - component: {fileID: 5388025419806019210}
   - component: {fileID: 777433182313563475}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: Thunder Dancer
-  m_TagString: PlayerAttack
+  m_TagString: SpecialShotCharging
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -46,14 +46,14 @@ public class EnergySawBlade : AllAttacks
         timeToLive -= Time.deltaTime;
 
 
-        if (PlayerController.instance.xDirection == "Right")
+        /*if (PlayerController.instance.xDirection == "Right")
         {
             attackSprite.flipX = false;
         }
         else
         {
             attackSprite.flipX = true;
-        }
+        }*/
 
 
 

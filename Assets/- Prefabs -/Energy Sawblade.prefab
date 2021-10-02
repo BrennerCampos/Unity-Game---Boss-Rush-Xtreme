@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -1752304977780715299}
   - component: {fileID: 7225640092176679553}
   - component: {fileID: 6867155355362086899}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: Energy Sawblade
   m_TagString: PlayerAttack
   m_Icon: {fileID: 0}
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 639bc94ff146c9f48897d6cf2441d212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 5
   attackPosition: {fileID: 0}
   attackObject: {fileID: 3002755279797052889}
   HitEffect: {fileID: 2844525836844590653, guid: bbe4d5f2d97dae5458c66bab9f5d13b6, type: 3}
@@ -141,9 +141,9 @@ MonoBehaviour:
   shootSFX: 0
   hitSFX: 0
   timeToLive: 6
-  startAttackCooldown: 0
+  startAttackCooldown: 0.4
   anim: {fileID: 3002755279797052894}
-  attackBurstEffect: {fileID: 0}
+  attackBurstEffect: {fileID: 8847521800383239458, guid: 2624a065bfe15ec42b9ef65b6980195b, type: 3}
   speed: 0
 --- !u!58 &6867155355362086899
 CircleCollider2D:

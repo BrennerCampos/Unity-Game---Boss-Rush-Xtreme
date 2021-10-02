@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 5224949565824473149}
   - component: {fileID: 1043587831097266120}
   - component: {fileID: 3555962003909028860}
-  m_Layer: 12
+  m_Layer: 15
   m_Name: Buster Non-Hit Effect
-  m_TagString: Effects1
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

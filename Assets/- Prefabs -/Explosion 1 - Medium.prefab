@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6154760663890048083}
   - component: {fileID: 6154760663890048082}
   - component: {fileID: 6154760663890048092}
-  m_Layer: 20
+  m_Layer: 27
   m_Name: Explosion 1 - Medium
-  m_TagString: Effects1
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

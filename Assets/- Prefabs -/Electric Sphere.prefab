@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 9191456034574768600}
   - component: {fileID: 9191456034574768603}
   - component: {fileID: 9191456034574768602}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Electric Sphere
-  m_TagString: Untagged
+  m_TagString: SpecialShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

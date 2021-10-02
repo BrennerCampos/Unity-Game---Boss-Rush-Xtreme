@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 2422799143188751166}
   - component: {fileID: 9108975264695619215}
   - component: {fileID: 7683347135243338352}
-  m_Layer: 13
+  m_Layer: 24
   m_Name: Fire Pillar
-  m_TagString: Untagged
+  m_TagString: EnemyAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

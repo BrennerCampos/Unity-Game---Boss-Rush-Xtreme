@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4239674831405638397}
   - component: {fileID: 5698586798238880634}
   - component: {fileID: 3373845279588175429}
-  m_Layer: 13
+  m_Layer: 26
   m_Name: Fire Shield
-  m_TagString: Effects1
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

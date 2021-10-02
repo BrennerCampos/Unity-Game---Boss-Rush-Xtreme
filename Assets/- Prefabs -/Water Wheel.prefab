@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 430342813065569402}
   - component: {fileID: 430342813065569405}
   - component: {fileID: 430342813065569404}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Water Wheel
-  m_TagString: Untagged
+  m_TagString: SpecialShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

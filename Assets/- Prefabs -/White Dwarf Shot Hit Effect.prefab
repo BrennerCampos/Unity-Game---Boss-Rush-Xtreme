@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2058688222194923817}
   - component: {fileID: 2058688222194923816}
   - component: {fileID: 2058688222194923819}
-  m_Layer: 14
+  m_Layer: 15
   m_Name: White Dwarf Shot Hit Effect
-  m_TagString: Effects1
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

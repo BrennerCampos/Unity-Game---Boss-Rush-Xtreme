@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1954494588575344170}
   - component: {fileID: 1954494588575344169}
   - component: {fileID: 1954494588575344168}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: Spin Blade Blue
-  m_TagString: PlayerAttack
+  m_TagString: SpecialShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

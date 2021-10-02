@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8034516863487046835}
   - component: {fileID: 8034516863487046834}
   - component: {fileID: 8034516863487046837}
-  m_Layer: 12
+  m_Layer: 14
   m_Name: Zero Buster Shot - Level 4
-  m_TagString: PlayerAttack
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

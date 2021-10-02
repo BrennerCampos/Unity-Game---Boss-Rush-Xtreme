@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3057457800114671398}
-  m_Layer: 13
+  m_Layer: 27
   m_Name: Ground Flare Hole Object
-  m_TagString: Effects1
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 3057457800715232286}
   - component: {fileID: 3057457800715232284}
   - component: {fileID: 3057457800715232287}
-  m_Layer: 13
+  m_Layer: 27
   m_Name: Ground Flare Hole
   m_TagString: Hazards
   m_Icon: {fileID: 0}
@@ -105,12 +105,12 @@ SpriteRenderer:
   m_SortingLayerID: -1328131401
   m_SortingLayer: 6
   m_SortingOrder: 11
-  m_Sprite: {fileID: -6152795127783879290, guid: a0167065c4a976b46b19c2b0330323a8, type: 3}
+  m_Sprite: {fileID: -2550129887236308043, guid: edf78874d2c26cc4d8adfb4c392dd17c, type: 3}
   m_Color: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.37109375, y: 0.12109375}
+  m_Size: {x: 0.25, y: 0.1015625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -126,7 +126,7 @@ Animator:
   m_GameObject: {fileID: 3057457800715232281}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: af75de23a063bb6419e63f3b071b6abc, type: 2}
+  m_Controller: {fileID: 9100000, guid: c50b4a508e4c11b4c90dc6abe47e331e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -145,7 +145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3057457801979448806}
   - component: {fileID: 3057457801979448807}
-  m_Layer: 18
+  m_Layer: 27
   m_Name: Ground Flare Hole Back
   m_TagString: Hazards
   m_Icon: {fileID: 0}
@@ -207,7 +207,7 @@ SpriteRenderer:
   m_SortingLayerID: -1328131401
   m_SortingLayer: 6
   m_SortingOrder: 12
-  m_Sprite: {fileID: -8969428417960645177, guid: a0167065c4a976b46b19c2b0330323a8, type: 3}
+  m_Sprite: {fileID: -4189106336893016421, guid: edf78874d2c26cc4d8adfb4c392dd17c, type: 3}
   m_Color: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 5941554888240195254}
   - component: {fileID: 5941554888240195257}
   - component: {fileID: 501428218112190206}
-  m_Layer: 12
+  m_Layer: 15
   m_Name: Buster Shot Hit Effect Level 5_0
-  m_TagString: Effects1
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

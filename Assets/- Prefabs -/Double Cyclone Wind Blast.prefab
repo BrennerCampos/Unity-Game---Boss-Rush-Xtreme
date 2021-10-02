@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4467050564137401804}
   - component: {fileID: 2271284816580193329}
   - component: {fileID: 577668934859286084}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: Double Cyclone Wind Blast
-  m_TagString: PlayerAttack
+  m_TagString: SpecialShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

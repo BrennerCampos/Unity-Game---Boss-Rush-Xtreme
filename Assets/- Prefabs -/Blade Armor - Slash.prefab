@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1195853376613549895}
   - component: {fileID: 1195853376613549894}
   - component: {fileID: 1195853376613549881}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Blade Armor - Slash
-  m_TagString: Untagged
+  m_TagString: Slash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6608508121398902183}
   - component: {fileID: 6608508121398902176}
   - component: {fileID: 6608508121398902177}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Force Armor Shot Burst Effect
-  m_TagString: Untagged
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

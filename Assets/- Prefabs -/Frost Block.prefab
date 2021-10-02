@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2015210655093228735}
   - component: {fileID: 2015210655093228728}
   - component: {fileID: 2015210655093228729}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Frost Block
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

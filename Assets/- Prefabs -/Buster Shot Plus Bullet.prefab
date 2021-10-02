@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 445273102898044111}
   - component: {fileID: 445273102898044110}
   - component: {fileID: 445273102898044105}
-  m_Layer: 12
+  m_Layer: 14
   m_Name: Buster Shot Plus Bullet
   m_TagString: Bullet
   m_Icon: {fileID: 0}

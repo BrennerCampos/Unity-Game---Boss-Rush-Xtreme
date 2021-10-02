@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8784179936088307158}
   - component: {fileID: 8784179936088307157}
   - component: {fileID: 8784179936088307156}
-  m_Layer: 14
+  m_Layer: 24
   m_Name: Flame Full Circle
-  m_TagString: PlayerAttack
+  m_TagString: EnemyAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

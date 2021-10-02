@@ -11,11 +11,8 @@ GameObject:
   - component: {fileID: 5931825439231884032}
   - component: {fileID: 8653140020378815781}
   - component: {fileID: 5831027704235002731}
-  - component: {fileID: 1795666904750358471}
-  - component: {fileID: 4285710925775021975}
-  - component: {fileID: 6061979644873357889}
-  - component: {fileID: -8300430385034941916}
-  m_Layer: 13
+  - component: {fileID: 1050432015926835135}
+  m_Layer: 24
   m_Name: Magma Burst Ultra Shot
   m_TagString: EnemyAttack
   m_Icon: {fileID: 0}
@@ -75,9 +72,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1328131401
+  m_SortingLayer: 6
+  m_SortingOrder: 10
   m_Sprite: {fileID: -6830352329396846110, guid: 8dbdc24f1794f71408bef6f093a3e4ff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -99,7 +96,7 @@ Animator:
   m_GameObject: {fileID: 3218798375546589917}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0a4f4839012c6454aa0992fe6880dfd8, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8f86fec9ed208c440af8379965739f94, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -108,59 +105,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!58 &1795666904750358471
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3218798375546589917}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.034448937}
-  serializedVersion: 2
-  m_Radius: 0.06320736
---- !u!114 &4285710925775021975
+--- !u!114 &1050432015926835135
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3218798375546589917}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c16f989862c9040b725841c2f51f11, type: 3}
+  m_Script: {fileID: 11500000, guid: 83a6cdeac7b75c54cbcdc01bc1a0260c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6061979644873357889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3218798375546589917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa189123959707e46b970ab9084e27a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 20
---- !u!114 &-8300430385034941916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3218798375546589917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b92cf631a4b07834e966c6d3770cd6c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  xOffset: 0
+  yOffset: 0
+  zOffset: 0
 --- !u!1 &7554257048624365169
 GameObject:
   m_ObjectHideFlags: 0
@@ -170,7 +129,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2132603816945036700}
-  m_Layer: 0
+  m_Layer: 24
   m_Name: Magma Burst Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}

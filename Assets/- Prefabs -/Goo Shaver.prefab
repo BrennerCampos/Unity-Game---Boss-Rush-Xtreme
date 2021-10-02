@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3828223385566768360}
   - component: {fileID: 3828223385566768359}
   - component: {fileID: 3828223385566768358}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Goo Shaver
-  m_TagString: Untagged
+  m_TagString: PlayerAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

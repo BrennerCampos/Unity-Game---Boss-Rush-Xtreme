@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
 {
     public static PlayerController instance;
     public Rigidbody2D rigidBody;
+    public GameObject attackHitBox;
     private Animator anim;
     private SpriteRenderer sprite;
     public GameObject chargingShotEffect, groundDashDustEffect, dashRocketBoostEffect, deathBubbleCore;
@@ -186,14 +187,14 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
 
-        if (canInput)
-        {
+        //if (canInput)
+        //{
             rigidBody.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal"), rigidBody.velocity.y);
-        }
-        else
-        {
-            rigidBody.velocity = new Vector2(rigidBody.velocity.x, rigidBody.velocity.y);
-        }
+        //}
+        //else
+        //{
+        //    rigidBody.velocity = new Vector2(rigidBody.velocity.x, rigidBody.velocity.y);
+        //}
             
         
 
@@ -210,11 +211,27 @@ public class PlayerController : MonoBehaviour
         if (sprite.flipX == false)
         {
             xDirection = "Right";
+
+            if (attackHitBox.transform.localScale.x < 0)
+            {
+                attackHitBox.transform.localScale = new Vector3(-attackHitBox.transform.localScale.x,
+                    attackHitBox.transform.localScale.y, 1);
+            }
+
         }
         else
         {
             xDirection = "Left";
+
+            if (attackHitBox.transform.localScale.x > 0)
+            {
+                attackHitBox.transform.localScale = new Vector3(-attackHitBox.transform.localScale.x,
+                    attackHitBox.transform.localScale.y, 1);
+            }
+
         }
+
+
 
         if (isGrounded)
         {
@@ -249,14 +266,14 @@ public class PlayerController : MonoBehaviour
 
                 // Move our Player's rigid body's x-position based on our set move speed
 
-                if (canInput)
-                {
+                //if (canInput)
+                //{
                     rigidBody.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal"), rigidBody.velocity.y);
-                }
-                else
-                {
-                    rigidBody.velocity = new Vector2(0, 0);
-                }
+                //}
+                //else
+                //{
+                //    rigidBody.velocity = new Vector2(0, 0);
+                //}
                 
                 // Checks to see if we are on the ground with a circle overlap underneath Player and creates a bool
                 isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
@@ -373,10 +390,10 @@ public class PlayerController : MonoBehaviour
                     {
                         if (canStandSlash && !isSlashing && slashTimer > startSlashWaitTimer)
                         {
-                            
+
                             isSlashing = true;
                             canStandSlash = false;
-                            canInput = false;
+                            //canInput = false;
                             anim.SetBool("isSlashing", true);
                             //stopInput = true;
                             slashTimer = 0;
@@ -392,7 +409,7 @@ public class PlayerController : MonoBehaviour
                         
                         if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && slashWaitTimer <= 0)
                         {
-                            canInput = true;
+                            //canInput = true;
                             isSlashing = false;
                             anim.SetBool("isSlashing", false);
                             canStandSlash = true;
@@ -470,10 +487,10 @@ public class PlayerController : MonoBehaviour
 
                     if (Input.GetButtonDown("Fire1") && Input.GetButtonDown("Jump"))
                     {
-                        if (canInput)
-                        {
-                            anim.SetBool("takeOffJumpShoot", true);
-                        }
+                        //if (canInput)
+                        //{
+                         //   anim.SetBool("takeOffJumpShoot", true);
+                        //}
                         
                     }
 
@@ -725,13 +742,18 @@ public class PlayerController : MonoBehaviour
                     {
                         if (canJumpSlash && slashJumpTimer >= startSlashJumpTimer)
                         {
-                            isJumpSlashing = true;
-                            anim.SetBool("isJumpSlashing", true);
-                            canJumpSlash = false;
-                            canJumpShoot = false;
-                            slashJumpTimer = 0f;
-                            AudioManager.instance.StopSFX(47);
-                            AudioManager.instance.PlaySFX(47);
+
+                            if (canStandSlash && !isSlashing && slashTimer > startSlashWaitTimer)
+                            {
+                                isJumpSlashing = true;
+                                anim.SetBool("isJumpSlashing", true);
+                                canJumpSlash = false;
+                                canJumpShoot = false;
+                                slashJumpTimer = 0f;
+                                AudioManager.instance.StopSFX(47);
+                                AudioManager.instance.PlaySFX(47);
+                            }
+
                         }
                     }
 

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7926188540952709977}
   - component: {fileID: 5592808825880717863}
   - component: {fileID: 5412067424763820360}
-  m_Layer: 12
+  m_Layer: 19
   m_Name: Double Cyclone Wind Orb
   m_TagString: SpecialShot
   m_Icon: {fileID: 0}
@@ -156,9 +156,9 @@ GameObject:
   - component: {fileID: 1105387173140798436}
   - component: {fileID: 2575464480708819315}
   - component: {fileID: 1265540915238573075}
-  m_Layer: 12
+  m_Layer: 19
   m_Name: HitBox
-  m_TagString: PlayerAttack
+  m_TagString: SpecialShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -206,3 +206,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 7
+  materialTimer: 0
+  startMaterialTimer: 0
+  dinoRexSprite: {fileID: 0}
+  hittableEnemy: {fileID: 0}
+  dinoRex: {fileID: 0}

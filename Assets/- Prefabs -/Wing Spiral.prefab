@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6104506885868631843}
   - component: {fileID: 6104506885868631842}
   - component: {fileID: 6104506885868631841}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: Wing Spiral
   m_TagString: PlayerAttack
   m_Icon: {fileID: 0}

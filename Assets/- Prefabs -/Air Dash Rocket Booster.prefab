@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2836145925131462577}
   - component: {fileID: 2836145925131462576}
   - component: {fileID: 2836145925131462579}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: Air Dash Rocket Booster
-  m_TagString: Untagged
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

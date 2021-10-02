@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 5801581866790533494}
   - component: {fileID: 5801581866790533495}
   - component: {fileID: 5801581866790533496}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Frost Dust Trail
-  m_TagString: Untagged
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

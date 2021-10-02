@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 9019988557918393285}
   - component: {fileID: 9019988557918393286}
   - component: {fileID: 9019988557918393287}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: Shining Ray
-  m_TagString: PlayerAttack
+  m_TagString: SpecialShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 5877944297210019866}
   - component: {fileID: 5877944297210019865}
   - component: {fileID: 5877944297210019864}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Flame Semi Circle
-  m_TagString: Untagged
+  m_TagString: PlayerAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

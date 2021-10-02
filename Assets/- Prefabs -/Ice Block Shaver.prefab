@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4417458192479631065}
   - component: {fileID: 4417458192479631064}
   - component: {fileID: 4417458192479631067}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ice Block Shaver
-  m_TagString: Untagged
+  m_TagString: PlayerAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

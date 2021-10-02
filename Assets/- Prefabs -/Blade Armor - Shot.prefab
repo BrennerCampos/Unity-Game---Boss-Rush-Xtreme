@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8585194893668304598}
   m_Layer: 14
   m_Name: Blade Armor - Shot
-  m_TagString: PlayerAttack
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

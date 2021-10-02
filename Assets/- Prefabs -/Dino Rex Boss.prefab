@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7214662107170517369}
   - component: {fileID: 7214662107170517370}
   - component: {fileID: 7214662107170517365}
+  - component: {fileID: 2039113569}
   m_Layer: 11
   m_Name: Dino Rex Boss
   m_TagString: Enemy
@@ -103,3 +104,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2039113569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7214662107170517366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1caef3a7f4a0af345a5ff9bdbd82082c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackColliders: []
+  impactEffect: {fileID: 7864449814287130866, guid: 9ba99a3beb2c5724dbb97448b8cba363, type: 3}
+  impactTransform: {fileID: 0}
+  cameraShakeIntensity: 0.2

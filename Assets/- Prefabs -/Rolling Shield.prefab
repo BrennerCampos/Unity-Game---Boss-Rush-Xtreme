@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2850353742851964880}
   - component: {fileID: 2850353742851964887}
   - component: {fileID: 2850353742851964886}
-  m_Layer: 14
+  m_Layer: 24
   m_Name: Rolling Shield
-  m_TagString: PlayerAttack
+  m_TagString: EnemyAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

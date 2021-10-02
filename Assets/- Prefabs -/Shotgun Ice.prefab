@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 880287438899282563}
   - component: {fileID: 880287438899282562}
   - component: {fileID: 880287438899282621}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: Shotgun Ice
-  m_TagString: PlayerAttack
+  m_TagString: SpecialShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

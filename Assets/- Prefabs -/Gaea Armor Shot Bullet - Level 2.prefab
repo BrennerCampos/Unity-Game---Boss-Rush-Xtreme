@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2872745007294223321}
   - component: {fileID: 2872745007294223320}
   - component: {fileID: 2872745007294223323}
-  m_Layer: 12
+  m_Layer: 14
   m_Name: Gaea Armor Shot Bullet - Level 2
   m_TagString: Bullet
   m_Icon: {fileID: 0}

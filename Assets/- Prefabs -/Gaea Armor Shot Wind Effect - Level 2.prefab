@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 531897664537892251}
   - component: {fileID: 531897664537892252}
   - component: {fileID: 531897664537892253}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gaea Armor Shot Wind Effect - Level 2
-  m_TagString: Untagged
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

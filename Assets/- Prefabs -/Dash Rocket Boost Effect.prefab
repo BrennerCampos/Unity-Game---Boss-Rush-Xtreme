@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 9097142979539326884}
   - component: {fileID: 7586892655014638140}
   - component: {fileID: 2678252702683830002}
-  m_Layer: 16
+  m_Layer: 21
   m_Name: Dash Rocket Boost Effect
-  m_TagString: Effects1
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

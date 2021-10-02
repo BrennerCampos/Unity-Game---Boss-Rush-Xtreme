@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2923372499265043772}
   - component: {fileID: -6098556668513661831}
   - component: {fileID: -8987834225761247341}
-  m_Layer: 13
+  m_Layer: 24
   m_Name: Magma Burst Holder
   m_TagString: EnemyAttack
   m_Icon: {fileID: 0}
@@ -140,21 +140,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1050432015926835135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6812827306545850155}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83a6cdeac7b75c54cbcdc01bc1a0260c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xOffset: 0
-  yOffset: 0
-  zOffset: 0
 --- !u!1001 &8225682089713874422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -166,10 +151,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Magma Burst Ultra Shot
       objectReference: {fileID: 0}
-    - target: {fileID: 5831027704235002731, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 8f86fec9ed208c440af8379965739f94, type: 2}
     - target: {fileID: 5931825439231884032, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -214,49 +195,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: 8653140020378815781, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
-      propertyPath: m_Size.x
-      value: 0.203125
-      objectReference: {fileID: 0}
-    - target: {fileID: 8653140020378815781, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
-      propertyPath: m_Size.y
-      value: 0.24609375
-      objectReference: {fileID: 0}
-    - target: {fileID: 8653140020378815781, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -6830352329396846110, guid: 8dbdc24f1794f71408bef6f093a3e4ff, type: 3}
-    - target: {fileID: 8653140020378815781, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8653140020378815781, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
-      propertyPath: m_SortingLayer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8653140020378815781, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8653140020378815781, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -1328131401
-      objectReference: {fileID: 0}
-    - target: {fileID: 8653140020378815781, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1795666904750358471, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
-    - {fileID: 4285710925775021975, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
-    - {fileID: 6061979644873357889, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
-    - {fileID: -8300430385034941916, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
---- !u!1 &6812827306545850155 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3218798375546589917, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
-  m_PrefabInstance: {fileID: 8225682089713874422}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2338896014514753270 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5931825439231884032, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}

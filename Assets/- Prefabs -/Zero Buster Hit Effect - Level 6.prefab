@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3562126469911465480}
   - component: {fileID: 3562126469911465481}
   - component: {fileID: 3562126469911465486}
-  m_Layer: 14
+  m_Layer: 15
   m_Name: Zero Buster Hit Effect - Level 6
-  m_TagString: Effects1
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

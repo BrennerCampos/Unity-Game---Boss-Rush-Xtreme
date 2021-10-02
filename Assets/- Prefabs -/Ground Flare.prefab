@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 5004679782550853613}
   - component: {fileID: 5004679782550853612}
   - component: {fileID: 5004679782550853615}
-  m_Layer: 13
+  m_Layer: 24
   m_Name: Ground Flare
-  m_TagString: Hazards
+  m_TagString: EnemyAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

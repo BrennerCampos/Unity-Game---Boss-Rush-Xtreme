@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1050109864428632261}
   - component: {fileID: 1050109864428632262}
   - component: {fileID: 1050109864428632263}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: Voltage Bomb
-  m_TagString: PlayerAttack
+  m_TagString: SpecialShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

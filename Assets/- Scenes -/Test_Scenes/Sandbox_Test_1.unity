@@ -767,7 +767,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 57263180}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Backgrounds
   m_TagString: Background
   m_Icon: {fileID: 0}
@@ -1053,9 +1053,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 97936224}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: Cyclone Point 2
-  m_TagString: Untagged
+  m_TagString: Hazards
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1083,9 +1083,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 101311716}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: RightPoint
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1102,7 +1102,7 @@ Transform:
   m_LocalScale: {x: 20, y: 20, z: 1}
   m_Children: []
   m_Father: {fileID: 530518433}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &108307210
 GameObject:
@@ -1621,9 +1621,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 137523681}
-  m_Layer: 11
+  m_Layer: 31
   m_Name: WeaponPosition_1_L
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1905,9 +1905,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 158426685}
-  m_Layer: 11
+  m_Layer: 31
   m_Name: GroundPoint
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1937,9 +1937,9 @@ GameObject:
   - component: {fileID: 177917661}
   - component: {fileID: 177917663}
   - component: {fileID: 177917662}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TS_Space_Rocks_Pixel
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16428,9 +16428,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 184348692}
-  m_Layer: 11
+  m_Layer: 31
   m_Name: DustPositionLeft
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18877,7 +18877,7 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
-  m_Layer: 30
+  m_Layer: 31
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -19337,9 +19337,9 @@ GameObject:
   - component: {fileID: 530518429}
   - component: {fileID: 530518428}
   - component: {fileID: 530518434}
-  m_Layer: 11
+  m_Layer: 23
   m_Name: Dino Rex
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19376,24 +19376,24 @@ MonoBehaviour:
         Health Under","Instant":true,"SharedIntHealthThreshold":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":61}},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-119.4658,137.738586)"},"ID":5,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(-314.1368,234.055359)"},"ID":6,"Name":"Face
         Player","Instant":true},{"Type":"Core.AI.DinoRexJump","NodeData":{"Offset":"(-177.797256,233.528687)"},"ID":7,"Name":"Dino
         Rex Jump","Instant":true,"GameObjectGroundDust":0,"SinglehorizontalForce":-15,"SinglejumpForce":5,"SinglebuildupTime":0,"SinglejumpTime":1,"StringanimationTriggerName":"isHit","BooleanshakeCameraOnLanding":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-48.06039,234.05481)"},"ID":8,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.4},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.75},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"SpawnObject","NodeData":{"Offset":"(92.9734039,229.055908)"},"ID":9,"Name":"Spawn
-        Object","Instant":true,"Disabled":true,"TransformobjectTransform":1,"GameObjecthazardCollider":2,"GameObjectenemy":3,"AcceleratingProjectileobjectToSpawn":4},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(224.999924,230)"},"ID":10,"Name":"Set
-        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":5},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"isHit"}},{"Type":"SetHealth","NodeData":{"Offset":"(353.609619,229.055908)"},"ID":11,"Name":"Set
+        Object","Instant":true,"Disabled":true,"TransformobjectTransform":1,"GameObjecthazardCollider":2,"GameObjectenemy":3},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(224.999924,230)"},"ID":10,"Name":"Set
+        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":4},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"isHit"}},{"Type":"SetHealth","NodeData":{"Offset":"(353.609619,229.055908)"},"ID":11,"Name":"Set
         Health","Instant":true,"Disabled":true,"SharedIntHealth":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(487.701324,227.796509)"},"ID":12,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.4},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Log","NodeData":{"Offset":"(63.24975,138.330124)","Comment":"RECOVERY"},"ID":13,"Name":"Log","Instant":true,"Disabled":true,"SharedStringtext":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""},"SharedBoollogError":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoollogTime":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"GoToNextStage","NodeData":{"Offset":"(228.905655,139.266)"},"ID":14,"Name":"Go
         To Next Stage","Instant":true,"SharedIntCurrentStage":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"CurrentStage","IsShared":true,"Int32mValue":0}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(721.894,182.727264)","Comment":"Fight
         Loop\n"},"ID":15,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"Children":[{"Type":"StageBasedSelector","NodeData":{"Offset":"(0.5128956,114.854996)"},"ID":16,"Name":"Stage
         Based Selector","Instant":true,"SharedIntCurrentStage":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"CurrentStage","IsShared":true,"Int32mValue":0},"List`1IncludedTasksPerStage":["0","0,1"],"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-490,120)","Comment":"JUMP"},"ID":17,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Core.AI.DinoRexJump","NodeData":{"Offset":"(-330.870972,187.648819)"},"ID":18,"Name":"Dino
-        Rex Jump","Instant":true,"GameObjectGroundDust":6,"SinglehorizontalForce":8,"SinglejumpForce":33,"SinglebuildupTime":0.5,"SinglejumpTime":1.4,"StringanimationTriggerName":"isJumping","BooleanshakeCameraOnLanding":true},{"Type":"FacePlayer","NodeData":{"Offset":"(-191.063217,184.61116)"},"ID":19,"Name":"Face
+        Rex Jump","Instant":true,"GameObjectGroundDust":5,"SinglehorizontalForce":6,"SinglejumpForce":37,"SinglebuildupTime":0.5,"SinglejumpTime":1.6,"StringanimationTriggerName":"isJumping","BooleanshakeCameraOnLanding":true},{"Type":"FacePlayer","NodeData":{"Offset":"(-191.063217,184.61116)"},"ID":19,"Name":"Face
         Player","Instant":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(-49.5587654,188.81691)"},"ID":20,"Name":"Set
-        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":7},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"isJumping"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(76.15204,184.869446)"},"ID":21,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"FacePlayer","NodeData":{"Offset":"(218.581787,183.24585)"},"ID":22,"Name":"Face
+        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":6},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"isJumping"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(76.15204,184.869446)"},"ID":21,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"FacePlayer","NodeData":{"Offset":"(218.581787,183.24585)"},"ID":22,"Name":"Face
         Player","Instant":true,"Disabled":true},{"Type":"SpawnDoubleDustEffect","NodeData":{"Offset":"(399.951355,188.336884)"},"ID":23,"Name":"Spawn
-        Double Dust Effect","Instant":true,"GameObjectdustEffectRight":8,"GameObjectdustEffectLeft":9,"TransformdustRightPosition":10,"TransformdustLeftPosition":11,"SinglesizeScale":18},{"Type":"CameraShakes","NodeData":{"Offset":"(547.0517,193.501892)"},"ID":24,"Name":"Camera
-        Shakes","Instant":true,"Disabled":true,"GameObjectmainCamera":12},{"Type":"Core.AI.SpawnFallingEmber","NodeData":{"Offset":"(681.750854,187.031372)"},"ID":25,"Name":"Spawn
-        Falling Ember","Instant":true,"Disabled":true,"Collider2DspawnAreaCollider":13,"EnemyProjectileemberProjectile":14,"Int32spawnCount":2,"SinglespawnInterval":0.1}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(688.6366,108.63636)","Comment":"ATTACK
+        Double Dust Effect","Instant":true,"GameObjectdustEffectRight":7,"GameObjectdustEffectLeft":8,"TransformdustRightPosition":9,"TransformdustLeftPosition":10,"SinglesizeScale":18},{"Type":"CameraShakes","NodeData":{"Offset":"(547.0517,193.501892)"},"ID":24,"Name":"Camera
+        Shakes","Instant":true,"GameObjectmainCamera":11},{"Type":"Core.AI.SpawnFallingEmber","NodeData":{"Offset":"(681.750854,187.031372)"},"ID":25,"Name":"Spawn
+        Falling Ember","Instant":true,"Disabled":true,"EnemyProjectileemberProjectile":12,"Int32spawnCount":2,"SinglespawnInterval":0.1}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(688.6366,108.63636)","Comment":"ATTACK
         :"},"ID":26,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(-357.342682,143.24823)"},"ID":27,"Name":"Face
         Player","Instant":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(-240.888184,142.835083)","Comment":"StartAttack"},"ID":28,"Name":"Set
-        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":15},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"StartAttack"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-122.1379,142.835175)"},"ID":29,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(-2.29076576,139.395355)","Comment":"FallingEmberAtk\n"},"ID":30,"Name":"Set
-        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":16},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"FallingEmberAtk"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(121.665726,139.583313)"},"ID":31,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"Core.AI.Shoot","NodeData":{"Offset":"(246.831039,144.1572)"},"ID":32,"Name":"Shoot","Instant":true,"GameObjectshooter":17,"DinoRexBossdinoRexBoss":18,"EnemyProjectileenemyProjectile":19,"TransformweaponPosition_1_R":20,"TransformweaponPosition_1_L":21,"TransformweaponPosition_1_C":22,"List`1weapons":[{"Type":"Core.AI.Weapon","Value":{"SinglehorizontalForce":5,"SingleverticalForce":4}}],"BooleanshakeCamera":false},{"Type":"Core.AI.SpawnFallingEmber","NodeData":{"Offset":"(387.916321,135.328934)"},"ID":33,"Name":"Spawn
-        Falling Ember","Instant":true,"Disabled":true,"Collider2DspawnAreaCollider":23,"EnemyProjectileemberProjectile":24,"Int32spawnCount":5,"SinglespawnInterval":0.3},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(529.8665,139.395355)"},"ID":34,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.6},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}}]}]}]}]}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"CurrentStage","IsShared":true,"Int32mValue":0}]}'
+        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":13},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"StartAttack"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-122.1379,142.835175)"},"ID":29,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(-2.29076576,139.395355)","Comment":"FallingEmberAtk\n"},"ID":30,"Name":"Set
+        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"FallingEmberAtk"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(121.665726,139.583313)"},"ID":31,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"Core.AI.Shoot","NodeData":{"Offset":"(246.831039,144.1572)"},"ID":32,"Name":"Shoot","Instant":true,"GameObjectshooter":14,"DinoRexBossdinoRexBoss":15,"EnemyProjectileenemyProjectile":16,"TransformweaponPosition_1_R":17,"TransformweaponPosition_1_L":18,"TransformweaponPosition_1_C":19,"List`1weapons":[{"Type":"Core.AI.Weapon","Value":{"SinglehorizontalForce":5,"SingleverticalForce":4}}],"BooleanshakeCamera":false},{"Type":"Core.AI.SpawnFallingEmber","NodeData":{"Offset":"(387.916321,135.328934)"},"ID":33,"Name":"Spawn
+        Falling Ember","Instant":true,"Disabled":true,"EnemyProjectileemberProjectile":20,"Int32spawnCount":5,"SinglespawnInterval":0.3},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(529.8665,139.395355)"},"ID":34,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.6},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}}]}]}]}]}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"CurrentStage","IsShared":true,"Int32mValue":0}]}'
       fieldSerializationData:
         typeName: []
         fieldNameHash: 
@@ -19404,7 +19404,6 @@ MonoBehaviour:
         - {fileID: 1618000073}
         - {fileID: 1154921747}
         - {fileID: 530518427}
-        - {fileID: 6061979644873357889, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
         - {fileID: 2039113566}
         - {fileID: 2272536023933561172, guid: d4405c31d98a5c84b9bbdbde7e31eca0, type: 3}
         - {fileID: 2039113566}
@@ -19413,17 +19412,14 @@ MonoBehaviour:
         - {fileID: 1644874698}
         - {fileID: 184348692}
         - {fileID: 519420028}
-        - {fileID: 750096439}
         - {fileID: 2596190737209944632, guid: 1ed5c76a4772e7748a83839853c06404, type: 3}
-        - {fileID: 2039113566}
-        - {fileID: 2039113566}
+        - {fileID: 519420028}
         - {fileID: 530518427}
         - {fileID: 530518430}
         - {fileID: 4909291589628028749, guid: ab638ec82fbb76f4f9264cbb6f827cc0, type: 3}
         - {fileID: 611170175}
         - {fileID: 137523681}
         - {fileID: 1637358562}
-        - {fileID: 750096439}
         - {fileID: 2596190737209944632, guid: 1ed5c76a4772e7748a83839853c06404, type: 3}
         byteData: 
         byteDataArray: 
@@ -19517,7 +19513,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.08123016, y: -2.2315526}
+  m_Offset: {x: 0.4340353, y: -2.2315526}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -19528,7 +19524,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.790061, y: 4.7860937}
+  m_Size: {x: 5.6820583, y: 4.7860937}
   m_EdgeRadius: 0
 --- !u!4 &530518433
 Transform:
@@ -19542,10 +19538,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 348739094}
-  - {fileID: 1203609025}
-  - {fileID: 101311716}
   - {fileID: 1154921748}
   - {fileID: 1618000073}
+  - {fileID: 1203609025}
+  - {fileID: 101311716}
   - {fileID: 158426685}
   - {fileID: 1887180868}
   - {fileID: 611170175}
@@ -19958,9 +19954,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 598605110}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: Cyclone Point 4
-  m_TagString: Untagged
+  m_TagString: Hazards
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19988,9 +19984,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 611170175}
-  m_Layer: 11
+  m_Layer: 31
   m_Name: WeaponPosition_1_R
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22727,7 +22723,7 @@ GameObject:
   - component: {fileID: 736154869}
   m_Layer: 3
   m_Name: Stars-Big_1_1_PC
-  m_TagString: Untagged
+  m_TagString: Background
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22808,9 +22804,9 @@ GameObject:
   m_Component:
   - component: {fileID: 750096440}
   - component: {fileID: 750096439}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: Falling Ember Spawn Area
-  m_TagString: Untagged
+  m_TagString: Hazards
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22997,6 +22993,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 0}
+--- !u!1 &782799520 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2016821224, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
+  m_PrefabInstance: {fileID: 1455109751285075734}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &821607644
 GameObject:
   m_ObjectHideFlags: 0
@@ -23643,9 +23644,9 @@ GameObject:
   - component: {fileID: 865064316}
   - component: {fileID: 865064315}
   - component: {fileID: 865064314}
-  m_Layer: 0
+  m_Layer: 29
   m_Name: Scene Variables
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23700,9 +23701,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 874659309}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: Cyclone Point 1
-  m_TagString: Untagged
+  m_TagString: Hazards
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24319,9 +24320,9 @@ GameObject:
   - component: {fileID: 941006254}
   - component: {fileID: 941006253}
   - component: {fileID: 941006255}
-  m_Layer: 0
+  m_Layer: 29
   m_Name: LevelManager
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -26219,7 +26220,7 @@ GameObject:
   - component: {fileID: 1110721464}
   m_Layer: 5
   m_Name: UI Canvas
-  m_TagString: Untagged
+  m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26369,9 +26370,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1111699401}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: Cyclone Point 3
-  m_TagString: Untagged
+  m_TagString: Hazards
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26734,7 +26735,7 @@ GameObject:
   - component: {fileID: 1154921748}
   - component: {fileID: 1154921750}
   - component: {fileID: 1154921751}
-  m_Layer: 11
+  m_Layer: 25
   m_Name: Hazard Collider
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -26753,7 +26754,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 530518433}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1154921750
 BoxCollider2D:
@@ -26979,7 +26980,7 @@ GameObject:
   - component: {fileID: 1188914146}
   m_Layer: 8
   m_Name: Grid
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27278,9 +27279,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1203609025}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: LeftPoint
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27297,7 +27298,7 @@ Transform:
   m_LocalScale: {x: 20, y: 20, z: 1}
   m_Children: []
   m_Father: {fileID: 530518433}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1215141901
 GameObject:
@@ -28222,9 +28223,9 @@ GameObject:
   - component: {fileID: 1361524624}
   - component: {fileID: 1361524626}
   - component: {fileID: 1361524625}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TS_Solid_Blocks_1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42908,17 +42909,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 530518433}
     m_Modifications:
+    - target: {fileID: 2039113569, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+      propertyPath: impactTransform
+      value: 
+      objectReference: {fileID: 1887180868}
     - target: {fileID: 7214662107170517366, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
       propertyPath: m_Name
       value: Dino Rex Boss Sprite
       objectReference: {fileID: 0}
     - target: {fileID: 7214662107170517366, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
       propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 7214662107170517366, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 7214662107170517369, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
       propertyPath: m_RootOrder
@@ -42966,11 +42967,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
---- !u!4 &1430848282 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1455109750740214850, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
-  m_PrefabInstance: {fileID: 1455109751285075734}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1433527073
 GameObject:
   m_ObjectHideFlags: 0
@@ -43490,9 +43486,9 @@ GameObject:
   - component: {fileID: 1493083872}
   - component: {fileID: 1493083874}
   - component: {fileID: 1493083873}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TS_Prototype_Blocks_32x32
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58629,9 +58625,9 @@ GameObject:
   - component: {fileID: 1618000073}
   - component: {fileID: 1618000072}
   - component: {fileID: 1618000074}
-  m_Layer: 11
+  m_Layer: 24
   m_Name: AttackCollider
-  m_TagString: EnemyAttack
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58649,7 +58645,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.60940933, y: -2.323926}
+  m_Offset: {x: 0.63180256, y: -2.1763077}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -58660,7 +58656,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.3215523, y: 4.551262}
+  m_Size: {x: 3.776659, y: 4.2560253}
   m_EdgeRadius: 0
 --- !u!4 &1618000073
 Transform:
@@ -58674,7 +58670,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 530518433}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1618000074
 MonoBehaviour:
@@ -58697,9 +58693,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1637358562}
-  m_Layer: 11
+  m_Layer: 31
   m_Name: WeaponPosition_1_C
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58854,9 +58850,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1644874698}
-  m_Layer: 11
+  m_Layer: 31
   m_Name: DustPositionRight
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59331,36 +59327,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &1684656382
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1684656383}
-  m_Layer: 9
-  m_Name: Dash Fire Point - Right
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1684656383
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1684656382}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.11, y: 0.274, z: 0}
-  m_LocalScale: {x: 11, y: 11, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1884149708}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1713630299
 GameObject:
   m_ObjectHideFlags: 0
@@ -59649,36 +59615,6 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
---- !u!1 &1750958437
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1750958438}
-  m_Layer: 9
-  m_Name: Dash Fire Point - Left
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1750958438
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1750958437}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.11, y: 0.27400106, z: 0}
-  m_LocalScale: {x: 11, y: 11, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1884149708}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1756600614
 GameObject:
   m_ObjectHideFlags: 0
@@ -59945,7 +59881,7 @@ GameObject:
   - component: {fileID: 1774067261}
   - component: {fileID: 1774067260}
   - component: {fileID: 1774067259}
-  m_Layer: 6
+  m_Layer: 31
   m_Name: Spawn Point
   m_TagString: Respawn
   m_Icon: {fileID: 0}
@@ -61113,9 +61049,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1887180868}
-  m_Layer: 11
+  m_Layer: 31
   m_Name: AttackTransform
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61553,9 +61489,9 @@ GameObject:
   - component: {fileID: 1933078876}
   - component: {fileID: 1933078875}
   - component: {fileID: 1933078874}
-  m_Layer: 0
+  m_Layer: 29
   m_Name: EventSystem
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62318,96 +62254,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &2016821224
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2016821225}
-  - component: {fileID: 2016821226}
-  - component: {fileID: 2016821227}
-  - component: {fileID: 2016821228}
-  m_Layer: 9
-  m_Name: Attack Hit Box
-  m_TagString: Hazards
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &2016821225
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016821224}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0047000535, y: 0.0037000123, z: 0}
-  m_LocalScale: {x: 0.090909086, y: 0.090909086, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1430848282}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2016821226
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016821224}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &2016821227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016821224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4dc92822cf75b1459d65c66902a5a0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackDamage: 15
-  materialTimer: 1
-  startMaterialTimer: 1
-  dinoRexSprite: {fileID: 2039113568}
-  hittableEnemy: {fileID: 1154921751}
-  dinoRex: {fileID: 530518430}
---- !u!114 &2016821228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016821224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c322c40c4c7da347b436791cd5df61a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collision: 0
 --- !u!1 &2026227918
 GameObject:
   m_ObjectHideFlags: 0
@@ -62687,22 +62533,6 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 7214662107170517370, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
   m_PrefabInstance: {fileID: 1429483741}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2039113569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2039113566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1caef3a7f4a0af345a5ff9bdbd82082c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackColliders: []
-  impactEffect: {fileID: 7864449814287130866, guid: 9ba99a3beb2c5724dbb97448b8cba363, type: 3}
-  impactTransform: {fileID: 1887180868}
-  cameraShakeIntensity: 0.2
 --- !u!1 &2049794213
 GameObject:
   m_ObjectHideFlags: 0
@@ -64911,9 +64741,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2071772571}
   - component: {fileID: 2071772570}
-  m_Layer: 0
+  m_Layer: 29
   m_Name: Check Point Controller
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65590,13 +65420,13 @@ GameObject:
   m_Component:
   - component: {fileID: 2100106334}
   - component: {fileID: 2100106333}
-  m_Layer: 0
+  m_Layer: 27
   m_Name: Storm Tornado Spawner
-  m_TagString: Untagged
+  m_TagString: Hazards
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2100106333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66021,6 +65851,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2016821224, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
+      propertyPath: m_TagString
+      value: Slash
+      objectReference: {fileID: 0}
+    - target: {fileID: 2016821225, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.09090909
+      objectReference: {fileID: 0}
+    - target: {fileID: 2016821226, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2016821227, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
+      propertyPath: dinoRex
+      value: 
+      objectReference: {fileID: 530518430}
+    - target: {fileID: 2016821227, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
+      propertyPath: dinoRexSprite
+      value: 
+      objectReference: {fileID: 2039113568}
+    - target: {fileID: 2016821227, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
+      propertyPath: hittableEnemy
+      value: 
+      objectReference: {fileID: 1154921751}
     - target: {fileID: 1455109749409323216, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
       propertyPath: m_Name
       value: Player Shadow
@@ -66070,48 +65924,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1455109749409323230, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
+      propertyPath: attackHitBox
+      value: 
+      objectReference: {fileID: 782799520}
+    - target: {fileID: 1455109749409323230, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
       propertyPath: healthSlider
       value: 
       objectReference: {fileID: 781280470}
-    - target: {fileID: 1455109749409323230, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
-      propertyPath: dashFirePointLeft
-      value: 
-      objectReference: {fileID: 1750958438}
-    - target: {fileID: 1455109749409323230, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
-      propertyPath: dashFirePointRight
-      value: 
-      objectReference: {fileID: 1684656383}
-    - target: {fileID: 1455109749409323230, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
-      propertyPath: spAtkThunderDancer
-      value: 
-      objectReference: {fileID: 5388025419806019211, guid: 092cdc828f96a19489f3f5d100aa7043, type: 3}
-    - target: {fileID: 1455109749409323230, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
-      propertyPath: thunderDancerTimer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1455109749409323230, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
-      propertyPath: spAtkEnergySawBlade
-      value: 
-      objectReference: {fileID: 3002755279797052889, guid: 6677a478f989936428dc4e1c9428e8d3, type: 3}
-    - target: {fileID: 1455109749409323230, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
-      propertyPath: startThunderDancerTimer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1455109750355113220, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
-      propertyPath: m_SpriteTilingProperty.pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1455109750355113220, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
-      propertyPath: m_SpriteTilingProperty.pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1455109750355113220, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.14453125
-      objectReference: {fileID: 0}
-    - target: {fileID: 1455109750355113220, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.1953125
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}

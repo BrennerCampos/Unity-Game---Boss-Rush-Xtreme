@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3544549221110452660}
   - component: {fileID: 3544549221110452659}
   - component: {fileID: 3544549221110452658}
-  m_Layer: 14
+  m_Layer: 15
   m_Name: Max Armor Digital Explosion
-  m_TagString: PlayerAttack
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3367730854801745346}
   - component: {fileID: 3367730854801745349}
   - component: {fileID: 3367730854801745348}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: Electric Thruster
   m_TagString: PlayerAttack
   m_Icon: {fileID: 0}

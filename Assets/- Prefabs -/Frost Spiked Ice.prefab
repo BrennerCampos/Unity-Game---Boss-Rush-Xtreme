@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6229075772919903035}
   - component: {fileID: 6229075772919903032}
   - component: {fileID: 6229075772919903033}
-  m_Layer: 0
+  m_Layer: 24
   m_Name: Frost Spiked Ice
-  m_TagString: Untagged
+  m_TagString: EnemyAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

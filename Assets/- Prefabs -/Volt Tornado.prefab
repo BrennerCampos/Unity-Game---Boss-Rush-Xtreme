@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3705702574338406680}
   - component: {fileID: 3705702574338406681}
   - component: {fileID: 3705702574338406662}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: Volt Tornado
   m_TagString: PlayerAttack
   m_Icon: {fileID: 0}

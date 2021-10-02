@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1382931599973040669}
   - component: {fileID: 8138337551200560472}
   - component: {fileID: 5468708086363815116}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Gravity Well
-  m_TagString: Untagged
+  m_TagString: PlayerAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

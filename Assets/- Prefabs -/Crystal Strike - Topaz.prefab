@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7018369724123696663}
   - component: {fileID: 7018369724123696662}
   - component: {fileID: 7018369724123696657}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: Crystal Strike - Topaz
   m_TagString: PlayerAttack
   m_Icon: {fileID: 0}

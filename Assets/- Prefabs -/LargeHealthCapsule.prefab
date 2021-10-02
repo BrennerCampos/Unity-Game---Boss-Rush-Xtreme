@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7894950500104315609}
   - component: {fileID: 938903730}
   - component: {fileID: 938903732}
-  m_Layer: 19
+  m_Layer: 13
   m_Name: LargeHealthCapsule
   m_TagString: Pickups
   m_Icon: {fileID: 0}

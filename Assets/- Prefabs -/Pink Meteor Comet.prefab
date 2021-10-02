@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4066727870327340611}
   - component: {fileID: 4066727870327340612}
   - component: {fileID: 4066727870327340613}
-  m_Layer: 14
+  m_Layer: 24
   m_Name: Pink Meteor Comet
-  m_TagString: PlayerAttack
+  m_TagString: EnemyAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

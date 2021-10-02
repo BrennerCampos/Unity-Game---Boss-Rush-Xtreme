@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7847948065171428218}
   - component: {fileID: 7847948065171428221}
   - component: {fileID: 7847948065171428220}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Crescent Moon Blade
-  m_TagString: Untagged
+  m_TagString: SpecialShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

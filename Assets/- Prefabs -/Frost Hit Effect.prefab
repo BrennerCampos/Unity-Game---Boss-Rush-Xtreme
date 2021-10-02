@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4041574835014373255}
   - component: {fileID: 4041574835014373256}
   - component: {fileID: 4041574835014373257}
-  m_Layer: 14
+  m_Layer: 15
   m_Name: Frost Hit Effect
-  m_TagString: PlayerAttack
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

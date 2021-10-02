@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 594377493972931598}
   - component: {fileID: 7467033257898897041}
   - component: {fileID: 2072173558}
-  m_Layer: 13
+  m_Layer: 21
   m_Name: Death Bubble
-  m_TagString: Effects1
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

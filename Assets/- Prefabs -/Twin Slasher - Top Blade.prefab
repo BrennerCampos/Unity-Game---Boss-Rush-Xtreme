@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8890718130287458225}
   - component: {fileID: 8890718130287458226}
   - component: {fileID: 8890718130287458227}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Twin Slasher - Top Blade
-  m_TagString: Untagged
+  m_TagString: SpecialShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

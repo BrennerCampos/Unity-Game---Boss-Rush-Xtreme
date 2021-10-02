@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6962634892782370316}
   - component: {fileID: 6962634892782370318}
   - component: {fileID: 6962634892782370319}
-  m_Layer: 10
+  m_Layer: 18
   m_Name: Player Shadow Sprite
   m_TagString: Player
   m_Icon: {fileID: 0}

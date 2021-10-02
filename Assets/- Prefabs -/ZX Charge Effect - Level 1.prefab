@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7747687205551517635}
   - component: {fileID: 2238876401531540709}
   - component: {fileID: 6957259168962010943}
-  m_Layer: 20
+  m_Layer: 27
   m_Name: ZX Charge Effect - Level 1
-  m_TagString: Effects1
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

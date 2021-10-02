@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2844525836844590648}
   - component: {fileID: 2844525836844590651}
   - component: {fileID: 2844525836844590650}
-  m_Layer: 14
+  m_Layer: 15
   m_Name: Electric Hit
-  m_TagString: Effects1
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2596190737209944632}
   - component: {fileID: 1973642458}
   - component: {fileID: 8011146425237987549}
-  m_Layer: 13
+  m_Layer: 24
   m_Name: Ember
   m_TagString: EnemyAttack
   m_Icon: {fileID: 0}

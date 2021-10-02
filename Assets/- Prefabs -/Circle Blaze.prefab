@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7996996164828461240}
   - component: {fileID: 7996996164828461247}
   - component: {fileID: 7996996164828461246}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: Circle Blaze
-  m_TagString: PlayerAttack
+  m_TagString: SpecialShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

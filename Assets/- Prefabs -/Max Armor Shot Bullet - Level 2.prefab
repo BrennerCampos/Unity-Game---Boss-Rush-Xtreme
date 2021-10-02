@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1068348396031567598}
   - component: {fileID: 1068348396031567597}
   - component: {fileID: 1068348396031567596}
-  m_Layer: 12
+  m_Layer: 14
   m_Name: Max Armor Shot Bullet - Level 2
   m_TagString: Bullet
   m_Icon: {fileID: 0}

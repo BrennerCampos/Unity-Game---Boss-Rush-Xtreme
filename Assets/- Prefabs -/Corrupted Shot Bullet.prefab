@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2089550543140743206}
   - component: {fileID: 2089550543140743207}
   - component: {fileID: 2089550543140743204}
-  m_Layer: 12
+  m_Layer: 14
   m_Name: Corrupted Shot Bullet
   m_TagString: Bullet
   m_Icon: {fileID: 0}

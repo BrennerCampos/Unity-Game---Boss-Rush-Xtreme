@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6514609135072684619}
   - component: {fileID: 6514609135072684616}
   - component: {fileID: 6514609135072684617}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: Magnet Mine Bomb
-  m_TagString: PlayerAttack
+  m_TagString: SpecialShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

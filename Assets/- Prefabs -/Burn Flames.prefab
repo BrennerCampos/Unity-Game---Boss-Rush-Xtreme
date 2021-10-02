@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8771067332484367593}
   - component: {fileID: 8771067332484367594}
   - component: {fileID: 8771067332484367595}
-  m_Layer: 14
+  m_Layer: 15
   m_Name: Burn Flames
-  m_TagString: PlayerAttack
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

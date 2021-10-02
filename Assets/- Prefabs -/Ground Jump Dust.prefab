@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 5457061660978394201}
   - component: {fileID: 5825196799056280348}
   - component: {fileID: 3626367234795977766}
-  m_Layer: 18
-  m_Name: Dino Rex Ground Jump Dust
-  m_TagString: Effects1
+  m_Layer: 27
+  m_Name: Ground Jump Dust
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2832367994965479389}
   - component: {fileID: 2832367994965479390}
   - component: {fileID: 2832367994965479391}
-  m_Layer: 12
+  m_Layer: 14
   m_Name: Zero Buster Bullet - Level 6
   m_TagString: Bullet
   m_Icon: {fileID: 0}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4025682914295511629}
   m_Layer: 14
   m_Name: Static Buster Shot
-  m_TagString: PlayerAttack
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

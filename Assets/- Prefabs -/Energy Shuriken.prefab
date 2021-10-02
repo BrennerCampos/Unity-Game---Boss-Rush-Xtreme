@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4637518952486589902}
   - component: {fileID: 5712877563588121896}
   - component: {fileID: 2344942241245756913}
-  m_Layer: 14
+  m_Layer: 19
   m_Name: Energy Shuriken
   m_TagString: PlayerAttack
   m_Icon: {fileID: 0}

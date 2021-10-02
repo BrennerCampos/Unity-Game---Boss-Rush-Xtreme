@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1746770278339904217}
   - component: {fileID: 1746770278339904222}
   - component: {fileID: 1746770278339904223}
-  m_Layer: 0
+  m_Layer: 27
   m_Name: Sparkle Shine
-  m_TagString: Untagged
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

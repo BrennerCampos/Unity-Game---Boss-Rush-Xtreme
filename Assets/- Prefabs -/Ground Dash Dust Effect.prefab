@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3242052832145189270}
   - component: {fileID: 8723628535334573969}
   - component: {fileID: 4438498098342163517}
-  m_Layer: 13
+  m_Layer: 27
   m_Name: Ground Dash Dust Effect
-  m_TagString: Effects1
+  m_TagString: Effects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
