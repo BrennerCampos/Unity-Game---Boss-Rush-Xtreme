@@ -19473,8 +19473,8 @@ MonoBehaviour:
   materialTimer: 1
   materialFlashTimer: 0.2
   startMaterialFlashTimer: 0.2
-  currentHealth: 60
-  health: 100
+  currentHealth: 200
+  health: 200
   isGrounded: 0
   wasAirbornLastStep: 0
   wasGroundedLastStep: 0
@@ -65170,6 +65170,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 781280470}
     - target: {fileID: 1455109749409323230, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
+<<<<<<< Updated upstream
+=======
+      propertyPath: spAtkDoubleCyclone
+      value: 
+      objectReference: {fileID: 4018883024500935859, guid: 665c98a50a4f8df4f8d333f5aa167305, type: 3}
+    - target: {fileID: 1455109749409323230, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
+      propertyPath: startShotTimerNormal
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455109749409323230, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
+>>>>>>> Stashed changes
       propertyPath: shotTimerLongerPressed
       value: 0
       objectReference: {fileID: 0}
