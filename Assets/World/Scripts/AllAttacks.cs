@@ -8,8 +8,8 @@ public abstract class AllAttacks : MonoBehaviour
 {
     
     public int damage;
-    // public Transform attackPosition;
-    // public GameObject attackObject;
+    public Transform attackPosition;
+    public GameObject attackObject;
     public GameObject HitEffect, BurstEffect;
     protected Vector2 force;
     public int shootSFX, hitSFX;
@@ -30,11 +30,9 @@ public abstract class AllAttacks : MonoBehaviour
         // Play 'Bullet Shot' Sound
         AudioManager.instance.PlaySFX(shootSFX);
 
-        if (BurstEffect != null)
-        {
-            Instantiate(BurstEffect, gameObject.transform.position, gameObject.transform.rotation);
-        }
-        
+        // UNIQUE CODE FOR LIGHTNING WEB ---V
+
+        Instantiate(BurstEffect, gameObject.transform.position, gameObject.transform.rotation);
 
         // If Player is facing towards the right
         if (PlayerController.instance.xDirection == "Right")
