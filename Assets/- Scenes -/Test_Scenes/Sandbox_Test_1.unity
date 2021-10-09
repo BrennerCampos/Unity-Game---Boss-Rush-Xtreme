@@ -65170,8 +65170,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 781280470}
     - target: {fileID: 1455109749409323230, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
+      propertyPath: spAtkDoubleCyclone
+      value: 
+      objectReference: {fileID: 4018883024500935859, guid: 665c98a50a4f8df4f8d333f5aa167305, type: 3}
+    - target: {fileID: 1455109749409323230, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
       propertyPath: shotTimerLongerPressed
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1455109749409323230, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
+      propertyPath: spAtkMagmaBladeFireball
+      value: 
+      objectReference: {fileID: 1625863885528046314, guid: 1dd60af5f26478d43979d8304c184704, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
