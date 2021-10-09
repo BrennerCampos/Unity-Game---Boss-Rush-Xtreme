@@ -297,7 +297,7 @@ MonoBehaviour:
   healthSlider: {fileID: 0}
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 320
+    m_Bits: 768
   startPosition: {x: 0, y: 0, z: 0}
   busterShotLevel1: {fileID: 2457441545126587935, guid: 7e9ce2cef53920847a6fe0f5e6686982, type: 3}
   busterShotLevel2: {fileID: 5199256311872242189, guid: 917bffaaf8b2ff544842ca003076b23a, type: 3}
@@ -313,7 +313,7 @@ MonoBehaviour:
   spAtkEnergySawBlade: {fileID: 3002755279797052889, guid: 6677a478f989936428dc4e1c9428e8d3, type: 3}
   spAtkLightningWeb: {fileID: 51192470008928053, guid: cdf1cf85d4029974d97afbbdb9e80104, type: 3}
   spAtkThunderDancer: {fileID: 5388025419806019211, guid: 092cdc828f96a19489f3f5d100aa7043, type: 3}
-  spAtkMagmaBladeFireball: {fileID: 0}
+  spAtkMagmaBladeFireball: {fileID: 1625863885528046314, guid: 1dd60af5f26478d43979d8304c184704, type: 3}
   dashDustPointLeft: {fileID: 1455109750016938709}
   dashDustPointRight: {fileID: 1455109749338825254}
   dashFirePointLeft: {fileID: 1750958438}

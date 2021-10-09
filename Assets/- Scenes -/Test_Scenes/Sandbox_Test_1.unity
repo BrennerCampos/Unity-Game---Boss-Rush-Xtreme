@@ -19334,7 +19334,6 @@ GameObject:
   - component: {fileID: 530518432}
   - component: {fileID: 530518431}
   - component: {fileID: 530518430}
-  - component: {fileID: 530518429}
   - component: {fileID: 530518428}
   - component: {fileID: 530518434}
   m_Layer: 23
@@ -19426,18 +19425,6 @@ MonoBehaviour:
       Version: 1.7.1
   gizmoViewMode: 2
   showBehaviorDesignerGizmo: 1
---- !u!114 &530518429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 530518427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c16f989862c9040b725841c2f51f11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &530518430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19450,7 +19437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7f5a012d8d5dc848b0b19cababae19c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 2039113568}
   DinoRexDeathEffect: {fileID: 8940304844373925428, guid: 2691f8c4fa9f7e84aafa298836ad5501, type: 3}
   GroundWindEffect: {fileID: 5160417557812746446, guid: 4f27486c483327d4a92281db20b12801, type: 3}
   GroundDustEffect: {fileID: 2272536023933561172, guid: d4405c31d98a5c84b9bbdbde7e31eca0, type: 3}
@@ -19498,7 +19485,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &530518432
 BoxCollider2D:
@@ -65089,6 +65076,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 530518430}
     - target: {fileID: 2016821227, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2016821227, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
       propertyPath: dinoRexSprite
       value: 
       objectReference: {fileID: 2039113568}
@@ -65096,6 +65087,10 @@ PrefabInstance:
       propertyPath: hittableEnemy
       value: 
       objectReference: {fileID: 1154921751}
+    - target: {fileID: 2016821228, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1455109749409323216, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
       propertyPath: m_Name
       value: Player Shadow
@@ -65148,5 +65143,9 @@ PrefabInstance:
       propertyPath: healthSlider
       value: 
       objectReference: {fileID: 781280470}
+    - target: {fileID: 1455109749885018465, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}

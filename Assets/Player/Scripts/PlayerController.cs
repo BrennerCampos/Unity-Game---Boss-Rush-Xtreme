@@ -238,7 +238,7 @@ public class PlayerController : MonoBehaviour
 
         // What the Player can do upon spawn
         canStandShoot = true;
-        canRunShoot = true;
+        canRunShoot = false;
         canStandSlash = true;
         canInput = true;
         // canMove = true;
@@ -301,6 +301,7 @@ public class PlayerController : MonoBehaviour
 
                 if (!isSlashing)
                 {
+                
                     ////////////////////////////////////////////////////////////////////////////////////////////////////////
                     //      TIMERS
                     //////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -334,9 +335,6 @@ public class PlayerController : MonoBehaviour
                             anim.SetBool("isWallShooting", false);
                         }
                     }
-
-
-
                     // -----------------------------------------------------------//
 
 
@@ -401,16 +399,27 @@ public class PlayerController : MonoBehaviour
                         // If Player is grounded and NOT MOVING horizontally    (IDLE)
                         if (Mathf.Abs(rigidBody.velocity.x) == 0)
                         {
+                            canRunShoot = false;
                             isStateShooting = isStandShooting;
                             stateFirePointRight = standFirePointRight;
                             stateFirePointLeft = standFirePointLeft;
+                            if (shotTimerNormal == startShotTimerNormal || shotTimerNormal <= 0)
+                            {
+                                canStandShoot = true;
+                            }
+
                         }
                         // If Player is grounded and MOVING horizontally        (RUNNING)
                         if (Mathf.Abs(rigidBody.velocity.x) > 0)
                         {
+                            canStandShoot = false;
                             isStateShooting = isRunShooting;
                             stateFirePointRight = runFirePointRight;
                             stateFirePointLeft = runFirePointLeft;
+                            if (shotTimerNormal == startShotTimerNormal || shotTimerNormal <= 0)
+                            {
+                                canRunShoot = true;
+                            }
                         }
 
                         if (Input.GetButtonDown("Fire1") && Input.GetButtonDown("Jump"))
@@ -452,7 +461,7 @@ public class PlayerController : MonoBehaviour
                     // Releasing Shoot Button
                     if (Input.GetButtonUp("Fire1"))
                     {
-                        if (isStateShooting || isRunShooting || isDashShooting || isJumpShooting || isWallShooting)
+                        /*if (isStateShooting || isRunShooting || isDashShooting || isJumpShooting || isWallShooting)
                         {
                             isRunShooting = false;
                             isStateShooting = false;
@@ -460,7 +469,7 @@ public class PlayerController : MonoBehaviour
                             isJumpShooting = false;
                             isWallShooting = false;
                             anim.SetBool("takeOffJumpShoot", false);
-                        }
+                        }*/
 
                         BusterRelease();
                     }
@@ -572,6 +581,7 @@ public class PlayerController : MonoBehaviour
                 { rigidBody.velocity = new Vector2(knockbackForce, rigidBody.velocity.y); }
             }
 
+
             // ----  SHOT TIMERS  ---------------------------====>
             if (shotTimerQuickestPressed)
             { shotTimerQuickest -= Time.deltaTime; }
@@ -615,62 +625,6 @@ public class PlayerController : MonoBehaviour
                 //anim.SetBool("isDashShooting", false);
                 isDashShooting = false;
             }
-            else // If Player is Knocked Back...
-            {
-                // Continue running down the Player's knockback counter
-                knockbackCounter -= Time.deltaTime;
-
-                // Knock back our player in the opposite direction that the Player's sprite is facing
-                if (!sprite.flipX)
-                {
-                    rigidBody.velocity = new Vector2(-knockbackForce, rigidBody.velocity.y);
-                }
-                else
-                {
-                    rigidBody.velocity = new Vector2(knockbackForce, rigidBody.velocity.y);
-                }
-            }
-
-            // ----  SHOT TIMERS  ---------------------------====>
-            if (shotTimerQuickestPressed)
-            { shotTimerQuickest -= Time.deltaTime; }
-            if (shotTimerQuickerPressed)
-            { shotTimerQuicker -= Time.deltaTime; }
-            if (shotTimerNormalPressed)
-            { shotTimerNormal -= Time.deltaTime; }
-            if (shotTimerLongerPressed)
-            { shotTimerLonger -= Time.deltaTime; }
-            if (shotTimerLongestPressed)
-            { shotTimerLongest -= Time.deltaTime; }
-
-            if (shotTimerQuickest <= 0)
-            {
-                shotTimerQuickest = startShotTimerQuickest;
-                shotTimerQuickestPressed = false;
-                //anim.SetBool("isDashShooting", false);
-                isDashShooting = false;
-            }
-            if (shotTimerQuicker <= 0)
-            {
-                shotTimerQuicker = startShotTimerQuicker;
-                shotTimerQuickerPressed = false;
-                //anim.SetBool("isDashShooting", false);
-                isDashShooting = false;
-            }
-            if (shotTimerNormal <= 0)
-            {
-                shotTimerNormal = startShotTimerNormal;
-                shotTimerNormalPressed = false;
-                //anim.SetBool("isDashShooting", false);
-                isDashShooting = false;
-            }
-            if (shotTimerLonger <= 0)
-            {
-                shotTimerLonger = startShotTimerLonger;
-                shotTimerLongerPressed = false;
-                //anim.SetBool("isDashShooting", false);
-                isDashShooting = false;
-            }
             if (shotTimerLongest <= 0)
             {
                 shotTimerLongest = startShotTimerLongest;
@@ -679,6 +633,8 @@ public class PlayerController : MonoBehaviour
                 isDashShooting = false;
             }
         }
+
+
         // --------------------------------------------------------------------------------------------------------//
         // ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~END MAIN ACTION LOOP~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~//
         // --------------------------------------------------------------------------------------------------------//
@@ -806,8 +762,7 @@ public class PlayerController : MonoBehaviour
         {
             slashJumpTimer = 0;
             isJumpSlashing = true;
-            canJumpSlash = false;
-            canJumpShoot = false;
+            
             anim.SetBool("isJumpSlashing", true);
 
             if (anim.GetBool("magmaBladeActive") == true)
@@ -994,7 +949,7 @@ public class PlayerController : MonoBehaviour
         // ----------  JUMP DASH ------------------------------------------------//
         if (anim.GetBool("jumpDash") == true)
         {
-           rigidBody.velocity = new Vector2(rigidBody.velocity.x * 1.2f, jumpForce / 1.5f);
+            rigidBody.velocity = new Vector2(rigidBody.velocity.x * 1.2f, jumpForce / 1.5f);
         }
 
 
@@ -1134,6 +1089,7 @@ public class PlayerController : MonoBehaviour
     /*public void isShootingCheck(bool isStateShooting, bool canStateShoot, string isStateShootingAnim, float timer, float startTimer)
     {
         timer -= Time.deltaTime;
+
         if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1 || timer <= 0)
         {
             anim.SetBool(isStateShootingAnim, false);

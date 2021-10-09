@@ -127,7 +127,7 @@ MonoBehaviour:
   startAttackCooldown: 2
   anim: {fileID: 745755808435191391}
   attackBurstEffect: {fileID: 0}
-  speed: 5
+  speed: 3.27
 --- !u!70 &8382664972272187924
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
