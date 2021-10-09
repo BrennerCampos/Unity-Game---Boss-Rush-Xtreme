@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4dc92822cf75b1459d65c66902a5a0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 15
+  attackDamage: 3
   materialTimer: 1
   startMaterialTimer: 1
   dinoRexSprite: {fileID: 0}
@@ -294,117 +294,117 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidBody: {fileID: 1455109749409323229}
-  chargingShotEffect: {fileID: 1455109751292572187}
-  groundDashDustEffect: {fileID: 2272536023933561172, guid: d4405c31d98a5c84b9bbdbde7e31eca0, type: 3}
-  dashRocketBoostEffect: {fileID: 450661930497883393, guid: 921d540e049ff09498c0b18c967dd3f5, type: 3}
-  deathBubbleCore: {fileID: 8940304844373925428, guid: 2691f8c4fa9f7e84aafa298836ad5501, type: 3}
+  healthSlider: {fileID: 0}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 320
+  startPosition: {x: 0, y: 0, z: 0}
   busterShotLevel1: {fileID: 2457441545126587935, guid: 7e9ce2cef53920847a6fe0f5e6686982, type: 3}
   busterShotLevel2: {fileID: 5199256311872242189, guid: 917bffaaf8b2ff544842ca003076b23a, type: 3}
   busterShotLevel3: {fileID: 1250385253208698414, guid: 80bc40ed8d8fee945b6cd3c3a9af1f57, type: 3}
   busterShotLevel4: {fileID: 3409626835124505567, guid: 0e7d0e5bd603d3c4b8255707b93edd9d, type: 3}
   busterShotLevel5: {fileID: 4823115428143602361, guid: 8f924d5c1329b5446890dbacad870644, type: 3}
-  spAtkDoubleCyclone1: {fileID: 4018883024500935859, guid: 665c98a50a4f8df4f8d333f5aa167305, type: 3}
-  spAtkLightningWeb: {fileID: 51192470008928053, guid: cdf1cf85d4029974d97afbbdb9e80104, type: 3}
+  chargingShotEffect: {fileID: 1455109751292572187}
+  dashRocketBoostEffect: {fileID: 450661930497883393, guid: 921d540e049ff09498c0b18c967dd3f5, type: 3}
+  deathBubbleCore: {fileID: 8940304844373925428, guid: 2691f8c4fa9f7e84aafa298836ad5501, type: 3}
+  groundDashDustEffect: {fileID: 2272536023933561172, guid: d4405c31d98a5c84b9bbdbde7e31eca0, type: 3}
+  attackHitBox: {fileID: 2016821224}
+  spAtkDoubleCyclone: {fileID: 4018883024500935859, guid: 665c98a50a4f8df4f8d333f5aa167305, type: 3}
   spAtkEnergySawBlade: {fileID: 3002755279797052889, guid: 6677a478f989936428dc4e1c9428e8d3, type: 3}
+  spAtkLightningWeb: {fileID: 51192470008928053, guid: cdf1cf85d4029974d97afbbdb9e80104, type: 3}
   spAtkThunderDancer: {fileID: 5388025419806019211, guid: 092cdc828f96a19489f3f5d100aa7043, type: 3}
-  enemyAttackCollider: {fileID: 0}
-  healthSlider: {fileID: 0}
-  startPosition: {x: 0, y: 0, z: 0}
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 320
-  spriteParent: {fileID: 1455109750740214850}
-  groundCheckPoint: {fileID: 1455109749357136739}
-  standFirePointRight: {fileID: 1455109750846775289}
-  standFirePointLeft: {fileID: 1455109750806083304}
-  runFirePointRight: {fileID: 1455109749883722459}
-  runFirePointLeft: {fileID: 1455109750950435839}
-  dashFirePointRight: {fileID: 1684656383}
-  dashFirePointLeft: {fileID: 1750958438}
-  jumpFirePointRight: {fileID: 1455109749459027645}
-  jumpFirePointLeft: {fileID: 1455109750945646225}
-  stateFirePointRight: {fileID: 0}
-  stateFirePointLeft: {fileID: 0}
-  dashDustPointRight: {fileID: 1455109749338825254}
+  spAtkMagmaBladeFireball: {fileID: 0}
   dashDustPointLeft: {fileID: 1455109750016938709}
-  dashRocketPointRight: {fileID: 1455109749668783313}
+  dashDustPointRight: {fileID: 1455109749338825254}
+  dashFirePointLeft: {fileID: 1750958438}
+  dashFirePointRight: {fileID: 1684656383}
   dashRocketPointLeft: {fileID: 1455109750576178339}
+  dashRocketPointRight: {fileID: 1455109749668783313}
+  groundCheckPoint: {fileID: 1455109749357136739}
+  jumpFirePointLeft: {fileID: 1455109750945646225}
+  jumpFirePointRight: {fileID: 1455109749459027645}
+  runFirePointLeft: {fileID: 1455109750950435839}
+  runFirePointRight: {fileID: 1455109749883722459}
+  spriteParent: {fileID: 1455109750740214850}
+  standFirePointLeft: {fileID: 1455109750806083304}
+  standFirePointRight: {fileID: 1455109750846775289}
+  xStartPosition: 0
+  yStartPosition: 0
   xDirection: 
   yDirection: 
-  animStateShooting: 
-  startAirDashAvailable: 1
+  stopInput: 0
   moveSpeed: 9
-  startJumpForce: 24
   baseMoveSpeed: 9
-  dashMultiplier: 2.22
   airDashMultiplier: 3.64
-  startDashTimer: 0.3
+  dashMultiplier: 2.22
   startAirDashTimer: 0.31
-  slashWaitTimer: 0.6
-  startSlashWaitTimer: 0.6
-  slashJumpWaitTimer: 0.6
-  startSlashJumpTimer: 0.6
+  startDashTimer: 0.3
+  startAirDashAvailable: 1
+  jumpForce: 24
+  startJumpForce: 24
+  bounceForce: 23
+  isWallSliding: 0
+  jumpTime: 0.1
+  wallDistance: 0.8
+  wallJumpForce: 19
+  wallJumpTime: 0.1
   wallJumpTimer: 0
-  startShotTimerQuickest: 0.1
-  startShotTimerQuicker: 0.25
-  startShotTimerNormal: 0.35
+  wallSlideSpeed: -2
+  shotTimerLongerPressed: 0
+  shotTimerLongestPressed: 0
+  shotTimerNormalPressed: 0
+  shotTimerQuickerPressed: 0
+  shotTimerQuickestPressed: 0
   startShotTimerLonger: 1
   startShotTimerLongest: 2
-  thunderDancerTimer: 5
+  startShotTimerNormal: 0.3
+  startShotTimerQuicker: 0.25
+  startShotTimerQuickest: 0.1
+  startSlashJumpTimer: 0.6
+  startSlashWaitTimer: 0.6
+  slashJumpWaitTimer: 0.6
+  slashWaitTimer: 0.6
   startThunderDancerTimer: 5
-  jumpForce: 24
-  wallJumpForce: 19
-  bounceForce: 23
-  knockbackLength: 0.55
-  knockbackForce: 9.327
-  stopInput: 0
-  justPressedShoot: 0
-  canMove: 0
-  canInput: 0
-  canStandShoot: 0
-  canRunShoot: 0
-  canDashShoot: 0
-  canJumpShoot: 0
-  canWallShoot: 0
-  canDoubleJump: 0
-  canWallJump: 0
-  canGroundDash: 0
+  thunderDancerTimer: 5
   canAirDash: 0
-  canStandSlash: 0
+  canDashShoot: 0
+  canDoubleJump: 0
+  canGroundDash: 0
+  canInput: 0
+  canJumpShoot: 0
   canJumpSlash: 0
-  canWallSlash: 0
+  canRunShoot: 0
   canSpecialAttack1: 0
   canSpecialAttack2: 0
   canSpecialAttack3: 0
-  isGrounded: 0
-  isJumping: 0
-  isWallJumping: 0
-  isDashing: 0
+  canStandShoot: 0
+  canStandSlash: 0
+  canWallJump: 0
+  canWallShoot: 0
+  canWallSlash: 0
   isAirDashing: 0
-  isSlashing: 0
-  isJumpSlashing: 0
-  isWallSlashing: 0
-  isStandShooting: 0
-  isRunShooting: 0
-  isDashShooting: 0
-  isJumpShooting: 0
-  isWallShooting: 0
   isCrouching: 0
   isCrouchShooting: 0
+  isDashing: 0
+  isDashShooting: 0
+  isGrounded: 0
   isHurt: 0
-  isWallClinging: 0
+  isJumping: 0
+  isJumpShooting: 0
+  isJumpSlashing: 0
+  isRunShooting: 0
+  isSlashing: 0
+  isStandShooting: 0
   isStateShooting: 0
   isTeleporting: 0
-  shotTimerQuickestPressed: 0
-  shotTimerQuickerPressed: 0
-  shotTimerNormalPressed: 0
-  shotTimerLongerPressed: 0
-  shotTimerLongestPressed: 0
-  wallJumpTime: 0.1
-  wallSlideSpeed: -2
-  wallDistance: 0.8
-  jumpTime: 0.1
-  isWallSliding: 0
+  isWallClinging: 0
+  isWallJumping: 0
+  isWallShooting: 0
+  isWallSlashing: 0
+  knockbackLength: 0.55
+  knockbackForce: 9.327
+  animStateShooting: 
+  justPressedShoot: 0
 --- !u!61 &1455109749409323231
 BoxCollider2D:
   m_ObjectHideFlags: 0

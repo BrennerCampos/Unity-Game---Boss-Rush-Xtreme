@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 4888093220671908972}
   - component: {fileID: 6374629306120254522}
   - component: {fileID: 745755808435191391}
+  - component: {fileID: 7063550799224803666}
+  - component: {fileID: 8382664972272187924}
+  - component: {fileID: 7494557774501836612}
   m_Layer: 19
   m_Name: Magma Blade Fire Shot
   m_TagString: SpecialShot
@@ -70,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 235363189
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 5174085140186032431, guid: d866ce3c28de0c244bc93b843da2aa4b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -103,3 +106,59 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7063550799224803666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625863885528046314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa32c39d13a443040a013189560d9d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  HitEffect: {fileID: 8771067332484367588, guid: 2ac295d1e443ed8438045d12da562337, type: 3}
+  BurstEffect: {fileID: 8784179936088307155, guid: aed0a0a4eca0bf341b082ab596a834b3, type: 3}
+  shootSFX: 0
+  hitSFX: 0
+  timeToLive: 3
+  startAttackCooldown: 2
+  anim: {fileID: 745755808435191391}
+  attackBurstEffect: {fileID: 0}
+  speed: 5
+--- !u!70 &8382664972272187924
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625863885528046314}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.021953505, y: 0}
+  m_Size: {x: 0.13299417, y: 0.16796875}
+  m_Direction: 0
+--- !u!114 &7494557774501836612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625863885528046314}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4dc92822cf75b1459d65c66902a5a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 2
+  materialTimer: 1
+  startMaterialTimer: 1
+  dinoRexSprite: {fileID: 7214662107170517370, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+  hittableEnemy: {fileID: 0}
+  dinoRex: {fileID: 6057090782711524326, guid: c54fae9279c6afa4e81ba34c75e4b465, type: 3}

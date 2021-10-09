@@ -1,3 +1,5 @@
+using System;
+using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEngine;
 using UnityEngine.UI;
 using Vector2 = UnityEngine.Vector2;
@@ -7,7 +9,7 @@ public class PlayerController : MonoBehaviour
 {
 
     public static PlayerController instance;
-
+    public delegate void FunctionDelegate(object func, float timer, float startTimer, bool isShotPressed);
 
     [Header("Core Components")]
     public Rigidbody2D rigidBody;
@@ -29,11 +31,15 @@ public class PlayerController : MonoBehaviour
     public GameObject dashRocketBoostEffect;
     public GameObject deathBubbleCore;
     public GameObject groundDashDustEffect;
-    public GameObject spAtkDoubleCyclone1;
+
+
+    [Header("Special Attacks")]
+    public GameObject attackHitBox;
+    public GameObject spAtkDoubleCyclone;
     public GameObject spAtkEnergySawBlade;
     public GameObject spAtkLightningWeb;
     public GameObject spAtkThunderDancer;
-    public GameObject attackHitBox;
+    public GameObject spAtkMagmaBladeFireball;
 
 
     [Header("Specialized Points")]
@@ -122,6 +128,7 @@ public class PlayerController : MonoBehaviour
     public float slashWaitTimer;
     private float slashJumpTimer;
     private float slashTimer;
+    private bool magmaBladeActive;
 
 
     [Header("Special Attacks")]
@@ -152,7 +159,7 @@ public class PlayerController : MonoBehaviour
     private bool canShootBusterLevel5;
 
 
-    [Header("is Currently Doing")] 
+    [Header("is Currently Doing")]
     public bool isAirDashing;
     public bool isCrouching;
     public bool isCrouchShooting;
@@ -181,6 +188,7 @@ public class PlayerController : MonoBehaviour
 
 
     [Header("Miscellaneous")]
+    public FunctionDelegate methodToCall;
     public string animStateShooting;
     public bool justPressedShoot;
 
@@ -190,7 +198,7 @@ public class PlayerController : MonoBehaviour
     private bool playedLoopedChargeSFX;
 
 
-    [Header("Timers")] 
+    [Header("Timers")]
     private float timeInLevel;
 
 
@@ -198,7 +206,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        
+
         Transform spriteParentTransform = spriteParent != null ? spriteParent : transform;
         sprite = spriteParentTransform.GetComponentInChildren<SpriteRenderer>();
         anim = spriteParentTransform.GetComponentInChildren<Animator>();
@@ -218,7 +226,7 @@ public class PlayerController : MonoBehaviour
         // Player starts off facing towards the RIGHT
         xDirection = "Right";
 
-        // Initializing Timers
+        // Initializing TIMERS
         dashTimer = startDashTimer;
         airDashTimer = startAirDashTimer;
         shotTimerQuickest = startShotTimerQuickest;
@@ -230,7 +238,7 @@ public class PlayerController : MonoBehaviour
 
         // What the Player can do upon spawn
         canStandShoot = true;
-        canRunShoot = false;
+        canRunShoot = true;
         canStandSlash = true;
         canInput = true;
         // canMove = true;
@@ -241,20 +249,14 @@ public class PlayerController : MonoBehaviour
         // Enemy attack collider initialization
         enemyAttackCollider = DinoRexBoss.instance.GetComponentInChildren<DamagePlayer>();
         enemyAttackCollider.gameObject.tag = "EnemyAttack";
+
+
     }
 
     // Update is called once per frame
     private void Update()
     {
-        //if (canInput)
-        //{
-        rigidBody.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal"), rigidBody.velocity.y);
-        //}
-        //else
-        //{
-        //    rigidBody.velocity = new Vector2(rigidBody.velocity.x, rigidBody.velocity.y);
-        //}
-
+        // If in teleportation state (Enter & Exit)
         if (isTeleporting)
         {
             transform.position = new Vector3(xStartPosition, transform.position.y, transform.position.z);
@@ -264,27 +266,13 @@ public class PlayerController : MonoBehaviour
         //  CHECKING PLAYER'S DIRECTIONS
         //////////////////////////////////////////////////////////////////////////////////////////////////////
 
+        // Checking HORIZONTAL state
         if (sprite.flipX == false)
-        {
-            xDirection = "Right";
-
-            if (attackHitBox.transform.localScale.x < 0)
-            {
-                attackHitBox.transform.localScale = new Vector3(-attackHitBox.transform.localScale.x,
-                    attackHitBox.transform.localScale.y, 1);
-            }
-        }
+        { xDirection = "Right"; }
         else
-        {
-            xDirection = "Left";
+        { xDirection = "Left"; }
 
-            if (attackHitBox.transform.localScale.x > 0)
-            {
-                attackHitBox.transform.localScale = new Vector3(-attackHitBox.transform.localScale.x,
-                    attackHitBox.transform.localScale.y, 1);
-            }
-        }
-
+        // Checking VERTICAL state
         if (isGrounded)
         {
             yDirection = "Grounded";
@@ -294,62 +282,32 @@ public class PlayerController : MonoBehaviour
         else
         {
             if (rigidBody.velocity.y > 0)
-            {
-                yDirection = "Up";
-                anim.SetBool("yNeutral", false);
-            }
+            { yDirection = "Up"; }
             else
-            {
-                yDirection = "Down";
-                anim.SetBool("yNeutral", false);
-            }
+            { yDirection = "Down"; }
+
+            anim.SetBool("yNeutral", false);
         }
+
+        // Flipping child objects to player to follow player's facing direction
+        Flip(attackHitBox);
 
         // Only if the game is not paused AND stop input is not false...
         if (!PauseMenu.instance.isPaused && !stopInput)
         {
-<<<<<<< Updated upstream
-            slashTimer += Time.deltaTime;
-            slashJumpTimer += Time.deltaTime;
-
-            // If we are not knocked back...
-            if (knockbackCounter <= 0)
-            {
-                // Move our Player's rigid body's x-position based on our set move speed
-
-                //if (canInput)
-                //{
-                rigidBody.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal"), rigidBody.velocity.y);
-                //}
-                //else
-                //{
-                //    rigidBody.velocity = new Vector2(0, 0);
-                //}
-
-                // Checks to see if we are on the ground with a circle overlap underneath Player and creates a bool
-                isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
-
-                ////////////////////////////////////////////////////////////////////////////////////////////////////////
-                //  CHARGING
-                //////////////////////////////////////////////////////////////////////////////////////////////////////
-                if (Input.GetKey(KeyCode.RightControl))
-                {
-                    chargingTimer += Time.deltaTime;
-=======
             // If we are not knocked back...
             if (knockbackCounter <= 0)
             {
 
                 if (!isSlashing)
                 {
-                
                     ////////////////////////////////////////////////////////////////////////////////////////////////////////
                     //      TIMERS
                     //////////////////////////////////////////////////////////////////////////////////////////////////////
                     // Running Player global TIMERS --------------------------------//
                     slashTimer += Time.deltaTime;
                     slashJumpTimer += Time.deltaTime;
-                    
+
                     // Limit for count-up
                     if (slashTimer > 20)
                     { slashTimer = 20; }
@@ -381,502 +339,173 @@ public class PlayerController : MonoBehaviour
 
                     // -----------------------------------------------------------//
 
->>>>>>> Stashed changes
 
-                    if (chargingTimer > 0.6f && !playedInitChargeSFX)
+                    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+                    //      MOVEMENT
+                    //////////////////////////////////////////////////////////////////////////////////////////////////////
+                    // Taking horizontal INPUT through GetAxis
+                    rigidBody.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal"), rigidBody.velocity.y);
+
+
+                    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+                    //      CHARGING
+                    //////////////////////////////////////////////////////////////////////////////////////////////////////
+                    if (Input.GetKey(KeyCode.RightControl))
                     {
-                        AudioManager.instance.PlaySFX_NoPitchFlux(10);
-                        playedInitChargeSFX = true;
-                        chargingShotEffect.SetActive(true);
+                        Charging();
                     }
 
-                    if (chargingTimer > 0.75f && !playedLoopedChargeSFX && !AudioManager.instance.soundEffects[10].isPlaying)
-                    {
-                        AudioManager.instance.PlaySFX_NoPitchFlux(11);
-                        playedLoopedChargeSFX = true;
-                    }
 
-                    if (chargingTimer > 0.65f)
-                    {
-                        canShootBusterLevel2 = true;
-                    }
-                    if (chargingTimer > 1.25f)
-                    {
-                        canShootBusterLevel2 = false;
-                        canShootBusterLevel3 = true;
-                    }
-                    if (chargingTimer > 1.75f)
-                    {
-                        canShootBusterLevel3 = false;
-                        canShootBusterLevel4 = true;
-                    }
-                    if (chargingTimer > 2.2f)
-                    {
-                        canShootBusterLevel4 = false;
-                        canShootBusterLevel5 = true;
-                    }
-                }
+                    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+                    //  if GROUNDED...
+                    //////////////////////////////////////////////////////////////////////////////////////////////////////
+                    // Checks to see if we are on the ground with a circle overlap underneath Player and creates a bool
+                    isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
 
-                /*if (isJumpShooting || isRunShooting || isJumpShooting)
-                {
-                    shotTimerNormal -= Time.deltaTime;
-
-                    /*if (shotTimerNormal == startShotTimerNormal || shotTimerNormal <= 0)
+                    if (isGrounded)
                     {
-                        shotTimerNormal = startShotTimerNormal;
-                        //justPressedShoot = false;
-                    }#1#
-                }*/
+                        // Reset air-dashes count
+                        airDashAvailable = startAirDashAvailable;
 
-                ////////////////////////////////////////////////////////////////////////////////////////////////////////
-                //  IF GROUNDED...
-                //////////////////////////////////////////////////////////////////////////////////////////////////////
-
-                if (isGrounded)
-                {
-                    airDashAvailable = startAirDashAvailable;
-                    isTeleporting = false;
-                    isJumpShooting = false;
-                    isJumpSlashing = false;
-                    canDoubleJump = true;
-                    canStandSlash = true;
-                    canJumpShoot = false;
-                    canJumpSlash = false;
-                    canAirDash = false;
-                    anim.SetBool("isJumpShooting", false);
-                    anim.SetBool("isJumpSlashing", false);
-                    anim.SetBool("isJumping", false);
-                    anim.SetBool("isWallJumping", false);
-
-                    if (Mathf.Abs(rigidBody.velocity.x) == 0)
-                    {
-                        isStateShooting = isStandShooting;
-                        stateFirePointRight = standFirePointRight;
-                        stateFirePointLeft = standFirePointLeft;
-                    }
-
-                    // If Player is running...
-                    if (Mathf.Abs(rigidBody.velocity.x) > 0)
-                    {
-                        isStateShooting = isRunShooting;
-                        stateFirePointRight = runFirePointRight;
-                        stateFirePointLeft = runFirePointLeft;
-                    }
-                    // Default = Player standing
-
-                    // Can only dash if not already dashing
-                    if (!isDashing)
-                    {
-                        canGroundDash = true;
-                        canStandSlash = true;
-                    }
-
-                    // Double jump ability available
-                    if (yDirection == "Grounded")
-                    {
+                        //-----------IS & IS NOT-----------//
+                        isTeleporting = false;
+                        isJumpShooting = false;
+                        isJumpSlashing = false;
                         isJumping = false;
-                    }
 
-                    ////////////////////////////////////////////////////////////////////////////////////////////////////////
-                    //  SLASHING  (Grounded)
-                    //////////////////////////////////////////////////////////////////////////////////////////////////////
 
-                    if (Input.GetKey(KeyCode.X))
-                    {
-                        if (canStandSlash && !isSlashing && slashTimer > startSlashWaitTimer)
+                        //----------CANS & CANT'S-----------//
+                        canDoubleJump = true;
+                        canStandSlash = true;
+                        canJumpShoot = false;
+                        canJumpSlash = false;
+                        canAirDash = false;
+
+                        // Can only dash if not already dashing
+                        if (!isDashing)
                         {
-                            isSlashing = true;
-                            canStandSlash = false;
-                            //canInput = false;
-                            anim.SetBool("isSlashing", true);
-                            //stopInput = true;
-                            slashTimer = 0;
-                            // Play SFX "Slash_4"
-                            AudioManager.instance.StopSFX(47);
-                            AudioManager.instance.PlaySFX(47);
-                        }
-                    }
-
-                    if (isSlashing)
-                    {
-                        slashWaitTimer -= Time.deltaTime;
-
-                        if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && slashWaitTimer <= 0)
-                        {
-                            //canInput = true;
-                            isSlashing = false;
-                            anim.SetBool("isSlashing", false);
+                            canGroundDash = true;
                             canStandSlash = true;
-                            //stopInput = false;
-                            slashWaitTimer = startSlashWaitTimer;
                         }
-                    }
 
-                    ////////////////////////////////////////////////////////////////////////////////////////////////////////
-                    //  SHOOTING  (Grounded)
-                    //////////////////////////////////////////////////////////////////////////////////////////////////////
+                        // Setting ANIMATOR parameters
+                        anim.SetBool("isJumpShooting", false);
+                        anim.SetBool("isJumpSlashing", false);
+                        anim.SetBool("isJumping", false);
+                        anim.SetBool("isTeleporting", false);
+                        anim.SetBool("isWallJumping", false);
 
-                    if (Input.GetButtonDown("Fire1"))
-                    {
-                        //AudioManager.instance.PlaySFX_NoPitchFlux(10);
 
-                        if (shotTimerNormal > 0 && canInput)
+                        //------  CHANGING SHOOT POINTS ------//
+                        //                                    //
+                        // If Player is grounded and NOT MOVING horizontally    (IDLE)
+                        if (Mathf.Abs(rigidBody.velocity.x) == 0)
                         {
-<<<<<<< Updated upstream
-                            //canJumpShoot = true;
-
-                            // If player is STANDING...
-                            if (Mathf.Abs(rigidBody.velocity.x) < 0.1f && canStandShoot && !justPressedShoot)
-                            {
-                                BusterShoot(busterShotLevel1, "isStandShooting", standFirePointRight, standFirePointLeft, isStandShooting, 13, 1);
-                                isStandShooting = true;
-                                canStandShoot = false;
-                            }
-                            else if (Mathf.Abs(rigidBody.velocity.x) > 0 && canRunShoot && !isDashShooting && !isDashing)// If player is RUNNING...
-                            {
-                                BusterShoot(busterShotLevel1, "isRunShooting", runFirePointRight, runFirePointLeft, isRunShooting, 13, 1);
-                                isRunShooting = true;
-                                canRunShoot = false;
-                            }
-                            else if (isDashing)
-                            {
-                                BusterShoot(busterShotLevel1, "isDashShooting", dashFirePointRight, dashFirePointLeft, isDashShooting, 13, 1);
-                                isDashShooting = true;
-                                canDashShoot = false;
-=======
-                            canRunShoot = false;
                             isStateShooting = isStandShooting;
                             stateFirePointRight = standFirePointRight;
                             stateFirePointLeft = standFirePointLeft;
-                            if (shotTimerNormal == startShotTimerNormal || shotTimerNormal <= 0)
-                            {
-                                canStandShoot = true;
->>>>>>> Stashed changes
-                            }
                         }
-
-                        if (isStandShooting)
+                        // If Player is grounded and MOVING horizontally        (RUNNING)
+                        if (Mathf.Abs(rigidBody.velocity.x) > 0)
                         {
-<<<<<<< Updated upstream
-                            shotTimerNormal -= Time.deltaTime;
-
-                            if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1 && shotTimerNormal <= 0)
-                            {
-                                anim.SetBool("isStandShooting", false);
-                                isStandShooting = false;
-                                canStandShoot = true;
-                                shotTimerNormal = startShotTimerNormal;
-=======
-                            canStandShoot = false;
                             isStateShooting = isRunShooting;
                             stateFirePointRight = runFirePointRight;
                             stateFirePointLeft = runFirePointLeft;
-                            if (shotTimerNormal == startShotTimerNormal || shotTimerNormal <= 0)
-                            {
-                                canRunShoot = true;
->>>>>>> Stashed changes
-                            }
                         }
-                        else if (isRunShooting)
-                        {
-                            shotTimerNormal -= Time.deltaTime;
 
-                            if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1 && shotTimerNormal <= 0)
-                            {
-                                anim.SetBool("isRunShooting", false);
-                                isRunShooting = false;
-                                canRunShoot = true;
-                                shotTimerNormal = startShotTimerNormal;
-                            }
+                        if (Input.GetButtonDown("Fire1") && Input.GetButtonDown("Jump"))
+                        {
+                            anim.SetBool("takeOffJumpShoot", true);
                         }
                     }
-<<<<<<< Updated upstream
-=======
                     else
                     ////////////////////////////////////////////////////////////////////////////////////////////////////////
                     //  if AIRBORNE...
                     //////////////////////////////////////////////////////////////////////////////////////////////////////
                     {
                         isJumping = true;
-
+                        
                         if (canDoubleJump)
                         { canAirDash = true; }
-                        else 
+                        else
                         { canAirDash = false; }
-                    } 
+                    }
                     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//>
                     // -------- END GROUNDED/AIRBORNE CHECK -----------------------------------------------------------------------//>
                     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//>
 
 
 
->>>>>>> Stashed changes
 
-                    if (Input.GetButtonDown("Fire1") && Input.GetButtonDown("Jump"))
+                    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+                    //  SHOOTING
+                    //////////////////////////////////////////////////////////////////////////////////////////////////////
+                    // If player presses "Shoot" button...
+                    if (Input.GetButtonDown("Fire1") && canInput)
                     {
-                        //if (canInput)
-                        //{
-                        //   anim.SetBool("takeOffJumpShoot", true);
-                        //}
+                        Shoot();
                     }
 
+                    // ---- if SHOOTING CHECK ------------------------------------------------------------------------
+                    isShootChecking();
+
+                    // Releasing Shoot Button
                     if (Input.GetButtonUp("Fire1"))
                     {
-                        /*if (isStateShooting || isRunShooting || isDashShooting || isJumpShooting || isWallShooting)
+                        if (isStateShooting || isRunShooting || isDashShooting || isJumpShooting || isWallShooting)
                         {
                             isRunShooting = false;
                             isStateShooting = false;
                             isDashShooting = false;
                             isJumpShooting = false;
                             isWallShooting = false;
-<<<<<<< Updated upstream
-                        }
-=======
                             anim.SetBool("takeOffJumpShoot", false);
-                        }*/
+                        }
 
->>>>>>> Stashed changes
                         BusterRelease();
                     }
+                    // ---------------- END "SHOOTING"--------------------------------------------------------------------------//
 
-                    // ---------------------------------------------------------------------------------------------------------//
-                    // ------ SPECIAL ATTACKS ---------------------------------------------------------------------------------//
-                    // -------------------------------------------------------------------------------------------------------//
 
-                    // ----------------------------------//
-                    // --- DOUBLE CYCLONE WIND ORB ------//
-                    // ----------------------------------//
-                    if (Input.GetKeyDown(KeyCode.Q) && canInput)
-                    {
-                        //AudioManager.instance.PlaySFX_NoPitchFlux(10);
-
-                        if (shotTimerLonger == startShotTimerLonger)
-                        {
-                            //canJumpShoot = true;
-                            shotTimerLongerPressed = true;
-
-                            // If player is STANDING...
-                            if (Mathf.Abs(rigidBody.velocity.x) < 0.1f && canStandShoot && !justPressedShoot)
-                            {
-                                DoubleAttackShoot(spAtkDoubleCyclone1, "isStandShooting", standFirePointRight,
-                                    standFirePointLeft, isStandShooting, 13, 1);
-                                isStandShooting = true;
-                                canStandShoot = false;
-                            }
-                            else if (Mathf.Abs(rigidBody.velocity.x) > 0 && canRunShoot) // If player is RUNNING...
-                            {
-                                DoubleAttackShoot(spAtkDoubleCyclone1, "isRunShooting", runFirePointRight, runFirePointLeft,
-                                    isRunShooting, 13, 1);
-                                isRunShooting = true;
-                                canRunShoot = false;
-                            }
-                        }
-                    }
-
-                    // ----------------------------------//
-                    // --- LIGHTNING WEB  ---------------//
-                    // ----------------------------------//
-                    if (Input.GetKeyDown(KeyCode.W) && canInput)
-                    {
-                        shotTimerLongestPressed = true;
-
-                        if (shotTimerLongest == startShotTimerLongest)
-                        {
-                            //canJumpShoot = true;
-
-                            // If player is STANDING...
-                            if (Mathf.Abs(rigidBody.velocity.x) < 0.1f && canStandShoot && !justPressedShoot)
-                            {
-                                SpecialAttackShoot(spAtkLightningWeb, "isStandShooting", standFirePointRight,
-                                    standFirePointLeft, isStandShooting, 13, 1);
-                                isStandShooting = true;
-                                canStandShoot = false;
-                            }
-                            else if (Mathf.Abs(rigidBody.velocity.x) > 0 && canRunShoot) // If player is RUNNING...
-                            {
-                                SpecialAttackShoot(spAtkLightningWeb, "isRunShooting", runFirePointRight, runFirePointLeft,
-                                    isRunShooting, 13, 1);
-                                isRunShooting = true;
-                                canRunShoot = false;
-                            }
-                        }
-                    }
-
-                    // ----------------------------------//
-                    // --- ENERGY SAWBLADE  -------------//
-                    // ----------------------------------//
-                    if (Input.GetKeyDown(KeyCode.E) && canInput)
-                    {
-                        shotTimerLongestPressed = true;
-                        thunderDancerTimer -= Time.deltaTime;
-
-                        if (shotTimerLongest == startShotTimerLongest)
-                        {
-                            //canJumpShoot = true;
-
-                            // If player is STANDING...
-                            if (Mathf.Abs(rigidBody.velocity.x) < 0.1f && canStandShoot && !justPressedShoot)
-                            {
-                                SpecialAttackShoot(spAtkEnergySawBlade, "isStandShooting", standFirePointRight,
-                                    standFirePointLeft, isStandShooting, 13, 1);
-                                isStandShooting = true;
-                                canStandShoot = false;
-                            }
-                            else if (Mathf.Abs(rigidBody.velocity.x) > 0 && canRunShoot) // If player is RUNNING...
-                            {
-                                SpecialAttackShoot(spAtkEnergySawBlade, "isRunShooting", runFirePointRight, runFirePointLeft,
-                                    isRunShooting, 13, 1);
-                                isRunShooting = true;
-                                canRunShoot = false;
-                            }
-                        }
-                    }
-
-                    // ----------------------------------//
-                    // --- THUNDER DANCER  --------------//
-                    // ----------------------------------//
-                    if (Input.GetKeyDown(KeyCode.R) && canInput)
-                    {
-                        anim.SetBool("isCharging", true);
-
-                        // If player is STANDING...
-                        if (Mathf.Abs(rigidBody.velocity.x) < 0.1f && canStandShoot && !justPressedShoot)
-                        {
-                            SpecialAttackShootCharging(spAtkThunderDancer, "isStandShooting", standFirePointRight,
-                                standFirePointLeft, isStandShooting, 13, 1);
-                            isStandShooting = true;
-                            canStandShoot = false;
-                        }
-                        else if (Mathf.Abs(rigidBody.velocity.x) > 0 && canRunShoot) // If player is RUNNING...
-                        {
-                            SpecialAttackShootCharging(spAtkThunderDancer, "isRunShooting", runFirePointRight, runFirePointLeft,
-                                isRunShooting, 13, 1);
-                            isRunShooting = true;
-                            canRunShoot = false;
-                        }
-                    }
-
-                    if (Input.GetKeyUp(KeyCode.R))
-                    {
-                        anim.SetBool("isCharging", false);
-                    }
-                }
-                else
-
-                // -------------------   (AIRBORNE)   -----------------------------------------------------------------------------------------
-                {
-                    isStateShooting = isJumpShooting;
-                    stateFirePointRight = jumpFirePointRight;
-                    stateFirePointLeft = jumpFirePointLeft;
-
-                    if (canDoubleJump)
-                    {
-                        canAirDash = true;
-                    }
-                    else
-                    {
-                        canAirDash = false;
-                    }
-
-                    //  ----- WALL JUMPING ----------------------------------------------------------------------------------
-
-                    if (xDirection == "Right")
-                    {
-                        WallCheckHit = Physics2D.Raycast(transform.position, new Vector2(wallDistance, 0), wallDistance, whatIsGround);
-                    }
-                    else
-                    {
-                        WallCheckHit = Physics2D.Raycast(transform.position, new Vector2(-wallDistance, 0),
-                                wallDistance, whatIsGround);
-                    }
-
-                    if (WallCheckHit && !isGrounded && rigidBody.velocity.x != 0)
-                    {
-                        isWallSliding = true;
-                        anim.SetBool("isWallSliding", true);
-                        jumpTime = Time.time + wallJumpTime;
-                    }
-                    else if (jumpTime < Time.time)
-                    {
-                        isWallSliding = false;
-                        anim.SetBool("isWallSliding", false);
-                        anim.SetBool("isWallJumping", false);
-                    }
-
-                    if (isWallSliding)
-                    {
-                        rigidBody.velocity = new Vector2(rigidBody.velocity.x,
-                                Mathf.Clamp(rigidBody.velocity.y, wallSlideSpeed, float.MaxValue));
-                    }
-
-                    wallJumpTimer -= Time.deltaTime;
-                    if (wallJumpTimer <= 0)
-                    {
-                        anim.SetBool("isWallJumping", false); wallJumpTimer = 0;
-                    }
 
                     ////////////////////////////////////////////////////////////////////////////////////////////////////////
-                    //  SHOOTING
+                    //      JUMPING
                     //////////////////////////////////////////////////////////////////////////////////////////////////////
-
-                    if (Input.GetButtonDown("Fire1") && canInput)
+                    // If "Jump" button is pressed...
+                    if (Input.GetButtonDown("Jump") && canInput)
                     {
-                        if (yDirection != "Grounded" && !isGrounded && shotTimerNormal > 0 && !isJumpShooting && !isJumpSlashing)
-                        {
-                            isJumpShooting = true;
-                            canJumpShoot = false;
-                            BusterShoot(busterShotLevel1, "isJumpShooting", jumpFirePointRight, jumpFirePointLeft, isJumpShooting, 13, 1);
-                        }
+                        Jump();
                     }
+                    // ---------------- END "JUMPING"--------------------------------------------------------------------------//
 
-                    if (isJumpShooting)
-                    {
-                        shotTimerNormal -= Time.deltaTime;
 
-                        if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1 && shotTimerNormal <= 0)
-                        {
-                            anim.SetBool("isJumpShooting", false);
-                            isJumpShooting = false;
-                            isStateShooting = false;
-                            canJumpShoot = true;
-                            shotTimerNormal = startShotTimerNormal;
-                        }
-                    }
 
-                    if (Input.GetButtonUp("Fire1") && canInput)
-                    {
-                        BusterRelease();
-                        anim.SetBool("takeOffJumpShoot", false);
-                    }
 
                     ////////////////////////////////////////////////////////////////////////////////////////////////////////
-                    //  JUMP-SLASHING
+                    //      DASHING
                     //////////////////////////////////////////////////////////////////////////////////////////////////////
-                    if (!isJumpShooting && !isJumpSlashing)
+                    // If player presses "Dash" button...
+                    if (Input.GetKeyDown(KeyCode.RightShift) && canInput)
                     {
-                        canJumpSlash = true;
+                        Dash();
                     }
+                    isDashChecking();
 
-                    if (Input.GetKey(KeyCode.X) && canInput)
+                    // ---------------- END "DASHING"--------------------------------------------------------------------------//
+
+
+
+                    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+                    //     SLASHING & JUMP-SLASHING
+                    //////////////////////////////////////////////////////////////////////////////////////////////////////
+                    // If player presses "Slash" button...
+                    if (Input.GetKeyDown(KeyCode.X) && canInput)
                     {
-                        if (canJumpSlash && slashJumpTimer >= startSlashJumpTimer)
-                        {
-                            if (canStandSlash && !isSlashing && slashTimer > startSlashWaitTimer)
-                            {
-                                isJumpSlashing = true;
-                                anim.SetBool("isJumpSlashing", true);
-                                canJumpSlash = false;
-                                canJumpShoot = false;
-                                slashJumpTimer = 0f;
-                                AudioManager.instance.StopSFX(47);
-                                AudioManager.instance.PlaySFX(47);
-                            }
-                        }
+                        Slash();
                     }
 
                     if (isJumpSlashing)
                     {
-                        canJumpShoot = false;
                         if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
                         {
                             isJumpSlashing = false;
@@ -886,174 +515,31 @@ public class PlayerController : MonoBehaviour
                             slashJumpWaitTimer = startSlashJumpTimer;
                         }
                     }
+                    // ---------------- END "SLASHING & JUMP-SLASHING"--------------------------------------------------------------------------//
+
+
+
+                    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+                    //     WALL-CLING
+                    //////////////////////////////////////////////////////////////////////////////////////////////////////
+                    WallCling();
+
+
+
+                    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+                    //     SPECIAL ATTACKS & INPUT
+                    //////////////////////////////////////////////////////////////////////////////////////////////////////
+                    SpecialAttackCheck();
+
+
+
+                    // Checks which way the Player is headed and FLIPS sprite accordingly
+                    if (rigidBody.velocity.x < 0)
+                    { sprite.flipX = true; }
+                    else if (rigidBody.velocity.x > 0)
+                    { sprite.flipX = false; }
+
                 }
-
-                // -------- END GROUNDED/AIRBORNE CHECK -----------------------------------------------------------------------
-
-                if (anim.GetBool("isStandShooting") == true
-                    || anim.GetBool("isRunShooting") == true)
-                {
-                    shotTimerNormal -= Time.deltaTime;
-
-                    canStandShoot = false;
-                    canRunShoot = false;
-
-                    if (shotTimerNormal == startShotTimerNormal || shotTimerNormal <= 0)
-                    {
-                        anim.SetBool("isStandShooting", false);
-                        anim.SetBool("isRunShooting", false);
-                        anim.SetBool("isJumpShooting", false);
-                        canStandShoot = true;
-                        canRunShoot = true;
-                        shotTimerNormal = startShotTimerNormal;
-                        // justPressedShoot = false;
-                    }
-                }
-
-                if (Input.GetButtonUp("Fire1") && canInput)
-                {
-                    BusterRelease();
-                }
-
-                // If "Jump" button is pressed...
-                if (Input.GetButtonDown("Jump") && canInput)
-                {
-                    Jump();
-                }
-
-                ////////////////////////////////////////////////////////////////////////////////////////////////////////
-                //  DASHING
-                //////////////////////////////////////////////////////////////////////////////////////////////////////
-
-                // If player presses "Dash" button...
-                if (Input.GetKeyDown(KeyCode.RightShift) && canInput)
-                {
-                    if (canGroundDash && dashTimer > 0 && isGrounded)
-                    {
-                        moveSpeed *= dashMultiplier;
-                        isDashing = true;
-                        canGroundDash = false;
-                        canAirDash = false;
-                        AudioManager.instance.PlaySFX_NoPitchFlux(0);
-
-                        if (xDirection == "Right")
-                        {
-                            Instantiate(groundDashDustEffect, dashDustPointRight.position, gameObject.transform.rotation);
-                            Instantiate(dashRocketBoostEffect, dashRocketPointRight.position, gameObject.transform.rotation);
-                        }
-                        else
-                        {
-                            var leftDust = Instantiate(groundDashDustEffect, dashDustPointLeft.position, gameObject.transform.rotation);
-                            leftDust.transform.localScale = new Vector3(-leftDust.transform.localScale.x,
-                                leftDust.transform.localScale.y, leftDust.transform.localScale.z);
-                            Instantiate(dashRocketBoostEffect, dashRocketPointLeft.position, gameObject.transform.rotation);
-                        }
-                    }
-                    else if (canAirDash && airDashTimer > 0 && !isGrounded && !isAirDashing && airDashAvailable > 0)
-                    {
-                        moveSpeed *= airDashMultiplier;
-                        isAirDashing = true;
-                        canAirDash = false;
-                        canGroundDash = false;
-                        anim.SetBool("isAirDashing", true);
-                        airDashAvailable--;
-                        AudioManager.instance.PlaySFX_NoPitchFlux(0);
-
-                        if (xDirection == "Right")
-                        {
-                            Instantiate(dashRocketBoostEffect, dashRocketPointRight.position,
-                                gameObject.transform.rotation);
-                        }
-                        else
-                        {
-                            Instantiate(dashRocketBoostEffect, dashRocketPointLeft.position,
-                                gameObject.transform.rotation);
-                        }
-                    }
-                }
-
-                if (isDashing)
-                {
-                    dashTimer -= Time.deltaTime;
-
-                    // If "Jump" button is pressed...
-                    if (Input.GetButtonDown("Jump") && canInput)
-                    {
-                        anim.SetBool("jumpDash", true);
-                        isJumping = true;
-
-                        // Play "Player Jump" SFX
-                        AudioManager.instance.PlaySFX_NoPitchFlux(1);
-                    }
-
-                    if (Input.GetButtonDown("Fire1") && canInput)
-                    {
-                        anim.SetBool("isDashShooting", true);
-                        isDashShooting = true;
-                    }
-
-                    // If facing the left (flipX = true)
-                    if (xDirection == "Right")
-                    {
-                        rigidBody.velocity = Vector2.right * moveSpeed;
-                    }
-                    else
-                    {
-                        rigidBody.velocity = Vector2.left * moveSpeed;
-                    }
-                }
-<<<<<<< Updated upstream
-                else if (isAirDashing)
-                {
-                    airDashTimer -= Time.deltaTime;
-
-                    // If facing the left (flipX = true)
-                    if (xDirection == "Right")
-                    {
-                        rigidBody.velocity = Vector2.right * moveSpeed;
-                        // rigidBody.velocity = Vector2.down * 0;
-                        rigidBody.position = new Vector2(transform.position.x, transform.position.y);
-                    }
-                    else
-                    {
-                        rigidBody.velocity = Vector2.left * moveSpeed;
-                        rigidBody.position = new Vector2(transform.position.x, transform.position.y);
-                        // rigidBody.velocity = Vector2.down * 0;
-                    }
-                }
-
-                if (anim.GetBool("jumpDash") == true)
-                {
-                    rigidBody.velocity = new Vector2(rigidBody.velocity.x * 1.2f, jumpForce / 1.5f);
-                }
-
-                // If we end our dash...
-                if (dashTimer <= 0)
-                {
-                    isDashing = false;
-                    moveSpeed = baseMoveSpeed;
-                    dashTimer = startDashTimer;
-                    anim.SetBool("jumpDash", false);
-                }
-
-                if (airDashTimer <= 0)
-                {
-                    isAirDashing = false;
-                    moveSpeed = baseMoveSpeed;
-                    airDashTimer = startAirDashTimer;
-                    anim.SetBool("isAirDashing", false);
-                }
-
-                // Checks which way the Player is headed and flips sprite accordingly
-                if (rigidBody.velocity.x < 0)
-                {
-                    sprite.flipX = true;
-                }
-                else if (rigidBody.velocity.x > 0)
-                {
-                    sprite.flipX = false;
-                }
-=======
                 // If player is currently SLASHING...
                 else if (isSlashing)
                 {
@@ -1073,7 +559,8 @@ public class PlayerController : MonoBehaviour
                         anim.SetBool("isSlashing", false);
                     }
                 }
-            } else // If Player is KNOCKED BACK
+            }
+            else // If Player is KNOCKED BACK
             {
                 // Continue running down the Player's knockback counter
                 knockbackCounter -= Time.deltaTime;
@@ -1127,7 +614,6 @@ public class PlayerController : MonoBehaviour
                 shotTimerLongerPressed = false;
                 //anim.SetBool("isDashShooting", false);
                 isDashShooting = false;
->>>>>>> Stashed changes
             }
             else // If Player is Knocked Back...
             {
@@ -1144,109 +630,94 @@ public class PlayerController : MonoBehaviour
                     rigidBody.velocity = new Vector2(knockbackForce, rigidBody.velocity.y);
                 }
             }
-        }
 
-        if (shotTimerQuickestPressed)
-        {
-            shotTimerQuickest -= Time.deltaTime;
-        }
-        if (shotTimerQuickerPressed)
-        {
-            shotTimerQuicker -= Time.deltaTime;
-        }
-        if (shotTimerNormalPressed)
-        {
-            shotTimerNormal -= Time.deltaTime;
-        }
-        if (shotTimerLongerPressed)
-        {
-            shotTimerLonger -= Time.deltaTime;
-        }
-        if (shotTimerLongestPressed)
-        {
-            shotTimerLongest -= Time.deltaTime;
-        }
+            // ----  SHOT TIMERS  ---------------------------====>
+            if (shotTimerQuickestPressed)
+            { shotTimerQuickest -= Time.deltaTime; }
+            if (shotTimerQuickerPressed)
+            { shotTimerQuicker -= Time.deltaTime; }
+            if (shotTimerNormalPressed)
+            { shotTimerNormal -= Time.deltaTime; }
+            if (shotTimerLongerPressed)
+            { shotTimerLonger -= Time.deltaTime; }
+            if (shotTimerLongestPressed)
+            { shotTimerLongest -= Time.deltaTime; }
 
-        if (shotTimerQuickest <= 0)
-        {
-            shotTimerQuickest = startShotTimerQuickest;
-            shotTimerQuickestPressed = false;
-            anim.SetBool("isDashShooting", false);
-            isDashShooting = false;
+            if (shotTimerQuickest <= 0)
+            {
+                shotTimerQuickest = startShotTimerQuickest;
+                shotTimerQuickestPressed = false;
+                //anim.SetBool("isDashShooting", false);
+                isDashShooting = false;
+            }
+            if (shotTimerQuicker <= 0)
+            {
+                shotTimerQuicker = startShotTimerQuicker;
+                shotTimerQuickerPressed = false;
+                //anim.SetBool("isDashShooting", false);
+                isDashShooting = false;
+            }
+            if (shotTimerNormal <= 0)
+            {
+                shotTimerNormal = startShotTimerNormal;
+                shotTimerNormalPressed = false;
+                //anim.SetBool("isDashShooting", false);
+                isDashShooting = false;
+            }
+            if (shotTimerLonger <= 0)
+            {
+                shotTimerLonger = startShotTimerLonger;
+                shotTimerLongerPressed = false;
+                //anim.SetBool("isDashShooting", false);
+                isDashShooting = false;
+            }
+            if (shotTimerLongest <= 0)
+            {
+                shotTimerLongest = startShotTimerLongest;
+                shotTimerLongestPressed = false;
+                //anim.SetBool("isDashShooting", false);
+                isDashShooting = false;
+            }
         }
-        if (shotTimerQuicker <= 0)
-        {
-            shotTimerQuicker = startShotTimerQuicker;
-            shotTimerQuickerPressed = false;
-            anim.SetBool("isDashShooting", false);
-            isDashShooting = false;
-        }
-        if (shotTimerNormal <= 0)
-        {
-            shotTimerNormal = startShotTimerNormal;
-            shotTimerNormalPressed = false;
-            anim.SetBool("isDashShooting", false);
-            isDashShooting = false;
-        }
-        if (shotTimerLonger <= 0)
-        {
-            shotTimerLonger = startShotTimerLonger;
-            shotTimerLongerPressed = false;
-            anim.SetBool("isDashShooting", false);
-            isDashShooting = false;
-        }
-        if (shotTimerLongest <= 0)
-        {
-            shotTimerLongest = startShotTimerLongest;
-            shotTimerLongestPressed = false;
-            anim.SetBool("isDashShooting", false);
-            isDashShooting = false;
-        }
+        // --------------------------------------------------------------------------------------------------------//
+        // ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~END MAIN ACTION LOOP~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~//
+        // --------------------------------------------------------------------------------------------------------//
 
-        if (Input.GetButtonUp("Fire1"))
-        {
-            anim.SetBool("isDashShooting", false);
-            isDashShooting = false;
-        }
 
-        if (shotTimerNormal <= 0)
-        {
-            canDashShoot = true;
-        }
+        // Updating the health bar to show current HP
+        healthSlider.value = PlayerHealthController.instance.currentHealth;
 
+        // --------- ANIMATOR PARAMETER UPDATE -----------------------------------------------//
+        //                                                                                   //
         // Sets parameters used by our Animator based on current Update loop's variable values
+        anim.SetFloat("jumpForce", jumpForce);
+        anim.SetFloat("velocityY", rigidBody.velocity.y);
         anim.SetFloat("velocityX", Mathf.Abs(rigidBody.velocity.x));
         anim.SetBool("isGrounded", isGrounded);
         anim.SetBool("isDashing", isDashing);
-<<<<<<< Updated upstream
-        anim.SetFloat("jumpForce", jumpForce);
-        anim.SetFloat("velocityY", rigidBody.velocity.y);
-=======
+        //anim.SetBool("isStandShooting", isStandShooting);
+        //anim.SetBool("isRunShooting", isRunShooting);
+        anim.SetBool("isDashShooting", isDashShooting);
         anim.SetBool("isJumpShooting", isJumpShooting);
         anim.SetBool("isSlashing", isSlashing);
         anim.SetBool("isJumpSlashing", isJumpSlashing);
     }
     // - - - -  END UPDATE LOOP - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ***
 
->>>>>>> Stashed changes
 
-        // Updating the health bar to show current HP
-        healthSlider.value = PlayerHealthController.instance.currentHealth;
-    }
 
+    // --------------------------------------------------------------------------------------------------------------------------------------------------->
+    // ------------ CORE ACTIONS ------------------------------------------------------------------------------------------------------------------------>
+    // ------------------------------------------------------------------------------------------------------------------------------------------------->
     public void Jump()
     {
-        canGroundDash = false;
         isJumping = true;
-<<<<<<< Updated upstream
 
-=======
         canJumpShoot = true;
         canJumpSlash = true;
         canGroundDash = false;
         canStandSlash = false;
-        
->>>>>>> Stashed changes
+
         // Changes y-position based on our current state's jump force value
         if (isWallSliding && wallJumpTimer <= 0)
         {
@@ -1291,6 +762,7 @@ public class PlayerController : MonoBehaviour
 
                 isJumping = true;
                 canDoubleJump = false;
+                canJumpSlash = true;
                 anim.SetBool("doubleJumped", true);
 
                 // Play "Player Jump" SFX
@@ -1299,8 +771,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-<<<<<<< Updated upstream
-=======
     public void Slash()
     {
         if (!isGrounded && !isJumpShooting && !isJumpSlashing)
@@ -1336,7 +806,8 @@ public class PlayerController : MonoBehaviour
         {
             slashJumpTimer = 0;
             isJumpSlashing = true;
-            
+            canJumpSlash = false;
+            canJumpShoot = false;
             anim.SetBool("isJumpSlashing", true);
 
             if (anim.GetBool("magmaBladeActive") == true)
@@ -1355,7 +826,7 @@ public class PlayerController : MonoBehaviour
                 AudioManager.instance.PlaySFX(47);
             }
         }
-    
+
     }
 
     public void WallCling()
@@ -1453,9 +924,6 @@ public class PlayerController : MonoBehaviour
                     gameObject.transform.rotation);
             }
         }
-
-
-
     }
 
     public void isDashChecking()
@@ -1526,7 +994,7 @@ public class PlayerController : MonoBehaviour
         // ----------  JUMP DASH ------------------------------------------------//
         if (anim.GetBool("jumpDash") == true)
         {
-            rigidBody.velocity = new Vector2(rigidBody.velocity.x * 1.2f, jumpForce / 1.5f);
+           rigidBody.velocity = new Vector2(rigidBody.velocity.x * 1.2f, jumpForce / 1.5f);
         }
 
 
@@ -1666,7 +1134,6 @@ public class PlayerController : MonoBehaviour
     /*public void isShootingCheck(bool isStateShooting, bool canStateShoot, string isStateShootingAnim, float timer, float startTimer)
     {
         timer -= Time.deltaTime;
-
         if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1 || timer <= 0)
         {
             anim.SetBool(isStateShootingAnim, false);
@@ -1721,67 +1188,69 @@ public class PlayerController : MonoBehaviour
     }
 
 
->>>>>>> Stashed changes
     public void BusterShoot(GameObject busterShotLevel, string animStateShooting, Transform stateFirePointRight, Transform stateFirePointLeft, bool isStateShooting, int audioSFX, int shotLevel)
     {
         isStateShooting = true;
         anim.SetBool(animStateShooting, true);
 
+        // Creates bullets and faces/scales them according to the Player
+        // If Player is facing RIGHT...
         if (xDirection == "Right")
         {
             var newBusterShot = Instantiate(busterShotLevel, stateFirePointRight.position, stateFirePointRight.rotation);
-            newBusterShot.transform.localScale = new Vector3(-instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
+            newBusterShot.transform.localScale = new Vector3(-instance.transform.localScale.x * 11f,
+                instance.transform.localScale.y * 11f, instance.transform.localScale.z);
             newBusterShot.gameObject.tag = "ShotLevel_" + shotLevel.ToString();
         }
-        else // if xDirection == "Left"
+        else // if facing LEFT...
         {
             var newBusterShot = Instantiate(busterShotLevel, stateFirePointLeft.position, stateFirePointLeft.rotation);
-            newBusterShot.transform.localScale = new Vector3(instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
+            newBusterShot.transform.localScale = new Vector3(instance.transform.localScale.x * 11f,
+                instance.transform.localScale.y * 11f, instance.transform.localScale.z);
             newBusterShot.gameObject.tag = "ShotLevel_" + shotLevel.ToString();
         }
         AudioManager.instance.PlaySFX(audioSFX);
     }
 
+
     public void BusterRelease()
     {
-        //If Player is airborne
+        //If Player is AIRBORNE
         if (isJumping || isJumpShooting || !isGrounded)
         {
             isJumpShooting = true;
             animStateShooting = "isJumpShooting";
         }
-        // If Player is running...
+        // if Player is RUNNING...
         else if (Mathf.Abs(rigidBody.velocity.x) > 0)
         {
             isRunShooting = true;
             animStateShooting = "isRunShooting";
         }
-        // Default = Player standing
+        // Default = Player STANDING
         else
         {
             isStandShooting = true;
             animStateShooting = "isStandShooting";
         }
 
+        // Releasing shot based on charge level
         if (canShootBusterLevel2)
         {
             BusterShoot(busterShotLevel2, animStateShooting, stateFirePointRight, stateFirePointLeft, isStateShooting, 13, 2);
             canShootBusterLevel2 = false;
         }
-        else
-        if (canShootBusterLevel3)
+        else if (canShootBusterLevel3)
         {
             BusterShoot(busterShotLevel3, animStateShooting, stateFirePointRight, stateFirePointLeft, isStateShooting, 13, 3);
             canShootBusterLevel3 = false;
         }
-        else
-        if (canShootBusterLevel4)
+        else if (canShootBusterLevel4)
         {
             BusterShoot(busterShotLevel4, animStateShooting, stateFirePointRight, stateFirePointLeft, isStateShooting, 20, 4);
             canShootBusterLevel4 = false;
         }
-        else
-        if (canShootBusterLevel5)
+        else if (canShootBusterLevel5)
         {
             BusterShoot(busterShotLevel5, animStateShooting, stateFirePointRight, stateFirePointLeft, isStateShooting, 20, 5);
             canShootBusterLevel5 = false;
@@ -1789,81 +1258,173 @@ public class PlayerController : MonoBehaviour
 
         chargingTimer = 0;
         chargingShotEffect.SetActive(false);
+
+        // SFX handling
         playedInitChargeSFX = false;
         playedLoopedChargeSFX = false;
         AudioManager.instance.StopSFX(10);
         AudioManager.instance.StopSFX(11);
     }
 
-    public void SpecialAttackShoot(GameObject specialAttack, string animStateShooting, Transform stateFirePointRight, Transform stateFirePointLeft, bool isStateShooting, int audioSFX, int shotLevel)
+
+
+    // --------------------------------------------------------------------------------------------------------------------------------------------------->
+    // ------------ SPECIAL ATTACKS --------------------------------------------------------------------------------------------------------------------->
+    // ------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    public void SpecialAttackCheck()
+    {
+        // ---  KEY = "1" ---------//
+        if (Input.GetKeyDown(KeyCode.Alpha1) && canInput)
+        {
+            // ---- DOUBLE CYCLONE ---------//
+            SpecialAttack(spAtkDoubleCyclone, 10, 1, false, "Double_Opposite", 1f, 1f, true);
+        }
+
+
+        // ---  KEY = "2" ---------//
+        if (Input.GetKeyDown(KeyCode.Alpha2) && canInput)
+        {
+            // ---- LIGHTNING WEB ---------//
+            SpecialAttack(spAtkLightningWeb, 10, 1, false, "Straight_Shot", 2f, 2f, true);
+        }
+
+
+        // ---  KEY = "3" ---------//
+        if (Input.GetKeyDown(KeyCode.Alpha3) && canInput)
+        {
+            // ---- THUNDER DANCER ---------//
+            anim.SetBool("isCharging", true);
+            SpecialAttack(spAtkThunderDancer, 10, 1, true, "Persistent_Attack", 2f, 2f, true);
+        }
+        if (Input.GetKeyUp(KeyCode.Alpha3))
+        {
+            anim.SetBool("isCharging", false);
+        }
+
+
+        // ---  KEY = "4" ---------//
+        if (Input.GetKeyDown(KeyCode.Alpha4) && canInput)
+        {
+            // ---- ENERGY SAW-BLADE ---------//
+            SpecialAttack(spAtkEnergySawBlade, 10, 1, false, "Follow_Center", 3f, 3f, true);
+        }
+
+
+        // ---  KEY = "M" ---------//
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            // ---- MAGMA BLADE ---------//
+            magmaBladeActive = !magmaBladeActive;
+
+            if (magmaBladeActive)
+            { anim.SetBool("magmaBladeActive", true); }
+            else
+            { anim.SetBool("magmaBladeActive", false); }
+        }
+
+    }
+
+
+    public void SpecialAttack(GameObject specialAttack, int SFX, int shotLevel, bool isChargeable,
+        string shotType, float timer, float startTimer, bool timerPressed)
+    {
+        AudioManager.instance.PlaySFX_NoPitchFlux(SFX);
+
+        if (timer == startTimer)
+        {
+            //canJumpShoot = true;
+            timerPressed = true;
+
+            if (shotType == "Slash_Shot")
+            {
+                SpecialAttackShoot(specialAttack, "isSlashing", standFirePointRight,
+                    standFirePointLeft, isStandShooting, SFX, shotLevel, isChargeable, shotType);
+                isSlashing = true;
+                canStandSlash = false;
+                canStandShoot = false;
+            }
+            else
+            {
+                // If player is STANDING...
+                if (Mathf.Abs(rigidBody.velocity.x) < 0.1f && canStandShoot && !justPressedShoot)
+                {
+                    SpecialAttackShoot(specialAttack, "isStandShooting", standFirePointRight,
+                        standFirePointLeft, isStandShooting, SFX, shotLevel, isChargeable, shotType);
+                    isStandShooting = true;
+                    canStandShoot = false;
+                }
+                else if (Mathf.Abs(rigidBody.velocity.x) > 0 && canRunShoot) // If player is RUNNING...
+                {
+                    SpecialAttackShoot(specialAttack, "isRunShooting", runFirePointRight,
+                        runFirePointLeft, isRunShooting, SFX, shotLevel, isChargeable, shotType);
+                    isRunShooting = true;
+                    canRunShoot = false;
+                }
+            }
+        }
+    }
+
+
+    public void SpecialAttackShoot(GameObject specialAttack, string animStateShooting, Transform stateFirePointRight, Transform stateFirePointLeft,
+        bool isStateShooting, int audioSFX, int shotLevel, bool isChargeable, string shotType)
     {
         isStateShooting = true;
         anim.SetBool(animStateShooting, true);
+        GameObject newSpecialShot;
+        AudioManager.instance.PlaySFX(audioSFX);
 
+        // Creates special shots and faces/scales them according to the Player
+        // If Player is facing RIGHT...
         if (xDirection == "Right")
         {
-            var newSpecialShot = Instantiate(specialAttack, stateFirePointRight.position, stateFirePointRight.rotation);
-            newSpecialShot.transform.localScale = new Vector3(instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
-            newSpecialShot.gameObject.tag = "SpecialShot";
+            newSpecialShot = Instantiate(specialAttack, stateFirePointRight.position, stateFirePointRight.rotation);
+            newSpecialShot.transform.localScale = new Vector3(instance.transform.localScale.x * 11f,
+                instance.transform.localScale.y * 11f, instance.transform.localScale.z);
 
-            //var newBurstEffect = Instantiate(newSpecialShot., gameObject.transform.position, gameObject.transform.rotation);
+            if (shotType == "Double_Opposite")
+            {
+                var newSpecialShotLeft = Instantiate(specialAttack, stateFirePointLeft.position, stateFirePointLeft.rotation);
+                newSpecialShotLeft.transform.localScale = new Vector3(-instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
+            }
         }
-        else // if xDirection == "Left"
+        else // if facing LEFT...
         {
-            var newSpecialShot = Instantiate(specialAttack, stateFirePointLeft.position, stateFirePointLeft.rotation);
+            newSpecialShot = Instantiate(specialAttack, stateFirePointLeft.position, stateFirePointLeft.rotation);
             newSpecialShot.transform.localScale = new Vector3(instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
-            newSpecialShot.gameObject.tag = "SpecialShot";
+
+            if (shotType == "Double_Opposite")
+            {
+                var newSpecialShotRight = Instantiate(specialAttack, stateFirePointRight.position, stateFirePointRight.rotation);
+                newSpecialShotRight.transform.localScale = new Vector3(-instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
+            }
         }
-        AudioManager.instance.PlaySFX(audioSFX);
+
+        if (isChargeable)
+        { newSpecialShot.gameObject.tag = "SpecialShotCharging"; }
+        else
+        { newSpecialShot.gameObject.tag = "SpecialShot"; }
     }
 
-    public void SpecialAttackShootCharging(GameObject specialAttack, string animStateShooting, Transform stateFirePointRight, Transform stateFirePointLeft, bool isStateShooting, int audioSFX, int shotLevel)
+
+
+    // --------------------------------------------------------------------------------------------------------------------------------------------------->
+    // ------------ OTHER FUNCTIONS --------------------------------------------------------------------------------------------------------------------->
+    // ------------------------------------------------------------------------------------------------------------------------------------------------->
+    public void Flip(GameObject obj)
     {
-        isStateShooting = true;
-        anim.SetBool(animStateShooting, true);
-
         if (xDirection == "Right")
         {
-            var newSpecialShot = Instantiate(specialAttack, stateFirePointRight.position, stateFirePointRight.rotation);
-            newSpecialShot.transform.localScale = new Vector3(instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
-            newSpecialShot.gameObject.tag = "SpecialShotCharging";
+            if (obj.transform.localScale.x < 0)
+            { obj.transform.localScale = new Vector3(-obj.transform.localScale.x, obj.transform.localScale.y, 1); }
         }
-        else // if xDirection == "Left"
+        else if (xDirection == "Left")
         {
-            var newSpecialShot = Instantiate(specialAttack, stateFirePointLeft.position, stateFirePointLeft.rotation);
-            newSpecialShot.transform.localScale = new Vector3(instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
-            newSpecialShot.gameObject.tag = "SpecialShotCharging";
+            if (obj.transform.localScale.x > 0)
+            { obj.transform.localScale = new Vector3(-obj.transform.localScale.x, obj.transform.localScale.y, 1); }
         }
-        AudioManager.instance.PlaySFX(audioSFX);
     }
 
-    public void DoubleAttackShoot(GameObject specialAttack, string animStateShooting, Transform stateFirePointRight, Transform stateFirePointLeft, bool isStateShooting, int audioSFX, int shotLevel)
-    {
-        isStateShooting = true;
-        anim.SetBool(animStateShooting, true);
-
-        if (xDirection == "Right")
-        {
-            var newSpecialShotRight = Instantiate(specialAttack, stateFirePointRight.position, stateFirePointRight.rotation);
-            newSpecialShotRight.transform.localScale = new Vector3(instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
-            newSpecialShotRight.gameObject.tag = "SpecialShot";
-
-            var newSpecialShotLeft = Instantiate(specialAttack, stateFirePointLeft.position, stateFirePointLeft.rotation);
-            newSpecialShotLeft.transform.localScale = new Vector3(-instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
-            newSpecialShotLeft.gameObject.tag = "SpecialShot";
-        }
-        else // if xDirection == "Left"
-        {
-            var newSpecialShotRight = Instantiate(specialAttack, stateFirePointRight.position, stateFirePointRight.rotation);
-            newSpecialShotRight.transform.localScale = new Vector3(-instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
-            newSpecialShotRight.gameObject.tag = "SpecialShot";
-
-            var newSpecialShotLeft = Instantiate(specialAttack, stateFirePointLeft.position, stateFirePointLeft.rotation);
-            newSpecialShotLeft.transform.localScale = new Vector3(instance.transform.localScale.x * 11f, instance.transform.localScale.y * 11f, instance.transform.localScale.z);
-            newSpecialShotLeft.gameObject.tag = "SpecialShot";
-        }
-        AudioManager.instance.PlaySFX(audioSFX);
-    }
 
     public void Knockback()
     {
@@ -1878,6 +1439,7 @@ public class PlayerController : MonoBehaviour
         //anim.SetTrigger("isHurt");
     }
 
+
     public void Bounce()
     {
         // Bounces the Player up with our predefined bounce force
@@ -1887,6 +1449,11 @@ public class PlayerController : MonoBehaviour
         AudioManager.instance.PlaySFX(10);
     }
 
+
+
+    // --------------------------------------------------------------------------------------------------------------------------------------------------->
+    // ------------ COLLISION TRIGGERS ------------------------------------------------------------------------------------------------------------------>
+    // ------------------------------------------------------------------------------------------------------------------------------------------------->
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "EnemyAttack")
