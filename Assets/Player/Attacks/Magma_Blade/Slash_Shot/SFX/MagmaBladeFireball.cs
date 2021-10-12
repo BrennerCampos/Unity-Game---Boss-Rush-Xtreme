@@ -8,13 +8,13 @@ public class MagmaBladeFireball : AllAttacks
     public GameObject attackBurstEffect;
     public float speed;
 
-    private SpriteRenderer attackSprite;
+    private SpriteRenderer shotSprite;
 
 
     public override void Start()
     {
 
-        attackSprite = GetComponent<SpriteRenderer>();
+        shotSprite = GetComponent<SpriteRenderer>();
 
 
         // Instantiate(attackBurstEffect, gameObject.transform.position, gameObject.transform.rotation);
@@ -22,18 +22,32 @@ public class MagmaBladeFireball : AllAttacks
         // If Player is facing towards the right
         if (PlayerController.instance.xDirection == "Right")
         {
-            //burstEffect.transform.position = gameObject.transform.position;
-            attackDirection = "Right";
-            attackSprite.flipX = false;
+            if (!PlayerController.instance.isWallSlashing)
+            {
+                //burstEffect.transform.position = gameObject.transform.position;
+                attackDirection = "Right";
+                shotSprite.flipX = false;
+            }
+            else
+            {
+                attackDirection = "Left";
+                shotSprite.flipX = true;
+            }
         }
         else
         {
-            // burstEffect.transform.position = gameObject.transform.position;
-            attackDirection = "Left";
-            attackSprite.flipX = true;
+            if (!PlayerController.instance.isWallSlashing)
+            {
+                //burstEffect.transform.position = gameObject.transform.position;
+                attackDirection = "Left";
+                shotSprite.flipX = true;
+            }
+            else
+            {
+                attackDirection = "Right";
+                shotSprite.flipX = false;
+            }
         }
-
-
     }
 
     // Update is called once per frame

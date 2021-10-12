@@ -17,6 +17,8 @@ public abstract class AllAttacks : MonoBehaviour
     protected string attackDirection;
     protected float attackCooldown;
 
+    private SpriteRenderer attackSprite;
+
     protected enum damageTag
     {
         Water,
@@ -36,16 +38,38 @@ public abstract class AllAttacks : MonoBehaviour
         }
 
 
+        attackSprite = GetComponent<SpriteRenderer>();
+
+        // Instantiate(attackBurstEffect, gameObject.transform.position, gameObject.transform.rotation);
+
         // If Player is facing towards the right
         if (PlayerController.instance.xDirection == "Right")
         {
-            //burstEffect.transform.position = gameObject.transform.position;
-            attackDirection = "Right";
+            if (!PlayerController.instance.isWallShooting)
+            {
+                //burstEffect.transform.position = gameObject.transform.position;
+                attackDirection = "Right";
+                attackSprite.flipX = false;
+            }
+            else
+            {
+                attackDirection = "Left";
+                attackSprite.flipX = true;
+            }
         }
         else
         {
-            // burstEffect.transform.position = gameObject.transform.position;
-            attackDirection = "Left";
+            if (!PlayerController.instance.isWallShooting)
+            {
+                //burstEffect.transform.position = gameObject.transform.position;
+                attackDirection = "Left";
+                attackSprite.flipX = true;
+            }
+            else
+            {
+                attackDirection = "Right";
+                attackSprite.flipX = false;
+            }
         }
     }
 

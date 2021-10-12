@@ -184,12 +184,12 @@ TextureImporter:
       name: SS_Magma_Blade_Slash_Wall_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 5
         y: 7
         width: 30
         height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.42053604, y: 0.5036734}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,7 +210,7 @@ TextureImporter:
         width: 37
         height: 59
       alignment: 9
-      pivot: {x: 0.405, y: 0.5}
+      pivot: {x: 0.5033363, y: 0.5036734}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: SS_Magma_Blade_Slash_Wall_2
       rect:
         serializedVersion: 2
-        x: 95
+        x: 94
         y: 6
         width: 92
         height: 61
       alignment: 9
-      pivot: {x: 0.16655399, y: 0.48658928}
+      pivot: {x: 0.80940115, y: 0.49937996}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: SS_Magma_Blade_Slash_Wall_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 196
         y: 7
         width: 94
         height: 61
       alignment: 9
-      pivot: {x: 0.16277021, y: 0.49664727}
+      pivot: {x: 0.81518066, y: 0.5017634}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,12 +268,12 @@ TextureImporter:
       name: SS_Magma_Blade_Slash_Wall_4
       rect:
         serializedVersion: 2
-        x: 295
+        x: 297
         y: 7
         width: 94
         height: 61
       alignment: 9
-      pivot: {x: 0.16277005, y: 0.49329457}
+      pivot: {x: 0.815181, y: 0.500969}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -289,12 +289,12 @@ TextureImporter:
       name: SS_Magma_Blade_Slash_Wall_5
       rect:
         serializedVersion: 2
-        x: 395
+        x: 397
         y: 7
         width: 79
         height: 61
       alignment: 9
-      pivot: {x: 0.19452445, y: 0.49329457}
+      pivot: {x: 0.78118396, y: 0.49841082}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -310,12 +310,12 @@ TextureImporter:
       name: SS_Magma_Blade_Slash_Wall_6
       rect:
         serializedVersion: 2
-        x: 479
+        x: 486
         y: 7
         width: 49
         height: 61
       alignment: 9
-      pivot: {x: 0.31218112, y: 0.49329457}
+      pivot: {x: 0.6465678, y: 0.4984107}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -331,12 +331,12 @@ TextureImporter:
       name: SS_Magma_Blade_Slash_Wall_7
       rect:
         serializedVersion: 2
-        x: 539
+        x: 541
         y: 7
         width: 36
         height: 60
       alignment: 9
-      pivot: {x: 0.43182883, y: 0.49999994}
+      pivot: {x: 0.52719116, y: 0.49999982}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -357,7 +357,7 @@ TextureImporter:
         width: 37
         height: 59
       alignment: 9
-      pivot: {x: 0.42814347, y: 0.49999994}
+      pivot: {x: 0.5757562, y: 0.49999988}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

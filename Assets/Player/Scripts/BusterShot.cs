@@ -26,15 +26,32 @@ public class BusterShot : MonoBehaviour
         // If Player is facing towards the right
         if (PlayerController.instance.xDirection == "Right")
         {
-            //burstEffect.transform.position = gameObject.transform.position;
-            shotDirection = "Right";
-            shotSprite.flipX = true;
+            if (!PlayerController.instance.isWallShooting)
+            {
+                //burstEffect.transform.position = gameObject.transform.position;
+                shotDirection = "Right";
+                shotSprite.flipX = true;
+            }
+            else
+            {
+                shotDirection = "Left";
+                shotSprite.flipX = true;
+            }
+            
         }
         else
         {
-           // burstEffect.transform.position = gameObject.transform.position;
-            shotDirection = "Left";
-            shotSprite.flipX = true;
+            if (!PlayerController.instance.isWallShooting)
+            {
+                // burstEffect.transform.position = gameObject.transform.position;
+                shotDirection = "Left";
+                shotSprite.flipX = true;
+            }
+            else
+            {
+                shotDirection = "Right";
+                shotSprite.flipX = true;
+            }
         }
 
     }

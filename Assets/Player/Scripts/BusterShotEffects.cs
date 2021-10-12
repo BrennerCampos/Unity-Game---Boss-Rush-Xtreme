@@ -15,16 +15,30 @@ public class BusterShotEffects : MonoBehaviour
         // If Player is facing towards the right
         if (PlayerController.instance.xDirection == "Right")
         {
-            shotDirection = "Right";
-            transform.localScale = new Vector3(11, 11, 1);
-
+            if (!PlayerController.instance.isWallSliding)
+            {
+                shotDirection = "Right";
+                transform.localScale = new Vector3(11, 11, 1);
+            }
+            else
+            {
+                shotDirection = "Left";
+                transform.localScale = new Vector3(-11, 11, 1);
+            }
         }
         else
         {
-            shotDirection = "Left";
-            transform.localScale = new Vector3(-11, 11, 1);
+            if (!PlayerController.instance.isWallSliding)
+            {
+                shotDirection = "Left";
+                transform.localScale = new Vector3(-11, 11, 1);
+            }
+            else
+            {
+                shotDirection = "Right";
+                transform.localScale = new Vector3(11, 11, 1);
+            }
         }
-
     }
 
     // Update is called once per frame
@@ -33,7 +47,11 @@ public class BusterShotEffects : MonoBehaviour
         // Follows the Player according to different shooting states and their firing points
         if (shotDirection == "Right")
         {
-            if (PlayerController.instance.isJumpShooting)
+            if (PlayerController.instance.isWallShooting)
+            {
+                transform.position = PlayerController.instance.wallFirePointRight.position;
+            }
+            else if (PlayerController.instance.isJumpShooting)
             {
                 transform.position = PlayerController.instance.jumpFirePointRight.position;
             } 
@@ -46,9 +64,13 @@ public class BusterShotEffects : MonoBehaviour
                 transform.position = PlayerController.instance.standFirePointRight.position;
             }
         }
-        else // if (shotDirection == "Left")
+        else if (shotDirection == "Left")
         {
-            if (PlayerController.instance.isJumpShooting)
+            if (PlayerController.instance.isWallShooting)
+            {
+                transform.position = PlayerController.instance.wallFirePointLeft.position;
+            }
+            else if (PlayerController.instance.isJumpShooting)
             {
                 transform.position = PlayerController.instance.jumpFirePointLeft.position;
             }

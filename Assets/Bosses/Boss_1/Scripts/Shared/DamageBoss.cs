@@ -81,7 +81,9 @@ public class DamageBoss : MonoBehaviour
         if (other.tag == "Wall")
         {
             //Instantiate(shotHitEffect, gameObject.transform.position, gameObject.transform.rotation);
-            Destroy(gameObject);
+            
+            DeactivateHitBox();
+            //Destroy(gameObject);
         }
 
         if (other.tag == "Enemy")
