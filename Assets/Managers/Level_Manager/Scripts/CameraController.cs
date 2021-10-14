@@ -10,7 +10,7 @@ public class CameraController : MonoBehaviour
     public static CameraController instance;
     public CameraShake cameraShake;
     public Transform farBackground, middleBackground, target;
-    public float minHeight, maxHeight;
+    public float minHeight, maxHeight, minWidth, maxWidth;
     public bool stopFollow, shakeIt;
 
     private Vector2 lastPos;
@@ -37,7 +37,8 @@ public class CameraController : MonoBehaviour
         if (stopFollow == false)
         {
             // Setting a 'clamp' on our screen/camera on our y axis
-            transform.position = new Vector3(target.position.x, Mathf.Clamp(target.position.y, minHeight, maxHeight),
+            transform.position = new Vector3(Mathf.Clamp(target.position.x, minWidth, maxWidth),
+                Mathf.Clamp(target.position.y, minHeight, maxHeight),
                 transform.position.z);
 
             // Setting up movement constant based on our current and last positions

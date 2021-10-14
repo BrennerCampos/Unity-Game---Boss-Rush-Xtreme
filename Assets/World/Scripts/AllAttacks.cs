@@ -13,11 +13,13 @@ public abstract class AllAttacks : MonoBehaviour
     public GameObject HitEffect, BurstEffect;
     protected Vector2 force;
     public int shootSFX, hitSFX;
-    public float timeToLive, startAttackCooldown;
+    public float timeToLive, startAttackCooldown, initHitBoxStartTime, initHitBoxTime;
     protected string attackDirection;
     protected float attackCooldown;
 
     private SpriteRenderer attackSprite;
+    private Transform hitBox;
+    
 
     protected enum damageTag
     {
@@ -29,6 +31,10 @@ public abstract class AllAttacks : MonoBehaviour
 
     public virtual void Start()
     {
+
+        hitBox = transform.Find("HitBox");
+        initHitBoxTime = initHitBoxStartTime;
+
         // Play 'Bullet Shot' Sound
         AudioManager.instance.PlaySFX(shootSFX);
 
@@ -75,7 +81,7 @@ public abstract class AllAttacks : MonoBehaviour
 
     public virtual void Update()
     {
-
+        initHitBoxTime -= Time.deltaTime;
     }
 
 
@@ -87,7 +93,7 @@ public abstract class AllAttacks : MonoBehaviour
     public virtual void OnTriggerEnter2D(Collider2D other)
     {
         // Destroy bullets upon hitting a 'Ground' tile (Not working)
-        if (other.tag == "Wall")
+        if (other.tag == "Wall" && initHitBoxTime <= 0)
         {
             Instantiate(HitEffect, gameObject.transform.position, gameObject.transform.rotation);
             Destroy(gameObject);

@@ -11,19 +11,72 @@ public class DoubleCycloneWindOrb : AllAttacks
     public float projectileSpeed;
     private Vector3 direction;
     private Vector3 velocity;
+    private Transform hitBox;
+    //private GameObject hitBox;
+
+    private SpriteRenderer attackSprite;
 
 
-
-    public void SetForce(Vector2 force)
+    public override void Start()
     {
-        this.force = force;
-        GetComponent<Rigidbody2D>().AddForce(force, ForceMode2D.Impulse);
-        direction = force.normalized;
+        transform.Find("HitBox").gameObject.SetActive(false);
+        initHitBoxTime = initHitBoxStartTime;
+
+        // Play 'Bullet Shot' Sound
+        AudioManager.instance.PlaySFX(shootSFX);
+
+        if (BurstEffect != null)
+        {
+            Instantiate(BurstEffect, gameObject.transform.position, gameObject.transform.rotation);
+        }
+
+        attackSprite = GetComponent<SpriteRenderer>();
+
+        // Instantiate(attackBurstEffect, gameObject.transform.position, gameObject.transform.rotation);
+
+        // If Player is facing towards the right
+        if (PlayerController.instance.xDirection == "Right")
+        {
+            if (!PlayerController.instance.isWallShooting)
+            {
+                //burstEffect.transform.position = gameObject.transform.position;
+                attackDirection = "Right";
+                attackSprite.flipX = false;
+            }
+            else
+            {
+                attackDirection = "Left";
+                attackSprite.flipX = true;
+            }
+        }
+        else
+        {
+            if (!PlayerController.instance.isWallShooting)
+            {
+                //burstEffect.transform.position = gameObject.transform.position;
+                attackDirection = "Left";
+                attackSprite.flipX = true;
+            }
+            else
+            {
+                attackDirection = "Right";
+                attackSprite.flipX = false;
+            }
+        }
     }
+
+    
 
     // Update is called once per frame
     public override void Update()
     {
+        initHitBoxTime -= Time.deltaTime;
+
+        if (initHitBoxTime <= 0)
+        {
+            transform.Find("HitBox").gameObject.SetActive(false);
+        }
+        
         /*SetForce(force);
         velocity += direction * projectileSpeed * Time.deltaTime;
         transform.position += velocity * Time.deltaTime;*/
@@ -49,7 +102,12 @@ public class DoubleCycloneWindOrb : AllAttacks
         }
     }
 
-    
+    public void SetForce(Vector2 force)
+    {
+        this.force = force;
+        GetComponent<Rigidbody2D>().AddForce(force, ForceMode2D.Impulse);
+        direction = force.normalized;
+    }
 
-    
+
 }

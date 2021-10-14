@@ -53,8 +53,9 @@ public class ThunderDancer : AllAttacks
     public override void Update()
         {
             timeToLive -= Time.deltaTime;
-            
-            if (Input.GetKey(KeyCode.R))
+            initHitBoxTime -= Time.deltaTime;
+
+        if (Input.GetKey(KeyCode.R))
             {
                 PlayerController.instance.thunderDancerTimer -= Time.deltaTime;
             }
@@ -86,8 +87,7 @@ public class ThunderDancer : AllAttacks
                 playerAnim.SetBool("isCharging", false);
                 Destroy(gameObject);
             }
-
-    }
+        }
 
         /*private void OnTriggerEnter2D(Collider2D other)
         {

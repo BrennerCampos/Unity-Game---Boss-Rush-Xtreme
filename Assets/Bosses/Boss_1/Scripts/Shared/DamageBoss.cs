@@ -78,10 +78,10 @@ public class DamageBoss : MonoBehaviour
     {
 
         // Destroy bullets upon hitting a 'Ground' tile (Not working)
-        if (other.tag == "Wall")
+        if (other.tag == "Wall" && gameObject.name != "Attack Hit Box")
         {
             //Instantiate(shotHitEffect, gameObject.transform.position, gameObject.transform.rotation);
-            
+            Debug.Log("not attack hit box");
             DeactivateHitBox();
             //Destroy(gameObject);
         }
@@ -92,7 +92,7 @@ public class DamageBoss : MonoBehaviour
             // enemySprite = other.GetComponent<SpriteRenderer>();
             //shotEffect.transform.localScale = new Vector3(11, 11, 1);
 
-            // @TODO change this to check for specific boss tag before dealing damage?
+
             DinoRexBoss.instance.currentHealth -= attackDamage;
             
             

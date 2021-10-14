@@ -121,7 +121,7 @@ MonoBehaviour:
   shotHitEffect: {fileID: 5345991979598976555, guid: bb31a0f258e17e7419400e5f32abeaf5, type: 3}
   shotBurstEffect: {fileID: 6808479491389758679, guid: 6c7904163a6add847aa311abc7f7fc93, type: 3}
   speed: 4.2
-  timeToLive: 0.327
+  timeToLive: 0.38
 --- !u!70 &5807702440268302138
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

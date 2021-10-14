@@ -63,8 +63,23 @@ public class EnergySawBlade : AllAttacks
         }
     }
 
-    /*private void OnTriggerEnter2D(Collider2D other)
+    public override void OnTriggerEnter2D(Collider2D other)
     {
-        
-    }*/
+        // Destroy bullets upon hitting a 'Ground' tile (Not working)
+        if (other.tag == "Wall")
+        {
+            
+        }
+
+        if (other.tag == "Enemy")
+        {
+            var shotEffect = Instantiate(HitEffect, gameObject.transform.position, gameObject.transform.rotation);
+            // enemySprite = other.GetComponent<SpriteRenderer>();
+            shotEffect.transform.localScale = new Vector3(11, 11, 1);
+            AudioManager.instance.PlaySFX(hitSFX);
+
+            //Destroy(other);
+            Destroy(gameObject);
+        }
+    }
 }

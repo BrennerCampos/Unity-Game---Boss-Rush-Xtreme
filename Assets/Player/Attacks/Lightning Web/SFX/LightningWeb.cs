@@ -13,7 +13,7 @@ public class LightningWeb : AllAttacks
 
     public override void Start()
     {
-
+        initHitBoxTime = initHitBoxStartTime;
         attackSprite = GetComponent<SpriteRenderer>();
 
         // Instantiate(attackBurstEffect, gameObject.transform.position, gameObject.transform.rotation);
@@ -53,6 +53,7 @@ public class LightningWeb : AllAttacks
     public override void Update()
     {
         premovementTimer -= Time.deltaTime;
+        initHitBoxTime -= Time.deltaTime;
 
         if (premovementTimer <= 0)
         {
@@ -88,7 +89,7 @@ public class LightningWeb : AllAttacks
     public override void OnTriggerEnter2D(Collider2D other)
     {
         // Destroy bullets upon hitting a 'Ground' tile (Not working)
-        if (other.tag == "Wall")
+        if (other.tag == "Wall" && initHitBoxTime <= 0)
         {
             Instantiate(HitEffect, gameObject.transform.position, gameObject.transform.rotation);
             Destroy(gameObject);
