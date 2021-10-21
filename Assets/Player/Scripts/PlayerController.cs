@@ -696,14 +696,11 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("velocityX", Mathf.Abs(rigidBody.velocity.x));
         anim.SetBool("isGrounded", isGrounded);
         anim.SetBool("isDashing", isDashing);
-        //anim.SetBool("isStandShooting", isStandShooting);
-        //anim.SetBool("isRunShooting", isRunShooting);
         anim.SetBool("isDashShooting", isDashShooting);
         anim.SetBool("isWallShooting", isWallShooting);
         anim.SetBool("isJumpShooting", isJumpShooting);
         anim.SetBool("isSlashing", isSlashing);
         anim.SetBool("isJumpSlashing", isJumpSlashing);
-        //anim.SetBool("isWallSlashing", isWallSlashing);
     }
     // - - - -  END UPDATE LOOP - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ***
 
