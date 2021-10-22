@@ -9,7 +9,7 @@ public class CameraController : MonoBehaviour
 {
     public static CameraController instance;
     public CameraShake cameraShake;
-    public Transform farBackground, middleBackground, target;
+    public Transform farBackground_1, farBackground_2, middleBackground, target;
     public float minHeight, maxHeight, minWidth, maxWidth;
     public bool stopFollow, shakeIt;
 
@@ -45,11 +45,20 @@ public class CameraController : MonoBehaviour
             Vector2 amountToMove = new Vector2(transform.position.x - lastPos.x, transform.position.y - lastPos.y);
 
             // Adding on to the far background position with 'amountToMove' position values
-            farBackground.position += new Vector3(amountToMove.x, amountToMove.y, 0f);
+            farBackground_1.position += new Vector3(amountToMove.x, amountToMove.y, 0f);
 
+            if (farBackground_2 != null)
+            {
+                farBackground_2.position += new Vector3(amountToMove.x, amountToMove.y, 0f);
+            }
+            
             // Adding on to the middle background position with 'amountToMove' position values
-            // (Half the distance of which we moved the farBackground (static following) to create parallax effect
-            middleBackground.position += new Vector3(amountToMove.x, amountToMove.y, 0f) * 0.5f;
+            // (Half the distance of which we moved the farBackground_1 (static following) to create parallax effect
+            if (middleBackground != null)
+            {
+                middleBackground.position += new Vector3(amountToMove.x, amountToMove.y, 0f) * 0.5f;
+            }
+            
 
             // Lastly, update our position to use as our last position for next iteration
             lastPos = transform.position;

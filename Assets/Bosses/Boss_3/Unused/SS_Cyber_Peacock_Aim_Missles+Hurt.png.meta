@@ -1,0 +1,1140 @@
+fileFormatVersion: 2
+guid: c72fa05452656d2419e2dff7343e7060
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4568226852982007783
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_0
+  - first:
+      213: -1368859836875655240
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_1
+  - first:
+      213: 1560649653990009388
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_2
+  - first:
+      213: 1848523764970905289
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_3
+  - first:
+      213: 1782594414310755148
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_4
+  - first:
+      213: 6159451685344573840
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_5
+  - first:
+      213: 7481582227805810243
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_6
+  - first:
+      213: 8982261658898910771
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_7
+  - first:
+      213: 272001423773422379
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_8
+  - first:
+      213: -878400100578392082
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_9
+  - first:
+      213: -4139844557588934280
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_10
+  - first:
+      213: 6306447594265955198
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_11
+  - first:
+      213: -7857963407257554393
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_12
+  - first:
+      213: -6993897518302353942
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_13
+  - first:
+      213: -2669945720809573570
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_14
+  - first:
+      213: 2499724691775605303
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_15
+  - first:
+      213: 7528511046681785166
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_16
+  - first:
+      213: 8928538648422453347
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_17
+  - first:
+      213: -839949854870496373
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_18
+  - first:
+      213: 4186656257218870441
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_19
+  - first:
+      213: 4812301703245404296
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_20
+  - first:
+      213: 1694811610316290198
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_21
+  - first:
+      213: 2047063559503698686
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_22
+  - first:
+      213: -2344062220320804875
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_23
+  - first:
+      213: 2757580342754510605
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_24
+  - first:
+      213: 590313055589958053
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_25
+  - first:
+      213: 8104207497108012193
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_26
+  - first:
+      213: 3794747545023233252
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_27
+  - first:
+      213: 2552731130032467646
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_28
+  - first:
+      213: -77573224213299606
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_29
+  - first:
+      213: 4205140737681737343
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_30
+  - first:
+      213: -7418756164267836094
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_31
+  - first:
+      213: 7070300958161207676
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_32
+  - first:
+      213: -4741642459960425573
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_33
+  - first:
+      213: -9092187206847092865
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_34
+  - first:
+      213: -4314489064675723977
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_35
+  - first:
+      213: 8412796682978114767
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_43
+  - first:
+      213: -4919358361262214100
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_44
+  - first:
+      213: 7046347681211145992
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_36
+  - first:
+      213: -1381441527988112582
+    second: SS_Cyber_Peacock_Aim_Missles+Hurt_37
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 221
+        width: 107
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7a4698e1a956f30800000000000000
+      internalID: 4568226852982007783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 218
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b73abb1b35d00de0800000000000000
+      internalID: -1368859836875655240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 221
+        width: 71
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a29e4779a88a510800000000000000
+      internalID: 1560649653990009388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_3
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 220
+        width: 52
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce55f1029647a910800000000000000
+      internalID: 1848523764970905289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_4
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 220
+        width: 52
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b869bdc2c0db810800000000000000
+      internalID: 1782594414310755148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_5
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 217
+        width: 77
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099f4247ca4ca7550800000000000000
+      internalID: 6159451685344573840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_6
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 217
+        width: 91
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ead36a56be3d760800000000000000
+      internalID: 7481582227805810243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_7
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 217
+        width: 91
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ec742836767ac70800000000000000
+      internalID: 8982261658898910771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_8
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 217
+        width: 91
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b235a629ad756c300800000000000000
+      internalID: 272001423773422379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_9
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 217
+        width: 77
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee78b5233cb4fc3f0800000000000000
+      internalID: -878400100578392082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_10
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 226
+        width: 90
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871d3970f415c86c0800000000000000
+      internalID: -4139844557588934280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_11
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 226
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bc6da8ca0058750800000000000000
+      internalID: 6306447594265955198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_12
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 226
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72235641ae7e2f290800000000000000
+      internalID: -7857963407257554393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_13
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 226
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae52a1a234fa0fe90800000000000000
+      internalID: -6993897518302353942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_14
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 226
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33329d438272fad0800000000000000
+      internalID: -2669945720809573570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_15
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 8
+        width: 104
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ace81fc5ec0b220800000000000000
+      internalID: 2499724691775605303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e437211c8e4aa7860800000000000000
+      internalID: 7528511046681785166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_17
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 8
+        width: 104
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3601196689a88eb70800000000000000
+      internalID: 8928538648422453347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_18
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 112
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b9d47ae06e754f0800000000000000
+      internalID: -839949854870496373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_19
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 8
+        width: 104
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac72302fadf91a30800000000000000
+      internalID: 4186656257218870441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_20
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 112
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88813f507eab8c240800000000000000
+      internalID: 4812301703245404296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_21
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 8
+        width: 104
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6983c1a1e2e258710800000000000000
+      internalID: 1694811610316290198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_22
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 112
+        width: 102
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa5dd82671a86c10800000000000000
+      internalID: 2047063559503698686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_23
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 8
+        width: 104
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff6d5a74d7387fd0800000000000000
+      internalID: -2344062220320804875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_24
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 112
+        width: 104
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d078b7126b4e44620800000000000000
+      internalID: 2757580342754510605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_25
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 112
+        width: 104
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a107b0b896313800800000000000000
+      internalID: 590313055589958053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_26
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 9
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac3e2bd7cde77070800000000000000
+      internalID: 8104207497108012193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_27
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 10
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec356969c6a9a430800000000000000
+      internalID: 3794747545023233252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_28
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 112
+        width: 104
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebeaaa4107f1d6320800000000000000
+      internalID: 2552731130032467646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_29
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 12
+        width: 62
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e3fa640976ceef0800000000000000
+      internalID: -77573224213299606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_30
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 112
+        width: 104
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f764b0c9839ab5a30800000000000000
+      internalID: 4205140737681737343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_31
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 9
+        width: 64
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d739923984b0990800000000000000
+      internalID: -7418756164267836094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_32
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 112
+        width: 104
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c718d4ae241ce1260800000000000000
+      internalID: 7070300958161207676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_33
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 112
+        width: 102
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9346221e4d423eb0800000000000000
+      internalID: -4741642459960425573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_34
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 112
+        width: 102
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77278868ef02d180800000000000000
+      internalID: -9092187206847092865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_35
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 7
+        width: 62
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73532b80e0bdf14c0800000000000000
+      internalID: -4314489064675723977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_43
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 12
+        width: 63
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccbe70a20240c470800000000000000
+      internalID: 8412796682978114767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_44
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 7
+        width: 62
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c243e1262adeabbb0800000000000000
+      internalID: -4919358361262214100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_36
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 7
+        width: 63
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fdc7602e7a9c160800000000000000
+      internalID: 7046347681211145992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Aim_Missles+Hurt_37
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 9
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33bb4edf3224dce0800000000000000
+      internalID: -1381441527988112582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

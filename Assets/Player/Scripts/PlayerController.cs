@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rigidBody;
     public Slider healthSlider;
     public LayerMask whatIsGround;
+    public LayerMask whatIsWall;
     public Vector3 startPosition;
     private SpriteRenderer sprite;
     private Animator anim;
@@ -872,12 +873,12 @@ public class PlayerController : MonoBehaviour
         if (xDirection == "Right")
         {
             WallCheckHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + 1.2f), new Vector2(wallDistance, 0),
-                wallDistance, whatIsGround);
+                wallDistance, whatIsWall);
         }
         else
         {
             WallCheckHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + 1.2f), new Vector2(-wallDistance, 0),
-                wallDistance, whatIsGround);
+                wallDistance, whatIsWall);
         }
 
         if (WallCheckHit)
