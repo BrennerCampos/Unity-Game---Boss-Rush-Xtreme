@@ -33,6 +33,12 @@ public class DinoRexBoss : MonoBehaviour
     private UnityEngine.Object explosionReference;
 
 
+    public RaycastHit2D WallCheckHit, GroundCheckHit;
+    public LayerMask whatIsWall;
+    public float wallDistance, groundDistance, attackTimer, startAttackTimer;
+    public bool isWallClinging, canWallDash;
+
+
     private void Awake()
     {
         instance = this;
@@ -44,7 +50,7 @@ public class DinoRexBoss : MonoBehaviour
         // Creating our necessary components for an enemy, Rigidbody and Animator
         //spriteRenderer = GetComponent<SpriteRenderer>();
         rigidbody = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
+        anim = GetComponentInChildren<Animator>();
         sprite = GetComponentInChildren<SpriteRenderer>();
         hittableEnemy = GetComponentInChildren<HittableEnemy>();
 
@@ -139,6 +145,80 @@ public class DinoRexBoss : MonoBehaviour
         {
             xDirection = "Right";
         }
+
+        if (anim.GetBool("isFireDashing"))
+        {
+
+            if (xDirection == "Left")
+            {
+                var scale = transform.localScale;
+                scale.x = -1;
+                transform.localScale = scale;
+            }
+            else
+            {
+                var scale = transform.localScale;
+                scale.x = 1;
+                transform.localScale = scale;
+            }
+            
+        }
+
+
+        // --- GROUND CHECK -------------------------------------------------------------------------------------------------//
+
+        GroundCheckHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), new Vector2(0, -groundDistance),
+            groundDistance, whatIsGround);
+        Debug.DrawRay(transform.position, new Vector2(0 , -groundDistance), Color.blue);
+
+
+        if (GroundCheckHit)
+        {
+            anim.SetTrigger("isGrounded");
+        }
+        else
+        {
+            anim.ResetTrigger("isGrounded");
+        }
+
+        // --- WALL CHECK -------------------------------------------------------------------------------------------------//
+
+        if (xDirection == "Right")
+        {
+            WallCheckHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), new Vector2(wallDistance, 0),
+                wallDistance, whatIsWall);
+            Debug.DrawRay(transform.position, new Vector2(wallDistance, 0), Color.blue);
+        }
+        else
+        {
+            WallCheckHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), new Vector2(-wallDistance, 0),
+                wallDistance, whatIsWall);
+            Debug.DrawRay(transform.position, new Vector2(-wallDistance, 0), Color.blue);
+            
+        }
+
+        if (WallCheckHit)
+        {
+            anim.SetTrigger("isWallTouching");
+        }
+        else
+        {
+            anim.ResetTrigger("isWallTouching");
+        }
+        
+
+        /*if (WallCheckHit && !isGrounded && rigidbody.velocity.x != 0)
+        {
+            isWallClinging = true;
+            anim.SetBool("isWallClinging", true);
+
+
+            if (attackTimer == startAttackTimer)
+            {
+                canWallDash = true;
+            }
+        }*/
+
 
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
 

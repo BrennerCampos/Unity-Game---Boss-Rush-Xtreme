@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using BehaviorDesigner.Runtime.Tasks;
+using BehaviorDesigner.Runtime.Tasks.Unity.UnityCharacterController;
 using BehaviorDesigner.Runtime.Tasks.Unity.UnityGameObject;
 using DG.Tweening;
 using Thinksquirrel.CShake;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 namespace  Core.AI
 {
@@ -25,7 +27,7 @@ namespace  Core.AI
         public string animationTriggerName;
         public bool shakeCameraOnLanding;
 
-        private bool hasLanded;
+        private bool isGrounded, hasLanded;
 
         private Tween buildupTween;
         private Tween jumpTween;
@@ -43,6 +45,13 @@ namespace  Core.AI
             var direction = PlayerController.instance.transform.position.x < transform.position.x ? -1 : 1;
             body.AddForce(new Vector2(horizontalForce * direction, jumpForce), ForceMode2D.Impulse);
             AudioManager.instance.PlaySFX(40);
+
+            isGrounded = animator.GetBool("isGrounded");
+
+            if (isGrounded)
+            {
+               // Debug.Log("Dino Rex is Grounded");
+            }
 
             jumpTween = DOVirtual.DelayedCall(jumpTime, () =>
             {

@@ -1,0 +1,516 @@
+fileFormatVersion: 2
+guid: fa5e0939e5af4304eb235b0405a878c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5881753361971069817
+    second: SS_Cyber_Peacock_Ground_Burst_0
+  - first:
+      213: 4142508774612899251
+    second: SS_Cyber_Peacock_Ground_Burst_1
+  - first:
+      213: -2986030040722853226
+    second: SS_Cyber_Peacock_Ground_Burst_2
+  - first:
+      213: -6326829258122898308
+    second: SS_Cyber_Peacock_Ground_Burst_3
+  - first:
+      213: -1074011288989135203
+    second: SS_Cyber_Peacock_Ground_Burst_4
+  - first:
+      213: 4102795693698539966
+    second: SS_Cyber_Peacock_Ground_Burst_5
+  - first:
+      213: -2846240373857094810
+    second: SS_Cyber_Peacock_Ground_Burst_6
+  - first:
+      213: 256773245728994085
+    second: SS_Cyber_Peacock_Ground_Burst_7
+  - first:
+      213: 266317696182854735
+    second: SS_Cyber_Peacock_Ground_Burst_8
+  - first:
+      213: -5919608335262466881
+    second: SS_Cyber_Peacock_Ground_Burst_9
+  - first:
+      213: -5615928313223487695
+    second: SS_Cyber_Peacock_Ground_Burst_10
+  - first:
+      213: -8780954077463496508
+    second: SS_Cyber_Peacock_Ground_Burst_12
+  - first:
+      213: 3033703947939982485
+    second: SS_Cyber_Peacock_Ground_Burst_13
+  - first:
+      213: 739068736854293976
+    second: SS_Cyber_Peacock_Ground_Burst_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Ground_Burst_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 141
+        width: 88
+        height: 100
+      alignment: 9
+      pivot: {x: 0.38519204, y: 0.5586327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c314bea70df5ea0800000000000000
+      internalID: -5881753361971069817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Ground_Burst_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 141
+        width: 88
+        height: 101
+      alignment: 9
+      pivot: {x: 0.37766665, y: 0.54304475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b59db558c52d7930800000000000000
+      internalID: 4142508774612899251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Ground_Burst_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 141
+        width: 88
+        height: 101
+      alignment: 9
+      pivot: {x: 0.37060893, y: 0.52562195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692b116af7d7f86d0800000000000000
+      internalID: -2986030040722853226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Ground_Burst_3
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 144
+        width: 111
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5122142, y: 0.6381771}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74590b8f469238a0800000000000000
+      internalID: -6326829258122898308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Ground_Burst_4
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 143
+        width: 107
+        height: 73
+      alignment: 9
+      pivot: {x: 0.4981926, y: 0.6949925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e0b0b4c685811f0800000000000000
+      internalID: -1074011288989135203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Ground_Burst_5
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 143
+        width: 108
+        height: 74
+      alignment: 9
+      pivot: {x: 0.49363878, y: 0.68562937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb167e422fe00f830800000000000000
+      internalID: 4102795693698539966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Ground_Burst_6
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 143
+        width: 108
+        height: 74
+      alignment: 9
+      pivot: {x: 0.49344718, y: 0.6861298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6637fd2c57f1088d0800000000000000
+      internalID: -2846240373857094810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Ground_Burst_7
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 143
+        width: 150
+        height: 87
+      alignment: 9
+      pivot: {x: 0.4815735, y: 0.58342296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523308318ed309300800000000000000
+      internalID: 256773245728994085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Ground_Burst_8
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 143
+        width: 222
+        height: 125
+      alignment: 9
+      pivot: {x: 0.4874405, y: 0.4060221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44216e988622b300800000000000000
+      internalID: 266317696182854735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Ground_Burst_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 6
+        width: 222
+        height: 125
+      alignment: 9
+      pivot: {x: 0.4874405, y: 0.4060221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc3d3f159359dda0800000000000000
+      internalID: -5919608335262466881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Ground_Burst_10
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 6
+        width: 222
+        height: 125
+      alignment: 9
+      pivot: {x: 0.4874405, y: 0.4060221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f514e14f63012b0800000000000000
+      internalID: -5615928313223487695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Ground_Burst_12
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 6
+        width: 222
+        height: 125
+      alignment: 9
+      pivot: {x: 0.4874405, y: 0.4060221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c835cf3ac8c32680800000000000000
+      internalID: -8780954077463496508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Ground_Burst_13
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 6
+        width: 222
+        height: 125
+      alignment: 9
+      pivot: {x: 0.4874405, y: 0.4060221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ca9aadaa1e91a20800000000000000
+      internalID: 3033703947939982485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Ground_Burst_11
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 6
+        width: 222
+        height: 125
+      alignment: 9
+      pivot: {x: 0.4874405, y: 0.4060221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddfbc4b913b14a00800000000000000
+      internalID: 739068736854293976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

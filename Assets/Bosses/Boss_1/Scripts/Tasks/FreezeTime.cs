@@ -12,7 +12,7 @@ public class FreezeTime : EnemyAction
 
     public override TaskStatus OnUpdate()
     {
-      //  LevelManager.instance.FreezeTime(Duration.Value);
+        //LevelManager.Instance.FreezeTime(Duration.Value);
         return TaskStatus.Success;
     }
 
