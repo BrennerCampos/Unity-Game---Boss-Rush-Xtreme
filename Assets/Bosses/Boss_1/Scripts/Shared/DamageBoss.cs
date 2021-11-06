@@ -10,17 +10,26 @@ public class DamageBoss : MonoBehaviour
     public SpriteRenderer dinoRexSprite;
     public HittableEnemy hittableEnemy;
     public DinoRexBoss dinoRex;
+    public BlizzardWolfgangBoss blizzardWolfgang;
+    //public CyberPeacockBoss cyberPeacock;
+   // public CrescentGrizzlyBoss crescentGrizzly;
 
     // Start is called before the first frame update
     void Start()
     {
         //enemySprite = dinoRex.GetComponent<SpriteRenderer>();
-        dinoRex = FindObjectOfType<DinoRexBoss>();
         
+
+        dinoRex = FindObjectOfType<DinoRexBoss>();
+        blizzardWolfgang = FindObjectOfType<BlizzardWolfgangBoss>();
+        //cyberPeacock = FindObjectOfType<CyberPeacockBoss>();
+        //crescentGrizzly = FindObjectOfType<CrescentGrizzlyBoss>();
+
+
         //dinoRexSprite = dinoRex.GetComponentInChildren<SpriteRenderer>();
         //hittableEnemy = dinoRex.GetComponentInChildren<HittableEnemy>();
 
-       // materialTimer = startMaterialTimer;
+        // materialTimer = startMaterialTimer;
 
 
     }
@@ -93,9 +102,25 @@ public class DamageBoss : MonoBehaviour
             //shotEffect.transform.localScale = new Vector3(11, 11, 1);
 
 
-            DinoRexBoss.instance.currentHealth -= attackDamage;
-            
-            
+            if (FindObjectOfType<DinoRexBoss>() != null)
+            {
+                DinoRexBoss.instance.currentHealth -= attackDamage;
+            }
+            else if (FindObjectOfType<BlizzardWolfgangBoss>() != null)
+            {
+                BlizzardWolfgangBoss.instance.currentHealth -= attackDamage;
+            }
+            /*else if (FindObjectOfType<CyberPeacockBoss>() != null)
+            {
+                CyberPeacockBoss.instance.currentHealth -= attackDamage;
+            }
+            else if (FindObjectOfType<CrescentGrizzlyBoss>() != null)
+            {
+                CrescentGrizzlyBoss.instance.currentHealth -= attackDamage;
+            }*/
+
+
+
             AudioManager.instance.PlaySFX(19);
 
             //Destroy(other);
