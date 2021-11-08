@@ -75207,7 +75207,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069353443}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.38, y: -11.23, z: 0}
+  m_LocalPosition: {x: 2.98, y: -11.281, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 350151842}
@@ -75253,33 +75253,33 @@ MonoBehaviour:
       parentIndex: 
       startIndex: 
       variableStartIndex: 
-      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(569.971558,813.588745)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(-0.02844429,123.588745)"},"ID":1,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-3.76647949,143.588623)"},"ID":2,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-540.7665,146.588623)","Comment":"HEALTH
-        CHECK\nSTAGE SWITCHER"},"ID":3,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"Core.AI.isHealthUnder","NodeData":{"Offset":"(-311.766479,172.588623)"},"ID":4,"Name":"Is
-        Health Under","Instant":true,"SharedIntHealthThreshold":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0}},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-101.766479,169.588623)"},"ID":5,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(-213.766479,161.588623)"},"ID":6,"Name":"Face
-        Player","Instant":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(161.233521,159.588623)"},"ID":7,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}}]},{"Type":"GoToNextStage","NodeData":{"Offset":"(109.233521,174.588623)"},"ID":8,"Name":"Go
-        To Next Stage","Instant":true,"SharedIntCurrentStage":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(587.2335,146.588623)"},"ID":9,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"Children":[{"Type":"StageBasedSelector","NodeData":{"Offset":"(0.233520508,114.588623)"},"ID":10,"Name":"Stage
-        Based Selector","Instant":true,"SharedIntCurrentStage":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"List`1IncludedTasksPerStage":["0","1","2"],"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(-183.766479,167.588623)","Comment":"STAGE
-        1"},"ID":11,"Name":"Random Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-304.766479,152.588623)"},"ID":12,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Log","NodeData":{"Offset":"(-191.766479,127.588623)","Comment":"ATTACK
-        1"},"ID":13,"Name":"Log","Instant":true,"SharedStringtext":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""},"SharedBoollogError":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoollogTime":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"FacePlayer","NodeData":{"Offset":"(-37.76648,127.588623)"},"ID":14,"Name":"Face
-        Player","Instant":true}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(315.233521,161.588623)"},"ID":15,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Log","NodeData":{"Offset":"(-219.999878,120)","Comment":"ATTACK
-        2"},"ID":16,"Name":"Log","Instant":true,"SharedStringtext":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""},"SharedBoollogError":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoollogTime":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"FacePlayer","NodeData":{"Offset":"(-89.99988,120)"},"ID":17,"Name":"Face
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(569.971558,813.588745)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(-0.02844429,123.588745)"},"ID":1,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-3.76647949,143.588623)"},"ID":2,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-630.052368,128.731476)","Comment":"HEALTH
+        CHECK\nSTAGE SWITCHER"},"ID":3,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"Core.AI.isHealthUnder","NodeData":{"Offset":"(-222.480743,172.588623)"},"ID":4,"Name":"Is
+        Health Under","Instant":true,"SharedIntHealthThreshold":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":66}},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-12.480732,169.588623)"},"ID":5,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(-106.6236,179.44577)"},"ID":6,"Name":"Face
+        Player","Instant":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(107.662079,177.44577)"},"ID":7,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}}]},{"Type":"GoToNextStage","NodeData":{"Offset":"(198.519257,174.588623)"},"ID":8,"Name":"Go
+        To Next Stage","Instant":true,"SharedIntCurrentStage":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"CurrentStage","IsShared":true,"Int32mValue":0}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(587.2335,146.588623)"},"ID":9,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"Children":[{"Type":"StageBasedSelector","NodeData":{"Offset":"(0.233520508,114.588623)"},"ID":10,"Name":"Stage
+        Based Selector","Instant":true,"SharedIntCurrentStage":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"CurrentStage","IsShared":true,"Int32mValue":0},"List`1IncludedTasksPerStage":["0","1","2"],"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(-183.766479,167.588623)","Comment":"STAGE
+        1"},"ID":11,"Name":"Random Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-304.766479,152.588623)","Comment":"ATTACK
+        1"},"ID":12,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(-277.766479,127.588623)"},"ID":13,"Name":"Face
+        Player","Instant":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(-139.476013,134.255)"},"ID":14,"Name":"Set
+        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":0},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"isCrouching"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(0.5239868,130.255)"},"ID":15,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BlizzardWolfChase","NodeData":{"Offset":"(162.971558,127.882858)"},"ID":16,"Name":"Blizzard
+        Wolf Chase","Instant":true,"GameObjectmainCamera":1,"SinglehorizontalForce":3,"SingleverticalForce":0,"SinglebuildupTime":0.2,"SinglejumpTime":0,"StringanimationTriggerName":"isRunning"}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(315.233521,161.588623)","Comment":"ATTACK
+        2"},"ID":17,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(0.000122070313,120)"},"ID":18,"Name":"Face
         Player","Instant":true}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(740,550)","Comment":"STAGE
-        2"},"ID":18,"Name":"Random Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1230,120)"},"ID":19,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Log","NodeData":{"Offset":"(-180,130)","Comment":"ATTACK
-        1"},"ID":20,"Name":"Log","Instant":true,"SharedStringtext":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""},"SharedBoollogError":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoollogTime":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"FacePlayer","NodeData":{"Offset":"(-40,130)"},"ID":21,"Name":"Face
-        Player","Instant":true}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-609.9999,140)"},"ID":22,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Log","NodeData":{"Offset":"(-220,120)","Comment":"ATTACK
-        2"},"ID":23,"Name":"Log","Instant":true,"SharedStringtext":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""},"SharedBoollogError":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoollogTime":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"FacePlayer","NodeData":{"Offset":"(-89.99988,120)"},"ID":24,"Name":"Face
+        2"},"ID":19,"Name":"Random Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1230,120)"},"ID":20,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(-40,130)"},"ID":21,"Name":"Face
+        Player","Instant":true}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-609.9999,140)"},"ID":22,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(-89.99988,120)"},"ID":23,"Name":"Face
         Player","Instant":true}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(1227.38135,942.143066)","Comment":"STAGE
-        2"},"ID":25,"Name":"Random Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1726.90625,119.285645)"},"ID":26,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Log","NodeData":{"Offset":"(-176.905273,129.285645)","Comment":"ATTACK
-        1"},"ID":27,"Name":"Log","Instant":true,"SharedStringtext":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""},"SharedBoollogError":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoollogTime":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"FacePlayer","NodeData":{"Offset":"(-36.9053955,129.285645)"},"ID":28,"Name":"Face
-        Player","Instant":true}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1095.00134,115.47612)"},"ID":29,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Log","NodeData":{"Offset":"(-216.905273,119.285645)","Comment":"ATTACK
-        2"},"ID":30,"Name":"Log","Instant":true,"SharedStringtext":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""},"SharedBoollogError":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoollogTime":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"FacePlayer","NodeData":{"Offset":"(-86.90527,119.285645)"},"ID":31,"Name":"Face
+        2"},"ID":24,"Name":"Random Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1726.90625,119.285645)"},"ID":25,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(-36.9053955,129.285645)"},"ID":26,"Name":"Face
+        Player","Instant":true}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1095.00134,115.47612)"},"ID":27,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(-86.90527,119.285645)"},"ID":28,"Name":"Face
         Player","Instant":true}]}]}]}]}]}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"CurrentStage","IsShared":true,"Int32mValue":0},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"WallTouching","IsShared":true,"BooleanmValue":false},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"GroundTouching","IsShared":true,"BooleanmValue":false}]}'
       fieldSerializationData:
         typeName: []
         fieldNameHash: 
         startIndex: 
         dataPosition: 
-        unityObjects: []
+        unityObjects:
+        - {fileID: 350151841}
+        - {fileID: 519420028}
         byteData: 
         byteDataArray: 
       Version: 1.7.1
@@ -75319,7 +75319,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.008382559, y: 0.12096548}
+  m_Offset: {x: 0.008382559, y: 0.16937447}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -75330,7 +75330,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.830753, y: 3.8178568}
+  m_Size: {x: 4.830753, y: 3.7210388}
   m_EdgeRadius: 0
 --- !u!114 &2069353448
 MonoBehaviour:
@@ -75345,11 +75345,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 350151844}
-  GroundWindEffect: {fileID: 0}
-  GroundDustEffect: {fileID: 0}
-  FlameBreath: {fileID: 0}
-  MagmaBurstUltra: {fileID: 0}
   Explosion1: {fileID: 6154760663890048081, guid: 08abc98580d653c4da613506d2459a51, type: 3}
+  IcicleShard: {fileID: 0}
+  SpikeIceShard: {fileID: 0}
   BlizzardWolfgangDeathEffect: {fileID: 8940304844373925428, guid: 2691f8c4fa9f7e84aafa298836ad5501, type: 3}
   hittableEnemy: {fileID: 1936710598}
   bossCollision: {fileID: 88522157}
@@ -76718,11 +76716,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1455109749409323226, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.08
+      value: -5.09
       objectReference: {fileID: 0}
     - target: {fileID: 1455109749409323226, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.59
+      value: -12.571
       objectReference: {fileID: 0}
     - target: {fileID: 1455109749409323226, guid: 1fb02fe2a753be5408857ddfa62aa657, type: 3}
       propertyPath: m_LocalPosition.z

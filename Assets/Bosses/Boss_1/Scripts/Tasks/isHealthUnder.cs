@@ -10,11 +10,31 @@ namespace Core.AI
         public SharedInt HealthThreshold;
 
 
-        public override TaskStatus OnUpdate()
+        public override void OnStart()
         {
-            return dinoRexBoss.currentHealth < HealthThreshold.Value ? TaskStatus.Success : TaskStatus.Failure;
+
         }
 
+        public override TaskStatus OnUpdate()
+        {
+            
+            if (blizzardWolfgangBoss != null)
+            {
+                return blizzardWolfgangBoss.currentHealth < HealthThreshold.Value ? TaskStatus.Success : TaskStatus.Failure;
+            }
+            else if (cyberPeacockBoss != null)
+            {
+                return cyberPeacockBoss.currentHealth < HealthThreshold.Value ? TaskStatus.Success : TaskStatus.Failure;
+            }
+            else if (crescentGrizzlyBoss != null)
+            {
+                return crescentGrizzlyBoss.currentHealth < HealthThreshold.Value ? TaskStatus.Success : TaskStatus.Failure;
+            }
+            else // (dinoRexBoss != null)
+            {
+                return dinoRexBoss.currentHealth < HealthThreshold.Value ? TaskStatus.Success : TaskStatus.Failure;
+            }
+        }
     }
 }
 

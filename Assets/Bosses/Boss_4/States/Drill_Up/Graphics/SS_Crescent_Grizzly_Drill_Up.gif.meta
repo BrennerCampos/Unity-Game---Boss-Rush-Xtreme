@@ -193,12 +193,12 @@ TextureImporter:
       name: SS_Crescent_Grizzly_Drill_Up_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 7
+        x: 13
+        y: 8
         width: 14
         height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.45286682, y: 3.9436707}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,12 +214,12 @@ TextureImporter:
       name: SS_Crescent_Grizzly_Drill_Up_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 7
+        x: 41
+        y: 8
         width: 22
         height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4703513, y: 2.253003}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -235,12 +235,12 @@ TextureImporter:
       name: SS_Crescent_Grizzly_Drill_Up_2
       rect:
         serializedVersion: 2
-        x: 62
-        y: 7
+        x: 77
+        y: 8
         width: 28
         height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.37031856, y: 1.7513709}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: SS_Crescent_Grizzly_Drill_Up_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 7
+        x: 116
+        y: 8
         width: 35
         height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.38258886, y: 1.4305362}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -277,12 +277,12 @@ TextureImporter:
       name: SS_Crescent_Grizzly_Drill_Up_4
       rect:
         serializedVersion: 2
-        x: 136
-        y: 7
+        x: 162
+        y: 8
         width: 35
         height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.38247028, y: 1.4308116}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -298,12 +298,12 @@ TextureImporter:
       name: SS_Crescent_Grizzly_Drill_Up_5
       rect:
         serializedVersion: 2
-        x: 169
+        x: 212
         y: 8
         width: 51
         height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.51633227, y: 1.123823}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: SS_Crescent_Grizzly_Drill_Up_6
       rect:
         serializedVersion: 2
-        x: 215
+        x: 269
         y: 8
         width: 88
         height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7540817, y: 0.4630148}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -340,12 +340,12 @@ TextureImporter:
       name: SS_Crescent_Grizzly_Drill_Up_7
       rect:
         serializedVersion: 2
-        x: 305
+        x: 379
         y: 9
         width: 88
         height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7540817, y: 0.4630148}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -361,12 +361,12 @@ TextureImporter:
       name: SS_Crescent_Grizzly_Drill_Up_8
       rect:
         serializedVersion: 2
-        x: 398
-        y: 10
+        x: 492
+        y: 9
         width: 88
         height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.7540817, y: 0.4630148}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

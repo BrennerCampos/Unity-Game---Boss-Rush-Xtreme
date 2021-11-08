@@ -9,9 +9,12 @@ using UnityEngine.UI;
 public class BlizzardWolfgangBoss : MonoBehaviour
 {
 
+    [Header("Referenced GameObjects")]
     public static BlizzardWolfgangBoss instance;
     public SpriteRenderer sprite;
-    public GameObject GroundWindEffect, GroundDustEffect, FlameBreath, MagmaBurstUltra, Explosion1;
+    public GameObject Explosion1;
+    public GameObject IcicleShard;
+    public GameObject SpikeIceShard;
     public GameObject BlizzardWolfgangDeathEffect;
     public HittableEnemy hittableEnemy;
     public BossCollision bossCollision;
@@ -19,6 +22,7 @@ public class BlizzardWolfgangBoss : MonoBehaviour
     public Transform groundCheckPoint;
     public Slider currentHealthSlider;
     public LayerMask whatIsGround;
+
     public float moveSpeed, moveTime, waitTime;
     public float startMaterialTimer, materialTimer, materialFlashTimer, startMaterialFlashTimer;
     public int currentHealth, health;
@@ -37,7 +41,6 @@ public class BlizzardWolfgangBoss : MonoBehaviour
     public LayerMask whatIsWall;
     public float wallDistance, groundDistance, attackTimer, startAttackTimer;
     public bool isWallClinging, canWallDash;
-
 
     private void Awake()
     {

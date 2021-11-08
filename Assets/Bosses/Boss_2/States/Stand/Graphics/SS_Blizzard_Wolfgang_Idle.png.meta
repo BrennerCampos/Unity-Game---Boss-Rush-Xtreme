@@ -179,11 +179,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5
-        y: 6
+        y: 4
         width: 90
-        height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 75
+      alignment: 9
+      pivot: {x: 0.6357655, y: 0.5049468}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -199,12 +199,12 @@ TextureImporter:
       name: SS_Blizzard_Wolfgang_Idle_1
       rect:
         serializedVersion: 2
-        x: 105
+        x: 104
         y: 4
-        width: 90
-        height: 74
+        width: 91
+        height: 75
       alignment: 9
-      pivot: {x: 0.5, y: 0.49325305}
+      pivot: {x: 0.6397338, y: 0.47818696}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,9 +223,9 @@ TextureImporter:
         x: 210
         y: 4
         width: 90
-        height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 75
+      alignment: 9
+      pivot: {x: 0.6357293, y: 0.47814482}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -242,11 +242,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 312
-        y: 5
+        y: 4
         width: 95
-        height: 74
+        height: 75
       alignment: 9
-      pivot: {x: 0.51653826, y: 0.49415407}
+      pivot: {x: 0.6442707, y: 0.49163568}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

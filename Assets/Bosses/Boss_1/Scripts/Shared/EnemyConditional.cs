@@ -13,6 +13,9 @@ namespace Core.AI
         protected PlayerController player;
         protected EnemyController enemy;
         protected DinoRexBoss dinoRexBoss;
+        protected BlizzardWolfgangBoss blizzardWolfgangBoss;
+        protected CyberPeacockBoss cyberPeacockBoss;
+        protected CrescentGrizzlyBoss crescentGrizzlyBoss;
 
         public override void OnAwake()
         {
@@ -21,6 +24,9 @@ namespace Core.AI
             destructable = GetComponent<Destructable>();
             enemy = GetComponent<EnemyController>();
             dinoRexBoss = GetComponent<DinoRexBoss>();
+            blizzardWolfgangBoss = GetComponent<BlizzardWolfgangBoss>();
+            cyberPeacockBoss = GetComponent<CyberPeacockBoss>();
+            crescentGrizzlyBoss = GetComponent<CrescentGrizzlyBoss>();
             animator = gameObject.GetComponentInChildren<Animator>();
         }
     }
