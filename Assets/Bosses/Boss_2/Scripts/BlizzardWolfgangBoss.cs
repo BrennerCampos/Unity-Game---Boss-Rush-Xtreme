@@ -21,7 +21,7 @@ public class BlizzardWolfgangBoss : MonoBehaviour
     public Transform leftPoint, rightPoint;
     public Transform groundCheckPoint;
     public Slider currentHealthSlider;
-    public LayerMask whatIsGround;
+    public LayerMask whatIsGround, whatIsPlayer;
 
     public float moveSpeed, moveTime, waitTime;
     public float startMaterialTimer, materialTimer, materialFlashTimer, startMaterialFlashTimer;
@@ -37,9 +37,9 @@ public class BlizzardWolfgangBoss : MonoBehaviour
     private UnityEngine.Object explosionReference;
 
 
-    public RaycastHit2D WallCheckHit, GroundCheckHit;
+    public RaycastHit2D WallCheckHit, GroundCheckHit, PounceCheck, UppercutCheck;
     public LayerMask whatIsWall;
-    public float wallDistance, groundDistance, attackTimer, startAttackTimer;
+    public float wallDistance, groundDistance, pounceDistance, uppercutDistance, attackTimer, startAttackTimer;
     public bool isWallClinging, canWallDash;
 
     private void Awake()
@@ -167,6 +167,21 @@ public class BlizzardWolfgangBoss : MonoBehaviour
 
         }*/
 
+       
+
+        if (rigidbody.velocity.x == 0)
+        {
+            anim.ResetTrigger("isRunning");
+            if (isGrounded)
+            {
+                anim.SetTrigger("isStandingIdle");
+            }
+        }
+        else
+        {
+            anim.ResetTrigger("isStandingIdle");
+        }
+
 
         // --- GROUND CHECK -------------------------------------------------------------------------------------------------//
 
@@ -175,14 +190,14 @@ public class BlizzardWolfgangBoss : MonoBehaviour
         Debug.DrawRay(transform.position, new Vector2(0, -groundDistance), Color.blue);
 
 
-        if (GroundCheckHit)
+        /*if (GroundCheckHit)
         {
             anim.SetTrigger("isGrounded");
         }
         else
         {
             anim.ResetTrigger("isGrounded");
-        }
+        }*/
 
         // --- WALL CHECK -------------------------------------------------------------------------------------------------//
 
@@ -191,13 +206,38 @@ public class BlizzardWolfgangBoss : MonoBehaviour
             WallCheckHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), new Vector2(wallDistance, 0),
                 wallDistance, whatIsWall);
             Debug.DrawRay(transform.position, new Vector2(wallDistance, 0), Color.blue);
+
+
+            PounceCheck = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y - 1), 
+                new Vector2(pounceDistance, 0),
+                pounceDistance, whatIsPlayer);
+            Debug.DrawRay(new Vector2(transform.position.x, transform.position.y - 1), new Vector2(pounceDistance, 0), Color.magenta);
+
+
+            UppercutCheck = Physics2D.Raycast(new Vector2(transform.position.x + uppercutDistance, transform.position.y),
+                new Vector2(0, uppercutDistance),
+                uppercutDistance, whatIsPlayer);
+            Debug.DrawRay(new Vector2(transform.position.x + uppercutDistance, transform.position.y), new Vector2(0, uppercutDistance), Color.white);
+
         }
         else
         {
-            WallCheckHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), new Vector2(-wallDistance, 0),
+            WallCheckHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y),
+                new Vector2(-wallDistance, 0),
                 wallDistance, whatIsWall);
             Debug.DrawRay(transform.position, new Vector2(-wallDistance, 0), Color.blue);
 
+
+            PounceCheck = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y - 1),
+                new Vector2(-pounceDistance, 0),
+                pounceDistance, whatIsPlayer);
+            Debug.DrawRay(new Vector2(transform.position.x, transform.position.y - 1), new Vector2(-pounceDistance, 0), Color.magenta);
+
+
+            UppercutCheck = Physics2D.Raycast(new Vector2(transform.position.x - uppercutDistance, transform.position.y),
+                new Vector2(0, uppercutDistance),
+                uppercutDistance, whatIsPlayer);
+            Debug.DrawRay(new Vector2(transform.position.x - uppercutDistance, transform.position.y), new Vector2(0, uppercutDistance), Color.white);
         }
 
         if (WallCheckHit)
@@ -209,6 +249,28 @@ public class BlizzardWolfgangBoss : MonoBehaviour
             anim.ResetTrigger("isWallTouching");
         }
 
+        if (PounceCheck)
+        {
+            anim.SetTrigger("inPounceRange");
+            anim.SetBool("inPounceRangeBool", true);
+        }
+        else
+        {
+            anim.ResetTrigger("inPounceRange");
+            anim.SetBool("inPounceRangeBool", false);
+        }
+
+
+        if (UppercutCheck)
+        {
+            anim.SetTrigger("inUppercutRange");
+            anim.SetBool("inUppercutRangeBool", true);
+        }
+        else
+        {
+            anim.ResetTrigger("inUppercutRange");
+            anim.SetBool("inUppercutRangeBool", false);
+        }
 
         /*if (WallCheckHit && !isGrounded && rigidbody.velocity.x != 0)
         {

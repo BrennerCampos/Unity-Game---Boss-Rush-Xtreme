@@ -1,47 +1,62 @@
+using System.Threading;
+using BehaviorDesigner.Runtime;
 using BehaviorDesigner.Runtime.Tasks;
 using Core.AI;
 using DG.Tweening;
 using Thinksquirrel.CShake;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 
 public class BlizzardWolfChargeAttack : EnemyAction
 {
 
-    public GameObject mainCamera;
-    public CameraShake cam;
+    public string animationTriggerName;
 
-    public float horizontalForce = 0f;
-    public float verticalForce = 0f;
-
-
-    private bool isGrounded, hasCompletedTask;
+    private bool isGrounded, hasFinishedAttacking;
+    private float direction;
 
     private Tween buildupTween;
-    private Tween jumpTween;
+    private Tween chaseTween;
 
     public override void OnStart()
     {
-        
+        animator.SetTrigger(animationTriggerName);
+        direction = PlayerController.instance.transform.position.x < transform.position.x ? -1 : 1;
+        // cam = mainCamera.GetComponent<CameraShake>();
+        StartChargeAttack();
+        animator.ResetTrigger("isStandingIdle");
     }
 
 
     public override TaskStatus OnUpdate()
     {
-        return hasCompletedTask ? TaskStatus.Success : TaskStatus.Running;
+
+        if (animator.GetBool("isChargingAttacking") == false)
+        {
+            hasFinishedAttacking = true;
+        }
+
+        body.velocity = Vector2.zero;
+        
+
+        return hasFinishedAttacking ? TaskStatus.Success : TaskStatus.Running;
     }
 
 
     public override void OnEnd()
     {
-        hasCompletedTask = false;
+        animator.SetTrigger("isStandingIdle");
+        chaseTween?.Kill();
+        buildupTween?.Kill();
+        hasFinishedAttacking = false;
     }
 
 
-    public void InsertFunctionHere()
+    public void StartChargeAttack()
     {
-        var direction = PlayerController.instance.transform.position.x < transform.position.x ? -1 : 1;
+        
+        // Instantate projectiles?
 
     }
-
 }
