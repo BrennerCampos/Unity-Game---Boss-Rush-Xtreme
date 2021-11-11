@@ -56,6 +56,7 @@ namespace Core.AI
             jumpTween = DOVirtual.DelayedCall(jumpTime, () =>
             {
                 hasLanded = true;
+                animator.SetTrigger("isCrouching");
 
             }, false);
         }
@@ -72,7 +73,10 @@ namespace Core.AI
             buildupTween?.Kill();
             jumpTween?.Kill();
             hasLanded = false;
+            animator.ResetTrigger("isPouncing");
+            
             animator.SetTrigger("isGrounded");
+
         }
 
     }

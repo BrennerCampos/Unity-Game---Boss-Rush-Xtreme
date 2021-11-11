@@ -15,48 +15,57 @@ public class BlizzardWolfChargeAttack : EnemyAction
 
     private bool isGrounded, hasFinishedAttacking;
     private float direction;
+    public float runTime, runTimeMin, runTimeMax;
 
     private Tween buildupTween;
-    private Tween chaseTween;
+    private Tween chargeAttackTween;
 
     public override void OnStart()
     {
+        var buildupTime = 0.0f;
+        buildupTween = DOVirtual.DelayedCall(buildupTime, StartChargeAttack, false);
         animator.SetTrigger(animationTriggerName);
         direction = PlayerController.instance.transform.position.x < transform.position.x ? -1 : 1;
-        // cam = mainCamera.GetComponent<CameraShake>();
+        animator.SetBool("isChargingAttackingBool", true);
         StartChargeAttack();
-        animator.ResetTrigger("isStandingIdle");
+        
     }
 
 
     public override TaskStatus OnUpdate()
     {
 
-        if (animator.GetBool("isChargingAttacking") == false)
+        /*if (animator.GetBool("isChargingAttacking") == false)
         {
             hasFinishedAttacking = true;
-        }
+        }*/
+        //animator.SetTrigger("isChargingAttacking");
 
         body.velocity = Vector2.zero;
         
-
         return hasFinishedAttacking ? TaskStatus.Success : TaskStatus.Running;
     }
 
 
     public override void OnEnd()
     {
-        animator.SetTrigger("isStandingIdle");
-        chaseTween?.Kill();
+        chargeAttackTween?.Kill();
         buildupTween?.Kill();
         hasFinishedAttacking = false;
+        animator.SetBool("isChargingAttackingBool", false);
     }
 
 
     public void StartChargeAttack()
     {
-        
+        var direction = PlayerController.instance.transform.position.x < transform.position.x ? -1 : 1;
+
         // Instantate projectiles?
+
+        chargeAttackTween = DOVirtual.DelayedCall(runTime, () =>
+        {
+            hasFinishedAttacking = true;
+        }, false);
 
     }
 }

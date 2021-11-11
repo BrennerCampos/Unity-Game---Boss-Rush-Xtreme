@@ -167,9 +167,9 @@ public class BlizzardWolfgangBoss : MonoBehaviour
 
         }*/
 
-       
+        
 
-        if (rigidbody.velocity.x == 0)
+        if (rigidbody.velocity.x == 0 && anim.GetBool("isChargingAttackingBool") == false)
         {
             anim.ResetTrigger("isRunning");
             if (isGrounded)
