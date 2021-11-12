@@ -5,23 +5,23 @@ using Thinksquirrel.CShake;
 using UnityEngine;
 
 
-public class CyberPeacockGroundBurst : EnemyAction
+public class CyberPeacockCyberWave : EnemyAction
 {
-    
+
     public string animationTriggerName;
 
 
     private float attackTime;
-    private bool isGrounded, hasGroundBurst;
+    private bool hasCyberWaved;
 
     private Tween buildupTween;
     private Tween attackTween;
 
     public override void OnStart()
     {
-        attackTime = 1f;
+        attackTime = 8f;
 
-        buildupTween = DOVirtual.DelayedCall(0.1f, StartGroundBurst, false);
+        buildupTween = DOVirtual.DelayedCall(0.1f, StartCyberWave, false);
         animator.SetTrigger(animationTriggerName);
         // cam = mainCamera.GetComponent<CameraShake>();
         //animator.ResetTrigger("isGrounded");
@@ -29,13 +29,13 @@ public class CyberPeacockGroundBurst : EnemyAction
 
     }
 
-    public void StartGroundBurst()
+    public void StartCyberWave()
     {
         var direction = PlayerController.instance.transform.position.x < transform.position.x ? -1 : 1;
 
         attackTween = DOVirtual.DelayedCall(attackTime, () =>
         {
-            hasGroundBurst = true;
+            hasCyberWaved = true;
         }, false);
     }
 
@@ -43,7 +43,7 @@ public class CyberPeacockGroundBurst : EnemyAction
     public override TaskStatus OnUpdate()
     {
 
-        return hasGroundBurst ? TaskStatus.Success : TaskStatus.Running;
+        return hasCyberWaved ? TaskStatus.Success : TaskStatus.Running;
     }
 
 
@@ -51,8 +51,8 @@ public class CyberPeacockGroundBurst : EnemyAction
     {
         buildupTween?.Kill();
         attackTween?.Kill();
-        hasGroundBurst = false;
-        animator.ResetTrigger("startGroundBurst");
+        hasCyberWaved = false;
+        animator.ResetTrigger("startCyberWave");
         //animator.SetBool("isTeleporting", false);
     }
 
