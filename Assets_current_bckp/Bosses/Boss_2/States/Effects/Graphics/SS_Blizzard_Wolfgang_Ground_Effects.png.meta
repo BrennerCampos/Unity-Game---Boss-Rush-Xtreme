@@ -1,0 +1,612 @@
+fileFormatVersion: 2
+guid: 9d64c6e7684e2de4898b89637c8defb5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1981002818193396460
+    second: SS_Blizzard_Wolfgang_Ground_Effects_0
+  - first:
+      213: -5250782315070583636
+    second: SS_Blizzard_Wolfgang_Ground_Effects_1
+  - first:
+      213: -4239169501679017561
+    second: SS_Blizzard_Wolfgang_Ground_Effects_2
+  - first:
+      213: 4577588862366234351
+    second: SS_Blizzard_Wolfgang_Ground_Effects_3
+  - first:
+      213: 4092085903670359630
+    second: SS_Blizzard_Wolfgang_Ground_Effects_4
+  - first:
+      213: 5623210221245472639
+    second: SS_Blizzard_Wolfgang_Ground_Effects_5
+  - first:
+      213: -1169135063657367864
+    second: SS_Blizzard_Wolfgang_Ground_Effects_6
+  - first:
+      213: -3762224621230667013
+    second: SS_Blizzard_Wolfgang_Ground_Effects_7
+  - first:
+      213: -4898915957153213941
+    second: SS_Blizzard_Wolfgang_Ground_Effects_8
+  - first:
+      213: -9087802817860230353
+    second: SS_Blizzard_Wolfgang_Ground_Effects_9
+  - first:
+      213: -4628249739489513556
+    second: SS_Blizzard_Wolfgang_Ground_Effects_10
+  - first:
+      213: -6862913980481013998
+    second: SS_Blizzard_Wolfgang_Ground_Effects_11
+  - first:
+      213: 6780800910788964854
+    second: SS_Blizzard_Wolfgang_Ground_Effects_12
+  - first:
+      213: 2798475027803173014
+    second: SS_Blizzard_Wolfgang_Ground_Effects_13
+  - first:
+      213: -6113057599889820266
+    second: SS_Blizzard_Wolfgang_Ground_Effects_14
+  - first:
+      213: -3817270277785535144
+    second: SS_Blizzard_Wolfgang_Ground_Effects_15
+  - first:
+      213: -2924609950647700057
+    second: SS_Blizzard_Wolfgang_Ground_Effects_16
+  - first:
+      213: -5854151339638369979
+    second: SS_Blizzard_Wolfgang_Ground_Effects_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 7
+        width: 14
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2177d319fed7b10800000000000000
+      internalID: 1981002818193396460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 4
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac8055ed497127b0800000000000000
+      internalID: -5250782315070583636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 4
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1a0cd5cc17b25c0800000000000000
+      internalID: -4239169501679017561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_3
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 4
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6bf1531dcd68f30800000000000000
+      internalID: 4577588862366234351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_4
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 4
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46b7a6d2720ac830800000000000000
+      internalID: 4092085903670359630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_5
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 4
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f9ea637e7a90e40800000000000000
+      internalID: 5623210221245472639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_6
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 5
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6bf3c9ad566cfe0800000000000000
+      internalID: -1169135063657367864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_7
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 6
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa415ed3a4e9cbc0800000000000000
+      internalID: -3762224621230667013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_8
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 6
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02d36d74ed830cb0800000000000000
+      internalID: -4898915957153213941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_9
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 9
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23a5a48c73a1e180800000000000000
+      internalID: -9087802817860230353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 8
+        width: 47
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafeee9226725cfb0800000000000000
+      internalID: -4628249739489513556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_11
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 8
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217fd55981802c0a0800000000000000
+      internalID: -6862913980481013998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_12
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 8
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1b83c808e3a1e50800000000000000
+      internalID: 6780800910788964854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_13
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 8
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6907209f53e26d620800000000000000
+      internalID: 2798475027803173014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_14
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 6
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695b013508e0a2ba0800000000000000
+      internalID: -6113057599889820266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_15
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 6
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85dbfe838e4560bc0800000000000000
+      internalID: -3817270277785535144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_16
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 7
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a53211ceb2b967d0800000000000000
+      internalID: -2924609950647700057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blizzard_Wolfgang_Ground_Effects_17
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 7
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5415a7b8f50e1cea0800000000000000
+      internalID: -5854151339638369979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

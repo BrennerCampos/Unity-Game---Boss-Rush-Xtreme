@@ -1,0 +1,504 @@
+fileFormatVersion: 2
+guid: cf4dbd75e4858cb4eb20d2b062809879
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2533771530687112897
+    second: SS_Shadow_Slash_Stand_0
+  - first:
+      213: 8270737064558073649
+    second: SS_Shadow_Slash_Stand_1
+  - first:
+      213: -2613286578947653859
+    second: SS_Shadow_Slash_Stand_2
+  - first:
+      213: -7152508194482548331
+    second: SS_Shadow_Slash_Stand_3
+  - first:
+      213: -782588441862406971
+    second: SS_Shadow_Slash_Stand_4
+  - first:
+      213: 2588795535296953475
+    second: SS_Shadow_Slash_Stand_5
+  - first:
+      213: 2384912410019375914
+    second: SS_Shadow_Slash_Stand_6
+  - first:
+      213: 8807658544044322322
+    second: SS_Shadow_Slash_Stand_7
+  - first:
+      213: 5922227417997771367
+    second: SS_Shadow_Slash_Stand_8
+  - first:
+      213: 2810702850671860953
+    second: SS_Shadow_Slash_Stand_9
+  - first:
+      213: -5146104999949340558
+    second: SS_Shadow_Slash_Stand_10
+  - first:
+      213: 1108959332290332865
+    second: SS_Shadow_Slash_Stand_11
+  - first:
+      213: 3107611666947025974
+    second: SS_Shadow_Slash_Stand_12
+  - first:
+      213: -4259116610737448241
+    second: SS_Shadow_Slash_Stand_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SS_Shadow_Slash_Stand_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 77
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f399563a73c36dcd0800000000000000
+      internalID: -2533771530687112897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Slash_Stand_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 77
+        width: 48
+        height: 51
+      alignment: 9
+      pivot: {x: 0.65, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13714ab3a8f87c270800000000000000
+      internalID: 8270737064558073649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Slash_Stand_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 77
+        width: 56
+        height: 61
+      alignment: 9
+      pivot: {x: 0.67658913, y: 0.41858947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f7785c3bdbbbbd0800000000000000
+      internalID: -2613286578947653859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Slash_Stand_3
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 77
+        width: 97
+        height: 65
+      alignment: 9
+      pivot: {x: 0.27760756, y: 0.40302944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5911cc651bf2dbc90800000000000000
+      internalID: -7152508194482548331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Slash_Stand_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 69
+        width: 103
+        height: 73
+      alignment: 9
+      pivot: {x: 0.283572, y: 0.4591769}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccf67d55ffa325f0800000000000000
+      internalID: -782588441862406971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Slash_Stand_5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 68
+        width: 104
+        height: 63
+      alignment: 9
+      pivot: {x: 0.2820458, y: 0.5502669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cfd75c2df3de320800000000000000
+      internalID: 2588795535296953475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Slash_Stand_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 102
+        height: 53
+      alignment: 9
+      pivot: {x: 0.28812757, y: 0.65359974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b20ab7339e81120800000000000000
+      internalID: 2384912410019375914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Slash_Stand_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1
+        width: 71
+        height: 53
+      alignment: 9
+      pivot: {x: 0.41538012, y: 0.6548664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e22b4e7c61b3a70800000000000000
+      internalID: 8807658544044322322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Slash_Stand_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 7
+        width: 51
+        height: 47
+      alignment: 9
+      pivot: {x: 0.57884246, y: 0.6112756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76206d8957aff2250800000000000000
+      internalID: 5922227417997771367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Slash_Stand_9
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 10
+        width: 50
+        height: 44
+      alignment: 9
+      pivot: {x: 0.592699, y: 0.5824754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc5977d95f910720800000000000000
+      internalID: 2810702850671860953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Slash_Stand_10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 10
+        width: 50
+        height: 44
+      alignment: 9
+      pivot: {x: 0.59269774, y: 0.58247465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270782d84cc5598b0800000000000000
+      internalID: -5146104999949340558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Slash_Stand_11
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 10
+        width: 50
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5932599, y: 0.5781345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8058f13a0d36f00800000000000000
+      internalID: 1108959332290332865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Slash_Stand_12
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 10
+        width: 41
+        height: 49
+      alignment: 9
+      pivot: {x: 0.59, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cac34a854702b20800000000000000
+      internalID: 3107611666947025974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Slash_Stand_13
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 10
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca5700220494e4c0800000000000000
+      internalID: -4259116610737448241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

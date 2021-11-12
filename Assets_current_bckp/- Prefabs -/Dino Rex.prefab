@@ -1,0 +1,823 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &400459477674473499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8869528535578507685}
+  m_Layer: 31
+  m_Name: RightPoint
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8869528535578507685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400459477674473499}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.67, y: -3.3423138, z: 0}
+  m_LocalScale: {x: 20, y: 20, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1065976705816329198}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1930419225592776301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1065976705816329198}
+  - component: {fileID: 4815679006746223891}
+  - component: {fileID: 1411416519550306511}
+  - component: {fileID: 5912650247290159613}
+  - component: {fileID: 7436228472071723580}
+  - component: {fileID: 4605989472862071276}
+  m_Layer: 23
+  m_Name: Dino Rex
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1065976705816329198
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930419225592776301}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.67, y: -8.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5147683431503535707}
+  - {fileID: 7733592301315016502}
+  - {fileID: 5066660117545560253}
+  - {fileID: 4527980744992988684}
+  - {fileID: 8869528535578507685}
+  - {fileID: 6390081751823445534}
+  - {fileID: 8834654188293733118}
+  - {fileID: 3955976084252840609}
+  - {fileID: 8051686190314931042}
+  - {fileID: 8345705354201891590}
+  - {fileID: 8031436447582754238}
+  - {fileID: 5641043539199367460}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &4815679006746223891
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930419225592776301}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.4340353, y: -2.2315526}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.6820583, y: 4.7860937}
+  m_EdgeRadius: 0
+--- !u!50 &1411416519550306511
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930419225592776301}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1.2
+  m_LinearDrag: 0
+  m_AngularDrag: 3.27
+  m_GravityScale: 4
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!114 &5912650247290159613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930419225592776301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f5a012d8d5dc848b0b19cababae19c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 5147683431503535704}
+  DinoRexDeathEffect: {fileID: 8940304844373925428, guid: 2691f8c4fa9f7e84aafa298836ad5501, type: 3}
+  GroundWindEffect: {fileID: 5160417557812746446, guid: 4f27486c483327d4a92281db20b12801, type: 3}
+  GroundDustEffect: {fileID: 2272536023933561172, guid: d4405c31d98a5c84b9bbdbde7e31eca0, type: 3}
+  FlameBreath: {fileID: 2422799143188751167, guid: 0570affe26daeff4885d7b67d873c1e8, type: 3}
+  MagmaBurstUltra: {fileID: 3218798375546589917, guid: b5321208a1b333c4d93b32624c70e2db, type: 3}
+  Explosion1: {fileID: 6154760663890048081, guid: 08abc98580d653c4da613506d2459a51, type: 3}
+  hittableEnemy: {fileID: 0}
+  bossCollision: {fileID: 0}
+  leftPoint: {fileID: 4527980744992988684}
+  rightPoint: {fileID: 8869528535578507685}
+  groundCheckPoint: {fileID: 6390081751823445534}
+  currentHealthSlider: {fileID: 0}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 256
+  moveSpeed: 2
+  moveTime: 2
+  waitTime: 0
+  startMaterialTimer: 1
+  materialTimer: 1
+  materialFlashTimer: 0.2
+  startMaterialFlashTimer: 0.2
+  currentHealth: 60
+  health: 60
+  isGrounded: 0
+  wasAirbornLastStep: 0
+  wasGroundedLastStep: 0
+  xDirection: 
+  whatIsWall:
+    serializedVersion: 2
+    m_Bits: 512
+  wallDistance: 4
+  groundDistance: 5
+  attackTimer: 2
+  startAttackTimer: 2
+  isWallClinging: 0
+  canWallDash: 0
+--- !u!114 &7436228472071723580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930419225592776301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startWhenEnabled: 1
+  asynchronousLoad: 0
+  pauseWhenDisabled: 0
+  restartWhenComplete: 0
+  logTaskChanges: 0
+  group: 0
+  resetValuesOnRestart: 0
+  externalBehavior: {fileID: 0}
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription: WALL CLING
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(527.6637,701.6976)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(-3.679987,110.992294)"},"ID":1,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(2.16210747,116.486488)"},"ID":2,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1184.83472,169.508987)","Comment":"Health
+        Check \n& \nStage Up"},"ID":3,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"Core.AI.isHealthUnder","NodeData":{"Offset":"(-271.9676,138.123978)"},"ID":4,"Name":"Is
+        Health Under","Instant":true,"SharedIntHealthThreshold":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":61}},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-119.4658,137.738586)"},"ID":5,"Name":"Sequence","Instant":true,"Disabled":true,"AbortTypeabortType":"None","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(-314.1368,180.483917)"},"ID":6,"Name":"Face
+        Player","Instant":true},{"Type":"Core.AI.DinoRexJump","NodeData":{"Offset":"(-177.797256,179.957245)"},"ID":7,"Name":"Dino
+        Rex Jump","Instant":true,"GameObjectGroundDust":0,"SinglehorizontalForce":-15,"SinglejumpForce":5,"SinglebuildupTime":0,"SinglejumpTime":1,"StringanimationTriggerName":"isHit","BooleanshakeCameraOnLanding":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-48.06039,180.483368)"},"ID":8,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.4},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.75},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"SpawnObject","NodeData":{"Offset":"(92.9734039,175.484467)"},"ID":9,"Name":"Spawn
+        Object","Instant":true,"TransformobjectTransform":1,"GameObjecthazardCollider":2,"GameObjectenemy":3,"AcceleratingProjectileobjectToSpawn":4},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(224.999924,176.428558)"},"ID":10,"Name":"Set
+        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":5},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"isHit"}},{"Type":"SetHealth","NodeData":{"Offset":"(353.609619,175.484467)"},"ID":11,"Name":"Set
+        Health","Instant":true,"Disabled":true,"SharedIntHealth":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(487.701324,180.177444)"},"ID":12,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.4},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Log","NodeData":{"Offset":"(63.24975,138.330124)","Comment":"RECOVERY"},"ID":13,"Name":"Log","Instant":true,"Disabled":true,"SharedStringtext":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""},"SharedBoollogError":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoollogTime":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"GoToNextStage","NodeData":{"Offset":"(228.905655,139.266)"},"ID":14,"Name":"Go
+        To Next Stage","Instant":true,"SharedIntCurrentStage":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"CurrentStage","IsShared":true,"Int32mValue":0}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(685.227234,172.947159)","Comment":"Fight
+        Loop\n"},"ID":15,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"Children":[{"Type":"StageBasedSelector","NodeData":{"Offset":"(0.5128784,105.5692)"},"ID":16,"Name":"Stage
+        Based Selector","Instant":true,"SharedIntCurrentStage":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"CurrentStage","IsShared":true,"Int32mValue":0},"List`1IncludedTasksPerStage":["0","1","2"],"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(-56.4807434,107.563972)"},"ID":17,"Name":"Random
+        Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.ConditionalEvaluator","NodeData":{"Offset":"(-375,99.85297)"},"ID":18,"Name":"Conditional
+        Evaluator","Instant":true,"SharedBoolreevaluate":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"ConditionalconditionalTask":{"Type":"BehaviorDesigner.Runtime.Tasks.RandomProbability","SharedFloatsuccessProbability":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":30},"SharedIntseed":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBooluseSeed":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},"BooleangraphLabel":false,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(2.06559181,108.099792)","Comment":"ROAR
+        1:\nFIRE EMBERS\n"},"ID":19,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(-337.342682,141.34346)"},"ID":20,"Name":"Face
+        Player","Instant":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(-230.888184,140.930313)","Comment":"StartAttack"},"ID":21,"Name":"Set
+        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":6},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"StartAttack"}},{"Type":"CameraShakes","NodeData":{"Offset":"(-168.418152,255.2627)"},"ID":22,"Name":"Camera
+        Shakes","Instant":true,"Disabled":true,"GameObjectmainCamera":7,"Singledecay":0,"SinglefirstShakeDistance":0,"Singlespeed":140,"Int32numberOfShakes":15,"BooleanmultipleByTimeScale":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-122.1379,135.636292)"},"ID":23,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(-2.29076576,142.196472)","Comment":"FallingEmberAtk\n"},"ID":24,"Name":"Set
+        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":8},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"FallingEmberAtk"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(121.665726,142.38443)"},"ID":25,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"Core.AI.SpawnFallingEmber","NodeData":{"Offset":"(250.1889,135.328934)"},"ID":26,"Name":"Spawn
+        Falling Ember","Instant":true,"Collider2DspawnAreaCollider":9,"EnemyProjectileemberProjectile":10,"Int32spawnCount":4,"SinglespawnInterval":0.27},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(380.775452,137.4906)"},"ID":27,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1.94},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1.48},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":2.33}}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(552.5,169.166687)","Comment":"JUMP
+        1:\nTOWARDS PLAYER"},"ID":28,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(-281.972321,175.141449)"},"ID":29,"Name":"Face
+        Player","Instant":true},{"Type":"Core.AI.DinoRexJump","NodeData":{"Offset":"(-161.363358,177.232147)"},"ID":30,"Name":"Dino
+        Rex Jump","Instant":true,"GameObjectGroundDust":11,"SinglehorizontalForce":6,"SinglejumpForce":37,"SinglebuildupTime":0.3,"SinglejumpTime":1.6,"StringanimationTriggerName":"isJumping","BooleanshakeCameraOnLanding":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(-39.1420975,178.400238)"},"ID":31,"Name":"Set
+        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":12},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"isJumping"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(75.20506,184.869446)"},"ID":32,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"FacePlayer","NodeData":{"Offset":"(197.748444,183.24585)"},"ID":33,"Name":"Face
+        Player","Instant":true},{"Type":"SpawnDoubleDustEffect","NodeData":{"Offset":"(346.921082,177.920212)"},"ID":34,"Name":"Spawn
+        Double Dust Effect","Instant":true,"GameObjectdustEffectRight":13,"GameObjectdustEffectLeft":14,"TransformdustRightPosition":15,"TransformdustLeftPosition":16,"SinglesizeScale":18},{"Type":"CameraShakes","NodeData":{"Offset":"(515.801636,183.08522)"},"ID":35,"Name":"Camera
+        Shakes","Instant":true,"GameObjectmainCamera":17,"Singledecay":0,"SinglefirstShakeDistance":0,"Singlespeed":140,"Int32numberOfShakes":15,"BooleanmultipleByTimeScale":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(640.8003,178.636353)"},"ID":36,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.2},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1.1}}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(1408.49377,462.792267)"},"ID":37,"Name":"Random
+        Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.ConditionalEvaluator","NodeData":{"Offset":"(-2029.12915,299.633881)"},"ID":38,"Name":"Conditional
+        Evaluator","Instant":true,"Disabled":true,"SharedBoolreevaluate":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"ConditionalconditionalTask":{"Type":"BehaviorDesigner.Runtime.Tasks.RandomProbability","SharedFloatsuccessProbability":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":8},"SharedIntseed":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBooluseSeed":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},"BooleangraphLabel":false,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(0.868471146,125.649841)","Comment":"ROAR
+        2:\nMAGMA BURST\n"},"ID":39,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(-425.2175,140.3755)"},"ID":40,"Name":"Face
+        Player","Instant":true},{"Type":"CameraShakes","NodeData":{"Offset":"(-357.421326,245.310791)"},"ID":41,"Name":"Camera
+        Shakes","Instant":true,"Disabled":true,"GameObjectmainCamera":18,"Singledecay":0,"SinglefirstShakeDistance":0,"Singlespeed":140,"Int32numberOfShakes":15,"BooleanmultipleByTimeScale":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(-294.34787,140.869568)","Comment":"StartAttack"},"ID":42,"Name":"Set
+        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":19},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"StartAttack"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-166.066269,140.869568)"},"ID":43,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"Core.AI.Shoot","NodeData":{"Offset":"(-16.4462852,138.69397)","Comment":"Magma
+        Burst Fireball"},"ID":44,"Name":"Shoot","Instant":true,"GameObjectshooter":20,"DinoRexBossdinoRexBoss":21,"EnemyProjectileenemyProjectile":22,"TransformweaponPosition_1_R":23,"TransformweaponPosition_1_L":24,"TransformweaponPosition_1_C":25,"List`1weapons":[{"Type":"Core.AI.Weapon","Value":{"SinglehorizontalForce":5,"SingleverticalForce":4}}],"BooleanshakeCamera":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(120,141.363632)"},"ID":45,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"Core.AI.SpawnFallingEmber","NodeData":{"Offset":"(260,140)"},"ID":46,"Name":"Spawn
+        Falling Ember","Instant":true,"Collider2DspawnAreaCollider":26,"EnemyProjectileemberProjectile":27,"Int32spawnCount":4,"SinglespawnInterval":0.27},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(400,141.363632)"},"ID":47,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1.94},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1.48},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":2.33}}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1000.53149,394.583282)","Comment":"JUMP
+        2:\nTOWARDS PLAYER\nFIRE LANDING"},"ID":48,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(-280,180)"},"ID":49,"Name":"Face
+        Player","Instant":true},{"Type":"Core.AI.DinoRexJump","NodeData":{"Offset":"(-160,180)"},"ID":50,"Name":"Dino
+        Rex Jump","Instant":true,"GameObjectGroundDust":28,"SinglehorizontalForce":8,"SinglejumpForce":33,"SinglebuildupTime":0.5,"SinglejumpTime":1.3,"StringanimationTriggerName":"isJumping","BooleanshakeCameraOnLanding":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(-40,180)"},"ID":51,"Name":"Set
+        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":29},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"isJumping"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(175.23819,180)"},"ID":52,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"SpawnDoubleDustEffect","NodeData":{"Offset":"(350,180)"},"ID":53,"Name":"Spawn
+        Double Dust Effect","Instant":true,"GameObjectdustEffectRight":30,"GameObjectdustEffectLeft":31,"TransformdustRightPosition":32,"TransformdustLeftPosition":33,"SinglesizeScale":18},{"Type":"Core.AI.SpawnFallingEmber","NodeData":{"Offset":"(537.1052,180)"},"ID":54,"Name":"Spawn
+        Falling Ember","Instant":true,"Collider2DspawnAreaCollider":34,"EnemyProjectileemberProjectile":35,"Int32spawnCount":2,"SinglespawnInterval":0.1},{"Type":"CameraShakes","NodeData":{"Offset":"(688.4211,180)"},"ID":55,"Name":"Camera
+        Shakes","Instant":true,"GameObjectmainCamera":36,"Singledecay":0,"SinglefirstShakeDistance":0,"Singlespeed":140,"Int32numberOfShakes":15,"BooleanmultipleByTimeScale":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(791.833069,270.487)"},"ID":56,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"Core.AI.isWallTouching","NodeData":{"Offset":"(-234.154816,119.424667)"},"ID":57,"Name":"Is
+        Wall Touching","Instant":true,"SharedBoolWallTouching":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"WallTouching","IsShared":true,"BooleanmValue":false},"Animatoranim":37},{"Type":"DinoRexWall","NodeData":{"Offset":"(-104.090912,120)"},"ID":58,"Name":"Dino
+        Rex Wall","Instant":true,"RaycastHit2DWallCheckHit":{},"LayerMaskwhatIsWall":512,"Rigidbody2DrigidBody":38,"Animatoranim":39,"SinglewallDistance":4,"SinglewallClingTimer":2,"SinglestartWallClingTimer":2,"BooleanisGrounded":false,"BooleanisWallClinging":false,"BooleancanWallDash":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(44.5363464,126.171814)"},"ID":59,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1.6}},{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(301.073975,50.7294922)"},"ID":60,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(-80,110)"},"ID":61,"Name":"Face
+        Player","Instant":true},{"Type":"Core.AI.DinoRexFireDash","NodeData":{"Offset":"(70,110)"},"ID":62,"Name":"Dino
+        Rex Fire Dash","Instant":true,"GameObjectmainCamera":40,"CameraShakecam":41,"BooleanshakeCameraOnLanding":false,"RaycastHit2DWallCheckHit":{},"LayerMaskwhatIsWall":512,"Rigidbody2DrigidBody":42,"Animatoranim":43,"SinglefireDashTimer":2,"SinglestartFireDashTimer":2,"BooleanisWallClinging":false,"BooleancanWallDash":false,"BooleanhasLanded":false,"BooleanisFireDashing":false,"SinglehorizontalForce":0.3,"SinglebuildupTime":0,"SingledashTime":2}]}]},{"Type":"FacePlayer","NodeData":{"Offset":"(900.238037,180)"},"ID":63,"Name":"Face
+        Player","Instant":true}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(1767.2229,991.8256)"},"ID":64,"Name":"Random
+        Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.ConditionalEvaluator","NodeData":{"Offset":"(-2647.85767,539.0891)"},"ID":65,"Name":"Conditional
+        Evaluator","Instant":true,"SharedBoolreevaluate":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"ConditionalconditionalTask":{"Type":"BehaviorDesigner.Runtime.Tasks.RandomProbability","SharedFloatsuccessProbability":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":30},"SharedIntseed":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBooluseSeed":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},"BooleangraphLabel":false,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-4.545044,125.452637)","Comment":"ROAR
+        3:\nFLAMETHROWER\n\n"},"ID":66,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(-434.545044,135.452637)"},"ID":67,"Name":"Face
+        Player","Instant":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(-294.545044,135.452637)","Comment":"StartAttack"},"ID":68,"Name":"Set
+        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":44},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"StartAttack"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-174.545044,135.452637)"},"ID":69,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"Core.AI.Shoot","NodeData":{"Offset":"(-24.5450439,135.452637)","Comment":"Magma
+        Burst Fireball"},"ID":70,"Name":"Shoot","Instant":true,"GameObjectshooter":45,"DinoRexBossdinoRexBoss":46,"EnemyProjectileenemyProjectile":47,"TransformweaponPosition_1_R":48,"TransformweaponPosition_1_L":49,"TransformweaponPosition_1_C":50,"List`1weapons":[{"Type":"Core.AI.Weapon","Value":{"SinglehorizontalForce":5,"SingleverticalForce":4}}],"BooleanshakeCamera":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(115.454956,135.452637)"},"ID":71,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"Core.AI.SpawnFallingEmber","NodeData":{"Offset":"(255.454956,135.452637)"},"ID":72,"Name":"Spawn
+        Falling Ember","Instant":true,"Collider2DspawnAreaCollider":51,"EnemyProjectileemberProjectile":52,"Int32spawnCount":4,"SinglespawnInterval":0.27},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(395.454956,135.452637)"},"ID":73,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1.94},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1.48},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":2.33}}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1551.19128,606.3618)","Comment":"JUMP
+        3:\nTOWARDS PLAYER\nFIRE LANDING +"},"ID":74,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"FacePlayer","NodeData":{"Offset":"(-284.545044,175.452637)"},"ID":75,"Name":"Face
+        Player","Instant":true},{"Type":"Core.AI.DinoRexJump","NodeData":{"Offset":"(-164.545044,175.452637)"},"ID":76,"Name":"Dino
+        Rex Jump","Instant":true,"GameObjectGroundDust":53,"SinglehorizontalForce":6,"SinglejumpForce":37,"SinglebuildupTime":0.5,"SinglejumpTime":1.6,"StringanimationTriggerName":"isJumping","BooleanshakeCameraOnLanding":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(-44.5450439,175.452637)"},"ID":77,"Name":"Set
+        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":54},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"isJumping"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(75.4549561,175.452637)"},"ID":78,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"FacePlayer","NodeData":{"Offset":"(195.455078,175.452637)"},"ID":79,"Name":"Face
+        Player","Instant":true},{"Type":"BehaviorDesigner.Runtime.Tasks.ConditionalEvaluator","NodeData":{"Offset":"(315.455078,305.452637)","Comment":"If
+        enemy is touching wall..."},"ID":80,"Name":"Conditional Evaluator","Instant":true,"SharedBoolreevaluate":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"ConditionalconditionalTask":{"Type":"BehaviorDesigner.Runtime.Tasks.HasEnteredCollision2D","SharedStringtag":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"Wall"},"SharedGameObjectcollidedGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":55}},"BooleangraphLabel":false,"Children":[{"Type":"Core.AI.EnemyAction","NodeData":{"Offset":"(-4.544922,105.452881)","Comment":"WALL
+        CLING 2:\n"},"ID":81,"Name":"Enemy Action","Instant":true}]},{"Type":"SpawnDoubleDustEffect","NodeData":{"Offset":"(455.455078,175.452637)"},"ID":82,"Name":"Spawn
+        Double Dust Effect","Instant":true,"GameObjectdustEffectRight":56,"GameObjectdustEffectLeft":57,"TransformdustRightPosition":58,"TransformdustLeftPosition":59,"SinglesizeScale":18},{"Type":"Core.AI.SpawnFallingEmber","NodeData":{"Offset":"(635.4551,175.452637)"},"ID":83,"Name":"Spawn
+        Falling Ember","Instant":true,"Collider2DspawnAreaCollider":60,"EnemyProjectileemberProjectile":61,"Int32spawnCount":2,"SinglespawnInterval":0.1},{"Type":"CameraShakes","NodeData":{"Offset":"(775.4553,175.452637)"},"ID":84,"Name":"Camera
+        Shakes","Instant":true,"GameObjectmainCamera":62,"Singledecay":0,"SinglefirstShakeDistance":0,"Singlespeed":0,"Int32numberOfShakes":0,"BooleanmultipleByTimeScale":false}]}]}]}]}]}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"CurrentStage","IsShared":true,"Int32mValue":0},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"WallTouching","IsShared":true,"BooleanmValue":false}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects:
+        - {fileID: 2272536023933561172, guid: d4405c31d98a5c84b9bbdbde7e31eca0, type: 3}
+        - {fileID: 5066660117545560253}
+        - {fileID: 5814567471851578527}
+        - {fileID: 1930419225592776301}
+        - {fileID: 4909291589628028749, guid: ab638ec82fbb76f4f9264cbb6f827cc0, type: 3}
+        - {fileID: 5147683431503535700}
+        - {fileID: 5147683431503535700}
+        - {fileID: 0}
+        - {fileID: 2746988010752851447, guid: 1ed5c76a4772e7748a83839853c06404, type: 3}
+        - {fileID: 0}
+        - {fileID: 2596190737209944632, guid: 1ed5c76a4772e7748a83839853c06404, type: 3}
+        - {fileID: 2272536023933561172, guid: d4405c31d98a5c84b9bbdbde7e31eca0, type: 3}
+        - {fileID: 5147683431503535700}
+        - {fileID: 2272536023933561172, guid: d4405c31d98a5c84b9bbdbde7e31eca0, type: 3}
+        - {fileID: 2272536023933561172, guid: d4405c31d98a5c84b9bbdbde7e31eca0, type: 3}
+        - {fileID: 8031436447582754238}
+        - {fileID: 5641043539199367460}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 5147683431503535700}
+        - {fileID: 1930419225592776301}
+        - {fileID: 5912650247290159613}
+        - {fileID: 4909291589628028749, guid: ab638ec82fbb76f4f9264cbb6f827cc0, type: 3}
+        - {fileID: 3955976084252840609}
+        - {fileID: 8345705354201891590}
+        - {fileID: 8051686190314931042}
+        - {fileID: 0}
+        - {fileID: 2596190737209944632, guid: 1ed5c76a4772e7748a83839853c06404, type: 3}
+        - {fileID: 2272536023933561172, guid: d4405c31d98a5c84b9bbdbde7e31eca0, type: 3}
+        - {fileID: 5147683431503535700}
+        - {fileID: 2272536023933561172, guid: d4405c31d98a5c84b9bbdbde7e31eca0, type: 3}
+        - {fileID: 2272536023933561172, guid: d4405c31d98a5c84b9bbdbde7e31eca0, type: 3}
+        - {fileID: 8031436447582754238}
+        - {fileID: 5641043539199367460}
+        - {fileID: 0}
+        - {fileID: 2596190737209944632, guid: 1ed5c76a4772e7748a83839853c06404, type: 3}
+        - {fileID: 0}
+        - {fileID: 5147683431503535703}
+        - {fileID: 1411416519550306511}
+        - {fileID: 5147683431503535703}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 1411416519550306511}
+        - {fileID: 5147683431503535703}
+        - {fileID: 5147683431503535700}
+        - {fileID: 1930419225592776301}
+        - {fileID: 5912650247290159613}
+        - {fileID: 4909291589628028749, guid: ab638ec82fbb76f4f9264cbb6f827cc0, type: 3}
+        - {fileID: 3955976084252840609}
+        - {fileID: 8345705354201891590}
+        - {fileID: 8051686190314931042}
+        - {fileID: 0}
+        - {fileID: 2596190737209944632, guid: 1ed5c76a4772e7748a83839853c06404, type: 3}
+        - {fileID: 2272536023933561172, guid: d4405c31d98a5c84b9bbdbde7e31eca0, type: 3}
+        - {fileID: 5147683431503535700}
+        - {fileID: 0}
+        - {fileID: 2272536023933561172, guid: d4405c31d98a5c84b9bbdbde7e31eca0, type: 3}
+        - {fileID: 2272536023933561172, guid: d4405c31d98a5c84b9bbdbde7e31eca0, type: 3}
+        - {fileID: 8031436447582754238}
+        - {fileID: 5641043539199367460}
+        - {fileID: 0}
+        - {fileID: 2596190737209944632, guid: 1ed5c76a4772e7748a83839853c06404, type: 3}
+        - {fileID: 0}
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.1
+  gizmoViewMode: 2
+  showBehaviorDesignerGizmo: 1
+--- !u!114 &4605989472862071276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930419225592776301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92cf631a4b07834e966c6d3770cd6c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2889144873814671756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6390081751823445534}
+  m_Layer: 31
+  m_Name: GroundPoint
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6390081751823445534
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2889144873814671756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -3.47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1065976705816329198}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3258913858661026281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8834654188293733118}
+  m_Layer: 31
+  m_Name: AttackTransform
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8834654188293733118
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3258913858661026281}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -3.21, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1065976705816329198}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3825563606821638100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8051686190314931042}
+  m_Layer: 31
+  m_Name: WeaponPosition_1_C
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8051686190314931042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3825563606821638100}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.08, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1065976705816329198}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4374786497074089934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8345705354201891590}
+  m_Layer: 31
+  m_Name: WeaponPosition_1_L
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8345705354201891590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4374786497074089934}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.53, y: -1.0799997, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1065976705816329198}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5814567471851578527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7733592301315016502}
+  - component: {fileID: 2164976661595758671}
+  - component: {fileID: 8044972847263956123}
+  m_Layer: 25
+  m_Name: Hazard Collider
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7733592301315016502
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5814567471851578527}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.22688, y: 1.4008093, z: -1.2694237}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1065976705816329198}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2164976661595758671
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5814567471851578527}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -3.7090158, y: -3.5809214}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.628145, y: 5.4643683}
+  m_EdgeRadius: 0
+--- !u!114 &8044972847263956123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5814567471851578527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46abcf2c9f06e7940a8503efaf1ec656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 6154760663890048081, guid: 08abc98580d653c4da613506d2459a51, type: 3}
+  spriteParent: {fileID: 5147683431503535707}
+  hideWhenDead: 0
+  isHit: 0
+  hitMaterial: {fileID: 2100000, guid: 24e3ab6310e289f41bd2e4d20b8bcd28, type: 2}
+--- !u!1 &6023162939671711691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8031436447582754238}
+  m_Layer: 31
+  m_Name: DustPositionRight
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8031436447582754238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6023162939671711691}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6, y: -4.7099996, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1065976705816329198}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7578527301430611156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5641043539199367460}
+  m_Layer: 31
+  m_Name: DustPositionLeft
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5641043539199367460
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7578527301430611156}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.01, y: -4.71, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1065976705816329198}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8203132808406160547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4527980744992988684}
+  m_Layer: 31
+  m_Name: LeftPoint
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4527980744992988684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8203132808406160547}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -20.24, y: -3.3423138, z: 0}
+  m_LocalScale: {x: 20, y: 20, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1065976705816329198}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8523912414902627568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5066660117545560253}
+  - component: {fileID: 8736197231411540323}
+  - component: {fileID: 4555512583029923092}
+  m_Layer: 24
+  m_Name: AttackCollider
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5066660117545560253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8523912414902627568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1065976705816329198}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &8736197231411540323
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8523912414902627568}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.17795217, y: -2.1763077}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.6843596, y: 4.2560253}
+  m_EdgeRadius: 0
+--- !u!114 &4555512583029923092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8523912414902627568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03c16f989862c9040b725841c2f51f11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8977366395178747030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3955976084252840609}
+  m_Layer: 31
+  m_Name: WeaponPosition_1_R
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3955976084252840609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8977366395178747030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.53, y: -1.0799997, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1065976705816329198}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2553433479357411106
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1065976705816329198}
+    m_Modifications:
+    - target: {fileID: 2039113569, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+      propertyPath: impactTransform
+      value: 
+      objectReference: {fileID: 8834654188293733118}
+    - target: {fileID: 7214662107170517366, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+      propertyPath: m_Name
+      value: Dino Rex Boss Sprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214662107170517366, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+      propertyPath: m_Layer
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214662107170517369, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214662107170517369, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214662107170517369, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214662107170517369, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214662107170517369, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214662107170517369, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214662107170517369, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214662107170517369, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214662107170517369, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214662107170517369, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214662107170517369, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+--- !u!212 &5147683431503535704 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7214662107170517370, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+  m_PrefabInstance: {fileID: 2553433479357411106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5147683431503535707 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7214662107170517369, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+  m_PrefabInstance: {fileID: 2553433479357411106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5147683431503535700 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7214662107170517366, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+  m_PrefabInstance: {fileID: 2553433479357411106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5147683431503535703 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7214662107170517365, guid: 6c43df7d696af9b4f9dd8f44b897a273, type: 3}
+  m_PrefabInstance: {fileID: 2553433479357411106}
+  m_PrefabAsset: {fileID: 0}

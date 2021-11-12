@@ -1,0 +1,1452 @@
+fileFormatVersion: 2
+guid: 37399e30e50c1f147912f68b7ab1e47c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3474635463987089893
+    second: SS_Cyber_Peacock_Attacks_0
+  - first:
+      213: -7984881346660102787
+    second: SS_Cyber_Peacock_Attacks_1
+  - first:
+      213: -4294323827099885290
+    second: SS_Cyber_Peacock_Attacks_2
+  - first:
+      213: -5141379249406615436
+    second: SS_Cyber_Peacock_Attacks_3
+  - first:
+      213: 6337561310379656794
+    second: SS_Cyber_Peacock_Attacks_4
+  - first:
+      213: -6854670507535436087
+    second: SS_Cyber_Peacock_Attacks_6
+  - first:
+      213: -4615939321123501612
+    second: SS_Cyber_Peacock_Attacks_8
+  - first:
+      213: -7320327758055047698
+    second: SS_Cyber_Peacock_Attacks_9
+  - first:
+      213: 3204590115766845247
+    second: SS_Cyber_Peacock_Attacks_10
+  - first:
+      213: -1732231381707998928
+    second: SS_Cyber_Peacock_Attacks_11
+  - first:
+      213: 1207616948468900416
+    second: SS_Cyber_Peacock_Attacks_12
+  - first:
+      213: -3521504136255105164
+    second: SS_Cyber_Peacock_Attacks_13
+  - first:
+      213: -1972688438479008513
+    second: SS_Cyber_Peacock_Attacks_14
+  - first:
+      213: 3521045586375895376
+    second: SS_Cyber_Peacock_Attacks_15
+  - first:
+      213: 8157803517294372297
+    second: SS_Cyber_Peacock_Attacks_22
+  - first:
+      213: 442335635372031233
+    second: SS_Cyber_Peacock_Attacks_27
+  - first:
+      213: -3150733129044983592
+    second: SS_Cyber_Peacock_Attacks_32
+  - first:
+      213: -610845949443586493
+    second: SS_Cyber_Peacock_Attacks_37
+  - first:
+      213: -1149147552433756175
+    second: SS_Cyber_Peacock_Attacks_41
+  - first:
+      213: -8428040761169758299
+    second: SS_Cyber_Peacock_Attacks_42
+  - first:
+      213: 5960467124220408596
+    second: SS_Cyber_Peacock_Attacks_43
+  - first:
+      213: -3393715404891431926
+    second: SS_Cyber_Peacock_Attacks_44
+  - first:
+      213: 863863244865907142
+    second: SS_Cyber_Peacock_Attacks_45
+  - first:
+      213: -7085365174577630811
+    second: SS_Cyber_Peacock_Attacks_46
+  - first:
+      213: -509736354164476506
+    second: SS_Cyber_Peacock_Attacks_47
+  - first:
+      213: 2994559136339818966
+    second: SS_Cyber_Peacock_Attacks_48
+  - first:
+      213: -3960840006739803400
+    second: SS_Cyber_Peacock_Attacks_49
+  - first:
+      213: 7108816036666660977
+    second: SS_Cyber_Peacock_Attacks_50
+  - first:
+      213: -8965662624212155051
+    second: SS_Cyber_Peacock_Attacks_51
+  - first:
+      213: -1953021459750546752
+    second: SS_Cyber_Peacock_Attacks_59
+  - first:
+      213: 5746720177439799721
+    second: SS_Cyber_Peacock_Attacks_60
+  - first:
+      213: -4071429184517005785
+    second: SS_Cyber_Peacock_Attacks_64
+  - first:
+      213: -80716423852242809
+    second: SS_Cyber_Peacock_Attacks_65
+  - first:
+      213: 8218776174460668722
+    second: SS_Cyber_Peacock_Attacks_66
+  - first:
+      213: -5113826237299680369
+    second: SS_Cyber_Peacock_Attacks_67
+  - first:
+      213: 8959647146494027370
+    second: SS_Cyber_Peacock_Attacks_68
+  - first:
+      213: -6501533025670859157
+    second: SS_Cyber_Peacock_Attacks_69
+  - first:
+      213: -4327748408824080155
+    second: SS_Cyber_Peacock_Attacks_70
+  - first:
+      213: -4711652934984122239
+    second: SS_Cyber_Peacock_Attacks_71
+  - first:
+      213: 1381682765968002479
+    second: SS_Cyber_Peacock_Attacks_72
+  - first:
+      213: -6524459169307616335
+    second: SS_Cyber_Peacock_Attacks_73
+  - first:
+      213: 6071380938517437687
+    second: SS_Cyber_Peacock_Attacks_74
+  - first:
+      213: -3567181093218282518
+    second: SS_Cyber_Peacock_Attacks_75
+  - first:
+      213: 8199149687426192106
+    second: SS_Cyber_Peacock_Attacks_76
+  - first:
+      213: -5785176021827753887
+    second: SS_Cyber_Peacock_Attacks_77
+  - first:
+      213: 858342462885834559
+    second: SS_Cyber_Peacock_Attacks_78
+  - first:
+      213: 5804375784050583558
+    second: SS_Cyber_Peacock_Attacks_79
+  - first:
+      213: -5188392562063138509
+    second: SS_Cyber_Peacock_Attacks_80
+  - first:
+      213: 4377158575871247269
+    second: SS_Cyber_Peacock_Attacks_81
+  - first:
+      213: -5149343649531757434
+    second: SS_Cyber_Peacock_Attacks_82
+  - first:
+      213: 6178031445269636955
+    second: SS_Cyber_Peacock_Attacks_83
+  - first:
+      213: -1784581904211572281
+    second: SS_Cyber_Peacock_Attacks_5
+  - first:
+      213: 2854582588769627174
+    second: SS_Cyber_Peacock_Attacks_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 98
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e2315747d97cfc0800000000000000
+      internalID: -3474635463987089893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 94
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d8eae88b0003190800000000000000
+      internalID: -7984881346660102787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61127374b3f7764c0800000000000000
+      internalID: -4294323827099885290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 92
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470ed8710d626a8b0800000000000000
+      internalID: -5141379249406615436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 91
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5640771f6a83f750800000000000000
+      internalID: 6337561310379656794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_6
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 91
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6f002bd715fd0a0800000000000000
+      internalID: -6854670507535436087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_8
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d90dabc4a3e0ffb0800000000000000
+      internalID: -4615939321123501612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_9
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 99
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed72b550b8f86a90800000000000000
+      internalID: -7320327758055047698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 98
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fb20d4bbdf87c20800000000000000
+      internalID: 3204590115766845247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 102
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039b2807cb0e5f7e0800000000000000
+      internalID: -1732231381707998928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_12
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 101
+        width: 40
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042ea36673152c010800000000000000
+      internalID: 1207616948468900416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_13
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 99
+        width: 40
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477127355aa112fc0800000000000000
+      internalID: -3521504136255105164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_14
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 90
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc40f3215a9f94e0800000000000000
+      internalID: -1972688438479008513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_15
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 90
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05964e53e444dd030800000000000000
+      internalID: 3521045586375895376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_22
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 90
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c563cbb317563170800000000000000
+      internalID: 8157803517294372297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_27
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 90
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10db8d1baed732600800000000000000
+      internalID: 442335635372031233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_32
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 90
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0083599e85644d0800000000000000
+      internalID: -3150733129044983592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_37
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 90
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346cdea68d6d587f0800000000000000
+      internalID: -610845949443586493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_41
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 72
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f72da6b3686d00f0800000000000000
+      internalID: -1149147552433756175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_42
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 72
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7b6f5d495990b80800000000000000
+      internalID: -8428040761169758299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_43
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 72
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4133d820545d7b250800000000000000
+      internalID: 5960467124220408596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_44
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 89
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cdca6e1d917e0d0800000000000000
+      internalID: -3393715404891431926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_45
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 85
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9afb45b0f0dfb00800000000000000
+      internalID: 863863244865907142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_46
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 88
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a17061e9e9bbad90800000000000000
+      internalID: -7085365174577630811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_47
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 87
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a57ce09c7d0de8f0800000000000000
+      internalID: -509736354164476506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_48
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 89
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d97f6c2bafce8920800000000000000
+      internalID: 2994559136339818966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_49
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 85
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f24e12dff44809c0800000000000000
+      internalID: -3960840006739803400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_50
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 88
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178dd1f658697a260800000000000000
+      internalID: 7108816036666660977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_51
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 87
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55586db6851939380800000000000000
+      internalID: -8965662624212155051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_59
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 85
+        width: 45
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c29ad4745975e4e0800000000000000
+      internalID: -1953021459750546752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_60
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 85
+        width: 45
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a97edfcd8370cf40800000000000000
+      internalID: 5746720177439799721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_64
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e94b06ab06f77c0800000000000000
+      internalID: -4071429184517005785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_65
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7884fb417dc31eef0800000000000000
+      internalID: -80716423852242809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_66
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b0c2fb265fe0270800000000000000
+      internalID: 8218776174460668722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_67
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b1ea2a12a0809b0800000000000000
+      internalID: -5113826237299680369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_68
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a666e970c9f075c70800000000000000
+      internalID: 8959647146494027370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_69
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66fa65e82ae5c5a0800000000000000
+      internalID: -6501533025670859157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_70
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e857c660cfb0f3c0800000000000000
+      internalID: -4327748408824080155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_71
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18048597e98dc9eb0800000000000000
+      internalID: -4711652934984122239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_72
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad4dc9b729bc2310800000000000000
+      internalID: 1381682765968002479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_73
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb11ed14f67475a0800000000000000
+      internalID: -6524459169307616335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_74
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcd868cbc0e14450800000000000000
+      internalID: 6071380938517437687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_75
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1
+        width: 63
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae31c3902b3de7ec0800000000000000
+      internalID: -3567181093218282518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_76
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1
+        width: 63
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae21b43233b39c170800000000000000
+      internalID: 8199149687426192106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_77
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 2
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16869df2f0de6bfa0800000000000000
+      internalID: -5785176021827753887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_78
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fa1fb1ce179eb00800000000000000
+      internalID: 858342462885834559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_79
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608e63fc5094d8050800000000000000
+      internalID: 5804375784050583558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_80
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331a2fe34702ff7b0800000000000000
+      internalID: -5188392562063138509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_81
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a34c58988acebc30800000000000000
+      internalID: 4377158575871247269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_82
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cfe3fab3bd988b0800000000000000
+      internalID: -5149343649531757434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_83
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 0
+        width: 73
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b576d7aedd6ccb550800000000000000
+      internalID: 6178031445269636955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_5
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 104
+        width: 16
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c901e69634eb37e0800000000000000
+      internalID: -1784581904211572281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Cyber_Peacock_Attacks_7
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 102
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ce0a18db38d9720800000000000000
+      internalID: 2854582588769627174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

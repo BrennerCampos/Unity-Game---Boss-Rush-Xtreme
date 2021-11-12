@@ -1,0 +1,648 @@
+fileFormatVersion: 2
+guid: e4b4ee7dc99c4f64cb521243e5400a9d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9050033753188033159
+    second: SS_Gaea_Armor_Shot_0
+  - first:
+      213: 5139007639738810569
+    second: SS_Gaea_Armor_Shot_1
+  - first:
+      213: 2762262345066103397
+    second: SS_Gaea_Armor_Shot_2
+  - first:
+      213: 5951632400943693230
+    second: SS_Gaea_Armor_Shot_3
+  - first:
+      213: -259809356151825847
+    second: SS_Gaea_Armor_Shot_4
+  - first:
+      213: 270374142455473647
+    second: SS_Gaea_Armor_Shot_5
+  - first:
+      213: -4721932393632747578
+    second: SS_Gaea_Armor_Shot_6
+  - first:
+      213: 2276116184831087331
+    second: SS_Gaea_Armor_Shot_7
+  - first:
+      213: -1353272719125804915
+    second: SS_Gaea_Armor_Shot_8
+  - first:
+      213: 1324055227443893097
+    second: SS_Gaea_Armor_Shot_9
+  - first:
+      213: 745458828396963431
+    second: SS_Gaea_Armor_Shot_10
+  - first:
+      213: -5318711717671654771
+    second: SS_Gaea_Armor_Shot_11
+  - first:
+      213: 1581725023709175828
+    second: SS_Gaea_Armor_Shot_12
+  - first:
+      213: -5140133100310126849
+    second: SS_Gaea_Armor_Shot_13
+  - first:
+      213: -353549024085798973
+    second: SS_Gaea_Armor_Shot_14
+  - first:
+      213: 3963828944037250816
+    second: SS_Gaea_Armor_Shot_15
+  - first:
+      213: -7881826483597801624
+    second: SS_Gaea_Armor_Shot_16
+  - first:
+      213: 5157207370367654381
+    second: SS_Gaea_Armor_Shot_17
+  - first:
+      213: 303540535994510781
+    second: SS_Gaea_Armor_Shot_18
+  - first:
+      213: -3869530572555342607
+    second: SS_Gaea_Armor_Shot_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_0
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 116
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d9ee72042d76280800000000000000
+      internalID: -9050033753188033159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 115
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c086a0883c615740800000000000000
+      internalID: 5139007639738810569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 118
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5624a1eb7f6855620800000000000000
+      internalID: 2762262345066103397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 118
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead34f3b222789250800000000000000
+      internalID: 5951632400943693230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_4
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 116
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a5f3164c8f46cf0800000000000000
+      internalID: -259809356151825847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_5
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 117
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5628d99df80c300800000000000000
+      internalID: 270374142455473647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 118
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf2c108183587eb0800000000000000
+      internalID: -4721932393632747578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_7
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 118
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2df585c93669f10800000000000000
+      internalID: 2276116184831087331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 53
+        width: 70
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d888744c1a5383de0800000000000000
+      internalID: -1353272719125804915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 52
+        width: 70
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963dac6d63dff5210800000000000000
+      internalID: 1324055227443893097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_10
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 55
+        width: 68
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5260521, y: 0.50492096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766a745dad6685a00800000000000000
+      internalID: 745458828396963431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 56
+        width: 68
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5282234, y: 0.49507916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a297d5fd32036b0800000000000000
+      internalID: -5318711717671654771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_12
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 53
+        width: 68
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410288a578a63f510800000000000000
+      internalID: 1581725023709175828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_13
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 52
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe99c9cd249aa8b0800000000000000
+      internalID: -5140133100310126849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_14
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 14
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: -1.348287, y: 0.48902145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf0ea82901f71bf0800000000000000
+      internalID: -353549024085798973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_15
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 11
+        width: 25
+        height: 30
+      alignment: 9
+      pivot: {x: -0.042667236, y: 0.5068518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00780cf5c69520730800000000000000
+      internalID: 3963828944037250816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_16
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 6
+        width: 32
+        height: 40
+      alignment: 9
+      pivot: {x: 0.26875067, y: 0.51027775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86703e7a2902e9290800000000000000
+      internalID: -7881826483597801624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 4
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de95acf77c4129740800000000000000
+      internalID: 5157207370367654381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_18
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 5
+        width: 30
+        height: 44
+      alignment: 9
+      pivot: {x: 0.66920775, y: 0.49898493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd62ee5284663400800000000000000
+      internalID: 303540535994510781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Gaea_Armor_Shot_19
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 16
+        width: 11
+        height: 21
+      alignment: 9
+      pivot: {x: -1.6863681, y: 0.4999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc2357227aac4ac0800000000000000
+      internalID: -3869530572555342607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

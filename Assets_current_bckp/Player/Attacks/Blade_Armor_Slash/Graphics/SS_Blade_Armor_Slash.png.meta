@@ -1,0 +1,480 @@
+fileFormatVersion: 2
+guid: 6e17ff4d72ef2984688c8ac72c107cda
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7351927162150806641
+    second: SS_Blade_Armor_Slash_0
+  - first:
+      213: 1748462488780394457
+    second: SS_Blade_Armor_Slash_1
+  - first:
+      213: -700704015221388507
+    second: SS_Blade_Armor_Slash_2
+  - first:
+      213: -2390891570430999706
+    second: SS_Blade_Armor_Slash_4
+  - first:
+      213: 1217629390736923039
+    second: SS_Blade_Armor_Slash_5
+  - first:
+      213: -6859093555799638324
+    second: SS_Blade_Armor_Slash_6
+  - first:
+      213: 2751347903164204977
+    second: SS_Blade_Armor_Slash_7
+  - first:
+      213: -949732875259735008
+    second: SS_Blade_Armor_Slash_8
+  - first:
+      213: 7197230407682171298
+    second: SS_Blade_Armor_Slash_9
+  - first:
+      213: -1489819905645818492
+    second: SS_Blade_Armor_Slash_10
+  - first:
+      213: -7614376821742759331
+    second: SS_Blade_Armor_Slash_13
+  - first:
+      213: 3545442468904604352
+    second: SS_Blade_Armor_Slash_14
+  - first:
+      213: -3531578404895648286
+    second: SS_Blade_Armor_Slash_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SS_Blade_Armor_Slash_0
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 14
+        width: 45
+        height: 72
+      alignment: 9
+      pivot: {x: 0.8208264, y: 0.5019853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b947db235b8f990800000000000000
+      internalID: -7351927162150806641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blade_Armor_Slash_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 14
+        width: 44
+        height: 72
+      alignment: 9
+      pivot: {x: 0.8508585, y: 0.4940441}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfc9daae59c34810800000000000000
+      internalID: 1748462488780394457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blade_Armor_Slash_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 13
+        width: 47
+        height: 75
+      alignment: 9
+      pivot: {x: 0.8132568, y: 0.49237645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b0a0029699646f0800000000000000
+      internalID: -700704015221388507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blade_Armor_Slash_4
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 11
+        width: 46
+        height: 78
+      alignment: 9
+      pivot: {x: 0.8014221, y: 0.50000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6630cffb8c8d1ded0800000000000000
+      internalID: -2390891570430999706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blade_Armor_Slash_5
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 11
+        width: 26
+        height: 78
+      alignment: 9
+      pivot: {x: 0.70360625, y: 0.49074522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9913f6ca73e5e010800000000000000
+      internalID: 1217629390736923039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blade_Armor_Slash_6
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 9
+        width: 28
+        height: 80
+      alignment: 9
+      pivot: {x: 0.7320317, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce346580ca9fc0a0800000000000000
+      internalID: -6859093555799638324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blade_Armor_Slash_7
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 9
+        width: 28
+        height: 80
+      alignment: 9
+      pivot: {x: 0.72773415, y: 0.4969922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b74e953750ce2620800000000000000
+      internalID: 2751347903164204977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blade_Armor_Slash_8
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 3
+        width: 32
+        height: 92
+      alignment: 9
+      pivot: {x: 0.75190353, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02412aa5bfed1d2f0800000000000000
+      internalID: -949732875259735008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blade_Armor_Slash_9
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 3
+        width: 32
+        height: 92
+      alignment: 9
+      pivot: {x: 0.7594242, y: 0.49869227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a129885ce2b1e360800000000000000
+      internalID: 7197230407682171298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blade_Armor_Slash_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 19
+        width: 32
+        height: 62
+      alignment: 9
+      pivot: {x: 0.82162046, y: 0.50000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dcca070b8135be0800000000000000
+      internalID: -1489819905645818492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blade_Armor_Slash_13
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 18
+        width: 25
+        height: 62
+      alignment: 9
+      pivot: {x: 0.687688, y: 0.5019405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d521e029f9c445690800000000000000
+      internalID: -7614376821742759331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blade_Armor_Slash_14
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 36
+        width: 14
+        height: 28
+      alignment: 9
+      pivot: {x: 0.7552546, y: 0.49489498}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c294a21421f33130800000000000000
+      internalID: 3545442468904604352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Blade_Armor_Slash_15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 28
+        width: 22
+        height: 44
+      alignment: 9
+      pivot: {x: 0.80537724, y: 0.49675134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e511cfd6205dfec0800000000000000
+      internalID: -3531578404895648286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

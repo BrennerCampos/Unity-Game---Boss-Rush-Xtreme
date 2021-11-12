@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: baafd4f8e0e308a4aa396c82c5f6ca6a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2624583465313743604
+    second: SS_Shadow_Shoot_Run_0
+  - first:
+      213: 409597408501081351
+    second: SS_Shadow_Shoot_Run_1
+  - first:
+      213: -7165838093461862547
+    second: SS_Shadow_Shoot_Run_2
+  - first:
+      213: -7582644071874050000
+    second: SS_Shadow_Shoot_Run_3
+  - first:
+      213: -8576074815414580614
+    second: SS_Shadow_Shoot_Run_4
+  - first:
+      213: -7829817378081144750
+    second: SS_Shadow_Shoot_Run_5
+  - first:
+      213: -2701880347485028740
+    second: SS_Shadow_Shoot_Run_6
+  - first:
+      213: -8861570377913111251
+    second: SS_Shadow_Shoot_Run_7
+  - first:
+      213: -6122676851499857992
+    second: SS_Shadow_Shoot_Run_8
+  - first:
+      213: 8044176139825743002
+    second: SS_Shadow_Shoot_Run_9
+  - first:
+      213: -8061925747629218486
+    second: SS_Shadow_Shoot_Run_10
+  - first:
+      213: -3863613703319476880
+    second: SS_Shadow_Shoot_Run_11
+  - first:
+      213: -8038522736552301086
+    second: SS_Shadow_Shoot_Run_12
+  - first:
+      213: -8955094687625300174
+    second: SS_Shadow_Shoot_Run_13
+  - first:
+      213: -9214974751953456018
+    second: SS_Shadow_Shoot_Run_14
+  - first:
+      213: 8478795648645548746
+    second: SS_Shadow_Shoot_Run_15
+  - first:
+      213: 6679939446558776186
+    second: SS_Shadow_Shoot_Run_16
+  - first:
+      213: 4617180836116997567
+    second: SS_Shadow_Shoot_Run_17
+  - first:
+      213: -1272913942185525432
+    second: SS_Shadow_Shoot_Run_18
+  - first:
+      213: -7723785683092666839
+    second: SS_Shadow_Shoot_Run_19
+  - first:
+      213: -8928654821693572762
+    second: SS_Shadow_Shoot_Run_20
+  - first:
+      213: 3661821301655757531
+    second: SS_Shadow_Shoot_Run_21
+  - first:
+      213: 8643912537214125646
+    second: SS_Shadow_Shoot_Run_22
+  - first:
+      213: -5119817982121484666
+    second: SS_Shadow_Shoot_Run_23
+  - first:
+      213: -4242539936601990925
+    second: SS_Shadow_Shoot_Run_24
+  - first:
+      213: -6755677086439598492
+    second: SS_Shadow_Shoot_Run_25
+  - first:
+      213: -144031606247677285
+    second: SS_Shadow_Shoot_Run_26
+  - first:
+      213: 8728885645638734388
+    second: SS_Shadow_Shoot_Run_27
+  - first:
+      213: -6310214706549076603
+    second: SS_Shadow_Shoot_Run_28
+  - first:
+      213: -497941012158096104
+    second: SS_Shadow_Shoot_Run_29
+  - first:
+      213: -327591299282776229
+    second: SS_Shadow_Shoot_Run_30
+  - first:
+      213: -1522456874181552296
+    second: SS_Shadow_Shoot_Run_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 169
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2b36d81c46c6420800000000000000
+      internalID: 2624583465313743604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 169
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705a0a24cae2fa500800000000000000
+      internalID: 409597408501081351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 168
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d674e316834dd8c90800000000000000
+      internalID: -7165838093461862547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 168
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038c9b5246905c690800000000000000
+      internalID: -7582644071874050000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 168
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a4a04b469abf880800000000000000
+      internalID: -8576074815414580614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_5
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 168
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2500b4b2496e65390800000000000000
+      internalID: -7829817378081144750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 170
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ebb8e932ef08ad0800000000000000
+      internalID: -2701880347485028740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_7
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 169
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d6d5021b0650580800000000000000
+      internalID: -8861570377913111251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 115
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b708d7c7d1e70ba0800000000000000
+      internalID: -6122676851499857992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 115
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a948cfc4497a2af60800000000000000
+      internalID: 8044176139825743002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_10
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 114
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a452cf61f394e1090800000000000000
+      internalID: -8061925747629218486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 114
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075af40aecfa16ac0800000000000000
+      internalID: -3863613703319476880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_12
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 114
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed26e8392e617090800000000000000
+      internalID: -8038522736552301086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_13
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 114
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2373b16e3dc19b380800000000000000
+      internalID: -8955094687625300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_14
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 114
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64fe9f3945dd1080800000000000000
+      internalID: -9214974751953456018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 114
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca45a848bbbaa570800000000000000
+      internalID: 8478795648645548746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 61
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b5149e889e3bc50800000000000000
+      internalID: 6679939446558776186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_17
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 61
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5ae70f185831040800000000000000
+      internalID: 4617180836116997567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 61
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fb3668383b55ee0800000000000000
+      internalID: -1272913942185525432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_19
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 61
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9268306f7d99fc490800000000000000
+      internalID: -7723785683092666839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_20
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 61
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66930e6eebb071480800000000000000
+      internalID: -8928654821693572762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_21
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 61
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2662c921761d230800000000000000
+      internalID: 3661821301655757531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_22
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 63
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46813ab7a855f770800000000000000
+      internalID: 8643912537214125646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 63
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68eddf4dba0c2f8b0800000000000000
+      internalID: -5119817982121484666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 4
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f81e65d7687f15c0800000000000000
+      internalID: -4242539936601990925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_25
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 4
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4669585ab730f32a0800000000000000
+      internalID: -6755677086439598492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_26
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 4
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92ad29640c400ef0800000000000000
+      internalID: -144031606247677285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_27
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 4
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4329d414f3b332970800000000000000
+      internalID: 8728885645638734388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_28
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 3
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d42b7482d9d68a0800000000000000
+      internalID: -6310214706549076603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_29
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 3
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dd733a945f619f0800000000000000
+      internalID: -497941012158096104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_30
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fcdbee279247bf0800000000000000
+      internalID: -327591299282776229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Shoot_Run_31
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 3
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8579e8c0a852fdae0800000000000000
+      internalID: -1522456874181552296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

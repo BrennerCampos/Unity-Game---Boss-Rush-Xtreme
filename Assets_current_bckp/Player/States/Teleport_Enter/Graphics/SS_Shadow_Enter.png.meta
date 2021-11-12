@@ -1,0 +1,792 @@
+fileFormatVersion: 2
+guid: 9c2937be152ec8c45b268355f1810aee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9223024573318341442
+    second: SS_Shadow_Enter_0
+  - first:
+      213: -3210859260478271586
+    second: SS_Shadow_Enter_1
+  - first:
+      213: -2809198818007508771
+    second: SS_Shadow_Enter_2
+  - first:
+      213: -1418171761020976433
+    second: SS_Shadow_Enter_3
+  - first:
+      213: -2930498979660550503
+    second: SS_Shadow_Enter_4
+  - first:
+      213: 7312130641492812812
+    second: SS_Shadow_Enter_5
+  - first:
+      213: -4774428194264751130
+    second: SS_Shadow_Enter_6
+  - first:
+      213: -4807392494879819408
+    second: SS_Shadow_Enter_7
+  - first:
+      213: 4927267090337636700
+    second: SS_Shadow_Enter_8
+  - first:
+      213: -5894942312633710592
+    second: SS_Shadow_Enter_9
+  - first:
+      213: 330987138965952075
+    second: SS_Shadow_Enter_10
+  - first:
+      213: -1629818731831042055
+    second: SS_Shadow_Enter_11
+  - first:
+      213: -5531759615068131010
+    second: SS_Shadow_Enter_12
+  - first:
+      213: -5395195252088606481
+    second: SS_Shadow_Enter_13
+  - first:
+      213: -2720268287423978829
+    second: SS_Shadow_Enter_14
+  - first:
+      213: -3487421595950521944
+    second: SS_Shadow_Enter_15
+  - first:
+      213: -4086120585832123500
+    second: SS_Shadow_Enter_16
+  - first:
+      213: 537545407969645812
+    second: SS_Shadow_Enter_17
+  - first:
+      213: 8841235822419637326
+    second: SS_Shadow_Enter_18
+  - first:
+      213: -5456483498391277922
+    second: SS_Shadow_Enter_19
+  - first:
+      213: 749308014490530791
+    second: SS_Shadow_Enter_20
+  - first:
+      213: -5958863151218035609
+    second: SS_Shadow_Enter_21
+  - first:
+      213: -5858415850374752838
+    second: SS_Shadow_Enter_22
+  - first:
+      213: 1702386339137341116
+    second: SS_Shadow_Enter_23
+  - first:
+      213: -6427107085181198737
+    second: SS_Shadow_Enter_24
+  - first:
+      213: 6961451953759029531
+    second: SS_Shadow_Enter_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 16
+        width: 6
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc59a8240c310080800000000000000
+      internalID: -9223024573318341442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 22
+        width: 10
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f4b63b38cb073d0800000000000000
+      internalID: -3210859260478271586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 39
+        width: 40
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.88}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8173d0f88b309d0800000000000000
+      internalID: -2809198818007508771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 26
+        width: 62
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.69}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2cad11c44a15ce0800000000000000
+      internalID: -1418171761020976433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_4
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 21
+        width: 64
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.63}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e20b654b6c457d0800000000000000
+      internalID: -2930498979660550503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 21
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04ad6db318e97560800000000000000
+      internalID: 7312130641492812812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_6
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 33
+        width: 38
+        height: 38
+      alignment: 9
+      pivot: {x: 0.6, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e36d337ad2ddbdb0800000000000000
+      internalID: -4774428194264751130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 24
+        width: 56
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0793fce1ff5b84db0800000000000000
+      internalID: -4807392494879819408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_8
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 31
+        width: 43
+        height: 43
+      alignment: 9
+      pivot: {x: 0.56, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c512c09105b216440800000000000000
+      internalID: 4927267090337636700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_9
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 31
+        width: 36
+        height: 42
+      alignment: 9
+      pivot: {x: 0.544576, y: 0.58914894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0084c0c0335f03ea0800000000000000
+      internalID: -5894942312633710592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_10
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 30
+        width: 36
+        height: 44
+      alignment: 9
+      pivot: {x: 0.544576, y: 0.5668617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46d94b9c07e79400800000000000000
+      internalID: 330987138965952075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_11
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 29
+        width: 33
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5406984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffdee0af78b169e0800000000000000
+      internalID: -1629818731831042055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_12
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 23
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31330940fd3b33b0800000000000000
+      internalID: -5531759615068131010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_13
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 20
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe07261d08a6025b0800000000000000
+      internalID: -5395195252088606481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_14
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 25
+        width: 68
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5222873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2655ab76aaf3ad0800000000000000
+      internalID: -2720268287423978829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_15
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 25
+        width: 41
+        height: 46
+      alignment: 9
+      pivot: {x: 0.4934767, y: 0.5465124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1e75f19803a9fc0800000000000000
+      internalID: -3487421595950521944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_16
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 25
+        width: 39
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5222873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493b014f9fe2b47c0800000000000000
+      internalID: -4086120585832123500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_17
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 25
+        width: 36
+        height: 44
+      alignment: 9
+      pivot: {x: 0.544576, y: 0.5668617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f45ca453beb57700800000000000000
+      internalID: 537545407969645812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_18
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 24
+        width: 33
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5406984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44f7ca332162ba70800000000000000
+      internalID: 8841235822419637326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_19
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 24
+        width: 41
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5222873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e6b9bfa2da644b0800000000000000
+      internalID: -5456483498391277922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_20
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 24
+        width: 41
+        height: 46
+      alignment: 9
+      pivot: {x: 0.4934767, y: 0.5465124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3bf0f4ba3166a00800000000000000
+      internalID: 749308014490530791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_21
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 39
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764fb7e098ddd4da0800000000000000
+      internalID: -5958863151218035609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_22
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 39
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab515e3c2d9b2bea0800000000000000
+      internalID: -5858415850374752838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_23
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 40
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb642c61b5710a710800000000000000
+      internalID: 1702386339137341116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_24
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 41
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ed06688245ec6a0800000000000000
+      internalID: -6427107085181198737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Shadow_Enter_25
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 40
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1981c82bab0c9060800000000000000
+      internalID: 6961451953759029531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

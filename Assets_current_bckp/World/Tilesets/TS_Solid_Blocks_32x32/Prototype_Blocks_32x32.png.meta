@@ -1,0 +1,648 @@
+fileFormatVersion: 2
+guid: 659511a5108dbe047a422675efef219b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2657175336278321825
+    second: Prototype_Blocks_32x32_0
+  - first:
+      213: 7322275322015427968
+    second: Prototype_Blocks_32x32_1
+  - first:
+      213: 6868854640399073514
+    second: Prototype_Blocks_32x32_2
+  - first:
+      213: 1588673306595975164
+    second: Prototype_Blocks_32x32_3
+  - first:
+      213: -1300444070579789245
+    second: Prototype_Blocks_32x32_4
+  - first:
+      213: 3069441503344985588
+    second: Prototype_Blocks_32x32_5
+  - first:
+      213: 4013330945704162916
+    second: Prototype_Blocks_32x32_6
+  - first:
+      213: 3600374546603480032
+    second: Prototype_Blocks_32x32_7
+  - first:
+      213: -6158601528549343936
+    second: Prototype_Blocks_32x32_8
+  - first:
+      213: 8302250389261248242
+    second: Prototype_Blocks_32x32_9
+  - first:
+      213: 8541005544229507217
+    second: Prototype_Blocks_32x32_10
+  - first:
+      213: -1122144716737730506
+    second: Prototype_Blocks_32x32_11
+  - first:
+      213: -3018916812785333716
+    second: Prototype_Blocks_32x32_12
+  - first:
+      213: 6590511851240462839
+    second: Prototype_Blocks_32x32_13
+  - first:
+      213: 305971812959946008
+    second: Prototype_Blocks_32x32_14
+  - first:
+      213: 4879547530806045843
+    second: Prototype_Blocks_32x32_15
+  - first:
+      213: -5203853326700005701
+    second: Prototype_Blocks_32x32_16
+  - first:
+      213: -870736369192641796
+    second: Prototype_Blocks_32x32_17
+  - first:
+      213: 8620494529245990084
+    second: Prototype_Blocks_32x32_18
+  - first:
+      213: -5280400437673893452
+    second: Prototype_Blocks_32x32_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1024
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3196.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5593372c11df1bd0800000000000000
+      internalID: -2657175336278321825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 3196.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08da65c3c92fd9560800000000000000
+      internalID: 7322275322015427968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 3196.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0c7c617e2135f50800000000000000
+      internalID: 6868854640399073514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 3196.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff5cc784f91c0610800000000000000
+      internalID: 1588673306595975164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 4176
+        y: 3196.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34224d20205e3fde0800000000000000
+      internalID: -1300444070579789245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2131.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f508b1e8c8d89a20800000000000000
+      internalID: 3069441503344985588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 2131.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46677c84b3732b730800000000000000
+      internalID: 4013330945704162916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 2131.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e398a4139917f130800000000000000
+      internalID: 3600374546603480032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 2131.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d73a91a80488aa0800000000000000
+      internalID: -6158601528549343936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 4176
+        y: 2131.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6e348edb4873370800000000000000
+      internalID: 8302250389261248242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1066.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19011705a4fb78670800000000000000
+      internalID: 8541005544229507217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1066.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638244453575d60f0800000000000000
+      internalID: -1122144716737730506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1066.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ac9775727aa16d0800000000000000
+      internalID: -3018916812785333716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 1066.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f990355c93367b50800000000000000
+      internalID: 6590511851240462839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 4176
+        y: 1066.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81582c62eb70f3400800000000000000
+      internalID: 305971812959946008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c245650a2a7b340800000000000000
+      internalID: 4879547530806045843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6bfc678f238c7b0800000000000000
+      internalID: -5203853326700005701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa5245b2e58ae3f0800000000000000
+      internalID: -870736369192641796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 1.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccc7ebd91622a770800000000000000
+      internalID: 8620494529245990084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prototype_Blocks_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 4176
+        y: 1.5
+        width: 1044
+        height: 1065.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b161a857cf38b6b0800000000000000
+      internalID: -5280400437673893452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

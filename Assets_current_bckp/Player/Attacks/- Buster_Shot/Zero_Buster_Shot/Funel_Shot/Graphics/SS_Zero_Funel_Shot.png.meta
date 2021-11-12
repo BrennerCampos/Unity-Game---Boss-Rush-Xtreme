@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: b9f2b655bb501ad4fb3bee8e299b58e8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6184541980340487317
+    second: SS_Zero_Funel_Shot_0
+  - first:
+      213: -6597186898325916666
+    second: SS_Zero_Funel_Shot_1
+  - first:
+      213: 4669190186377570514
+    second: SS_Zero_Funel_Shot_2
+  - first:
+      213: 7394647886297104620
+    second: SS_Zero_Funel_Shot_3
+  - first:
+      213: -3919358246804078177
+    second: SS_Zero_Funel_Shot_4
+  - first:
+      213: -135493488278548629
+    second: SS_Zero_Funel_Shot_5
+  - first:
+      213: -1610845884944468778
+    second: SS_Zero_Funel_Shot_6
+  - first:
+      213: 6616114436057114423
+    second: SS_Zero_Funel_Shot_7
+  - first:
+      213: -1786739766953424243
+    second: SS_Zero_Funel_Shot_8
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SS_Zero_Funel_Shot_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 13
+        height: 32
+      alignment: 9
+      pivot: {x: 0.34587368, y: 0.520871}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b705306d71c2aa0800000000000000
+      internalID: -6184541980340487317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Zero_Funel_Shot_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 14
+        width: 18
+        height: 24
+      alignment: 9
+      pivot: {x: 0.3144775, y: 0.4999996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6043c6828751274a0800000000000000
+      internalID: -6597186898325916666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Zero_Funel_Shot_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 12
+        width: 22
+        height: 28
+      alignment: 9
+      pivot: {x: 0.21159674, y: 0.4880732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d866cf6cbb4cc040800000000000000
+      internalID: 4669190186377570514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Zero_Funel_Shot_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 14
+        width: 37
+        height: 24
+      alignment: 9
+      pivot: {x: 0.11190713, y: 0.4860854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce005d5f2111f9660800000000000000
+      internalID: 7394647886297104620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Zero_Funel_Shot_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 14
+        width: 46
+        height: 24
+      alignment: 9
+      pivot: {x: 0.06442526, y: 0.4860854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91cebfa074ab99c0800000000000000
+      internalID: -3919358246804078177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Zero_Funel_Shot_5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 14
+        width: 62
+        height: 24
+      alignment: 9
+      pivot: {x: -0.0009108513, y: 0.4860854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f47c9e361ae1ef0800000000000000
+      internalID: -135493488278548629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Zero_Funel_Shot_6
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 11
+        width: 47
+        height: 30
+      alignment: 9
+      pivot: {x: 0.68120366, y: 0.5157713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d43cf7c33025a9e0800000000000000
+      internalID: -1610845884944468778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Zero_Funel_Shot_7
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 11
+        width: 53
+        height: 30
+      alignment: 9
+      pivot: {x: 0.73210806, y: 0.50788563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737a482a60921db50800000000000000
+      internalID: 6616114436057114423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Zero_Funel_Shot_8
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 11
+        width: 63
+        height: 29
+      alignment: 9
+      pivot: {x: 0.73988074, y: 0.49855593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a4da406a93437e0800000000000000
+      internalID: -1786739766953424243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

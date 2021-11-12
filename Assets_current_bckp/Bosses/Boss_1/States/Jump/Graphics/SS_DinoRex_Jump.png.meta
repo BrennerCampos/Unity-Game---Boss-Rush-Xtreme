@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: 5d17c45b0a9222f4ba0fdcb5de9f1f8d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -32254380769250901
+    second: SS_DinoRex_Jump_0
+  - first:
+      213: -2631866251047736049
+    second: SS_DinoRex_Jump_1
+  - first:
+      213: -1984148965453828270
+    second: SS_DinoRex_Jump_2
+  - first:
+      213: -5053934939176707586
+    second: SS_DinoRex_Jump_3
+  - first:
+      213: -483416015084516085
+    second: SS_DinoRex_Jump_4
+  - first:
+      213: -7468592838506191247
+    second: SS_DinoRex_Jump_5
+  - first:
+      213: 1152171689261839416
+    second: SS_DinoRex_Jump_6
+  - first:
+      213: -7173788557278164656
+    second: SS_DinoRex_Jump_7
+  - first:
+      213: -5341987779770144744
+    second: SS_DinoRex_Jump_8
+  - first:
+      213: -4373364094321627768
+    second: SS_DinoRex_Jump_9
+  - first:
+      213: -8094605500267375165
+    second: SS_DinoRex_Jump_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SS_DinoRex_Jump_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 6
+        width: 106
+        height: 104
+      alignment: 9
+      pivot: {x: 0.45257878, y: 0.5732224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba17cc3cfc86d8ff0800000000000000
+      internalID: -32254380769250901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_DinoRex_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 105
+        width: 111
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5795369, y: 0.63770765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0de5f1c69bb97bd0800000000000000
+      internalID: -2631866251047736049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_DinoRex_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 100
+        width: 111
+        height: 127
+      alignment: 9
+      pivot: {x: 0.6911379, y: 0.6846751}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f6aa44703e674e0800000000000000
+      internalID: -1984148965453828270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_DinoRex_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 100
+        width: 110
+        height: 133
+      alignment: 9
+      pivot: {x: 0.6977625, y: 0.6464091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9df6023f0dcd9b0800000000000000
+      internalID: -5053934939176707586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_DinoRex_Jump_4
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 107
+        width: 111
+        height: 127
+      alignment: 9
+      pivot: {x: 0.691089, y: 0.67667085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d072e02bf8a49f0800000000000000
+      internalID: -483416015084516085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_DinoRex_Jump_5
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 103
+        width: 79
+        height: 127
+      alignment: 9
+      pivot: {x: 0.55978817, y: 0.673401}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176efc8326a3a5890800000000000000
+      internalID: -7468592838506191247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_DinoRex_Jump_6
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 11
+        width: 106
+        height: 84
+      alignment: 9
+      pivot: {x: 0.49044856, y: 0.5141571}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834b6b20c065dff00800000000000000
+      internalID: 1152171689261839416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_DinoRex_Jump_7
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 11
+        width: 107
+        height: 84
+      alignment: 9
+      pivot: {x: 0.48629132, y: 0.5143406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0594ca5c055917c90800000000000000
+      internalID: -7173788557278164656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_DinoRex_Jump_8
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 10
+        width: 113
+        height: 84
+      alignment: 9
+      pivot: {x: 0.49507126, y: 0.5149195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818a258da627dd5b0800000000000000
+      internalID: -5341987779770144744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_DinoRex_Jump_9
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 8
+        width: 112
+        height: 85
+      alignment: 9
+      pivot: {x: 0.49959728, y: 0.5091186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88de28cf680be43c0800000000000000
+      internalID: -4373364094321627768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_DinoRex_Jump_10
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 6
+        width: 111
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5045353, y: 0.5029667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5d3af3f2f2aaf80800000000000000
+      internalID: -8094605500267375165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
