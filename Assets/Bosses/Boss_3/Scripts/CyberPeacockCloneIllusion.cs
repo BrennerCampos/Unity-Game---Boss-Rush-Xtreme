@@ -1,27 +1,26 @@
 using BehaviorDesigner.Runtime.Tasks;
 using Core.AI;
 using DG.Tweening;
-using Thinksquirrel.CShake;
-using UnityEngine;
 
 
-public class CyberPeacockGroundBurst : EnemyAction
+
+public class CyberPeacockCloneIllusion : EnemyAction
 {
-    
+
     public string animationTriggerName;
 
 
     private float attackTime;
-    private bool isGrounded, hasGroundBurst;
+    private bool hasCloneIllusioned;
 
     private Tween buildupTween;
     private Tween attackTween;
 
     public override void OnStart()
     {
-        attackTime = 1f;
+        attackTime = 4f;
 
-        buildupTween = DOVirtual.DelayedCall(0.1f, StartGroundBurst, false);
+        buildupTween = DOVirtual.DelayedCall(0.1f, StartCloneIllusion, false);
         animator.SetTrigger(animationTriggerName);
         // cam = mainCamera.GetComponent<CameraShake>();
         //animator.ResetTrigger("isGrounded");
@@ -29,13 +28,13 @@ public class CyberPeacockGroundBurst : EnemyAction
 
     }
 
-    public void StartGroundBurst()
+    public void StartCloneIllusion()
     {
         var direction = PlayerController.instance.transform.position.x < transform.position.x ? -1 : 1;
 
         attackTween = DOVirtual.DelayedCall(attackTime, () =>
         {
-            hasGroundBurst = true;
+            hasCloneIllusioned = true;
         }, false);
     }
 
@@ -43,7 +42,7 @@ public class CyberPeacockGroundBurst : EnemyAction
     public override TaskStatus OnUpdate()
     {
 
-        return hasGroundBurst ? TaskStatus.Success : TaskStatus.Running;
+        return hasCloneIllusioned ? TaskStatus.Success : TaskStatus.Running;
     }
 
 
@@ -51,8 +50,8 @@ public class CyberPeacockGroundBurst : EnemyAction
     {
         buildupTween?.Kill();
         attackTween?.Kill();
-        hasGroundBurst = false;
-        animator.ResetTrigger("startGroundBurst");
+        hasCloneIllusioned = false;
+        animator.ResetTrigger("startCloneIllusion");
         //animator.SetBool("isTeleporting", false);
     }
 
