@@ -5,7 +5,7 @@ using Thinksquirrel.CShake;
 using UnityEngine;
 
 
-public class CyberPeacockGroundBurst : EnemyAction
+public class CyberPeacockAimMissles : EnemyAction
 {
 
     public GameObject mainCamera;
