@@ -183,7 +183,7 @@ public class CyberPeacockBoss : MonoBehaviour
 
         // --- WALL CHECK -------------------------------------------------------------------------------------------------//
 
-        /*if (xDirection == "Right")
+        if (xDirection == "Right")
         {
             WallCheckHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), new Vector2(wallDistance, 0),
                 wallDistance, whatIsWall);
@@ -204,7 +204,7 @@ public class CyberPeacockBoss : MonoBehaviour
         else
         {
             anim.ResetTrigger("isWallTouching");
-        }*/
+        }
 
 
         /*if (WallCheckHit && !isGrounded && rigidbody.velocity.x != 0)
