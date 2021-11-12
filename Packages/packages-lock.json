@@ -180,6 +180,7 @@
       "source": "registry",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0"
       },
@@ -189,6 +190,8 @@
       "version": "1.2.1",
       "depth": 1,
       "source": "registry",
+=======
+>>>>>>> parent of 60a4d15 (Cyber Peacock First Moves Work)
 =======
 >>>>>>> parent of 60a4d15 (Cyber Peacock First Moves Work)
 =======
@@ -250,6 +253,7 @@
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "com.unity.services.core": {
       "version": "1.0.1",
       "depth": 1,
@@ -260,6 +264,8 @@
       "url": "https://packages.unity.com"
     },
 =======
+=======
+>>>>>>> parent of 60a4d15 (Cyber Peacock First Moves Work)
 =======
 >>>>>>> parent of 60a4d15 (Cyber Peacock First Moves Work)
     "com.unity.searcher": {
