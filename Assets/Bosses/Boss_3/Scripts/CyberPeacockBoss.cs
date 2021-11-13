@@ -33,10 +33,10 @@ public class CyberPeacockBoss : MonoBehaviour
     private UnityEngine.Object explosionReference;
 
 
-    public RaycastHit2D WallCheckHit, GroundCheckHit;
-    public LayerMask whatIsWall;
-    public float wallDistance, groundDistance, attackTimer, startAttackTimer;
-    public bool isWallClinging, canWallDash;
+    public RaycastHit2D GroundBurstCheck, GroundCheckHit, AimMissileCheck, DisplayFeathersCheck;
+    public LayerMask whatIsPlayer;
+    public float groundBurstDistance, aimMissileDistance, displayFeathersDistance, groundDistance, attackTimer, startAttackTimer;
+    
 
 
     private void Awake()
@@ -146,6 +146,7 @@ public class CyberPeacockBoss : MonoBehaviour
             xDirection = "Right";
         }
 
+
         /*if (anim.GetBool("isFireDashing"))
         {
 
@@ -181,44 +182,43 @@ public class CyberPeacockBoss : MonoBehaviour
             anim.ResetTrigger("isGrounded");
         }
 
-        // --- WALL CHECK -------------------------------------------------------------------------------------------------//
+        // --- ATTACKS CHECK -------------------------------------------------------------------------------------------------//
 
-        /*if (xDirection == "Right")
+        if (xDirection == "Right")
         {
-            WallCheckHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), new Vector2(wallDistance, 0),
-                wallDistance, whatIsWall);
-            Debug.DrawRay(transform.position, new Vector2(wallDistance, 0), Color.blue);
+            
         }
         else
         {
-            WallCheckHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), new Vector2(-wallDistance, 0),
-                wallDistance, whatIsWall);
-            Debug.DrawRay(transform.position, new Vector2(-wallDistance, 0), Color.blue);
+            
 
         }
 
-        if (WallCheckHit)
+
+        // GROUND BURST RANGE CHECK (Bilateral) ----------------------
+
+        GroundBurstCheck = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y - 1), new Vector2(groundBurstDistance, 0),
+            groundBurstDistance, whatIsPlayer);
+        Debug.DrawRay(new Vector2(transform.position.x, transform.position.y - 1), new Vector2(groundBurstDistance, 0), Color.red);
+
+
+        GroundBurstCheck = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y - 1), new Vector2(-groundBurstDistance, 0),
+            groundBurstDistance, whatIsPlayer);
+        Debug.DrawRay(new Vector2(transform.position.x, transform.position.y - 1), new Vector2(-groundBurstDistance, 0), Color.red);
+
+
+        if (GroundBurstCheck)
         {
-            anim.SetTrigger("isWallTouching");
+            anim.SetTrigger("inGroundBurstRange");
+            anim.SetBool("inGroundBurstRangeBool", true);
         }
         else
         {
-            anim.ResetTrigger("isWallTouching");
-        }*/
+            anim.ResetTrigger("inGroundBurstRange");
+            anim.SetBool("inGroundBurstRangBool", false);
+        }
 
-
-        /*if (WallCheckHit && !isGrounded && rigidbody.velocity.x != 0)
-        {
-            isWallClinging = true;
-            anim.SetBool("isWallClinging", true);
-
-
-            if (attackTimer == startAttackTimer)
-            {
-                canWallDash = true;
-            }
-        }*/
-
+        
 
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
 
@@ -362,7 +362,8 @@ public class CyberPeacockBoss : MonoBehaviour
         {
             sequence.AppendCallback(DeathExplosions);
             sequence.AppendInterval(0.3f);
-        }*/
+        }
+        */
 
         // DeathExplosions();
 
@@ -373,9 +374,9 @@ public class CyberPeacockBoss : MonoBehaviour
 
         AudioManager.instance.PlayLevelVictory();
 
-        /*GameObject explosion = (GameObject) Instantiate(explosionReference);
+        GameObject explosion = (GameObject) Instantiate(explosionReference);
         explosion.transform.position =
-            new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z);*/
+            new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z);
 
         UIController.instance.sandboxModeText.SetActive(true);
 
