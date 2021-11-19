@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5592808825880717863}
   - component: {fileID: 5412067424763820360}
   - component: {fileID: 221392619473386640}
+  - component: {fileID: -588808621823343106}
   m_Layer: 19
   m_Name: Double Cyclone Wind Orb
   m_TagString: SpecialShot
@@ -254,6 +255,26 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &-588808621823343106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4018883024500935859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4dc92822cf75b1459d65c66902a5a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 4
+  materialTimer: 1
+  startMaterialTimer: 1
+  dinoRexSprite: {fileID: 0}
+  hittableEnemy: {fileID: 0}
+  dinoRex: {fileID: 0}
+  blizzardWolfgang: {fileID: 0}
+  cyberPeacock: {fileID: 0}
 --- !u!1 &6301523732177072598
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,3 +342,4 @@ MonoBehaviour:
   hittableEnemy: {fileID: 0}
   dinoRex: {fileID: 0}
   blizzardWolfgang: {fileID: 0}
+  cyberPeacock: {fileID: 0}

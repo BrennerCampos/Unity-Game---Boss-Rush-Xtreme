@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour
     public LayerMask whatIsGround;
     public LayerMask whatIsWall;
     public Vector3 startPosition;
+    public bool levelEnd;
+    private bool victoryStance, victoryStanceBool, startTeleportOut, teleportOutBool, endStandingIdleBool, endStandingIdle;
     private SpriteRenderer sprite;
     private Animator anim;
     private DamagePlayer enemyAttackCollider;
@@ -203,7 +205,11 @@ public class PlayerController : MonoBehaviour
     private bool playedLoopedChargeSFX;
 
 
-    [Header("Timers")]
+    [Header("Timers")] 
+    public float levelIntroStopTime;
+    public float victoryStanceTimer;
+    public float teleportOutTimer;
+    public float endStandingIdleTimer;
     private float timeInLevel;
 
 
@@ -246,6 +252,11 @@ public class PlayerController : MonoBehaviour
         canRunShoot = false;
         canStandSlash = true;
         canInput = true;
+        endStandingIdle = true;
+        endStandingIdleBool = true;
+        victoryStance = false;
+        victoryStanceBool = true;
+        teleportOutBool = true;
         // canMove = true;
 
         // Establishing finite variables
@@ -261,10 +272,74 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        if (levelEnd)
+        {
+            if (endStandingIdle)
+            {
+                if (endStandingIdleBool)
+                {
+                    stopInput = true;
+                    anim.SetTrigger("standOverride");
+                    endStandingIdleBool = false;
+                }
+                
+                endStandingIdleTimer -= Time.deltaTime;
+
+                if (endStandingIdleTimer <= 0)
+                {
+                    anim.ResetTrigger("standOverride");
+                    endStandingIdle = false;
+                    victoryStance = true;
+                }
+            }
+            
+            if (victoryStance)
+            {
+                if (victoryStanceBool)
+                {
+                    stopInput = true;
+                    anim.SetTrigger("startVictoryStance");
+                    victoryStanceBool = false;
+                }
+
+                victoryStanceTimer -= Time.deltaTime;
+
+                if (victoryStanceTimer <= 0)
+                {
+                    anim.ResetTrigger("startVictoryStance");
+                    victoryStanceTimer = 1.3f;
+                    stopInput = true;
+                    levelEnd = false;
+                    rigidBody.gravityScale = 0;
+                    startTeleportOut = true;
+                }
+            }
+        }
+
+        if (startTeleportOut)
+        {
+            if (teleportOutBool)
+            {
+                anim.SetTrigger("startTeleportOut");
+                teleportOutBool = false;
+            }
+
+            teleportOutTimer -= Time.deltaTime;
+            transform.position = new Vector3(transform.position.x, transform.position.y+1.3f, transform.position.z);
+        }
+        
         // If in teleportation state (Enter & Exit)
         if (isTeleporting)
         {
             transform.position = new Vector3(xStartPosition, transform.position.y, transform.position.z);
+            stopInput = true;
+            //CameraController.instance.stopFollow = true;
+
+            if (LevelManager.instance.timeInLevel > levelIntroStopTime)
+            {
+                //CameraController.instance.stopFollow = false;
+                stopInput = false;
+            }
         }
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -846,7 +921,6 @@ public class PlayerController : MonoBehaviour
         {
             slashJumpTimer = 0;
             isJumpSlashing = true;
-            Debug.Log("JUMP-SLASH!");
 
             anim.SetBool("isJumpSlashing", true);
 

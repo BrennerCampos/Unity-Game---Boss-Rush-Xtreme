@@ -26,4 +26,24 @@ public class AttackAnimatorEvents : MonoBehaviour
             collider.enabled = false;
         }
     }
+
+    private void InvisibleStart()
+    {
+
+        foreach (var collider in attackColliders)
+        {
+            collider.enabled = false;
+        }
+    }
+
+
+    private void InvisibleEnd()
+    {
+        foreach (var collider in attackColliders)
+        {
+            collider.enabled = true;
+        }
+    }
+
+
 }

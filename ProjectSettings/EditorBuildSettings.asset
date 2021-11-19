@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/- Scenes -/Test_Scenes/Sandbox_Level_2.unity
     guid: ceecec156392b794ea80715cfe64dd78
+  - enabled: 1
+    path: Assets/- Scenes -/Main_Stages/Boss_Cyber_Peacock_Stage.unity
+    guid: 1c09582613422204db6dd81cb2286fa0
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: be7fda05ab05e87438d49176ef8b09ab, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 3fcc08293dc435f4ba962b783e2ef2f6, type: 2}

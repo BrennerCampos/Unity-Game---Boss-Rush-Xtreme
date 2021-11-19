@@ -12,6 +12,7 @@ public class EnemyDeactivate : EnemyAction
     public override void OnStart()
     {
         boxCollider = hazardCollider.GetComponentInChildren<BoxCollider2D>();
+        boxCollider.isTrigger = false;
         boxCollider.enabled = false;
     }
 

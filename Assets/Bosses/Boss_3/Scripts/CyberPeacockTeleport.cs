@@ -9,6 +9,9 @@ public class CyberPeacockTeleport : EnemyAction
 {
 
     public GameObject GroundDust, mainCamera;
+
+    public BoxCollider2D attackCollider, hazardCollider, bodyCollider;
+    public Rigidbody2D rigidBody;
     //public CameraShake cameraShake;
     public CameraShake cam;
 
@@ -42,6 +45,9 @@ public class CyberPeacockTeleport : EnemyAction
     public void StartTeleport()
     {
         var direction = PlayerController.instance.transform.position.x < transform.position.x ? -1 : 1;
+        attackCollider.enabled = false;
+        hazardCollider.enabled = false;
+
 
         teleportTween = DOVirtual.DelayedCall(teleportTime, () =>
         {
@@ -64,6 +70,8 @@ public class CyberPeacockTeleport : EnemyAction
 
     public override void OnEnd()
     {
+        attackCollider.enabled = true;
+        hazardCollider.enabled = true;
         buildupTween?.Kill();
         teleportTween?.Kill();
         hasTeleported = false;

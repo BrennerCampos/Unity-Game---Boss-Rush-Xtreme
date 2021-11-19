@@ -9,10 +9,10 @@ public class DamageBoss : MonoBehaviour
     public float materialTimer, startMaterialTimer;
     public SpriteRenderer dinoRexSprite;
     public HittableEnemy hittableEnemy;
-    public DinoRexBoss dinoRex;
-    public BlizzardWolfgangBoss blizzardWolfgang;
-    //public CyberPeacockBoss cyberPeacock;
-   // public CrescentGrizzlyBoss crescentGrizzly;
+    private DinoRexBoss dinoRex;
+    private BlizzardWolfgangBoss blizzardWolfgang;
+    private CyberPeacockBoss cyberPeacock;
+    // public CrescentGrizzlyBoss crescentGrizzly;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class DamageBoss : MonoBehaviour
 
         dinoRex = FindObjectOfType<DinoRexBoss>();
         blizzardWolfgang = FindObjectOfType<BlizzardWolfgangBoss>();
-        //cyberPeacock = FindObjectOfType<CyberPeacockBoss>();
+        cyberPeacock = FindObjectOfType<CyberPeacockBoss>();
         //crescentGrizzly = FindObjectOfType<CrescentGrizzlyBoss>();
 
 
@@ -95,7 +95,7 @@ public class DamageBoss : MonoBehaviour
             //Destroy(gameObject);
         }
 
-        if (other.tag == "Enemy")
+        if (other.tag == "EnemyHazard")
         {
             //var shotEffect = Instantiate(shotHitEffect, gameObject.transform.position, gameObject.transform.rotation);
             // enemySprite = other.GetComponent<SpriteRenderer>();
@@ -110,11 +110,11 @@ public class DamageBoss : MonoBehaviour
             {
                 BlizzardWolfgangBoss.instance.currentHealth -= attackDamage;
             }
-            /*else if (FindObjectOfType<CyberPeacockBoss>() != null)
+            else if (FindObjectOfType<CyberPeacockBoss>() != null)
             {
-                CyberPeacockBoss.instance.currentHealth -= attackDamage;
+                //CyberPeacockBoss.instance.currentHealth -= attackDamage;
             }
-            else if (FindObjectOfType<CrescentGrizzlyBoss>() != null)
+            /*else if (FindObjectOfType<CrescentGrizzlyBoss>() != null)
             {
                 CrescentGrizzlyBoss.instance.currentHealth -= attackDamage;
             }*/

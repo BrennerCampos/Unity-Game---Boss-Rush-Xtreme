@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,10 +8,15 @@ public class LevelManager : MonoBehaviour
 {
 
     public static LevelManager instance;
-    public float waitToRespawn, timeInLevel;
-    public int gemsCollected;
+    public Animator playerAnimator, bossAnimator;
+    public Transform bossSpawnPoint;
+    public GameObject boss;
+    public float waitToRespawn, timeInLevel, waitforBossSpawnTime;
     public string levelToLoad;
 
+    private Tween standingTween;
+    private Tween victoryStanceTween;
+    private Tween teleportOutTween;
 
     // Object Constructor
     private void Awake()
@@ -22,17 +28,43 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         timeInLevel = 0f;
+        FirstSpawnBoss();
     }
 
     // Update is called once per frame
     void Update()
     {
         timeInLevel += Time.deltaTime;
+
+        if (timeInLevel > 7                                  &&
+            FindObjectOfType<DinoRexBoss>() == null          &&
+            FindObjectOfType<BlizzardWolfgangBoss>() == null &&
+            FindObjectOfType<CyberPeacockBoss>() == null     &&
+            FindObjectOfType<CrescentGrizzlyBoss>() == null)
+        {
+            EndLevel();
+        }
+
     }
+
+    public void FirstSpawnBoss()
+    {
+      StartCoroutine(FirstSpawnBossCo());
+
+    }
+
+    private IEnumerator FirstSpawnBossCo()
+    {
+        yield return new WaitForSeconds(waitforBossSpawnTime);
+        bossAnimator.SetTrigger("introTeleport");
+        boss.transform.position = bossSpawnPoint.position;
+        UIController.instance.WarningTime();
+    }
+
+
 
     public void RespawnPlayer()
     {
-        // Coroutines must be started with "StartCoroutine"
         StartCoroutine(RespawnCo());
     }
 
@@ -64,34 +96,88 @@ public class LevelManager : MonoBehaviour
         UIController.instance.UpdateHealthDisplay();
     }
 
+
+    /*public void VictoryStance()
+    {
+        
+        
+    }*/
+
+    /*public IEnumerator VictoryStanceCo()
+    {
+        
+        //yield return new WaitForSeconds(4f);
+        //playerAnimator.SetTrigger("startVictoryStance");
+        //playerAnimator.ResetTrigger("startVictoryStance");
+
+        yield return new WaitForSeconds(1f);
+    
+
+    }*/
+
     public void EndLevel()
     {
-        //StartCoroutine(EndLevelCo());
+        /*//playerAnimator.SetBool("isStandingIdle", false);
+        playerAnimator.SetTrigger("standOverride");
+        playerAnimator.ResetTrigger("standOverride");
+        // CameraController.instance.stopFollow = true;
+        playerAnimator.SetBool("isStandingIdle", true);
+        // Removes player input ability
+        PlayerController.instance.stopInput = true;
+
+        standingTween = DOVirtual.DelayedCall(4f, StartVictoryStance, false);*/
+        PlayerController.instance.levelEnd = true;
+        PlayerController.instance.stopInput = true;
+        StartCoroutine(EndLevelCo());
+    //StartCoroutine(VictoryStanceCo());
     }
 
-    /*public IEnumerator EndLevelCo()
+    /*public void StartVictoryStance()
+    {
+        playerAnimator.SetTrigger("startVictoryStance");
+        playerAnimator.ResetTrigger("startVictoryStance");
+
+
+        victoryStanceTween = DOVirtual.DelayedCall(1.5f, () =>
+        {
+           teleportOutTween = DOVirtual.DelayedCall(1f, StartTeleportOut, false);
+        }, false);
+
+    }
+    public void StartTeleportOut()
+    {
+        standingTween?.Kill();
+        playerAnimator.SetTrigger("startTeleportOut");
+
+        /*teleportOutTween = DOVirtual.DelayedCall(1.5f, () =>
+        {
+            //
+        }, false);#1#
+    }*/
+
+    public IEnumerator EndLevelCo()
     {
        // Play victory music
         AudioManager.instance.PlayLevelVictory();
-        
-        // Removes player input ability
-        PlayerController.instance.stopInput = true;
-        CameraController.instance.stopFollow = true;
-       
-        UIController.instance.levelCompleteText.SetActive(true);
+
 
         // Wait a bit then fade screen to black
-        yield return new WaitForSeconds(1.5f);
+        //yield return new WaitForSeconds(1f);
+        //playerAnimator.SetTrigger("startVictoryStance");
+        //playerAnimator.ResetTrigger("startVictoryStance");
+
+
+        yield return new WaitForSeconds(6f);
         UIController.instance.FadeToBlack();
 
         // Waits an extra amount of time for victory music to finish playing
         yield return new WaitForSeconds((1f / UIController.instance.fadeSpeed) + 3f);
 
         // Marks current level as unlocked in PlayerPrefs and gets level name
-        PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "_unlocked", 1);
-        PlayerPrefs.SetString("CurrentLevel", SceneManager.GetActiveScene().name);
+        //PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "_unlocked", 1);
+        //PlayerPrefs.SetString("CurrentLevel", SceneManager.GetActiveScene().name);
 
-        // If there is any GEMS data stored on current level...
+        /*// If there is any GEMS data stored on current level...
         if (PlayerPrefs.HasKey(SceneManager.GetActiveScene().name + "_gems"))
         {
             // If current gems total is better than previous best (or goal)
@@ -101,10 +187,11 @@ public class LevelManager : MonoBehaviour
                 PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "_gems", gemsCollected);
             }
         }
+        
         else    // If no GEMS data is found...
         {
             PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "_gems", gemsCollected);
-        }
+        }*/
 
         // If there is any TIME data stored on current level...
         if (PlayerPrefs.HasKey(SceneManager.GetActiveScene().name + "_time"))
@@ -122,7 +209,7 @@ public class LevelManager : MonoBehaviour
 
         // Finally, loads next scene
         SceneManager.LoadScene(levelToLoad);
-    }*/
+    }
 }
 
 

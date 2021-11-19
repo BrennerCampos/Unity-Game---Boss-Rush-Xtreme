@@ -24,7 +24,7 @@ public class BossCollision : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (other.tag == "Enemy")
+        if (other.tag == "EnemyHazard")
         {
             collision = true;
         }

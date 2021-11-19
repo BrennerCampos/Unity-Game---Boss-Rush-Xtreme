@@ -96,8 +96,9 @@ public class BusterShot : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (other.tag == "Enemy")
+        if (other.tag == "EnemyHazard" && other.GetComponentInChildren<BoxCollider2D>().enabled)
         {
+
             var shotEffect = Instantiate(shotHitEffect, gameObject.transform.position, gameObject.transform.rotation);
             // enemySprite = other.GetComponent<SpriteRenderer>();
             shotEffect.transform.localScale = new Vector3(11, 11, 1);
@@ -106,6 +107,5 @@ public class BusterShot : MonoBehaviour
             //Destroy(other);
             Destroy(gameObject);
         }
-        
     }
 }

@@ -35,26 +35,7 @@ public class Pickup : MonoBehaviour
         // If we are colliding with a Player object
         if (other.CompareTag("Player") && !isCollected)
         {
-            // If we collide with a Gem...
-            if (isGem)
-            {
-                // Add to total gems collected in the level
-                LevelManager.instance.gemsCollected ++;
-                // Mark that Gem collected
-                isCollected = true;
-                
-                // Destroy defers its action till the end of the function
-                Destroy(gameObject);
-
-                // Creates a new instance of our *Pickup Effect* in the Gem's current location
-                Instantiate(pickupEffect, transform.position, transform.rotation);
-
-                // Updates UI Text showing new Gems total
-                //UIController.instance.UpdateGemCount();
-
-                // Plays 'Pickup Gem' SFX
-                AudioManager.instance.PlaySFX(6);
-            }
+            
             // If we collide with a Heal Item
             if (isHeal)
             {

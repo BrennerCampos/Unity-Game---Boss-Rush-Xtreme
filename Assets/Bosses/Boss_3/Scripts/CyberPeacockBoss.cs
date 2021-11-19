@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using BehaviorDesigner.Runtime.Tasks;
+using BehaviorDesigner.Runtime.Tasks.Unity.UnityGameObject;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,6 +12,7 @@ public class CyberPeacockBoss : MonoBehaviour
 
     public static CyberPeacockBoss instance;
     public SpriteRenderer sprite;
+    public BoxCollider2D[] colliders;
     public GameObject Explosion_1;
     public GameObject CyberPeacockDeathEffect;
     public HittableEnemy hittableEnemy;
@@ -18,11 +20,12 @@ public class CyberPeacockBoss : MonoBehaviour
     public Transform leftPoint, rightPoint;
     public Transform groundCheckPoint;
     public Slider currentHealthSlider;
+    public Slider[] sliders;
     public LayerMask whatIsGround;
     public float moveSpeed, moveTime, waitTime;
     public float startMaterialTimer, materialTimer, materialFlashTimer, startMaterialFlashTimer;
     public int currentHealth, health;
-    public bool isGrounded, wasAirbornLastStep, wasGroundedLastStep;
+    public bool isGrounded, wasAirbornLastStep, wasGroundedLastStep, isClone;
     public string xDirection;
 
     private new Rigidbody2D rigidbody;
@@ -53,6 +56,18 @@ public class CyberPeacockBoss : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         sprite = GetComponentInChildren<SpriteRenderer>();
         hittableEnemy = GetComponentInChildren<HittableEnemy>();
+        sliders = FindObjectsOfType<Slider>();
+
+        anim.SetBool("isClone", isClone);
+
+        foreach (var slider in sliders)
+        {
+            if (slider.tag == "BossHPSlider")
+            {
+                currentHealthSlider = slider;
+            }
+        }
+        
 
         bossCollision = PlayerController.instance.GetComponentInChildren<BossCollision>();
 
@@ -64,9 +79,6 @@ public class CyberPeacockBoss : MonoBehaviour
         //materialDefault = spriteRenderer.material;
         explosionReference = Resources.Load("Explosion");
 
-        // Unlinking enemy stop points from enemy so they don't move in conjunction
-        leftPoint.parent = null;
-        rightPoint.parent = null;
 
         // Keeping track of what direction enemy is moving in
         movingRight = true;
@@ -80,218 +92,244 @@ public class CyberPeacockBoss : MonoBehaviour
 
         materialTimer = startMaterialTimer;
         materialFlashTimer = startMaterialFlashTimer;
+
+        if (isClone)
+        {
+            anim.SetBool("isCloneAttacking", true);
+        }
+
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        materialTimer -= Time.deltaTime;
-
-
-        if (sprite.material.name == "WhiteFlash (Instance)")
+        if (anim == null)
         {
-            materialFlashTimer -= Time.deltaTime;
-
-            if (materialFlashTimer <= 0)
-            {
-                //
-                //hittableEnemy.ResetMaterial(0.15f);
-
-                sprite.material = materialDefault;
-                materialFlashTimer = startMaterialFlashTimer;
-            }
-        }
-
-
-        if (bossCollision.collision)
-        {
-            if (PlayerController.instance.GetComponentInChildren<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Shadow_Slash_Jump"))
-            {
-                hittableEnemy.isHit = true;
-                sprite.material = hittableEnemy.hitMaterial;
-                StartCoroutine(hittableEnemy.ResetMaterial(0.15f));
-                bossCollision.collision = false;
-
-            }
-            else if (PlayerController.instance.GetComponentInChildren<Animator>().GetCurrentAnimatorStateInfo(0)
-                .IsName("Shadow_Nova_Strike"))
-            {
-                //attackDamage = 10;
-                hittableEnemy.isHit = true;
-                sprite.material = hittableEnemy.hitMaterial;
-                StartCoroutine(hittableEnemy.ResetMaterial(0.15f));
-                bossCollision.collision = false;
-            }
-            else if (PlayerController.instance.GetComponentInChildren<Animator>().GetCurrentAnimatorStateInfo(0)
-                .IsName("Shadow_Slash_Stand"))
-            {
-                //attackDamage = 8;
-                hittableEnemy.isHit = true;
-                sprite.material = hittableEnemy.hitMaterial;
-                StartCoroutine(hittableEnemy.ResetMaterial(0.15f));
-                bossCollision.collision = false;
-            }
-
-            // materialTimer = startMaterialTimer;
-        }
-
-
-        if (transform.localScale.x > 0)
-        {
-            xDirection = "Left";
+            DestroyBoss();
         }
         else
         {
-            xDirection = "Right";
-        }
-
-
-        /*if (anim.GetBool("isFireDashing"))
+            /*if (anim.GetBool("isTeleporting"))
         {
-
-            if (xDirection == "Left")
+            foreach (var collider in colliders)
             {
-                var scale = transform.localScale;
-                scale.x = -1;
-                transform.localScale = scale;
+                Debug.Log("Disabled collider", collider);
+                collider.enabled = false;
+            }
+        }
+        else
+        {
+            foreach (var collider in colliders)
+            {
+                collider.enabled = true;
+            }
+        }*/
+
+            materialTimer -= Time.deltaTime;
+
+            if (sprite != null)
+            {
+                if (sprite.material.name == "WhiteFlash (Instance)")
+                {
+                    materialFlashTimer -= Time.deltaTime;
+
+                    if (materialFlashTimer <= 0)
+                    {
+                        //
+                        //hittableEnemy.ResetMaterial(0.15f);
+
+                        sprite.material = materialDefault;
+                        materialFlashTimer = startMaterialFlashTimer;
+                    }
+                }
+            }
+            
+
+            if (bossCollision.collision)
+            {
+                if (PlayerController.instance.GetComponentInChildren<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Shadow_Slash_Jump"))
+                {
+                    hittableEnemy.isHit = true;
+                    sprite.material = hittableEnemy.hitMaterial;
+                    StartCoroutine(hittableEnemy.ResetMaterial(0.15f));
+                    bossCollision.collision = false;
+
+                }
+                else if (PlayerController.instance.GetComponentInChildren<Animator>().GetCurrentAnimatorStateInfo(0)
+                    .IsName("Shadow_Nova_Strike"))
+                {
+                    //attackDamage = 10;
+                    hittableEnemy.isHit = true;
+                    sprite.material = hittableEnemy.hitMaterial;
+                    StartCoroutine(hittableEnemy.ResetMaterial(0.15f));
+                    bossCollision.collision = false;
+                }
+                else if (PlayerController.instance.GetComponentInChildren<Animator>().GetCurrentAnimatorStateInfo(0)
+                    .IsName("Shadow_Slash_Stand"))
+                {
+                    //attackDamage = 8;
+                    hittableEnemy.isHit = true;
+                    sprite.material = hittableEnemy.hitMaterial;
+                    StartCoroutine(hittableEnemy.ResetMaterial(0.15f));
+                    bossCollision.collision = false;
+                }
+
+                // materialTimer = startMaterialTimer;
+            }
+
+
+            if (transform.localScale.x > 0)
+            {
+                xDirection = "Left";
             }
             else
             {
-                var scale = transform.localScale;
-                scale.x = 1;
-                transform.localScale = scale;
+                xDirection = "Right";
             }
 
-        }*/
+            if (isClone)
+            {
+                anim.SetBool("isCloneAttacking", true);
+            }
+            else
+            {
+                /*if (anim.GetBool("isCloneAttacking") || anim.GetBool("isCyberWaveAttacking"))
+                {
+                    rigidbody.gravityScale = 0;
+                }
+                else
+                {
+                    rigidbody.gravityScale = 4;
+                }*/
+
+                // --- GROUND CHECK -------------------------------------------------------------------------------------------------//
+
+                GroundCheckHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), new Vector2(0, -groundDistance),
+                    groundDistance, whatIsGround);
+                Debug.DrawRay(transform.position, new Vector2(0, -groundDistance), Color.blue);
 
 
-        // --- GROUND CHECK -------------------------------------------------------------------------------------------------//
+                if (GroundCheckHit)
+                {
+                    anim.SetTrigger("isGrounded");
+                }
+                else
+                {
+                    anim.ResetTrigger("isGrounded");
+                }
 
-        GroundCheckHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), new Vector2(0, -groundDistance),
-            groundDistance, whatIsGround);
-        Debug.DrawRay(transform.position, new Vector2(0, -groundDistance), Color.blue);
+                // --- ATTACKS CHECK -------------------------------------------------------------------------------------------------//
+
+                if (xDirection == "Right")
+                {
+                    GroundBurstCheck = Physics2D.Raycast(new Vector2(transform.position.x + 5, transform.position.y - 1), new Vector2(-groundBurstDistance, 0),
+                        groundBurstDistance, whatIsPlayer);
+                    Debug.DrawRay(new Vector2(transform.position.x + 5, transform.position.y - 1), new Vector2(-groundBurstDistance, 0), Color.red);
+                }
+                else
+                {
+                    GroundBurstCheck = Physics2D.Raycast(new Vector2(transform.position.x - 5, transform.position.y - 1), new Vector2(groundBurstDistance, 0),
+                        groundBurstDistance, whatIsPlayer);
+                    Debug.DrawRay(new Vector2(transform.position.x - 5, transform.position.y - 1), new Vector2(groundBurstDistance, 0), Color.red);
+
+                }
 
 
-        if (GroundCheckHit)
-        {
-            anim.SetTrigger("isGrounded");
+                // GROUND BURST RANGE CHECK (Bilateral) ----------------------
+
+
+
+
+                if (GroundBurstCheck)
+                {
+                    anim.SetTrigger("inGroundBurstRange");
+                    anim.SetBool("inGroundBurstRangeBool", true);
+                    anim.SetBool("outsideGroundBurstRangeBool", false);
+                }
+                else
+                {
+                    anim.ResetTrigger("inGroundBurstRange");
+                    anim.SetBool("inGroundBurstRangeBool", false);
+                    anim.SetBool("outsideGroundBurstRangeBool", true);
+                }
+
+
+
+                isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
+
+                // If we can move...
+                if (moveCounter > 0)
+                {
+                    // Continue counting down move timer
+                    moveCounter -= Time.deltaTime;
+
+                    // If enemy's direction is 'right' -->
+                    if (movingRight)
+                    {
+                        // Moves our enemy's rigidbody to the right (positive moveSpeed)
+                        rigidbody.velocity = new Vector2(moveSpeed, rigidbody.velocity.y);
+                        // Sprite direction = right
+                        //spriteRenderer.flipX = true;
+
+                        // If we pass our right-most stop point...
+                        if (transform.position.x > rightPoint.position.x)
+                        {
+                            // Change direction to 'left'
+                            movingRight = false;
+                        }
+                    }
+                    else  // if enemy's direction is 'left'  <--
+                    {
+                        // Moves our enemy's rigidbody to the left (negative moveSpeed)
+                        rigidbody.velocity = new Vector2(-moveSpeed, rigidbody.velocity.y);
+                        // Sprite direction = left
+                        //spriteRenderer.flipX = false;
+
+                        // If we pass our left-most stop point...
+                        if (transform.position.x < leftPoint.position.x)
+                        {
+                            // Change direction to 'right'
+                            movingRight = true;
+                        }
+                    }
+
+                    // If we've finished counting down our move counter...
+                    if (moveCounter <= 0)
+                    {
+                        // Choose random time between 3/4th of our wait time and 1 1/4 of our wait time to assign to our wait counter
+                        waitCounter = Random.Range(waitTime * 0.75f, waitTime * 1.25f);
+                    }
+
+                    // Sets sprite animation parameter to let us know our enemy is moving
+                    //   anim.SetBool("isMoving", true);
+                }
+                else if (waitCounter > 0)   // If we cannot move...
+                {
+                    // Count down our wait timer
+                    waitCounter -= Time.deltaTime;
+
+                    // Telling enemy to stand still ("0" velocity.x)
+                    rigidbody.velocity = new Vector2(0f, rigidbody.velocity.y);
+
+
+                    // If our wait counter hits 0
+                    if (waitCounter <= 0)
+                    {
+                        // Choose random time between 3/4th of our move time and 3/4th of our wait time to assign to our move counter
+                        moveCounter = Random.Range(moveTime * 0.75f, waitTime * 0.75f);
+                    }
+                    // Sets sprite animation parameter to let us know our enemy is NOT moving
+                    //   anim.SetBool("isMoving", false);
+                }
+
+                if (materialTimer < 0)
+                {
+                    materialTimer = 0;
+                }
+            }
         }
-        else
-        {
-            anim.ResetTrigger("isGrounded");
-        }
-
-        // --- ATTACKS CHECK -------------------------------------------------------------------------------------------------//
-
-        if (xDirection == "Right")
-        {
-            
-        }
-        else
-        {
-            
-
-        }
-
-
-        // GROUND BURST RANGE CHECK (Bilateral) ----------------------
-
-        GroundBurstCheck = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y - 1), new Vector2(groundBurstDistance, 0),
-            groundBurstDistance, whatIsPlayer);
-        Debug.DrawRay(new Vector2(transform.position.x, transform.position.y - 1), new Vector2(groundBurstDistance, 0), Color.red);
-
-
-        GroundBurstCheck = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y - 1), new Vector2(-groundBurstDistance, 0),
-            groundBurstDistance, whatIsPlayer);
-        Debug.DrawRay(new Vector2(transform.position.x, transform.position.y - 1), new Vector2(-groundBurstDistance, 0), Color.red);
-
-
-        if (GroundBurstCheck)
-        {
-            anim.SetTrigger("inGroundBurstRange");
-            anim.SetBool("inGroundBurstRangeBool", true);
-        }
-        else
-        {
-            anim.ResetTrigger("inGroundBurstRange");
-            anim.SetBool("inGroundBurstRangBool", false);
-        }
-
         
-
-        isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
-
-        // If we can move...
-        if (moveCounter > 0)
-        {
-            // Continue counting down move timer
-            moveCounter -= Time.deltaTime;
-
-            // If enemy's direction is 'right' -->
-            if (movingRight)
-            {
-                // Moves our enemy's rigidbody to the right (positive moveSpeed)
-                rigidbody.velocity = new Vector2(moveSpeed, rigidbody.velocity.y);
-                // Sprite direction = right
-                //spriteRenderer.flipX = true;
-
-                // If we pass our right-most stop point...
-                if (transform.position.x > rightPoint.position.x)
-                {
-                    // Change direction to 'left'
-                    movingRight = false;
-                }
-            }
-            else  // if enemy's direction is 'left'  <--
-            {
-                // Moves our enemy's rigidbody to the left (negative moveSpeed)
-                rigidbody.velocity = new Vector2(-moveSpeed, rigidbody.velocity.y);
-                // Sprite direction = left
-                //spriteRenderer.flipX = false;
-
-                // If we pass our left-most stop point...
-                if (transform.position.x < leftPoint.position.x)
-                {
-                    // Change direction to 'right'
-                    movingRight = true;
-                }
-            }
-
-            // If we've finished counting down our move counter...
-            if (moveCounter <= 0)
-            {
-                // Choose random time between 3/4th of our wait time and 1 1/4 of our wait time to assign to our wait counter
-                waitCounter = Random.Range(waitTime * 0.75f, waitTime * 1.25f);
-            }
-
-            // Sets sprite animation parameter to let us know our enemy is moving
-            //   anim.SetBool("isMoving", true);
-        }
-        else if (waitCounter > 0)   // If we cannot move...
-        {
-            // Count down our wait timer
-            waitCounter -= Time.deltaTime;
-
-            // Telling enemy to stand still ("0" velocity.x)
-            rigidbody.velocity = new Vector2(0f, rigidbody.velocity.y);
-
-
-            // If our wait counter hits 0
-            if (waitCounter <= 0)
-            {
-                // Choose random time between 3/4th of our move time and 3/4th of our wait time to assign to our move counter
-                moveCounter = Random.Range(moveTime * 0.75f, waitTime * 0.75f);
-            }
-            // Sets sprite animation parameter to let us know our enemy is NOT moving
-            //   anim.SetBool("isMoving", false);
-        }
-
-        if (materialTimer < 0)
-        {
-            materialTimer = 0;
-        }
-
     }
 
     void LateUpdate()
@@ -299,49 +337,6 @@ public class CyberPeacockBoss : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-
-        if (other.gameObject.tag == "ShotLevel_5")
-        {
-            currentHealth -= 7;
-            AudioManager.instance.PlaySFXOverlap(25);
-            // spriteRenderer.material = materialWhite;
-        }
-        else if (other.gameObject.tag == "ShotLevel_4")
-        {
-            currentHealth -= 5;
-            AudioManager.instance.PlaySFXOverlap(25);
-            // spriteRenderer.material = materialWhite;
-        }
-        else if (other.gameObject.tag == "ShotLevel_3")
-        {
-            currentHealth -= 3;
-            // spriteRenderer.material = materialWhite;
-        }
-        else if (other.gameObject.tag == "ShotLevel_2")
-        {
-            currentHealth -= 2;
-            // spriteRenderer.material = materialWhite;
-        }
-        else if (other.gameObject.tag == "ShotLevel_1")
-        {
-            currentHealth -= 1;
-            //  spriteRenderer.material = materialWhite;
-        }
-        currentHealthSlider.value = currentHealth;
-
-        if (currentHealth <= 0)
-        {
-            AudioManager.instance.PlaySFX_NoPitchFlux(2);
-            Destroy(other);
-            DestroyBoss();
-        }
-        else
-        {
-            Invoke("ResetMaterial", 0.1f);
-        }
-    }
 
     void ResetMaterial()
     {
@@ -350,35 +345,38 @@ public class CyberPeacockBoss : MonoBehaviour
 
     public void DestroyBoss()
     {
-        Instantiate(CyberPeacockDeathEffect, transform.position, transform.rotation);
-
-        /*for (int i = 0; i < 5; i++)
+        if (!isClone)
         {
-            // Spawn them in diff locations
+            Instantiate(CyberPeacockDeathEffect, transform.position, transform.rotation);
+
+            /*for (int i = 0; i < 5; i++)
+            {
+                // Spawn them in diff locations
+            }
+
+            var sequence = DOTween.Sequence();
+            for (int i = 0; i < 12; i++)
+            {
+                sequence.AppendCallback(DeathExplosions);
+                sequence.AppendInterval(0.3f);
+            }
+            */
+
+            // DeathExplosions();
+
+            // Death 2 explosion
+            AudioManager.instance.PlaySFXOverlap(23);
+            // Play "Explosion Pop"
+            AudioManager.instance.PlaySFXOverlap(19);
+
+            AudioManager.instance.PlayLevelVictory();
+
+            GameObject explosion = (GameObject)Instantiate(explosionReference);
+            explosion.transform.position =
+                new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z);
+
+            UIController.instance.sandboxModeText.SetActive(true);
         }
-        
-        var sequence = DOTween.Sequence();
-        for (int i = 0; i < 12; i++)
-        {
-            sequence.AppendCallback(DeathExplosions);
-            sequence.AppendInterval(0.3f);
-        }
-        */
-
-        // DeathExplosions();
-
-        // Death 2 explosion
-        AudioManager.instance.PlaySFXOverlap(23);
-        // Play "Explosion Pop"
-        AudioManager.instance.PlaySFXOverlap(19);
-
-        AudioManager.instance.PlayLevelVictory();
-
-        GameObject explosion = (GameObject) Instantiate(explosionReference);
-        explosion.transform.position =
-            new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z);
-
-        UIController.instance.sandboxModeText.SetActive(true);
 
         Destroy(gameObject);
     }

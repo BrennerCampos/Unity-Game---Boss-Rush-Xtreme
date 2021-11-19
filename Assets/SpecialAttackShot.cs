@@ -92,7 +92,7 @@ public class SpecialAttackShot : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (other.tag == "Enemy")
+        if (other.tag == "EnemyHazard")
         {
             var shotEffect = Instantiate(attackHitEffect, gameObject.transform.position, gameObject.transform.rotation);
             //shotSprite = other.GetComponent<SpriteRenderer>();

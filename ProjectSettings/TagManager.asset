@@ -26,6 +26,8 @@ TagManager:
   - EnemyHazard
   - Effects
   - Door
+  - BossHPSlider
+  - Point
   layers:
   - Default
   - TransparentFX

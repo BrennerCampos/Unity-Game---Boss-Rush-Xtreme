@@ -99,7 +99,7 @@ public abstract class AllAttacks : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (other.tag == "Enemy")
+        if (other.tag == "EnemyHazard")
         {
             var shotEffect = Instantiate(HitEffect, gameObject.transform.position, gameObject.transform.rotation);
             // enemySprite = other.GetComponent<SpriteRenderer>();

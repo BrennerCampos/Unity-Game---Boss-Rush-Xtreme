@@ -11,10 +11,12 @@ public class UIController : MonoBehaviour
     public GameObject sandboxModeText;
     public Text bossHP;
     public Image fadeScreen;
+    public Image WarningSign;
     public GameObject loadingScreen;
-    public float fadeSpeed;
+    public float fadeSpeed, warningSpeed;
+    public int cycleCount;
     
-    private bool shouldFadeToBlack, shouldFadeFromBlack;
+    private bool shouldFadeToBlack, shouldFadeFromBlack, warningTime, reverseCycle;
 
 
     // Creates UI Controller constructor before game starts
@@ -27,6 +29,7 @@ public class UIController : MonoBehaviour
     void Start()
     {
         //loadingScreen.SetActive(false);
+        fadeScreen.color = new Color(fadeScreen.color.r, fadeScreen.color.g, fadeScreen.color.b, 1);
         UpdateBossHP();
         FadeFromBlack();
     }
@@ -44,6 +47,42 @@ public class UIController : MonoBehaviour
         { 
             //bossHP.text = "0";
         }
+
+
+        if (warningTime)
+        {
+            if (reverseCycle)
+            {
+                WarningSign.color = new Color(WarningSign.color.r, WarningSign.color.g, WarningSign.color.b,
+                    Mathf.MoveTowards(WarningSign.color.a, 0f, warningSpeed * Time.deltaTime));
+
+                if (WarningSign.color.a == 0f)
+                {
+                    reverseCycle = false;
+                    cycleCount--;
+                }
+            }
+            else
+            {
+                WarningSign.color = new Color(WarningSign.color.r, WarningSign.color.g, WarningSign.color.b,
+                    Mathf.MoveTowards(WarningSign.color.a, 1f, warningSpeed * Time.deltaTime));
+                
+                if (WarningSign.color.a == 1f)
+                {
+                    reverseCycle = true;
+                }
+            }
+            
+            if (cycleCount <= 0)
+            {
+                warningTime = false;
+                WarningSign.gameObject.SetActive(false);
+                Destroy(WarningSign.gameObject);
+            }
+        }
+
+
+
 
         if (shouldFadeToBlack)
         {
@@ -145,4 +184,11 @@ public class UIController : MonoBehaviour
         shouldFadeFromBlack = true;
         shouldFadeToBlack = false;
     }
+
+    public void WarningTime()
+    {
+        WarningSign.gameObject.SetActive(true);
+        warningTime = true;
+    }
+
 }
