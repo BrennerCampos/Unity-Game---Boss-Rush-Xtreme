@@ -11,7 +11,7 @@ public class LevelManager : MonoBehaviour
     public Animator playerAnimator, bossAnimator;
     public Transform bossSpawnPoint;
     public GameObject boss;
-    public float waitToRespawn, timeInLevel, waitforBossSpawnTime;
+    public float waitToRespawn, timeInLevel, timeToWaitBeforeStart, waitforBossSpawnTime;
     public string levelToLoad;
 
     private Tween standingTween;
@@ -36,7 +36,7 @@ public class LevelManager : MonoBehaviour
     {
         timeInLevel += Time.deltaTime;
 
-        if (timeInLevel > 7                                  &&
+        if (timeInLevel > timeToWaitBeforeStart &&
             FindObjectOfType<DinoRexBoss>() == null          &&
             FindObjectOfType<BlizzardWolfgangBoss>() == null &&
             FindObjectOfType<CyberPeacockBoss>() == null     &&
@@ -56,9 +56,12 @@ public class LevelManager : MonoBehaviour
     private IEnumerator FirstSpawnBossCo()
     {
         yield return new WaitForSeconds(waitforBossSpawnTime);
-        bossAnimator.SetTrigger("introTeleport");
-        boss.transform.position = bossSpawnPoint.position;
         UIController.instance.WarningTime();
+        if (FindObjectOfType<CyberPeacockBoss>() != null)
+        {
+            bossAnimator.SetTrigger("introTeleport");
+            boss.transform.position = bossSpawnPoint.position;
+        }
     }
 
 

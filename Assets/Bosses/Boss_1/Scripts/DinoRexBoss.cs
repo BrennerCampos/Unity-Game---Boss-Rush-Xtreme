@@ -12,7 +12,7 @@ public class DinoRexBoss : MonoBehaviour
     public static DinoRexBoss instance;
     public SpriteRenderer sprite;
     public GameObject DinoRexDeathEffect, GroundWindEffect, GroundDustEffect, FlameBreath, MagmaBurstUltra, Explosion1;
-    public HittableEnemy hittableEnemy;
+    public HittableDinoRex hittableEnemy;
     public BossCollision bossCollision;
     public Transform leftPoint, rightPoint;
     public Transform groundCheckPoint;
@@ -52,7 +52,7 @@ public class DinoRexBoss : MonoBehaviour
         rigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponentInChildren<Animator>();
         sprite = GetComponentInChildren<SpriteRenderer>();
-        hittableEnemy = GetComponentInChildren<HittableEnemy>();
+        hittableEnemy = GetComponentInChildren<HittableDinoRex>();
 
         bossCollision = PlayerController.instance.GetComponentInChildren<BossCollision>();
 
@@ -299,7 +299,7 @@ public class DinoRexBoss : MonoBehaviour
      
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    /*private void OnTriggerEnter2D(Collider2D other)
     {
 
             if (other.gameObject.tag == "ShotLevel_5")
@@ -341,7 +341,7 @@ public class DinoRexBoss : MonoBehaviour
             {
                 Invoke("ResetMaterial", 0.1f);
             }
-    }
+    }*/
 
     void ResetMaterial()
     {

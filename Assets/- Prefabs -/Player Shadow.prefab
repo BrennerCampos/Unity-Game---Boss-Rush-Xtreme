@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 2016821228}
   m_Layer: 19
   m_Name: Attack Hit Box
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -196,7 +196,6 @@ MonoBehaviour:
   startMaterialTimer: 1
   dinoRexSprite: {fileID: 0}
   hittableEnemy: {fileID: 0}
-  dinoRex: {fileID: 0}
 --- !u!114 &2016821228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -319,6 +318,8 @@ Transform:
   - {fileID: 1750958438}
   - {fileID: 446036821}
   - {fileID: 88706879}
+  - {fileID: 4196326593457433257}
+  - {fileID: 9096492570576133568}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -364,6 +365,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   startPosition: {x: 0, y: 0, z: 0}
+  levelEnd: 0
   busterShotLevel1: {fileID: 2457441545126587935, guid: 7e9ce2cef53920847a6fe0f5e6686982, type: 3}
   busterShotLevel2: {fileID: 5199256311872242189, guid: 917bffaaf8b2ff544842ca003076b23a, type: 3}
   busterShotLevel3: {fileID: 1250385253208698414, guid: 80bc40ed8d8fee945b6cd3c3a9af1f57, type: 3}
@@ -474,6 +476,10 @@ MonoBehaviour:
   knockbackForce: 9.327
   animStateShooting: 
   justPressedShoot: 0
+  levelIntroStopTime: 7
+  victoryStanceTimer: 7
+  teleportOutTimer: 1
+  endStandingIdleTimer: 4
 --- !u!61 &1455109749409323231
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1055,6 +1061,66 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1455109751292572185}
+--- !u!1 &1755415868898569879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4196326593457433257}
+  m_Layer: 31
+  m_Name: Wall Fire Point - Right
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4196326593457433257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755415868898569879}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.09, y: 0.74, z: 0}
+  m_LocalScale: {x: 11, y: 11, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1455109749409323226}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5134815350707189234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9096492570576133568}
+  m_Layer: 31
+  m_Name: Wall Fire Point - Left
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9096492570576133568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5134815350707189234}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.09, y: 0.73999995, z: 0}
+  m_LocalScale: {x: 11, y: 11, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1455109749409323226}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &8399680667785874186
 PrefabInstance:
   m_ObjectHideFlags: 0

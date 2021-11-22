@@ -15,7 +15,7 @@ public class CyberPeacockBoss : MonoBehaviour
     public BoxCollider2D[] colliders;
     public GameObject Explosion_1;
     public GameObject CyberPeacockDeathEffect;
-    public HittableEnemy hittableEnemy;
+    public HittableCyberPeacock hittableEnemy;
     public BossCollision bossCollision;
     public Transform leftPoint, rightPoint;
     public Transform groundCheckPoint;
@@ -55,7 +55,7 @@ public class CyberPeacockBoss : MonoBehaviour
         rigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponentInChildren<Animator>();
         sprite = GetComponentInChildren<SpriteRenderer>();
-        hittableEnemy = GetComponentInChildren<HittableEnemy>();
+        hittableEnemy = GetComponentInChildren<HittableCyberPeacock>();
         sliders = FindObjectsOfType<Slider>();
 
         anim.SetBool("isClone", isClone);

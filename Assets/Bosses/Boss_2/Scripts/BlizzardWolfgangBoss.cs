@@ -16,7 +16,7 @@ public class BlizzardWolfgangBoss : MonoBehaviour
     public GameObject IcicleShard;
     public GameObject SpikeIceShard;
     public GameObject BlizzardWolfgangDeathEffect;
-    public HittableEnemy hittableEnemy;
+    public HittableBlizzardWolfgang hittableEnemy;
     public BossCollision bossCollision;
     public Transform leftPoint, rightPoint;
     public Transform groundCheckPoint;
@@ -55,7 +55,7 @@ public class BlizzardWolfgangBoss : MonoBehaviour
         rigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponentInChildren<Animator>();
         sprite = GetComponentInChildren<SpriteRenderer>();
-        hittableEnemy = GetComponentInChildren<HittableEnemy>();
+        hittableEnemy = GetComponentInChildren<HittableBlizzardWolfgang>();
 
         bossCollision = PlayerController.instance.GetComponentInChildren<BossCollision>();
 
@@ -98,7 +98,7 @@ public class BlizzardWolfgangBoss : MonoBehaviour
 
             if (materialFlashTimer <= 0)
             {
-                //
+                //  
                 //hittableEnemy.ResetMaterial(0.15f);
 
                 sprite.material = materialDefault;
@@ -364,7 +364,7 @@ public class BlizzardWolfgangBoss : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    /*private void OnTriggerEnter2D(Collider2D other)
     {
 
         if (other.gameObject.tag == "ShotLevel_5")
@@ -406,7 +406,7 @@ public class BlizzardWolfgangBoss : MonoBehaviour
         {
             Invoke("ResetMaterial", 0.1f);
         }
-    }
+    }*/
 
     void ResetMaterial()
     {
