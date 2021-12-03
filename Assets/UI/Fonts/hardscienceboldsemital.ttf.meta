@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1f8d8005fd5e2924096f4fd97d154f52
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Hard Science Bold Semi-Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a27c2340f46abe240b6df80869d9eb2f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

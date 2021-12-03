@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: af84031f70290004899be2cd0c6d76a2
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Hard Science 3D
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8a3729cd8b305be4c8b18580d271ef7b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 8e21534fecf0ccb4da8855b83c50053c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Knife Princess
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5ab1f30d0b2b6b049ab5638fd7eaed64, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

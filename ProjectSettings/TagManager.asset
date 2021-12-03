@@ -71,7 +71,7 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: 
+  - name: Foreground
     uniqueID: 291183969
     locked: 0
   - name: Pickups

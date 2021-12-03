@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: dce440b310452a94288f5e03057aa00a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Megaton Extras
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 80271933a3ae46a4eac13a8a165c231a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

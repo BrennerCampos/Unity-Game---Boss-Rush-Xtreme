@@ -9,17 +9,41 @@ EditorBuildSettings:
     path: Assets/- Scenes -/Menus/LoadingScreen.unity
     guid: efa052561d0dff945b31a5901f23df3a
   - enabled: 1
-    path: Assets/- Scenes -/Test_Scenes/Sandbox_Test_1.unity
-    guid: c942b0c2721f028449065dce2c251935
+    path: Assets/- Scenes -/Menus/IntroScreen.unity
+    guid: 2cd13d874f5cb3d49b7961fdb47dcdd3
   - enabled: 1
-    path: Assets/- Scenes -/Test_Scenes/Sandbox_Level_1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/- Scenes -/Menus/LevelSelector.unity
+    guid: 5c2d9e3237aa77b448fccef5635a9db3
   - enabled: 1
-    path: Assets/- Scenes -/Test_Scenes/Sandbox_Level_2.unity
-    guid: ceecec156392b794ea80715cfe64dd78
+    path: Assets/- Scenes -/Menus/ControlsScreen.unity
+    guid: 7a071ca8efb635240816ea1aa13de891
+  - enabled: 1
+    path: Assets/- Scenes -/Menus/HighScoreScreen.unity
+    guid: 5e1256291852c7c4d91752cecd977ae9
+  - enabled: 1
+    path: Assets/- Scenes -/Menus/DinoRexPreviewScreen.unity
+    guid: 7159ff3395ba9704c99eeb06feb64e90
+  - enabled: 1
+    path: Assets/- Scenes -/Menus/BlizzardWolfgangPreviewScreen.unity
+    guid: 48a68e1fad1cafc4ea215aed13cb6403
+  - enabled: 1
+    path: Assets/- Scenes -/Menus/CyberPeacockPreviewScreen.unity
+    guid: 04129fbd9b1a6d34d83e8686d456e8f0
+  - enabled: 1
+    path: Assets/- Scenes -/Menus/ThanksForPlaying.unity
+    guid: a2f8137d08440464bb1844cae4a6dfd9
+  - enabled: 1
+    path: Assets/- Scenes -/Main_Stages/Boss_Dino_Rex_Stage.unity
+    guid: 520962be685dc5f469c7c80ea78a2c57
+  - enabled: 1
+    path: Assets/- Scenes -/Main_Stages/Boss_Blizzard_Wolfgang_Stage.unity
+    guid: 09afc11fa8f7a0042b02a08e36f4c8c0
   - enabled: 1
     path: Assets/- Scenes -/Main_Stages/Boss_Cyber_Peacock_Stage.unity
     guid: 1c09582613422204db6dd81cb2286fa0
+  - enabled: 1
+    path: Assets/- Scenes -/Main_Stages/Boss_Crescent_Grizzly_Stage.unity
+    guid: 961961e2abe821243a56ed462b8f0004
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: be7fda05ab05e87438d49176ef8b09ab, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 3fcc08293dc435f4ba962b783e2ef2f6, type: 2}

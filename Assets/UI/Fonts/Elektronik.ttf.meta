@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 6bbf8dbde3687a440b1c65f01cfaf330
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Elektronik
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7253bc75010324f4cacde6c076dded58, type: 3}
+  - {fileID: 12800000, guid: 49046497ec66ed94e9c30a5ce8b24a25, type: 3}
+  - {fileID: 12800000, guid: 1633facd64f6c1943a33541679c470d9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

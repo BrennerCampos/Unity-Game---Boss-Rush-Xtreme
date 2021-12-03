@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b97202b7f5b2f504a8b66c3265827dfe
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Hard Science Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d08fdefa66f680147aa43a49fd4ee469, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: cbcfb1235289aca4ca72e18fbe41f71b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Hard Science Expanded Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 293f584a27ff0a541bd584406a631876, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
