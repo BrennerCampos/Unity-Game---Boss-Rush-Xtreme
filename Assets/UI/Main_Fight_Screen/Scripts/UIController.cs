@@ -8,10 +8,11 @@ public class UIController : MonoBehaviour
 {
 
     public static UIController instance;
-    public GameObject sandboxModeText;
     public Text bossHP;
     public Image fadeScreen;
     public Image WarningSign;
+    public Text dinoRexScore, blizzardWolfangScore, cyberPeacockScore;
+    public Text currentScore, timeInLevelText;
     public GameObject loadingScreen;
     public float fadeSpeed, warningSpeed;
     public int cycleCount;
@@ -30,23 +31,36 @@ public class UIController : MonoBehaviour
     {
         //loadingScreen.SetActive(false);
         fadeScreen.color = new Color(fadeScreen.color.r, fadeScreen.color.g, fadeScreen.color.b, 1);
+        if (timeInLevelText != null)
+        {
+            timeInLevelText.color = Color.white;
+        }
+       
         UpdateBossHP();
         FadeFromBlack();
+
+        if (FindObjectOfType<DinoRexBoss>())
+        {
+            dinoRexScore.text = "0";
+            currentScore = dinoRexScore;
+        }
+        else if (FindObjectOfType<BlizzardWolfgangBoss>())
+        {
+            blizzardWolfangScore.text = "0";
+            currentScore = blizzardWolfangScore;
+        }
+        else if (FindObjectOfType<CyberPeacockBoss>())
+        {
+            cyberPeacockScore.text = "0";
+            currentScore = cyberPeacockScore;
+        }
+
     }
 
     // Update is called once per frame
     void Update()
     {
         // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-
-        if (FindObjectOfType<DinoRexBoss>())
-        {
-            UpdateBossHP();
-        }
-        else
-        { 
-            //bossHP.text = "0";
-        }
 
 
         if (warningTime)
@@ -78,6 +92,7 @@ public class UIController : MonoBehaviour
                 warningTime = false;
                 WarningSign.gameObject.SetActive(false);
                 Destroy(WarningSign.gameObject);
+                GetComponentInChildren<InGameClock>().StartTimer();
             }
         }
 

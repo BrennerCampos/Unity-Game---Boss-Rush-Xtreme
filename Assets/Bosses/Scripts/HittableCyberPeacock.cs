@@ -13,6 +13,16 @@ public class HittableCyberPeacock : MonoBehaviour
     public GameObject explosion;
     public Transform spriteParent;
     public Material hitMaterial;
+    public int doubleCycloneScore;
+    public int lightningWebScore;
+    public int thunderDancerScore;
+    public int magmaBladeFireShotScore;
+    public int magmaBladeSlashScore;
+
+    public float comboTimer, startComboTimer, comboMultiplier;
+    public int comboCount;
+    private int scoreForAction;
+    private bool comboStartBool;
 
 
     public int doubleCycloneWindOrbDamage, lightningWebDamage, thunderDancerDamage, magmaBladeFireShotDamage, slashDamage;
@@ -26,6 +36,7 @@ public class HittableCyberPeacock : MonoBehaviour
     protected Color defaultColor = Color.white;
     private float baseScale;
     private CyberPeacockBoss cyberPeacockBoss;
+    
 
 
 
@@ -45,6 +56,9 @@ public class HittableCyberPeacock : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        comboCount = 0;
+        comboTimer = startComboTimer;
+        comboMultiplier = 1;
         cyberPeacockBoss = GetComponentInParent<CyberPeacockBoss>();
         anim = GetComponentInParent<Animator>();
 
@@ -56,13 +70,73 @@ public class HittableCyberPeacock : MonoBehaviour
         }
     }
 
+
+    void Update()
+    {
+
+        if (comboTimer > 0 && comboStartBool)
+        {
+            comboTimer -= Time.deltaTime;
+        }
+
+        if (comboTimer <= 0)
+        {
+            comboCount = 0;
+            comboMultiplier = 1;
+            comboTimer = startComboTimer;
+            comboStartBool = false;
+        }
+
+
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
+
+        var updatedScore = int.Parse(UIController.instance.cyberPeacockScore.text);
+
+
         if (!isClone)
         {
+
             if (other.gameObject.tag.Contains("Shot") || other.gameObject.tag.Equals("SpecialShot") || other.tag.Equals("PlayerAttack"))
             {
+
+                if (comboTimer > 0)
+                {
+                    comboCount++;
+                    Debug.Log("Combo Count = " + comboCount);
+
+                    comboTimer = startComboTimer;
+
+                    if (comboCount == 15)
+                    {
+                        comboMultiplier = 1.25f;
+                        Debug.Log("Combo Multiplier = " + comboMultiplier);
+                    }
+                    else if (comboCount == 35)
+                    {
+                        comboMultiplier = 1.5f;
+                        Debug.Log("Combo Multiplier = " + comboMultiplier);
+                    }
+                    else if (comboCount == 50)
+                    {
+                        comboMultiplier = 2f;
+                        Debug.Log("Combo Multiplier = " + comboMultiplier);
+                    }
+                    else if (comboCount == 100)
+                    {
+                        comboMultiplier = 3f;
+                        Debug.Log("Combo Multiplier = " + comboMultiplier);
+                    }
+                    else
+                    {
+                        // comboMultiplier = 1;
+                    }
+                }
+
                 isHit = true;
+                comboStartBool = true;
                 sprite.material = hitMaterial;
                 StartCoroutine(ResetMaterial(0.15f));
 
@@ -70,62 +144,76 @@ public class HittableCyberPeacock : MonoBehaviour
                 if (other.gameObject.name.Equals("Double Cyclone Wind Orb(Clone)"))
                 {
                     cyberPeacockBoss.currentHealth -= doubleCycloneWindOrbDamage;
+                    scoreForAction = doubleCycloneScore;
                 }
 
                 // LIGHTNING WEB ------------------------------------------------------\\
                 if (other.gameObject.name.Equals("Lightning Web Shot(Clone)"))
                 {
                     cyberPeacockBoss.currentHealth -= lightningWebDamage;
+                    scoreForAction = lightningWebScore;
                 }
 
                 // THUNDER DANCER ------------------------------------------------------\\
                 if (other.gameObject.name.Equals("Thunder Dancer(Clone)"))
                 {
                     cyberPeacockBoss.currentHealth -= thunderDancerDamage;
+                    scoreForAction = thunderDancerScore;
                 }
 
                 // MAGMA BLADE FIRE SHOT ------------------------------------------------------\\
                 if (other.gameObject.name.Equals("Magma Blade Fire Shot(Clone)"))
                 {
                     cyberPeacockBoss.currentHealth -= magmaBladeFireShotDamage;
+                    scoreForAction = magmaBladeFireShotScore;
                 }
 
                 if (other.tag.Equals("PlayerAttack"))
                 {
                     cyberPeacockBoss.currentHealth -= slashDamage;
+                    scoreForAction = magmaBladeSlashScore;
                 }
+
             }
 
             if (other.gameObject.tag == "ShotLevel_5")
             {
                 cyberPeacockBoss.currentHealth -= 7;
-                AudioManager.instance.PlaySFXOverlap(25);
+                AudioManager.instance.PlaySFXOverlap(25); 
+                scoreForAction = 1000;
                 // spriteRenderer.material = materialWhite;
             }
             else if (other.gameObject.tag == "ShotLevel_4")
             {
                 cyberPeacockBoss.currentHealth -= 5;
                 AudioManager.instance.PlaySFXOverlap(25);
+                scoreForAction = 850;
                 // spriteRenderer.material = materialWhite;
             }
             else if (other.gameObject.tag == "ShotLevel_3")
             {
                 cyberPeacockBoss.currentHealth -= 3;
+                scoreForAction = 600;
                 // spriteRenderer.material = materialWhite;
             }
             else if (other.gameObject.tag == "ShotLevel_2")
             {
                 cyberPeacockBoss.currentHealth -= 2;
+                scoreForAction = 400;
                 // spriteRenderer.material = materialWhite;
             }
             else if (other.gameObject.tag == "ShotLevel_1")
             {
                 cyberPeacockBoss.currentHealth -= 1;
+                scoreForAction = 250;
                 Destroy(other);
                 //  spriteRenderer.material = materialWhite;
             }
 
+
+            UIController.instance.cyberPeacockScore.text = Mathf.Ceil(updatedScore + (scoreForAction*comboMultiplier)).ToString();
             cyberPeacockBoss.currentHealthSlider.value = cyberPeacockBoss.currentHealth;
+
 
             if (cyberPeacockBoss.currentHealth <= 0)
             {
@@ -143,6 +231,8 @@ public class HittableCyberPeacock : MonoBehaviour
         {
             if (other.gameObject.tag.Contains("Shot") || other.gameObject.tag.Equals("SpecialShot") || other.tag.Equals("PlayerAttack"))
             {
+                comboStartBool = true;
+                UIController.instance.cyberPeacockScore.text = (updatedScore + 30).ToString();
                 anim.SetTrigger("cloneHit");
             }
         }

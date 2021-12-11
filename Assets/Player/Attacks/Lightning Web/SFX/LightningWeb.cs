@@ -8,6 +8,7 @@ public class LightningWeb : AllAttacks
     public GameObject attackBurstEffect;
     public float speed, premovementTimer;
     private SpriteRenderer attackSprite;
+    private bool inputBool;
     
 
 
@@ -55,9 +56,12 @@ public class LightningWeb : AllAttacks
         premovementTimer -= Time.deltaTime;
         initHitBoxTime -= Time.deltaTime;
 
-        if (premovementTimer <= 0)
+        if (premovementTimer <= 0 && !inputBool)
         {
             anim.SetBool("isStationary", true);
+            AudioManager.instance.PlaySFX_NoPitchFlux(105);
+            AudioManager.instance.soundEffects[105].volume = 0.5f;
+            inputBool = true;
         }
 
         if (anim.GetBool("isStationary"))
@@ -95,12 +99,14 @@ public class LightningWeb : AllAttacks
             Destroy(gameObject);
         }
 
-        if (other.tag == "Enemy")
+        if (other.tag == "EnemyHazard")
         {
             var shotEffect = Instantiate(HitEffect, gameObject.transform.position, gameObject.transform.rotation);
             // enemySprite = other.GetComponent<SpriteRenderer>();
             shotEffect.transform.localScale = new Vector3(11, 11, 1);
-            AudioManager.instance.PlaySFX(hitSFX);
+            AudioManager.instance.StopSFX(105);
+            AudioManager.instance.PlaySFX_HighPitch(hitSFX);
+            
 
             //Destroy(other);
             // Destroy(gameObject);

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2844525836844590648}
   - component: {fileID: 2844525836844590651}
   - component: {fileID: 2844525836844590650}
-  m_Layer: 15
+  m_Layer: 28
   m_Name: Electric Hit
   m_TagString: Effects
   m_Icon: {fileID: 0}
@@ -70,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1592454009
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: -4563784352667074764, guid: 9fac9c58af26aba46a6c35722fba8d15, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

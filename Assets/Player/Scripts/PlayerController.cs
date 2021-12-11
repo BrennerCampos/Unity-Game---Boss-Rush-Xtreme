@@ -139,6 +139,8 @@ public class PlayerController : MonoBehaviour
     [Header("Special Attacks")]
     public float startThunderDancerTimer;
     public float thunderDancerTimer;
+    public int numberOfSpecialAttacks;
+    private int currentSpecialAttack;
 
 
     [Header("Can Do's")]
@@ -192,6 +194,7 @@ public class PlayerController : MonoBehaviour
     public float knockbackLength;
     public float knockbackForce;
     private float knockbackCounter;
+    public bool knockedBackBool;
 
 
     [Header("Miscellaneous")]
@@ -263,9 +266,21 @@ public class PlayerController : MonoBehaviour
         airDashAvailable = startAirDashAvailable;
 
         // Enemy attack collider initialization
-        enemyAttackCollider = DinoRexBoss.instance.GetComponentInChildren<DamagePlayer>();
-        enemyAttackCollider.gameObject.tag = "EnemyAttack";
-
+        if (DinoRexBoss.instance != null)
+        {
+            enemyAttackCollider = DinoRexBoss.instance.GetComponentInChildren<DamagePlayer>();
+            enemyAttackCollider.gameObject.tag = "EnemyAttack";
+        }
+        else if (BlizzardWolfgangBoss.instance != null)
+        {
+            enemyAttackCollider = BlizzardWolfgangBoss.instance.GetComponentInChildren<DamagePlayer>();
+            enemyAttackCollider.gameObject.tag = "EnemyAttack";
+        }
+        else if (CyberPeacockBoss.instance != null)
+        {
+            enemyAttackCollider = CyberPeacockBoss.instance.GetComponentInChildren<DamagePlayer>();
+            enemyAttackCollider.gameObject.tag = "EnemyAttack";
+        }
 
     }
 
@@ -378,9 +393,41 @@ public class PlayerController : MonoBehaviour
             // If we are not knocked back...
             if (knockbackCounter <= 0)
             {
+                if (knockedBackBool)
+                {
+                    dashTimer = 0;
+                    airDashTimer = 0;
+                    slashTimer = 0;
+                    
+                    canGroundDash = false;
+                    canAirDash = false;
+                    canJumpShoot = false;
 
-                isHurt = false;
-                anim.SetBool("isKnockedBack", false);
+                    rigidBody.velocity = new Vector2(0, 0);
+                    isHurt = false;
+                    anim.SetBool("isKnockedBack", false);
+                    knockedBackBool = false;
+                }
+
+
+                
+                if (Input.GetKeyDown(KeyCode.A))
+                {
+                    currentSpecialAttack--;
+                    if (currentSpecialAttack < 0)
+                    {
+                        currentSpecialAttack = numberOfSpecialAttacks;
+                    }
+                }
+                else if (Input.GetKeyDown(KeyCode.S))
+                {
+                    currentSpecialAttack++;
+                    if (currentSpecialAttack > numberOfSpecialAttacks)
+                    {
+                        currentSpecialAttack = 0;
+                    }
+                }
+
 
                 if (!isSlashing)
                 {
@@ -789,7 +836,7 @@ public class PlayerController : MonoBehaviour
     {
 
         // If we are grounded...
-        if (isGrounded)
+        if (isGrounded && !knockedBackBool)
         {
             // Changes y-position based on our jump force value
             rigidBody.velocity = Vector2.up * jumpForce;
@@ -803,7 +850,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             // Changes y-position based on our current state's jump force value
-            if (isWallSliding)
+            if (isWallSliding && !knockedBackBool)
             {
                 isWallJumping = true;
                 canJumpShoot = false;
@@ -833,7 +880,7 @@ public class PlayerController : MonoBehaviour
             }
 
             // Otherwise, if not grounded, and Player can still double jump...
-            else if (canDoubleJump && !isWallSliding && !isWallClinging)
+            else if (canDoubleJump && !isWallSliding && !isWallClinging && !knockedBackBool)
             {
                 // Changes y-position based on our jump force value
                 rigidBody.velocity = Vector2.up * jumpForce;
@@ -851,7 +898,7 @@ public class PlayerController : MonoBehaviour
 
     public void Slash()
     {
-        if (!isGrounded && !isJumpShooting && !isJumpSlashing && !isAirDashing)
+        if (!isGrounded && !isJumpShooting && !isJumpSlashing && !isAirDashing && !knockedBackBool)
         {
 
             if (!isWallSliding)
@@ -866,7 +913,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // ----- GROUND SLASH ---------------------------------------------------------------------------//
-        if (isGrounded && canStandSlash && (slashTimer > startSlashWaitTimer) && !isSlashing)
+        if (isGrounded && canStandSlash && (slashTimer > startSlashWaitTimer) && !isSlashing && !knockedBackBool)
         {
             slashTimer = 0;
             isSlashing = true;
@@ -876,7 +923,7 @@ public class PlayerController : MonoBehaviour
 
             if (anim.GetBool("magmaBladeActive") == true)
             {
-                SpecialAttack(spAtkMagmaBladeFireball, 10, 1, false,
+                SpecialAttack(spAtkMagmaBladeFireball, 52, 1, false,
                     "Slash_Shot", 2f, 2f, true);
 
                 // Play SFX "?"
@@ -891,7 +938,7 @@ public class PlayerController : MonoBehaviour
             }
         } 
         // ----- WALL-SLASH ---------------------------------------------------------------------------// 
-        else if (canWallSlash && (slashJumpTimer > startSlashWaitTimer) && isWallSliding)
+        else if (canWallSlash && (slashJumpTimer > startSlashWaitTimer) && isWallSliding && !knockedBackBool)
         {
             slashJumpTimer = 0;
             isWallSlashing = true;
@@ -902,7 +949,7 @@ public class PlayerController : MonoBehaviour
             {
                 //isWallShooting = true;
 
-                SpecialAttack(spAtkMagmaBladeFireball, 10, 1, false,
+                SpecialAttack(spAtkMagmaBladeFireball, 52, 1, false,
                     "Slash_Shot", 2f, 2f, true);
 
                 // Play SFX "?"
@@ -917,7 +964,7 @@ public class PlayerController : MonoBehaviour
             }
         }
         // ----- JUMP SLASH ---------------------------------------------------------------------------//
-        else if (!isGrounded && canJumpSlash && (slashJumpTimer > startSlashWaitTimer))
+        else if (!isGrounded && canJumpSlash && (slashJumpTimer > startSlashWaitTimer) && !knockedBackBool)
         {
             slashJumpTimer = 0;
             isJumpSlashing = true;
@@ -926,7 +973,7 @@ public class PlayerController : MonoBehaviour
 
             if (anim.GetBool("magmaBladeActive") == true)
             {
-                SpecialAttack(spAtkMagmaBladeFireball, 10, 1, false,
+                SpecialAttack(spAtkMagmaBladeFireball, 66, 1, false,
                     "Slash_Shot", 2f, 2f, true);
 
                 // Play SFX "?"
@@ -984,7 +1031,7 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("isWallJumping", false);
         }
 
-        if (isWallSliding)
+        if (isWallSliding && !knockedBackBool)
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x,
                 Mathf.Clamp(rigidBody.velocity.y, wallSlideSpeed, float.MaxValue));
@@ -1009,7 +1056,7 @@ public class PlayerController : MonoBehaviour
     // ------------------------------------------------------------------------------------------------------------------------------------------------->
     public void Dash()
     {
-        if (canGroundDash && dashTimer > 0 && isGrounded && !isSlashing)
+        if (canGroundDash && dashTimer > 0 && isGrounded && !isSlashing && !knockedBackBool)
         {
             moveSpeed *= dashMultiplier;
             isDashing = true;
@@ -1035,7 +1082,7 @@ public class PlayerController : MonoBehaviour
                     gameObject.transform.rotation);
             }
         }
-        else if (canAirDash && airDashTimer > 0 && !isGrounded && !isAirDashing && airDashAvailable > 0 && !isWallSliding)
+        else if (canAirDash && airDashTimer > 0 && !isGrounded && !isAirDashing && airDashAvailable > 0 && !isWallSliding && !knockedBackBool)
         {
 
             moveSpeed *= airDashMultiplier;
@@ -1046,7 +1093,8 @@ public class PlayerController : MonoBehaviour
             canGroundDash = false;
             anim.SetBool("isAirDashing", true);
             airDashAvailable--;
-            AudioManager.instance.PlaySFX_NoPitchFlux(0);
+            // AudioManager.instance.PlaySFX_NoPitchFlux(72);
+            AudioManager.instance.PlaySFX_NoPitchFlux(46);
 
             if (xDirection == "Right")
             {
@@ -1059,7 +1107,7 @@ public class PlayerController : MonoBehaviour
                     gameObject.transform.rotation);
             }
         } 
-        else if (canWallDash && airDashTimer > 0 && !isGrounded)
+        else if (canWallDash && airDashTimer > 0 && !isGrounded && !knockedBackBool)
         {
             moveSpeed *= airDashMultiplier;
             canDashShoot = false;
@@ -1103,7 +1151,7 @@ public class PlayerController : MonoBehaviour
             canGroundDash = false;
 
             // If "Jump" button is pressed...
-            if (Input.GetButtonDown("Jump") && canInput)
+            if (Input.GetButtonDown("Jump") && canInput && dashTimer > 0)
             {
                 anim.SetBool("jumpDash", true);
                 isJumping = true;
@@ -1129,7 +1177,7 @@ public class PlayerController : MonoBehaviour
             }
         }
         // ----------  is WALL-DASHING CHECK  ------------------------------------//
-        else if (isWallDashing)
+        else if (isWallDashing && !knockedBackBool)
         {
             airDashTimer -= Time.deltaTime;
             isJumpSlashing = false;
@@ -1149,7 +1197,7 @@ public class PlayerController : MonoBehaviour
             
         }
         // ----------  is AIR-DASHING CHECK  ------------------------------------//
-        else if (isAirDashing)
+        else if (isAirDashing && !knockedBackBool)
         {
             if (!isHurt)
             {
@@ -1186,7 +1234,7 @@ public class PlayerController : MonoBehaviour
 
 
         // ----------  JUMP DASH ------------------------------------------------//
-        if (anim.GetBool("jumpDash") == true)
+        if (anim.GetBool("jumpDash") == true && dashTimer > 0)
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x * 1.2f, jumpForce / 1.5f);
         }
@@ -1413,12 +1461,13 @@ public class PlayerController : MonoBehaviour
             isStateShooting = true;
             anim.SetBool(animStateShooting, true);
         }
-        
 
+        AudioManager.instance.PlaySFX(audioSFX);
         // Creates bullets and faces/scales them according to the Player
         // If Player is facing RIGHT...
         if (xDirection == "Right")
         {
+            
             if (animStateShooting == "isWallShooting")
             {
                 var newBusterShot = Instantiate(busterShotLevel, stateFirePointLeft.position, stateFirePointLeft.rotation);
@@ -1450,8 +1499,6 @@ public class PlayerController : MonoBehaviour
                     instance.transform.localScale.y * 11f, instance.transform.localScale.z);
                 newBusterShot.gameObject.tag = "ShotLevel_" + shotLevel.ToString();
             }
-
-            AudioManager.instance.PlaySFX(audioSFX);
         }
     }
 
@@ -1536,57 +1583,65 @@ public class PlayerController : MonoBehaviour
 
     public void SpecialAttackCheck()
     {
-        // ---  KEY = "1" ---------//
-        if (Input.GetKeyDown(KeyCode.Alpha1) && canInput && shotTimerLonger == startShotTimerLonger)
+        if (currentSpecialAttack == 0)
         {
-            shotTimerLongerPressed = true;
-            // ---- DOUBLE CYCLONE ---------//
-            SpecialAttack(spAtkDoubleCyclone, 10, 1, false, "Double_Opposite", 1f, 1f, true);
+            // ---  SpAtk = "0" ---------//
+            if (Input.GetKeyDown(KeyCode.Z) && canInput && shotTimerLonger == startShotTimerLonger)
+            {
+                shotTimerLongerPressed = true;
+                // ---- DOUBLE CYCLONE ---------//
+                SpecialAttack(spAtkDoubleCyclone, 49, 1, false, "Double_Opposite", 1f, 1f, true);
+            }
         }
-
-
-        // ---  KEY = "2" ---------//
-        if (Input.GetKeyDown(KeyCode.Alpha2) && canInput && shotTimerLonger == startShotTimerLonger)
+        else if (currentSpecialAttack == 1)
         {
-            shotTimerLongerPressed = true;
-            // ---- LIGHTNING WEB ---------//
-            SpecialAttack(spAtkLightningWeb, 10, 1, false, "Straight_Shot", 2f, 2f, true);
+            // ---  SpAtk = "1" ---------//
+            if (Input.GetKeyDown(KeyCode.Z) && canInput && shotTimerLonger == startShotTimerLonger)
+            {
+                shotTimerLongerPressed = true;
+                // ---- LIGHTNING WEB ---------//
+                SpecialAttack(spAtkLightningWeb, 106, 1, false, "Straight_Shot", 2f, 2f, true);
+            }
         }
-
-
-        // ---  KEY = "3" ---------//
-        if (Input.GetKeyDown(KeyCode.Alpha3) && canInput)
+        else if (currentSpecialAttack == 2)
         {
-            // ---- THUNDER DANCER ---------//
-            anim.SetBool("isCharging", true);
-            SpecialAttack(spAtkThunderDancer, 10, 1, true, "Persistent_Attack", 2f, 2f, true);
+            // ---  SpAtk = "2" ---------//
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                // ---- MAGMA BLADE ---------//
+                magmaBladeActive = !magmaBladeActive;
+
+                if (magmaBladeActive)
+                { anim.SetBool("magmaBladeActive", true); }
+                else
+                { anim.SetBool("magmaBladeActive", false); }
+            }
         }
-        if (Input.GetKeyUp(KeyCode.Alpha3))
+        else if (currentSpecialAttack == 3)
+
         {
-            anim.SetBool("isCharging", false);
+            // ---  SpAtk = "3" ---------//
+            if (Input.GetKeyDown(KeyCode.Z) && canInput)
+            {
+                // ---- THUNDER DANCER ---------//
+                anim.SetBool("isCharging", true);
+                SpecialAttack(spAtkThunderDancer, 106, 1, true, "Persistent_Attack", 2f, 2f, true);
+            }
+            if (Input.GetKeyUp(KeyCode.Z))
+            {
+                anim.SetBool("isCharging", false);
+            }
         }
-
-
-        // ---  KEY = "4" ---------//
-        if (Input.GetKeyDown(KeyCode.Alpha4) && canInput)
+        else if (currentSpecialAttack == 4)
         {
-            // ---- ENERGY SAW-BLADE ---------//
-            SpecialAttack(spAtkEnergySawBlade, 10, 1, false, "Follow_Center", 3f, 3f, true);
+            // ---  SpAtk = "4" ---------//
+            if (Input.GetKeyDown(KeyCode.Z) && canInput)
+            {
+                // ---- ENERGY SAW-BLADE ---------//
+                SpecialAttack(spAtkEnergySawBlade, 66, 1, false, "Follow_Center", 3f, 3f, true);
+            }
         }
-
-
-        // ---  KEY = "M" ---------//
-        if (Input.GetKeyDown(KeyCode.M))
-        {
-            // ---- MAGMA BLADE ---------//
-            magmaBladeActive = !magmaBladeActive;
-
-            if (magmaBladeActive)
-            { anim.SetBool("magmaBladeActive", true); }
-            else
-            { anim.SetBool("magmaBladeActive", false); }
-        }
-
+        
     }
 
 
@@ -1750,6 +1805,8 @@ public class PlayerController : MonoBehaviour
         AudioManager.instance.PlaySFX(21);
         anim.SetTrigger("isHurt");
 
+        knockedBackBool = true;
+
         // Pops the Player up with our predefined knockback force
         rigidBody.velocity = new Vector2(0f, knockbackForce);
         // Change Player's sprite animation to 'Hurt'
@@ -1775,7 +1832,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.tag == "EnemyAttack")
         {
-            instance.Knockback();
+            // instance.Knockback();
             PlayerHealthController.instance.DealDamage(10);
         }
     }

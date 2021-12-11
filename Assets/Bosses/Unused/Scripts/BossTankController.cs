@@ -100,7 +100,7 @@ public class BossTankController : MonoBehaviour
                             // Activate the new spawned platforms
                             winPlatform.SetActive(true);
                             // Stop boss-themed music
-                            AudioManager.instance.StopBossMusic();
+                           // AudioManager.instance.StopBossMusic();
                             // Switch to exit state
                             currentState = bossStates.ended;
                         }

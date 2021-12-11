@@ -122,8 +122,8 @@ MonoBehaviour:
   HitEffect: {fileID: 2844525836844590653, guid: bbe4d5f2d97dae5458c66bab9f5d13b6, type: 3}
   BurstEffect: {fileID: 8330498963531303887, guid: 466c9900dfc88ed4ca2239f0e1e2d00b, type: 3}
   shootSFX: 0
-  hitSFX: 0
-  timeToLive: 2.6
+  hitSFX: 104
+  timeToLive: 2
   startAttackCooldown: 0
   initHitBoxStartTime: 0.5
   initHitBoxTime: 0.5
@@ -212,4 +212,3 @@ MonoBehaviour:
   startMaterialTimer: 0
   dinoRexSprite: {fileID: 0}
   hittableEnemy: {fileID: 0}
-  dinoRex: {fileID: 0}

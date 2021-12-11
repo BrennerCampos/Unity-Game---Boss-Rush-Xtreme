@@ -13,6 +13,8 @@ public class LevelManager : MonoBehaviour
     public GameObject boss;
     public float waitToRespawn, timeInLevel, timeToWaitBeforeStart, waitforBossSpawnTime;
     public string levelToLoad;
+    public bool levelEndedBool;
+    private string currentBoss;
 
     private Tween standingTween;
     private Tween victoryStanceTween;
@@ -29,6 +31,25 @@ public class LevelManager : MonoBehaviour
     {
         timeInLevel = 0f;
         FirstSpawnBoss();
+        AudioManager.instance.FadeInBGM();
+        AudioManager.instance.PlayBGM();
+
+        if (boss.GetComponent<DinoRexBoss>() != null)
+        {
+            Debug.Log("Current Boss = DINO REX");
+                currentBoss = "DinoRex";
+        }
+        else if (boss.GetComponent<BlizzardWolfgangBoss>() != null)
+        {
+            Debug.Log("Current Boss = BLIZZARD WOLFANG");
+            currentBoss = "BlizzardWolfgang";
+        }
+        else if (boss.GetComponent<CyberPeacockBoss>() != null)
+        {
+            Debug.Log("Current Boss = CYBER PEACOCK");
+            currentBoss = "CyberPeacock";
+        }
+
     }
 
     // Update is called once per frame
@@ -36,12 +57,15 @@ public class LevelManager : MonoBehaviour
     {
         timeInLevel += Time.deltaTime;
 
-        if (timeInLevel > timeToWaitBeforeStart &&
+        if (timeInLevel > timeToWaitBeforeStart && !levelEndedBool
+            &&
             FindObjectOfType<DinoRexBoss>() == null          &&
             FindObjectOfType<BlizzardWolfgangBoss>() == null &&
             FindObjectOfType<CyberPeacockBoss>() == null     &&
-            FindObjectOfType<CrescentGrizzlyBoss>() == null)
+            FindObjectOfType<CrescentGrizzlyBoss>() == null
+            )
         {
+            levelEndedBool = true;
             EndLevel();
         }
 
@@ -129,6 +153,10 @@ public class LevelManager : MonoBehaviour
         PlayerController.instance.stopInput = true;
 
         standingTween = DOVirtual.DelayedCall(4f, StartVictoryStance, false);*/
+
+        UIController.instance.GetComponentInChildren<InGameClock>().StopTimer();
+        UIController.instance.timeInLevelText.color = Color.red;
+
         PlayerController.instance.levelEnd = true;
         PlayerController.instance.stopInput = true;
         StartCoroutine(EndLevelCo());
@@ -163,6 +191,33 @@ public class LevelManager : MonoBehaviour
        // Play victory music
         AudioManager.instance.PlayLevelVictory();
 
+        switch (currentBoss)
+        {
+            case "DinoRex":
+                StateNameController.DinoRexDefeated = true;
+                PlayerPrefs.SetString("DinoRexFinalScore", UIController.instance.dinoRexScore.text);
+                PlayerPrefs.SetString("DinoRexFinalTime", timeInLevel.ToString());
+                Debug.Log("Defeated : DINO REX");
+                Debug.Log("Final Score : " + PlayerPrefs.GetString("DinoRexFinalScore"));
+                Debug.Log("Time in Level : " + PlayerPrefs.GetString("DinoRexFinalTime"));
+                break;
+            case "BlizzardWolfgang":
+                StateNameController.BlizzardWolfgangDefeated = true;
+                PlayerPrefs.SetString("BlizzardWolfgangFinalScore", UIController.instance.blizzardWolfangScore.text);
+                PlayerPrefs.SetString("BlizzardWolfgangFinalTime", timeInLevel.ToString());
+                Debug.Log("Defeated : BLIZZARD WOLFGANG");
+                Debug.Log("Final Score : " + PlayerPrefs.GetString("BlizzardWolfgangFinalScore"));
+                Debug.Log("Time in Level : " + PlayerPrefs.GetString("BlizzardWolfgangFinalTime"));
+                break;
+            case "CyberPeacock":
+                StateNameController.CyberPeacockDefeated = true;
+                PlayerPrefs.SetString("CyberPeacockFinalScore", UIController.instance.cyberPeacockScore.text);
+                PlayerPrefs.SetString("CyberPeacockFinalTime", timeInLevel.ToString());
+                Debug.Log("Defeated : CYBER PEACOCK");
+                Debug.Log("Final Score : " + PlayerPrefs.GetString("CyberPeacockFinalScore"));
+                Debug.Log("Time in Level : " + PlayerPrefs.GetString("CyberPeacockFinalTime"));
+                break;
+        }
 
         // Wait a bit then fade screen to black
         //yield return new WaitForSeconds(1f);
@@ -210,8 +265,8 @@ public class LevelManager : MonoBehaviour
             PlayerPrefs.SetFloat(SceneManager.GetActiveScene().name + "_time", timeInLevel);
         }
 
-        // Finally, loads next scene
-        SceneManager.LoadScene(levelToLoad);
+        // Finally, loads Level Selection Screen
+        SceneManager.LoadScene("LevelSelector");
     }
 }
 

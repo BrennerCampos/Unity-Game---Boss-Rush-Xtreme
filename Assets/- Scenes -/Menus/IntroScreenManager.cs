@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class IntroScreenManager : MonoBehaviour
 {
@@ -9,16 +11,30 @@ public class IntroScreenManager : MonoBehaviour
     private int currentSelectionID;
     private Animator playerDummyAnimator;
     public GameObject TxStart, TxControls, TxHighScores, TxExit, playerDummy;
+    public Image fadeScreen;
     public Transform dummyPositionStart, dummyPositionControls, dummyPositionHighScores, dummyPositionExit;
     private bool selectedBool;
+    private Tween selectTween;
+   
+
+
+    private void Awake()
+    {
+        
+
+    }
 
 
     // Start is called before the first frame update
     void Start()
     {
-
+        fadeScreen.color = new Color(255, 255, 255, 1);
+        AudioManager.instance.BGM.volume = 0.25f;
+        AudioManager.instance.FadeInBGM();
+        UIController.instance.FadeFromBlack();
         currentSelectionID = 0;
         playerDummyAnimator = playerDummy.GetComponent<Animator>();
+        AudioManager.instance.PlayBGM();
 
     }
 
@@ -32,14 +48,14 @@ public class IntroScreenManager : MonoBehaviour
             {
                 currentSelectionID++;
 
-                // Play SFX
+                AudioManager.instance.PlaySFX_NoPitchFlux(120);
 
             }
             else if (Input.GetKeyDown(KeyCode.UpArrow))
             {
                 currentSelectionID--;
 
-                // Play SFX
+                AudioManager.instance.PlaySFX_NoPitchFlux(120);
             }
 
             if (currentSelectionID > 3)
@@ -63,6 +79,8 @@ public class IntroScreenManager : MonoBehaviour
                 TxHighScores.GetComponent<SpriteRenderer>().color = Color.white;
                 TxExit.GetComponent<SpriteRenderer>().color = Color.white;
 
+                StateNameController.ComingFromScene = "IntroScreen";
+
             }
             else if (currentSelectionID == 1)
             {
@@ -73,6 +91,8 @@ public class IntroScreenManager : MonoBehaviour
                 TxStart.GetComponent<SpriteRenderer>().color = Color.white;
                 TxHighScores.GetComponent<SpriteRenderer>().color = Color.white;
                 TxExit.GetComponent<SpriteRenderer>().color = Color.white;
+
+                StateNameController.ComingFromScene = "IntroScreen";
 
             }
             else if (currentSelectionID == 2)
@@ -85,6 +105,8 @@ public class IntroScreenManager : MonoBehaviour
                 TxControls.GetComponent<SpriteRenderer>().color = Color.white;
                 TxExit.GetComponent<SpriteRenderer>().color = Color.white;
 
+                StateNameController.ComingFromScene = "IntroScreen";
+
             }
             else if (currentSelectionID == 3)
             {
@@ -96,6 +118,8 @@ public class IntroScreenManager : MonoBehaviour
                 TxControls.GetComponent<SpriteRenderer>().color = Color.white;
                 TxHighScores.GetComponent<SpriteRenderer>().color = Color.white;
 
+                StateNameController.ComingFromScene = "IntroScreen";
+
             }
 
 
@@ -103,39 +127,68 @@ public class IntroScreenManager : MonoBehaviour
                 !Input.GetKeyDown(KeyCode.UpArrow)))
             {
 
+                AudioManager.instance.PlaySFX_NoPitchFlux(22);
                 playerDummyAnimator.SetBool("optionSelected", true);
                 selectedBool = true;
 
-                if (currentSelectionID == 0)
-                {
-                    // "Start" option
-                    SceneManager.LoadScene("LevelSelector");
+                fadeScreen.color = new Color(0, 0, 0, 0);
+                UIController.instance.fadeSpeed = 1.5f;
+                UIController.instance.FadeToBlack();
+                AudioManager.instance.FadeOutBGM();
 
-                }
-                else if (currentSelectionID == 1)
+                /*audioFadeTween = DOVirtual.DelayedCall(0.1f, () =>
                 {
-                    // "Controls" option
-                    // @TODO Load Controls Screen
-                    SceneManager.LoadScene("ControlsScreen");
+                    var timer = timeToFade;
 
-                }
-                else if (currentSelectionID == 2)
+                    while (timer > 0)
+                    {
+                        timer -= Time.deltaTime;
+
+                        if (timer <= 0)
+                        {
+                            BGM.Stop();
+                        }
+                        else
+                        {
+                            BGM.volume = 0.5f;
+                        }
+                    }
+                }, false);*/
+
+                StateNameController.ComingFromScene = "IntroScreen";
+
+                selectTween = DOVirtual.DelayedCall(2, () =>
                 {
-                    // "High Scores" option
-                    // @TODO Load High Scores Screen
-                    SceneManager.LoadScene("HighScoreScreen");
+                    if (currentSelectionID == 0)
+                    {
+                        // "Start" option
+                        SceneManager.LoadScene("LevelSelector");
 
-                }
-                else if (currentSelectionID == 3)
-                {
-                    // @TODO Exits Program
-                    // "Exit" option
+                    }
+                    else if (currentSelectionID == 1)
+                    {
+                        // "Controls" option
+                        // @TODO Load Controls Screen
+                        SceneManager.LoadScene("ControlsScreen");
 
-                    Application.Quit();
-                    Debug.Log("Exiting Game.");
-                }
+                    }
+                    else if (currentSelectionID == 2)
+                    {
+                        // "High Scores" option
+                        // @TODO Load High Scores Screen
+                        SceneManager.LoadScene("HighScoreScreen");
+
+                    }
+                    else if (currentSelectionID == 3)
+                    {
+                        // @TODO Exits Program
+                        // "Exit" option
+
+                        Application.Quit();
+                        Debug.Log("Exiting Game.");
+                    }
+                }, false);
             }
         }
-        
     }
 }

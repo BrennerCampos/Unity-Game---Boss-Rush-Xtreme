@@ -1,12 +1,17 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
     public AudioSource[] soundEffects;
-    public AudioSource BGM, levelEndMusic, bossMusic;
+    public AudioSource BGM, levelEndMusic;
+    private bool shouldFadeOut, shouldFadeIn;
+    public float timer;
     
 
     // Creates an AudioManager instance constructor before game starts
@@ -24,7 +29,31 @@ public class AudioManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+
+
+        if (shouldFadeOut)
+        {
+
+            BGM.volume = Mathf.MoveTowards(BGM.volume, 0f, 0.45f * Time.deltaTime);
+            //Debug.Log("volume" + BGM.volume);
+
+            if (BGM.volume <= 0)
+            {
+                shouldFadeOut = false;
+            }
+
+        }
+
+        if (shouldFadeIn)
+        {
+            BGM.volume = Mathf.MoveTowards(BGM.volume, 1f, 2 * Time.deltaTime);
+            //Debug.Log("volume" + BGM.volume);
+
+            if (BGM.volume >= 1 )
+            {
+                shouldFadeIn = false;
+            }
+        }
     }
 
     public void PlaySFX(int soundToPlay)
@@ -78,17 +107,33 @@ public class AudioManager : MonoBehaviour
     public void PlayBossMusic()
     {
         BGM.Stop();
-        bossMusic.Play();
+    }
+
+    public void PlayBGM()
+    {
+        BGM.Stop();
+        BGM.Play();
     }
 
     public void StopSFX(int sfxToStop)
     {
         soundEffects[sfxToStop].Stop();
     }
-    public void StopBossMusic()
+    public void StopBGM()
     {
-        bossMusic.Stop();
-        BGM.Play();
+        BGM.Stop();
     }
 
+
+    public void FadeOutBGM()
+    {
+        shouldFadeOut = true;
+        shouldFadeIn = false;
+    }
+
+    public void FadeInBGM()
+    {
+        shouldFadeIn = true;
+        shouldFadeOut = false;
+    }
 }
