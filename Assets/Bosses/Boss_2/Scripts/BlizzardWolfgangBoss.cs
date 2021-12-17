@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Runtime.CompilerServices;
 using BehaviorDesigner.Runtime.Tasks;
 using DG.Tweening;
@@ -169,17 +170,34 @@ public class BlizzardWolfgangBoss : MonoBehaviour
 
         
 
-        if (rigidbody.velocity.x == 0 && anim.GetBool("isChargingAttackingBool") == false)
+        if (Mathf.Abs(rigidbody.velocity.x) < 0.1f)
         {
-            anim.ResetTrigger("isRunning");
-            if (isGrounded)
+            if (anim.GetBool("isChargingAttackingBool") == false)
             {
-                anim.SetTrigger("isStandingIdle");
+                anim.ResetTrigger("isRunning");
+                if (isGrounded)
+                {
+                    /*if (isCrouching)
+                    {
+                        for (int i = 0; i < 15; i++)
+                        {
+                            anim.SetTrigger("isCrouching");
+                        }
+                        isCrouching = false;
+                    }*/
+                    anim.SetTrigger("isStandingIdle");
+                }
             }
+
         }
         else
         {
             anim.ResetTrigger("isStandingIdle");
+            
+            if (anim.GetBool("isCrouching"))
+            {
+                anim.SetTrigger("isRunning");
+            }
         }
 
 
@@ -243,10 +261,12 @@ public class BlizzardWolfgangBoss : MonoBehaviour
         if (WallCheckHit)
         {
             anim.SetTrigger("isWallTouching");
+            anim.SetBool("isWallTouchingBool", true);
         }
         else
         {
             anim.ResetTrigger("isWallTouching");
+            anim.SetBool("isWallTouchingBool", false);
         }
 
         if (PounceCheck)

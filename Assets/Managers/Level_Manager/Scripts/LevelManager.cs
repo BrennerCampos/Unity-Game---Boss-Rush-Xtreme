@@ -225,7 +225,7 @@ public class LevelManager : MonoBehaviour
         //playerAnimator.ResetTrigger("startVictoryStance");
 
 
-        yield return new WaitForSeconds(6f);
+        yield return new WaitForSeconds(7.5f);
         UIController.instance.FadeToBlack();
 
         // Waits an extra amount of time for victory music to finish playing

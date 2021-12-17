@@ -32,7 +32,7 @@ namespace Core.AI
         public float fireDashTimer, startFireDashTimer;
         public bool isWallClinging, canWallDash, hasLanded, isFireDashing;
         public string animationTriggerName;
-        private string xDirection, yDirection;
+        private string xDirection, yDirection, dashDirection;
 
         public float horizontalForce = 10f;
 
@@ -44,6 +44,19 @@ namespace Core.AI
         {
             buildupTween = DOVirtual.DelayedCall(buildupTime, StartFireDash, false);
             // cam = mainCamera.GetComponent<CameraShake>();
+
+            if (PlayerController.instance.rigidBody.position.x < rigidBody.position.x)
+            {
+                dashDirection = "Left";
+
+            }
+            else
+            {
+                dashDirection = "Right";
+            }
+
+            body.gravityScale = 0;
+
         }
 
 
@@ -56,7 +69,7 @@ namespace Core.AI
             xDirection = DinoRexBoss.instance.xDirection;
 
 
-            if (xDirection == "Right")
+            if (dashDirection == "Right")
             {
                 WallCheckHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), new Vector2(-DinoRexBoss.instance.wallDistance, 0),
                     DinoRexBoss.instance.wallDistance, whatIsWall);
@@ -81,16 +94,29 @@ namespace Core.AI
 
             if (fireDashTimer > 0 || anim.GetBool("isFireDashing"))
             {
-                if (xDirection == "Right")
+                // Fire Loop
+                if (!AudioManager.instance.soundEffects[37].isPlaying)
                 {
-                    //DinoRexBoss.instance.transform.localScale = new Vector3(-1, 1, 1);
+                    AudioManager.instance.PlaySFX(37);
+                }
+                
+                if (dashDirection == "Right")
+                {
+                    var scale = transform.localScale;
+                    scale.x = -1;
+                    transform.localScale = scale;
+                    DinoRexBoss.instance.transform.localScale = new Vector3(-1, 1, 1);
                     body.AddForce(new Vector2(0.3f, 0), ForceMode2D.Impulse);
                 }
                 else
                 {
+                    var scale = transform.localScale;
+                    scale.x = 1;
+                    transform.localScale = scale;
                     //DinoRexBoss.instance.transform.localScale = new Vector3(-1, 1, 1);
                     body.AddForce(new Vector2(-0.3f, 0), ForceMode2D.Impulse);
                 }
+                body.position = new Vector2(body.position.x, body.position.y);
                 hasLanded = false;
                 return TaskStatus.Running;
             }
@@ -99,6 +125,13 @@ namespace Core.AI
                 fireDashTimer = startFireDashTimer;
                 animator.ResetTrigger("isFireDashing");
                 animator.SetTrigger("isWallClinging");
+                AudioManager.instance.PlaySFX(33);
+                AudioManager.instance.PlaySFX(36);
+                // Fire Loop
+                if (AudioManager.instance.soundEffects[37].isPlaying)
+                {
+                    AudioManager.instance.StopSFX(37);
+                }
                 hasLanded = true;
                 return TaskStatus.Success;
             }
@@ -117,6 +150,7 @@ namespace Core.AI
         public override void OnEnd()
         {
             buildupTween?.Kill();
+            body.gravityScale = 4;
             //jumpTween?.Kill();
             hasLanded = false;
             animator.ResetTrigger("isWallClinging");

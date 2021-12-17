@@ -45,6 +45,7 @@ namespace  Core.AI
             var direction = PlayerController.instance.transform.position.x < transform.position.x ? -1 : 1;
             body.AddForce(new Vector2(horizontalForce * direction, jumpForce), ForceMode2D.Impulse);
             AudioManager.instance.PlaySFX(40);
+            AudioManager.instance.PlaySFX_NoPitchFlux(64);
 
             isGrounded = animator.GetBool("isGrounded");
 
@@ -56,8 +57,8 @@ namespace  Core.AI
             jumpTween = DOVirtual.DelayedCall(jumpTime, () =>
             {
                 hasLanded = true;
-                AudioManager.instance.PlaySFXOverlap(36);
-                AudioManager.instance.PlaySFXOverlap(33);
+                /*AudioManager.instance.PlaySFXOverlap(36);
+                AudioManager.instance.PlaySFXOverlap(33);*/
 
                 // if (shakeCameraOnLanding)
                 //  StartCoroutine();

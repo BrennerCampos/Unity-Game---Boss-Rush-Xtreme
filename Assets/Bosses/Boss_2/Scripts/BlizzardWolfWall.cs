@@ -31,8 +31,6 @@ public class BlizzardWolfgangWall : EnemyAction
             {
                 //body.AddForce(new Vector2(0, 10), ForceMode2D.Force);
 
-                body.velocity = Vector2.zero;
-
                 anim.SetBool("isWallClinging", true);
                 return TaskStatus.Running;
             }

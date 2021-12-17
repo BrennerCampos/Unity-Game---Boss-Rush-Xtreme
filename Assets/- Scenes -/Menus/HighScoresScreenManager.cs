@@ -12,6 +12,8 @@ public class HighScoresScreenManager : MonoBehaviour
     private GameObject TxDummy;
     private bool inputBool;
     public Image fadeScreen;
+    public Text playerTotalScore;
+    public Text betterLuckNextTime;
     private Tween selectTween;
 
     // Start is called before the first frame update
@@ -24,13 +26,18 @@ public class HighScoresScreenManager : MonoBehaviour
             TxBack.SetActive(true);
             TxNext.SetActive(false);
             TxDummy = TxBack;
+            playerTotalScore.text = "0";
+            betterLuckNextTime.gameObject.SetActive(false);
         } else
         {
             TxNext.SetActive(true);
             TxBack.SetActive(false);
             TxDummy = TxNext;
+            var randomScore = Random.Range(145464, 179456);
+            playerTotalScore.text = randomScore.ToString();
+            betterLuckNextTime.gameObject.SetActive(true);
         }
-        
+
     }
 
     // Update is called once per frame

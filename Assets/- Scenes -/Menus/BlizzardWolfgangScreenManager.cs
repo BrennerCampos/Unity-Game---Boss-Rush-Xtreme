@@ -21,8 +21,8 @@ public class BlizzardWolfgangScreenManager : MonoBehaviour
 
         fadeScreen.color = new Color(255, 255, 255, 1);
         UIController.instance.fadeSpeed = 0.5f;
-        AudioManager.instance.BGM.volume = 0.25f;
-        AudioManager.instance.FadeInBGM();
+        //AudioManager.instance.BGM.volume = 0.25f;
+        //AudioManager.instance.FadeInBGM();
         UIController.instance.FadeFromBlack();
         AudioManager.instance.PlayBGM();
 

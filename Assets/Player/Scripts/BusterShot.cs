@@ -10,6 +10,7 @@ public class BusterShot : MonoBehaviour
     public float speed, timeToLive;
     private string shotDirection;
     private SpriteRenderer shotSprite;
+    private bool cyberStageBool;
 
     // Start is called before the first frame update
     void Start()
@@ -52,6 +53,11 @@ public class BusterShot : MonoBehaviour
                 shotDirection = "Right";
                 shotSprite.flipX = true;
             }
+        }
+
+        if (FindObjectOfType<CyberPeacockBoss>())
+        {
+            cyberStageBool = true;
         }
 
     }
@@ -102,8 +108,21 @@ public class BusterShot : MonoBehaviour
             var shotEffect = Instantiate(shotHitEffect, gameObject.transform.position, gameObject.transform.rotation);
             // enemySprite = other.GetComponent<SpriteRenderer>();
             shotEffect.transform.localScale = new Vector3(11, 11, 1);
-            AudioManager.instance.PlaySFX(19);
+            
+            // @TODO - CHECK FOR CLONE
 
+            if (cyberStageBool)
+            {
+                if (!other.GetComponentInParent<CyberPeacockBoss>().isClone)
+                {
+                    AudioManager.instance.PlaySFX(19);
+                }
+            }
+            else
+            {
+                AudioManager.instance.PlaySFX(19);
+            }
+            
             //Destroy(other);
             Destroy(gameObject);
         }

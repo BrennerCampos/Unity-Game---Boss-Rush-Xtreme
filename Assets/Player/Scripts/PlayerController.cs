@@ -1,4 +1,5 @@
 using System;
+using DG.Tweening;
 using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEngine;
 using UnityEngine.UI;
@@ -201,11 +202,15 @@ public class PlayerController : MonoBehaviour
     public FunctionDelegate methodToCall;
     public string animStateShooting;
     public bool justPressedShoot;
+    private Tween jumpDashTween;
 
 
     [Header("SFX")]
     private bool playedInitChargeSFX;
     private bool playedLoopedChargeSFX;
+    private bool laserSoundBool;
+    private bool spawnLaserBool;
+    private bool flexSoundBool;
 
 
     [Header("Timers")] 
@@ -236,6 +241,9 @@ public class PlayerController : MonoBehaviour
 
         // Player starts in this state
         isTeleporting = true;
+        laserSoundBool = true;
+        spawnLaserBool = true;
+        flexSoundBool = true;
 
         // Player starts off facing towards the RIGHT
         xDirection = "Right";
@@ -291,9 +299,16 @@ public class PlayerController : MonoBehaviour
         {
             if (endStandingIdle)
             {
+                /*if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1 && anim.GetBool("isJumping") == false)
+                {
+
+                }*/
                 if (endStandingIdleBool)
                 {
                     stopInput = true;
+                    rigidBody.velocity = Vector2.zero;
+                    rigidBody.position = new Vector2(rigidBody.position.x, rigidBody.position.y);
+                    anim.SetBool("isStandingIdle", true);
                     anim.SetTrigger("standOverride");
                     endStandingIdleBool = false;
                 }
@@ -312,8 +327,10 @@ public class PlayerController : MonoBehaviour
             {
                 if (victoryStanceBool)
                 {
-                    stopInput = true;
                     anim.SetTrigger("startVictoryStance");
+                    stopInput = true;
+                    // Exclamatory "Shing" spark at the end
+                    AudioManager.instance.PlaySFX_NoPitchFlux(54);
                     victoryStanceBool = false;
                 }
 
@@ -322,38 +339,62 @@ public class PlayerController : MonoBehaviour
                 if (victoryStanceTimer <= 0)
                 {
                     anim.ResetTrigger("startVictoryStance");
-                    victoryStanceTimer = 1.3f;
+                    victoryStanceTimer = 0.7f;
                     stopInput = true;
                     levelEnd = false;
                     rigidBody.gravityScale = 0;
                     startTeleportOut = true;
+                    AudioManager.instance.PlaySFX_NoPitchFlux(132);
+                    victoryStance = false;
                 }
             }
         }
 
         if (startTeleportOut)
         {
+            // teleportOutTimer -= Time.deltaTime;
+            rigidBody.position = new Vector3(transform.position.x, transform.position.y + 1.75f, transform.position.z);
+           
             if (teleportOutBool)
             {
                 anim.SetTrigger("startTeleportOut");
                 teleportOutBool = false;
             }
-
-            teleportOutTimer -= Time.deltaTime;
-            transform.position = new Vector3(transform.position.x, transform.position.y+1.3f, transform.position.z);
         }
         
         // If in teleportation state (Enter & Exit)
         if (isTeleporting)
         {
+
             transform.position = new Vector3(xStartPosition, transform.position.y, transform.position.z);
             stopInput = true;
             //CameraController.instance.stopFollow = true;
+
+
+            if (LevelManager.instance.timeInLevel > 0.1f && laserSoundBool)
+            {
+                AudioManager.instance.PlaySFX_NoPitchFlux(132);
+                laserSoundBool = false;
+            }
+
+            if (LevelManager.instance.timeInLevel > 1f && spawnLaserBool)
+            {
+                AudioManager.instance.PlaySFX_NoPitchFlux(7);
+                spawnLaserBool = false;
+            }
+
+            if (LevelManager.instance.timeInLevel > 1.7f && flexSoundBool)
+            {
+                // Magic Time SFX
+                AudioManager.instance.PlaySFX_NoPitchFlux(12);
+                flexSoundBool = false;
+            }
 
             if (LevelManager.instance.timeInLevel > levelIntroStopTime)
             {
                 //CameraController.instance.stopFollow = false;
                 stopInput = false;
+                canStandShoot = true;
             }
         }
 
@@ -463,6 +504,7 @@ public class PlayerController : MonoBehaviour
                             anim.SetBool("isDashShooting", false);
                             anim.SetBool("isJumpShooting", false);
                             anim.SetBool("isWallShooting", false);
+                            //anim.SetBool("takeOffJumpShoot", false);
                         }
                     }
 
@@ -821,7 +863,7 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("isDashing", isDashing);
         anim.SetBool("isDashShooting", isDashShooting);
         anim.SetBool("isWallShooting", isWallShooting);
-        anim.SetBool("isJumpShooting", isJumpShooting);
+        //anim.SetBool("isJumpShooting", isJumpShooting);
         anim.SetBool("isSlashing", isSlashing);
         anim.SetBool("isJumpSlashing", isJumpSlashing);
     }
@@ -921,7 +963,7 @@ public class PlayerController : MonoBehaviour
             canJumpSlash = false;
             anim.SetBool("isSlashing", true);
 
-            if (anim.GetBool("magmaBladeActive") == true)
+            if (magmaBladeActive)
             {
                 SpecialAttack(spAtkMagmaBladeFireball, 52, 1, false,
                     "Slash_Shot", 2f, 2f, true);
@@ -945,7 +987,7 @@ public class PlayerController : MonoBehaviour
 
             anim.SetBool("isWallSlashing", true);
 
-            if (anim.GetBool("magmaBladeActive") == true)
+            if (magmaBladeActive)
             {
                 //isWallShooting = true;
 
@@ -971,7 +1013,7 @@ public class PlayerController : MonoBehaviour
 
             anim.SetBool("isJumpSlashing", true);
 
-            if (anim.GetBool("magmaBladeActive") == true)
+            if (magmaBladeActive)
             {
                 SpecialAttack(spAtkMagmaBladeFireball, 66, 1, false,
                     "Slash_Shot", 2f, 2f, true);
@@ -1142,7 +1184,7 @@ public class PlayerController : MonoBehaviour
     public void isDashChecking()
     {
         // ----------  is DASHING CHECK  ----------------------------------------//
-        if (isDashing)
+        if (isDashing || anim.GetBool("jumpDash"))
         {
             dashTimer -= Time.deltaTime;
             isSlashing = false;
@@ -1151,7 +1193,7 @@ public class PlayerController : MonoBehaviour
             canGroundDash = false;
 
             // If "Jump" button is pressed...
-            if (Input.GetButtonDown("Jump") && canInput && dashTimer > 0)
+            if (Input.GetButtonDown("Jump") && canInput && dashTimer > 0 && !anim.GetBool("jumpDash"))
             {
                 anim.SetBool("jumpDash", true);
                 isJumping = true;
@@ -1166,15 +1208,20 @@ public class PlayerController : MonoBehaviour
                 isDashShooting = true;
             }
 
-            // If facing the left (flipX = true)
-            if (xDirection == "Right")
-            {
-                rigidBody.velocity = Vector2.right * moveSpeed;
-            }
-            else
-            {
-                rigidBody.velocity = Vector2.left * moveSpeed;
-            }
+            /*jumpDashTween = DOVirtual.DelayedCall(0, () =>
+            {*/
+                // If facing the left (flipX = true)
+                if (xDirection == "Right")
+                {
+                    rigidBody.velocity = Vector2.right * moveSpeed;
+                }
+                else
+                {
+                    rigidBody.velocity = Vector2.left * moveSpeed;
+                }
+            //}, false);
+
+            
         }
         // ----------  is WALL-DASHING CHECK  ------------------------------------//
         else if (isWallDashing && !knockedBackBool)
@@ -1583,8 +1630,25 @@ public class PlayerController : MonoBehaviour
 
     public void SpecialAttackCheck()
     {
+
+        WeaponIconSwitch(currentSpecialAttack);
+
+        if (currentSpecialAttack == 2)
+        {
+            magmaBladeActive = true;
+            anim.SetBool("magmaBladeActive", true);
+        }
+        else
+        {
+            magmaBladeActive = false;
+            anim.SetBool("magmaBladeActive", false);
+        }
+        
+        
+        
         if (currentSpecialAttack == 0)
         {
+            
             // ---  SpAtk = "0" ---------//
             if (Input.GetKeyDown(KeyCode.Z) && canInput && shotTimerLonger == startShotTimerLonger)
             {
@@ -1595,26 +1659,29 @@ public class PlayerController : MonoBehaviour
         }
         else if (currentSpecialAttack == 1)
         {
+
             // ---  SpAtk = "1" ---------//
-            if (Input.GetKeyDown(KeyCode.Z) && canInput && shotTimerLonger == startShotTimerLonger)
-            {
-                shotTimerLongerPressed = true;
-                // ---- LIGHTNING WEB ---------//
-                SpecialAttack(spAtkLightningWeb, 106, 1, false, "Straight_Shot", 2f, 2f, true);
-            }
+                if (Input.GetKeyDown(KeyCode.Z) && canInput && shotTimerLonger == startShotTimerLonger)
+                {
+                    shotTimerLongerPressed = true;
+                    // ---- LIGHTNING WEB ---------//
+                    SpecialAttack(spAtkLightningWeb, 106, 1, false, "Straight_Shot", 2f, 2f, true);
+                }
         }
         else if (currentSpecialAttack == 2)
         {
+
             // ---  SpAtk = "2" ---------//
-            if (Input.GetKeyDown(KeyCode.Z))
+            if (Input.GetKeyDown(KeyCode.Z) && canInput)
             {
+                Slash();
                 // ---- MAGMA BLADE ---------//
-                magmaBladeActive = !magmaBladeActive;
+                /*magmaBladeActive = !magmaBladeActive;
 
                 if (magmaBladeActive)
                 { anim.SetBool("magmaBladeActive", true); }
                 else
-                { anim.SetBool("magmaBladeActive", false); }
+                { anim.SetBool("magmaBladeActive", false); }*/
             }
         }
         else if (currentSpecialAttack == 3)
@@ -1678,7 +1745,8 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                if (shotTimerNormal == startShotTimerNormal)
+                /*if (shotTimerNormal == startShotTimerNormal || shotTimerLonger == startShotTimerLonger || shotTimerLongest == startShotTimerLongest ||
+                    shotTimerQuicker == startShotTimerQuicker || shotTimerQuickest == startShotTimerQuickest)*/
                 {
                     // If player is WALL CLINGING...
                     if (isWallSliding)
@@ -1698,7 +1766,7 @@ public class PlayerController : MonoBehaviour
                         canJumpShoot = false;
                     }
                     // If player is STANDING...
-                    else if (Mathf.Abs(rigidBody.velocity.x) < 0.1f && canStandShoot && !justPressedShoot)
+                    else if (Mathf.Abs(rigidBody.velocity.x) < 0.1f)
                     {
                         SpecialAttackShoot(specialAttack, "isStandShooting", standFirePointRight,
                             standFirePointLeft, isStandShooting, SFX, shotLevel, isChargeable, shotType);
@@ -1783,6 +1851,25 @@ public class PlayerController : MonoBehaviour
     // --------------------------------------------------------------------------------------------------------------------------------------------------->
     // ------------ OTHER FUNCTIONS --------------------------------------------------------------------------------------------------------------------->
     // ------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    public void WeaponIconSwitch(int weaponID)
+    {
+        UIController.instance.WeaponIcons[weaponID].gameObject.SetActive(true);
+        for (int i = 0; i < UIController.instance.WeaponIcons.Length; i++)
+        {
+            if (i == currentSpecialAttack)
+            {
+                continue;
+            }
+            else
+            {
+                UIController.instance.WeaponIcons[i].gameObject.SetActive(false);
+            }
+        }
+    }
+
+
+
     public void Flip(GameObject obj)
     {
         if (xDirection == "Right")

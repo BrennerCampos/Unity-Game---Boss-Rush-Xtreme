@@ -28,6 +28,7 @@ public class CyberPeacockTeleport : EnemyAction
     private bool isGrounded, hasTeleported;
 
     private Tween buildupTween;
+    private Tween flashTween;
     private Tween teleportTween;
 
     public override void OnStart()
@@ -47,13 +48,18 @@ public class CyberPeacockTeleport : EnemyAction
         var direction = PlayerController.instance.transform.position.x < transform.position.x ? -1 : 1;
         attackCollider.enabled = false;
         hazardCollider.enabled = false;
-
+        
+        
+        flashTween = DOVirtual.DelayedCall(0.4f, () =>
+        {
+            transform.position = new Vector2(Random.Range(PlayerController.instance.transform.position.x - 2,
+                    PlayerController.instance.transform.position.x + 2),
+                transform.position.y);
+        }, false);
 
         teleportTween = DOVirtual.DelayedCall(teleportTime, () =>
         {
-            transform.position = new Vector2(Random.Range(PlayerController.instance.transform.position.x - 2, 
-                                                              PlayerController.instance.transform.position.x + 2), 
-                                                                                            transform.position.y);
+           
             hasTeleported = true;
         }, false);
     }

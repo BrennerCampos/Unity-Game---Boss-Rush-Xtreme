@@ -98,10 +98,8 @@ public class HittableCyberPeacock : MonoBehaviour
 
         if (!isClone)
         {
-
             if (other.gameObject.tag.Contains("Shot") || other.gameObject.tag.Equals("SpecialShot") || other.tag.Equals("PlayerAttack"))
             {
-
                 if (comboTimer > 0)
                 {
                     comboCount++;
@@ -173,7 +171,8 @@ public class HittableCyberPeacock : MonoBehaviour
                     cyberPeacockBoss.currentHealth -= slashDamage;
                     scoreForAction = magmaBladeSlashScore;
                 }
-
+                
+                cyberPeacockBoss.currentHealthSlider.value = cyberPeacockBoss.currentHealth;
             }
 
             if (other.gameObject.tag == "ShotLevel_5")
@@ -211,11 +210,16 @@ public class HittableCyberPeacock : MonoBehaviour
             }
 
 
-            UIController.instance.cyberPeacockScore.text = Mathf.Ceil(updatedScore + (scoreForAction*comboMultiplier)).ToString();
-            cyberPeacockBoss.currentHealthSlider.value = cyberPeacockBoss.currentHealth;
+            if (other.gameObject.tag.Contains("Shot") || other.gameObject.tag.Equals("SpecialShot") ||
+                other.tag.Equals("PlayerAttack") ||
+                other.gameObject.tag.Contains("ShotLevel"))
+            {
+                UIController.instance.cyberPeacockScore.text =
+                    Mathf.Ceil(updatedScore + (scoreForAction * comboMultiplier)).ToString();
+                cyberPeacockBoss.currentHealthSlider.value = cyberPeacockBoss.currentHealth;
+            }
 
-
-            if (cyberPeacockBoss.currentHealth <= 0)
+            if (cyberPeacockBoss.currentHealthSlider.value <= 0)
             {
                 AudioManager.instance.PlaySFX_NoPitchFlux(2);
                 Destroy(other);
@@ -234,6 +238,7 @@ public class HittableCyberPeacock : MonoBehaviour
                 comboStartBool = true;
                 UIController.instance.cyberPeacockScore.text = (updatedScore + 30).ToString();
                 anim.SetTrigger("cloneHit");
+                AudioManager.instance.PlaySFX_NoPitchFlux(126);
             }
         }
     }

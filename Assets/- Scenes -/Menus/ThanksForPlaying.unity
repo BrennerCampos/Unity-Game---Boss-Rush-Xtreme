@@ -255,7 +255,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 198437470}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1280, y: -720, z: 0}
+  m_LocalPosition: {x: -959.98, y: -539.99, z: 0}
   m_LocalScale: {x: 0.93, y: 0.93, z: 1}
   m_Children: []
   m_Father: {fileID: 131774201}
@@ -338,7 +338,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229485654}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1272.83, y: -723.66, z: 0}
+  m_LocalPosition: {x: -952.80994, y: -543.64996, z: 0}
   m_LocalScale: {x: 0.93, y: 0.93, z: 1}
   m_Children: []
   m_Father: {fileID: 131774201}
@@ -467,7 +467,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 338148874}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1280, y: -723.51, z: 0}
+  m_LocalPosition: {x: -959.98, y: -543.5, z: 0}
   m_LocalScale: {x: 0.93, y: 0.93, z: 1}
   m_Children: []
   m_Father: {fileID: 131774201}
@@ -550,7 +550,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 754141934}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1280, y: -719.88, z: 0}
+  m_LocalPosition: {x: -959.98, y: -539.87, z: 0}
   m_LocalScale: {x: 0.93, y: 0.93, z: 1}
   m_Children: []
   m_Father: {fileID: 131774201}
@@ -633,7 +633,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 850135236}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1280, y: -717.14, z: 0}
+  m_LocalPosition: {x: -959.98, y: -537.13, z: 0}
   m_LocalScale: {x: 0.93, y: 0.93, z: 1}
   m_Children: []
   m_Father: {fileID: 131774201}
@@ -716,7 +716,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 933668787}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1286.88, y: -723.66, z: 0}
+  m_LocalPosition: {x: -966.86, y: -543.64996, z: 0}
   m_LocalScale: {x: 0.93, y: 0.93, z: 1}
   m_Children: []
   m_Father: {fileID: 131774201}
@@ -19140,10 +19140,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed3a84217c5acd241b463547da4da024, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sandboxModeText: {fileID: 0}
   bossHP: {fileID: 0}
   fadeScreen: {fileID: 3689890708155606271}
   WarningSign: {fileID: 0}
+  dinoRexScore: {fileID: 0}
+  blizzardWolfangScore: {fileID: 0}
+  cyberPeacockScore: {fileID: 0}
+  currentScore: {fileID: 0}
+  timeInLevelText: {fileID: 0}
   loadingScreen: {fileID: 0}
   fadeSpeed: 1
   warningSpeed: 0

@@ -119,7 +119,6 @@ public class LevelSelectorScreenManager : MonoBehaviour
 
         
 
-
         if (currentSelectionID > 2)
         {
             currentSelectionID = 0;
@@ -233,7 +232,8 @@ public class LevelSelectorScreenManager : MonoBehaviour
                     }
                 else
                 {
-                    // PLAY WRONG SELECTION SFX
+                    // Invalid Selection Sound
+                    AudioManager.instance.PlaySFX_NoPitchFlux(85);
                 }
             }
         }

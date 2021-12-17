@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
+using Core.AI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -11,6 +13,7 @@ public class UIController : MonoBehaviour
     public Text bossHP;
     public Image fadeScreen;
     public Image WarningSign;
+    public Image[] WeaponIcons;
     public Text dinoRexScore, blizzardWolfangScore, cyberPeacockScore;
     public Text currentScore, timeInLevelText;
     public GameObject loadingScreen;
@@ -86,7 +89,6 @@ public class UIController : MonoBehaviour
                     reverseCycle = true;
                 }
             }
-            
             if (cycleCount <= 0)
             {
                 warningTime = false;
@@ -95,8 +97,6 @@ public class UIController : MonoBehaviour
                 GetComponentInChildren<InGameClock>().StartTimer();
             }
         }
-
-
 
 
         if (shouldFadeToBlack)

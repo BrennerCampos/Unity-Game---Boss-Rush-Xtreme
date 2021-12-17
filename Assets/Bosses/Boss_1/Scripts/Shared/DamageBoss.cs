@@ -9,6 +9,9 @@ public class DamageBoss : MonoBehaviour
     public float materialTimer, startMaterialTimer;
     public SpriteRenderer dinoRexSprite;
     public HittableEnemy hittableEnemy;
+    public HittableBlizzardWolfgang hittableBlizzardWolfgang;
+    public HittableCyberPeacock hittableCyberPeacock;
+    public HittableDinoRex hittableDinoRex;
     private DinoRexBoss dinoRex;
     private BlizzardWolfgangBoss blizzardWolfgang;
     private CyberPeacockBoss cyberPeacock;

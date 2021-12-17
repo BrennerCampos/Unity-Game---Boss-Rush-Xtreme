@@ -17,8 +17,8 @@ public class ControlsScreenManager : MonoBehaviour
     void Start()
     {
         fadeScreen.color = new Color(0, 0, 0, 1);
-        AudioManager.instance.BGM.volume = 0.25f;
-        AudioManager.instance.FadeInBGM();
+       // AudioManager.instance.BGM.volume = 0.55f;
+        //AudioManager.instance.FadeInBGM();
         UIController.instance.FadeFromBlack();
         AudioManager.instance.PlayBGM();
     }

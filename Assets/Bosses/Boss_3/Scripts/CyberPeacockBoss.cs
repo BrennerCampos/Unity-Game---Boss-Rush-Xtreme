@@ -371,9 +371,9 @@ public class CyberPeacockBoss : MonoBehaviour
 
             AudioManager.instance.PlayLevelVictory();
 
-            GameObject explosion = (GameObject)Instantiate(explosionReference);
+            /*GameObject explosion = (GameObject)Instantiate(explosionReference);
             explosion.transform.position =
-                new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z);
+                new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z);*/
         }
 
         Destroy(gameObject);

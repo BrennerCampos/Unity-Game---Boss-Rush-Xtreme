@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using DG.Tweening;
-using JetBrains.Annotations;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -20,8 +16,8 @@ public class ThanksForPlayingScreenManager : MonoBehaviour
     void Start()
     {
         fadeScreen.color = new Color(0, 0, 0, 1);
-        AudioManager.instance.BGM.volume = 0.25f;
-        AudioManager.instance.FadeInBGM();
+        //AudioManager.instance.BGM.volume = 0.25f;
+        //AudioManager.instance.FadeInBGM();
         UIController.instance.FadeFromBlack();
         currentSelectionID = 0;
         AudioManager.instance.PlayBGM();

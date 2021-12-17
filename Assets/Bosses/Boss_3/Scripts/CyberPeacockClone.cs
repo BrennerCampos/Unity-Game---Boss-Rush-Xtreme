@@ -156,7 +156,7 @@ public class CyberPeacockClone : MonoBehaviour
         }
 
         anim.SetTrigger("cloneHit");
-        AudioManager.instance.PlaySFX_NoPitchFlux(2);
+        AudioManager.instance.PlaySFX_NoPitchFlux(126);
         Destroy(other);
         //DestroyBoss();
         
@@ -165,7 +165,6 @@ public class CyberPeacockClone : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other)
     {
 
-        Debug.Log("hit em 2");
 
     }
 

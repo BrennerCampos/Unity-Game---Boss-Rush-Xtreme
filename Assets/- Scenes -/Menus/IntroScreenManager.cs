@@ -12,9 +12,11 @@ public class IntroScreenManager : MonoBehaviour
     private Animator playerDummyAnimator;
     public GameObject TxStart, TxControls, TxHighScores, TxExit, playerDummy;
     public Image fadeScreen;
+    public Text pressSpaceToSelect;
     public Transform dummyPositionStart, dummyPositionControls, dummyPositionHighScores, dummyPositionExit;
     private bool selectedBool;
     private Tween selectTween;
+    private bool reverseCycle;
    
 
 
@@ -29,18 +31,42 @@ public class IntroScreenManager : MonoBehaviour
     void Start()
     {
         fadeScreen.color = new Color(255, 255, 255, 1);
-        AudioManager.instance.BGM.volume = 0.25f;
-        AudioManager.instance.FadeInBGM();
+        //AudioManager.instance.BGM.volume = 0.25f;
+        //AudioManager.instance.FadeInBGM();
         UIController.instance.FadeFromBlack();
         currentSelectionID = 0;
         playerDummyAnimator = playerDummy.GetComponent<Animator>();
         AudioManager.instance.PlayBGM();
+        pressSpaceToSelect.color = new Color(255, 255, 255, 0);
 
     }
 
     // Update is called once per frame
     void Update()
     {
+
+
+        if (reverseCycle)
+        {
+            pressSpaceToSelect.color = new Color(pressSpaceToSelect.color.r, pressSpaceToSelect.color.g, pressSpaceToSelect.color.b,
+                Mathf.MoveTowards(pressSpaceToSelect.color.a, 0f, 0.8f * Time.deltaTime));
+
+            if (pressSpaceToSelect.color.a == 0f)
+            {
+                reverseCycle = false;
+            }
+        }
+        else
+        {
+            pressSpaceToSelect.color = new Color(pressSpaceToSelect.color.r, pressSpaceToSelect.color.g, pressSpaceToSelect.color.b,
+                Mathf.MoveTowards(pressSpaceToSelect.color.a, 1f, 0.8f * Time.deltaTime));
+
+            if (pressSpaceToSelect.color.a == 1f)
+            {
+                reverseCycle = true;
+            }
+        }
+
 
         if (!selectedBool)
         {

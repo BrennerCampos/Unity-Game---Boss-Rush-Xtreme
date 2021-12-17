@@ -77,7 +77,6 @@ public class HittableDinoRex : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
 
-
         var updatedScore = int.Parse(UIController.instance.dinoRexScore.text);
 
         if (other.gameObject.tag.Contains("Shot") || other.gameObject.tag.Equals("SpecialShot") || other.tag.Equals("PlayerAttack"))
@@ -153,6 +152,7 @@ public class HittableDinoRex : MonoBehaviour
                 dinoRexBoss.currentHealth -= slashDamage;
                 scoreForAction = magmaBladeSlashScore;
             }
+            dinoRexBoss.currentHealthSlider.value = dinoRexBoss.currentHealth;
         }
 
         if (other.gameObject.tag == "ShotLevel_5")
@@ -160,8 +160,7 @@ public class HittableDinoRex : MonoBehaviour
             dinoRexBoss.currentHealth -= 7;
             AudioManager.instance.PlaySFXOverlap(25);
             scoreForAction = 1000;
-            UIController.instance.dinoRexScore.text = Mathf.Ceil(updatedScore + (scoreForAction * comboMultiplier)).ToString();
-            dinoRexBoss.currentHealthSlider.value = dinoRexBoss.currentHealth;
+          
             // spriteRenderer.material = materialWhite;
         }
         else if (other.gameObject.tag == "ShotLevel_4")
@@ -169,38 +168,39 @@ public class HittableDinoRex : MonoBehaviour
             dinoRexBoss.currentHealth -= 5;
             AudioManager.instance.PlaySFXOverlap(25);
             scoreForAction = 850;
-            UIController.instance.dinoRexScore.text = Mathf.Ceil(updatedScore + (scoreForAction * comboMultiplier)).ToString();
-            dinoRexBoss.currentHealthSlider.value = dinoRexBoss.currentHealth;
             // spriteRenderer.material = materialWhite;
         }
         else if (other.gameObject.tag == "ShotLevel_3")
         {
             dinoRexBoss.currentHealth -= 3;
             scoreForAction = 600;
-            UIController.instance.dinoRexScore.text = Mathf.Ceil(updatedScore + (scoreForAction * comboMultiplier)).ToString();
-            dinoRexBoss.currentHealthSlider.value = dinoRexBoss.currentHealth;
             // spriteRenderer.material = materialWhite;
         }
         else if (other.gameObject.tag == "ShotLevel_2")
         {
             dinoRexBoss.currentHealth -= 2;
             scoreForAction = 400;
-            UIController.instance.dinoRexScore.text = Mathf.Ceil(updatedScore + (scoreForAction * comboMultiplier)).ToString();
-            dinoRexBoss.currentHealthSlider.value = dinoRexBoss.currentHealth;
             // spriteRenderer.material = materialWhite;
         }
         else if (other.gameObject.tag == "ShotLevel_1")
         {
             dinoRexBoss.currentHealth -= 1;
             scoreForAction = 250;
-            UIController.instance.dinoRexScore.text = Mathf.Ceil(updatedScore + (scoreForAction * comboMultiplier)).ToString();
-            dinoRexBoss.currentHealthSlider.value = dinoRexBoss.currentHealth;
+           
             Destroy(other);
             //  spriteRenderer.material = materialWhite;
         }
 
+        if (other.gameObject.tag.Contains("Shot") || other.gameObject.tag.Equals("SpecialShot") ||
+            other.tag.Equals("PlayerAttack") ||
+            other.gameObject.tag.Contains("ShotLevel"))
+        {
+            UIController.instance.dinoRexScore.text =
+                Mathf.Ceil(updatedScore + (scoreForAction * comboMultiplier)).ToString();
+            dinoRexBoss.currentHealthSlider.value = dinoRexBoss.currentHealth;
+        }
 
-        if (dinoRexBoss.currentHealth <= 0)
+        if (dinoRexBoss.currentHealthSlider.value <= 0)
         {
             AudioManager.instance.PlaySFX_NoPitchFlux(2);
             Destroy(other);

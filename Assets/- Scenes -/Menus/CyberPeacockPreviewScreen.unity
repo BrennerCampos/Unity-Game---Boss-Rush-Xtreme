@@ -231,7 +231,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1123700533}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1280, y: -720, z: 0}
+  m_LocalPosition: {x: -960.04, y: -540, z: 0}
   m_LocalScale: {x: 0.93, y: 0.93, z: 1}
   m_Children: []
   m_Father: {fileID: 2065348818}
@@ -380,7 +380,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1354022970}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1280, y: -716.62, z: 0}
+  m_LocalPosition: {x: -960.04, y: -536.62, z: 0}
   m_LocalScale: {x: 0.93, y: 0.93, z: 1}
   m_Children: []
   m_Father: {fileID: 2065348818}
@@ -463,7 +463,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1808285840}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1280, y: -723.52, z: 0}
+  m_LocalPosition: {x: -960.04, y: -543.52, z: 0}
   m_LocalScale: {x: 0.93, y: 0.93, z: 1}
   m_Children: []
   m_Father: {fileID: 2065348818}
@@ -546,7 +546,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1847447910}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1280, y: -720, z: 0}
+  m_LocalPosition: {x: -960.04, y: -540, z: 0}
   m_LocalScale: {x: 0.93, y: 0.93, z: 1}
   m_Children: []
   m_Father: {fileID: 2065348818}
@@ -767,10 +767,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed3a84217c5acd241b463547da4da024, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sandboxModeText: {fileID: 0}
   bossHP: {fileID: 0}
   fadeScreen: {fileID: 8989594044180725372}
   WarningSign: {fileID: 0}
+  dinoRexScore: {fileID: 0}
+  blizzardWolfangScore: {fileID: 0}
+  cyberPeacockScore: {fileID: 0}
+  currentScore: {fileID: 0}
+  timeInLevelText: {fileID: 0}
   loadingScreen: {fileID: 0}
   fadeSpeed: 1
   warningSpeed: 0

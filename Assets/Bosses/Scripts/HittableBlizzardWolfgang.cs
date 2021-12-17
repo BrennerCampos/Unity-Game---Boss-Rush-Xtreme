@@ -82,13 +82,10 @@ public class HittableBlizzardWolfgang : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
 
-        
-
         var updatedScore = int.Parse(UIController.instance.blizzardWolfangScore.text);
 
         if (other.gameObject.tag.Contains("Shot") || other.gameObject.tag.Equals("SpecialShot") || other.tag.Equals("PlayerAttack"))
         {
-
             if (comboTimer > 0)
             {
                 comboCount++;
@@ -159,56 +156,55 @@ public class HittableBlizzardWolfgang : MonoBehaviour
                 {
                     blizzardWolfgangBoss.currentHealth -= slashDamage;
                     scoreForAction = magmaBladeSlashScore;
-                }   
+                }
+
+                blizzardWolfgangBoss.currentHealthSlider.value = blizzardWolfgangBoss.currentHealth;
         }
 
-            if (other.gameObject.tag == "ShotLevel_5")
-            {
+        if (other.gameObject.tag == "ShotLevel_5")
+        {
                 blizzardWolfgangBoss.currentHealth -= 7;
                 AudioManager.instance.PlaySFXOverlap(25);
                 scoreForAction = 1000;
-                UIController.instance.blizzardWolfangScore.text = Mathf.Ceil(updatedScore + (scoreForAction * comboMultiplier)).ToString();
-                blizzardWolfgangBoss.currentHealthSlider.value = blizzardWolfgangBoss.currentHealth;
-            // spriteRenderer.material = materialWhite;
+                // spriteRenderer.material = materialWhite;
         }
-            else if (other.gameObject.tag == "ShotLevel_4")
-            {
+        else if (other.gameObject.tag == "ShotLevel_4")
+        {
                 blizzardWolfgangBoss.currentHealth -= 5;
                 AudioManager.instance.PlaySFXOverlap(25);
                 scoreForAction = 850;
-                UIController.instance.blizzardWolfangScore.text = Mathf.Ceil(updatedScore + (scoreForAction * comboMultiplier)).ToString();
-                blizzardWolfgangBoss.currentHealthSlider.value = blizzardWolfgangBoss.currentHealth;
-            // spriteRenderer.material = materialWhite;
+                // spriteRenderer.material = materialWhite;
         }
-            else if (other.gameObject.tag == "ShotLevel_3")
-            {
+        else if (other.gameObject.tag == "ShotLevel_3")
+        {
                 blizzardWolfgangBoss.currentHealth -= 3;
                 scoreForAction = 600;
-                UIController.instance.blizzardWolfangScore.text = Mathf.Ceil(updatedScore + (scoreForAction * comboMultiplier)).ToString();
-                blizzardWolfgangBoss.currentHealthSlider.value = blizzardWolfgangBoss.currentHealth;
-            // spriteRenderer.material = materialWhite;
+                // spriteRenderer.material = materialWhite;
         }
-            else if (other.gameObject.tag == "ShotLevel_2")
-            {
+        else if (other.gameObject.tag == "ShotLevel_2")
+        {
                 blizzardWolfgangBoss.currentHealth -= 2;
                 scoreForAction = 400;
-                UIController.instance.blizzardWolfangScore.text = Mathf.Ceil(updatedScore + (scoreForAction * comboMultiplier)).ToString();
-                blizzardWolfgangBoss.currentHealthSlider.value = blizzardWolfgangBoss.currentHealth;
-            // spriteRenderer.material = materialWhite;
+                // spriteRenderer.material = materialWhite;
         }
-            else if (other.gameObject.tag == "ShotLevel_1")
-            {
+        else if (other.gameObject.tag == "ShotLevel_1")
+        {
                 blizzardWolfgangBoss.currentHealth -= 1;
                 scoreForAction = 250;
-                UIController.instance.blizzardWolfangScore.text = Mathf.Ceil(updatedScore + (scoreForAction * comboMultiplier)).ToString();
-                blizzardWolfgangBoss.currentHealthSlider.value = blizzardWolfgangBoss.currentHealth;
+                
             Destroy(other);
                 //  spriteRenderer.material = materialWhite;
-            }
+        }
+        
+        if (other.gameObject.tag.Contains("Shot") || other.gameObject.tag.Equals("SpecialShot") || other.tag.Equals("PlayerAttack") ||
+            other.gameObject.tag.Contains("ShotLevel"))
+        {
+            UIController.instance.blizzardWolfangScore.text = Mathf.Ceil(updatedScore + (scoreForAction * comboMultiplier)).ToString();
+            blizzardWolfgangBoss.currentHealthSlider.value = blizzardWolfgangBoss.currentHealth;
+        }
+        
 
-            
-
-            if (blizzardWolfgangBoss.currentHealth <= 0)
+            if (blizzardWolfgangBoss.currentHealthSlider.value <= 0)
             {
                 AudioManager.instance.PlaySFX_NoPitchFlux(2);
                 Destroy(other);

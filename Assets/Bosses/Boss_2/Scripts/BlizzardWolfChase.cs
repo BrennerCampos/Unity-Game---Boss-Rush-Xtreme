@@ -46,6 +46,17 @@ public class BlizzardWolfChase : EnemyAction
         // body.AddForce(new Vector2(horizontalForce * direction, verticalForce), ForceMode2D.Force);
         body.velocity = new Vector2(horizontalForce * direction, verticalForce);
 
+        if (!AudioManager.instance.soundEffects[128].isPlaying && Mathf.Abs(body.velocity.x) > 0.1f)
+        {
+            AudioManager.instance.PlaySFX(128);
+        }
+
+        if (animator.GetBool("isWallTouchingBool"))
+        {
+            return TaskStatus.Success;
+        }
+
+
         // 50 % chance to either pounce or keep running
         if (animator.GetBool("inPounceRangeBool"))
         {
@@ -67,6 +78,10 @@ public class BlizzardWolfChase : EnemyAction
         chaseTween?.Kill();
         buildupTween?.Kill();
         hasCompletedTask = false;
+        /*if (AudioManager.instance.soundEffects[128].isPlaying)
+        {
+            AudioManager.instance.StopSFX(128);
+        }*/
     }
 
 

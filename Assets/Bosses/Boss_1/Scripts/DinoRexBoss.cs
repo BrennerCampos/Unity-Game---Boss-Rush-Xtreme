@@ -19,7 +19,7 @@ public class DinoRexBoss : MonoBehaviour
     //public SpriteRenderer spriteRenderer;
     public Slider currentHealthSlider;
     public LayerMask whatIsGround;
-    public float moveSpeed, moveTime, waitTime;
+    public float moveSpeed, moveTime, waitTime, airTime, groundedTime;
     public float startMaterialTimer, materialTimer, materialFlashTimer, startMaterialFlashTimer;
     public int currentHealth, health;
     public bool isGrounded, wasAirbornLastStep, wasGroundedLastStep;
@@ -104,6 +104,7 @@ public class DinoRexBoss : MonoBehaviour
         }
 
 
+
         if (bossCollision.collision)
         {
             if (PlayerController.instance.GetComponentInChildren<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Shadow_Slash_Jump"))
@@ -146,7 +147,7 @@ public class DinoRexBoss : MonoBehaviour
             xDirection = "Right";
         }
 
-        if (anim.GetBool("isFireDashing"))
+        /*if (anim.GetBool("isFireDashing"))
         {
 
             if (xDirection == "Left")
@@ -162,7 +163,7 @@ public class DinoRexBoss : MonoBehaviour
                 transform.localScale = scale;
             }
             
-        }
+        }*/
 
 
         // --- GROUND CHECK -------------------------------------------------------------------------------------------------//
@@ -175,10 +176,32 @@ public class DinoRexBoss : MonoBehaviour
         if (GroundCheckHit)
         {
             anim.SetTrigger("isGrounded");
+            anim.ResetTrigger("isJumping");
+            anim.ResetTrigger("isFalling");
+            groundedTime += Time.deltaTime;
+            airTime = 0;
+
+            if (groundedTime > 0.7f)
+            {
+                anim.ResetTrigger("canLand");
+            }
         }
         else
         {
             anim.ResetTrigger("isGrounded");
+            airTime += Time.deltaTime;
+            groundedTime = 0;
+
+            if (airTime > 0.1f)
+            {
+                anim.SetTrigger("isFalling");
+
+            }
+
+            if (airTime > 0.75f)
+            {
+                anim.SetTrigger("canLand");
+            }
         }
 
         // --- WALL CHECK -------------------------------------------------------------------------------------------------//
@@ -207,85 +230,8 @@ public class DinoRexBoss : MonoBehaviour
         }
         
 
-        /*if (WallCheckHit && !isGrounded && rigidbody.velocity.x != 0)
-        {
-            isWallClinging = true;
-            anim.SetBool("isWallClinging", true);
-
-
-            if (attackTimer == startAttackTimer)
-            {
-                canWallDash = true;
-            }
-        }*/
-
-
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
 
-        // If we can move...
-        if (moveCounter > 0)
-        {
-            // Continue counting down move timer
-            moveCounter -= Time.deltaTime;
-
-            // If enemy's direction is 'right' -->
-            if (movingRight)
-            {
-                // Moves our enemy's rigidbody to the right (positive moveSpeed)
-                rigidbody.velocity = new Vector2(moveSpeed, rigidbody.velocity.y);
-                // Sprite direction = right
-                //spriteRenderer.flipX = true;
-
-                // If we pass our right-most stop point...
-                if (transform.position.x > rightPoint.position.x)
-                {
-                    // Change direction to 'left'
-                    movingRight = false;
-                }
-            }
-            else  // if enemy's direction is 'left'  <--
-            {
-                // Moves our enemy's rigidbody to the left (negative moveSpeed)
-                rigidbody.velocity = new Vector2(-moveSpeed, rigidbody.velocity.y);
-                // Sprite direction = left
-                //spriteRenderer.flipX = false;
-
-                // If we pass our left-most stop point...
-                if (transform.position.x < leftPoint.position.x)
-                {
-                    // Change direction to 'right'
-                    movingRight = true;
-                }
-            }
-
-            // If we've finished counting down our move counter...
-            if (moveCounter <= 0)
-            {
-                // Choose random time between 3/4th of our wait time and 1 1/4 of our wait time to assign to our wait counter
-                waitCounter = Random.Range(waitTime * 0.75f, waitTime * 1.25f);
-            }
-
-            // Sets sprite animation parameter to let us know our enemy is moving
-            //   anim.SetBool("isMoving", true);
-        }
-        else if (waitCounter > 0)   // If we cannot move...
-        {
-            // Count down our wait timer
-            waitCounter -= Time.deltaTime;
-
-            // Telling enemy to stand still ("0" velocity.x)
-            rigidbody.velocity = new Vector2(0f, rigidbody.velocity.y);
-
-
-            // If our wait counter hits 0
-            if (waitCounter <= 0)
-            {
-                // Choose random time between 3/4th of our move time and 3/4th of our wait time to assign to our move counter
-                moveCounter = Random.Range(moveTime * 0.75f, waitTime * 0.75f);
-            }
-            // Sets sprite animation parameter to let us know our enemy is NOT moving
-            //   anim.SetBool("isMoving", false);
-        }
 
         if (materialTimer < 0)
         {
@@ -296,52 +242,9 @@ public class DinoRexBoss : MonoBehaviour
 
     void LateUpdate()
     {
-     
+
     }
 
-    /*private void OnTriggerEnter2D(Collider2D other)
-    {
-
-            if (other.gameObject.tag == "ShotLevel_5")
-            {
-                currentHealth -= 7;
-                AudioManager.instance.PlaySFXOverlap(25);
-                // spriteRenderer.material = materialWhite;
-            }
-            else if (other.gameObject.tag == "ShotLevel_4")
-            {
-                currentHealth -= 5;
-                AudioManager.instance.PlaySFXOverlap(25);
-            // spriteRenderer.material = materialWhite;
-            }
-            else if (other.gameObject.tag == "ShotLevel_3")
-            {
-                currentHealth -= 3;
-                // spriteRenderer.material = materialWhite;
-            }
-            else if (other.gameObject.tag == "ShotLevel_2")
-            {
-                currentHealth -= 2;
-                // spriteRenderer.material = materialWhite;
-            }
-            else if (other.gameObject.tag == "ShotLevel_1")
-            {
-                currentHealth -= 1;
-                //  spriteRenderer.material = materialWhite;
-            }
-            currentHealthSlider.value = currentHealth;
-
-            if (currentHealth <= 0)
-            {
-                AudioManager.instance.PlaySFX_NoPitchFlux(2);
-                Destroy(other);
-                DestroyBoss();
-            }
-            else
-            {
-                Invoke("ResetMaterial", 0.1f);
-            }
-    }*/
 
     void ResetMaterial()
     {
@@ -352,31 +255,11 @@ public class DinoRexBoss : MonoBehaviour
     {
         Instantiate(DinoRexDeathEffect, transform.position, transform.rotation);
 
-        /*for (int i = 0; i < 5; i++)
-        {
-            // Spawn them in diff locations
-        }
-        
-        var sequence = DOTween.Sequence();
-        for (int i = 0; i < 12; i++)
-        {
-            sequence.AppendCallback(DeathExplosions);
-            sequence.AppendInterval(0.3f);
-        }*/
-
-        // DeathExplosions();
-
         // Death 2 explosion
         AudioManager.instance.PlaySFXOverlap(23);
         // Play "Explosion Pop"
         AudioManager.instance.PlaySFXOverlap(19);
-
         AudioManager.instance.PlayLevelVictory();
-        
-        /*GameObject explosion = (GameObject) Instantiate(explosionReference);
-        explosion.transform.position =
-            new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z);*/
-
         Destroy(gameObject);
     }
 

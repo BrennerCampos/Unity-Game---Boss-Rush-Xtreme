@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using DG.Tweening;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -23,8 +20,8 @@ public class DinoRexPreviewManager : MonoBehaviour
 
         fadeScreen.color = new Color(255, 255, 255, 1);
         UIController.instance.fadeSpeed = 0.5f;
-        AudioManager.instance.BGM.volume = 0.25f;
-        AudioManager.instance.FadeInBGM();
+        //AudioManager.instance.BGM.volume = 0.25f;
+        //AudioManager.instance.FadeInBGM();
         UIController.instance.FadeFromBlack();
         AudioManager.instance.PlayBGM();
 

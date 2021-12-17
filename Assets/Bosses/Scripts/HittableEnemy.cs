@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
@@ -143,7 +144,9 @@ public class HittableEnemy : MonoBehaviour
         {
             if (other.gameObject.tag.Contains("Shot") || other.gameObject.tag.Equals("SpecialShot") || other.tag.Equals("PlayerAttack"))
             {
+                AudioManager.instance.PlaySFX_NoPitchFlux(126);
                 anim.SetTrigger("cloneHit");
+               // UIController.instance.cyberPeacockScore.text = (PlayerController.instance.updatedScore + 30).ToString();
             }
         }
     }
